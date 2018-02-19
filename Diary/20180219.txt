@@ -1,0 +1,1 @@
+Today, I made the bash script that will make a file structure. I also started the diary.
