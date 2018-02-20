@@ -22,7 +22,8 @@ def parser(testfile):
     #print(dic) 
     df = pd.DataFrame(data=dic)
     print(df)
-parser('buried_exposed_alpha.3line.txt')
+    file.close()
+parser('dataset')
         
             
             
