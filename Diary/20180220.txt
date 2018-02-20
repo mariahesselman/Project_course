@@ -1,13 +1,14 @@
 Look at dataset and decide what to do.
-
+My project is about predicting whether an amino acid in an alpha helical protein is buried or exposed.  
 For parser:
-
 - Make a dictionary where the protein id is the key and the values are a list of two elements (seq, topo). (done, with three sequences)
 - Convert the dictionary to a pandas dataframe (done)
 - Test parser on whole dataset (done)
+- Upload parser to github (done)
+
 
 For input vector to SVM:
-
+- Read resources 
 - Find out what the input vector should be like
 	
 
