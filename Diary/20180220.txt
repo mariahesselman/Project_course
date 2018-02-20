@@ -1,5 +1,26 @@
 Look at dataset and decide what to do.
-My project is about predicting whether an amino acid in an alpha helical protein is buried or exposed.  
+My project is about predicting whether an amino acid in an alpha helical protein is buried or exposed.
+My data is categorical and not numerical. Many machine learning methods need input and output to be numeric. I have to somehow make my data numeric. 
+
+Notes:
+Note on sliding window: the first and last amino acids will lack some residues in the window. you can encode this "nothingness" with 20 zeros pero residue missing in the window. Or add the letter X and one-hot encode 21 amino acids instead of 20 (where one of them is X). 
+2 dimensional matrix as input two SVM: number of samples * number of features. Is a full sequence a sample or is a window a sample??
+
+Converting categorical data to numerical data:
+- Integer encoding: not good for amino acids because each amino acid is "equal" so if I name them 1, 2, 3... it won't work.
+- One-hot encoding: 
+	a -> [1, 0, 0, 0, 0..]
+	m -> [0, 1, 0, 0, 0..]
+Since there are 20 amino acids, each amino acid can be represented by a vector of 19 zeros and one 1, somewhere in the vector where the position is unique to this amino acid.
+
+For the topology, I have two: buried and exposed. These can be encoded with integer encoding because they are the output. Their weights don't matter in the same way as when encoding the amino acids. 
+
+	Exposed = E = 1
+	Buried = B = 2  
+
+REMEMBER: each window will give ONE output because it tells us the topology of the maino acid in the middle of the window. 
+
+To do:   
 For parser:
 - Make a dictionary where the protein id is the key and the values are a list of two elements (seq, topo). (done, with three sequences)
 - Convert the dictionary to a pandas dataframe (done)
@@ -10,5 +31,6 @@ For parser:
 For input vector to SVM:
 - Read resources 
 - Find out what the input vector should be like
+- Read about sklearn.preprocessing.OneHotEnconder (this will generate a one-hot encode)
 	
 
