@@ -1,0 +1,13 @@
+Look at dataset and decide what to do.
+
+For parser:
+
+- Make a dictionary where the protein id is the key and the values are a list of two elements (seq, topo). (done, with three sequences)
+- Convert the dictionary to a pandas dataframe (done)
+- Test parser on whole dataset (done)
+
+For input vector to SVM:
+
+- Find out what the input vector should be like
+	
+
