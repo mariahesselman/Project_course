@@ -1,1 +1,2 @@
-Today, I made the bash script that will make a file structure. I also started the diary.
+Today, I made the bash script that will make a template file structure. I also started the diary.
+I started to make the parser and will continue tomorrow. 
