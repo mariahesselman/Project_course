@@ -2,3 +2,6 @@ Literature search for the five papers to be submitted tomorrow.
 Found out that my project is about membrane proteins and not globular ones like I thought. Redoing literature search.
 Write project plan.
 Begin one-hot encoding.
+
+
+Now I have made a key for the maino acid alphabet. the next step is to use this key for my sequences which are in a apndas dataframe. The problem is that i cannot make a string out of the sequences. i tried using a pandas function but couldnt get it to work. Saved it on my home directory as parser_utkast.txt.
