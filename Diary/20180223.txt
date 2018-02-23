@@ -1,0 +1,6 @@
+Today I went to the journal club and elofsson meeting.
+
+Progress on project:
+FINALLY figured out how to integer encode my sequences. 
+Now i have a list of lists where the lists are my sequences in integer encoding.
+Don't know if this is the best way to do it.  
