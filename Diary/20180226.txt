@@ -1,0 +1,7 @@
+I started again from the beginning.
+Why i did this:
+i previously parsed my file into a dictionary but when I was going to translate teh sequences into binary I couldnt figure out how to keep the sequences ini the right order.
+
+Therefore, I parsed the file into lists.
+
+Then, I added zeros at the ends of the sequences so that the first and last amino acids are included in the window. 
