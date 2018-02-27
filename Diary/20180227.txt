@@ -1,0 +1,2 @@
+Today I finished the encoding and trained an SVM.
+
