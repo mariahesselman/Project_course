@@ -20,23 +20,31 @@ padding = window//2
 #Making the windows into a window list.
 window_list = []
 for sequence in seq:
-    for residue in range(0, len(sequence)):
-        if residue+(window) > len(sequence):
-            break
-        window_list.append(sequence[residue:residue+window])
-
+    for residue in range(len(sequence)):
+        if residue > padding and residue < (len(sequence)-padding):
+            window_list.append(sequence[residue-padding:padding+1])
+        elif residue <= padding: #taking care of left side of sequence
+            rightside_window = sequence[:residue + padding +1]
+            zeros = window - len(rightside_window)
+            window_list.append('0'*zeros + rightside_window) #padding-residue is how many zeros i need in the beginning
+        else: #taking care of the right side
+            leftside_window = sequence[residue-1:]
+            zeros = window - len(leftside_window)
+            window_list.append(leftside_window + '0'*zeros)
+        #window_list.append(sequence[residue:residue+window])
+print(window_list)
 
 
 
 #Making the aminoacids in the windows to integers
-windows_in_integers = []
+'''windows_in_integers = []
 for window in window_list:
     windows_in_int = [aa_to_int[aa] for aa in window]
     #print(windows_in_integers)
     windows_in_integers.append(windows_in_int)
 print(windows_in_integers)
 #print(len(windows_in_integers))
-#print(windows_in_integers[45])
+
 
 #One hot encoding windows
 onehot_encoded_windows = []
@@ -47,7 +55,7 @@ for window in windows_in_integers:
         letter = [0 for _ in range(len(aa))]            
         letter[residue] = 1
         this_window.extend(letter)
-    onehot_encoded_windows.append(this_window)
+    onehot_encoded_windows.append(this_window)'''
 
 
 #print(len(seq[0]))
@@ -58,6 +66,8 @@ print(len(onehot_encoded_windows))
 print(np.array(onehot_encoded_windows).shape)
 
 burial = {1:'E', 2:'B'}
+
+
 
 #when to add padding?
 # should all sequences be in same array?
