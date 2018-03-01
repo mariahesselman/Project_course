@@ -70,7 +70,7 @@ def onehot(dataset, window):
         for topologies in proteins:
             y = burial[topologies]
             topology_list.append(y)
-    outfile = 'SVM_input.txt'
+    outfile = 'SVM_input'
     np.savez(outfile, x=onehot_encoded_windows, y=topology_list)
     return(onehot_encoded_windows, topology_list)
 
@@ -95,14 +95,9 @@ print(results)
 print(decoded_results)
 '''
 
-if __name__ == '__main__':
-    print(parse_name('test.txt'))
-    print(parse_seq('test.txt'))    
-    print(parse_topo('test.txt'))    
-    print(windowmaking('test.txt', 3))    
-    print(window_int('test.txt', 3))    
-    onehot('test.txt', 3)
-    print(onehot('test.txt', 3))    
+if __name__ == '__main__':    
+    onehot('dataset', 3)
+    #print(onehot('test.txt', 3))    
     #print(enc_burial('test.txt'))    
         
         
