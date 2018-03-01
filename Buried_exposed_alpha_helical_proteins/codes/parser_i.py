@@ -69,39 +69,39 @@ def onehot(dataset, window):
     for proteins in topo:    
         for topologies in proteins:
             y = burial[topologies]
-            topology_list.append(y)
+            topology_list.append(y)   
     outfile = 'SVM_input'
-    print(len(onehot_encoded_windows))
-    print(len(topology_list))
     np.savez(outfile, x=onehot_encoded_windows, y=topology_list) #saves a file of my x and y
     return(onehot_encoded_windows, topology_list)
 
-'''
 #####Training
 from sklearn import svm
-
-np.set_printoptions(threshold=np.inf)
-X = onehot_encoded_windows
-Y = topology_list
-clf = svm.SVC()
-clf.fit(X, Y)
+def svmm():
+    np.set_printoptions(threshold=np.inf)
+    filz = np.load('SVM_input.npz')
+    #X = onehot_encoded_windows
+    #Y = topology_list
+    x = filz['x']
+    y = filz['y']
+    clf = svm.SVC()
+    clf.fit(x, y)
 
 
 #####Testing(on training data)
-result = clf.predict(onehot_encoded_windows)
-results = list(result)
-decoded_results = []
-for element in results:
-    decoded_results.append(burial_decode[element])
-print(results)
-print(decoded_results)
-'''
+    result = clf.predict(x)
+    results = list(result)
+    decoded_results = []
+    #for element in results:
+        #decoded_results.append(burial_decode[element])
+    print(results)
+    #print(decoded_results)
+
 
 if __name__ == '__main__':    
-    onehot('dataset', 31)
+    onehot('dataset', 3)
     #print(onehot('test.txt', 3))    
     #print(enc_burial('test.txt'))    
-        
+    svmm()   
         
         
         

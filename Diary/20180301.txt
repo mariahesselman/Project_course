@@ -37,3 +37,7 @@ WINDOWSIZE  SCORE  TIME
 31 0.715131783332 3.6min finished
 
 The highest score was given by a window size of 31 so I will save my input vector with this window size.
+
+I trained a model with the input vector of a window size of 31. 
+I want to use my model on another sequence so i took one from uniprot. It is not working!!!!!!!!!!
+In order to have a working SVM i just added to my parser file. 
