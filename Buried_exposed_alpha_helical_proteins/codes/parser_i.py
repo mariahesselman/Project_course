@@ -96,7 +96,7 @@ print(decoded_results)
 '''
 
 if __name__ == '__main__':    
-    onehot('dataset', 3)
+    onehot('dataset', 31)
     #print(onehot('test.txt', 3))    
     #print(enc_burial('test.txt'))    
         
