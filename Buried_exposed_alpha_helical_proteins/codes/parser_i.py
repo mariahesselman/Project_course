@@ -73,7 +73,7 @@ def onehot(dataset, window):
     outfile = 'SVM_input'
     print(len(onehot_encoded_windows))
     print(len(topology_list))
-    np.savez(outfile, x=onehot_encoded_windows, y=topology_list)
+    np.savez(outfile, x=onehot_encoded_windows, y=topology_list) #saves a file of my x and y
     return(onehot_encoded_windows, topology_list)
 
 '''
