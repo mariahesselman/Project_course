@@ -1,0 +1,37 @@
+Today I made my parser into several different functions so that I can call them from another file. I trained SVM on my whole dataset and tested on the whole dataset to make sure that the SVM was working. I then saved the input vectors for SVM in a numpy file (with windowsize 3).
+Next, I created a new code file where I call my parser function and did 3-fold cross validation on my whole dataset using window sizes of all odd numbers between 3 and 32. 
+I printed the accuracy with each window size:
+
+
+WINDOWSIZE  SCORE  TIME
+
+
+3 0.701280342725 24.7s finished
+
+5 0.701280342725 40.8s finished
+
+7 0.701280342725 51.1s finished
+
+9 0.709046466336 1.0min finished
+
+11 0.71353052787 1.3min finished
+
+13 0.715692218897 1.5min finished
+
+15 0.72057595958 1.7min finished
+
+17 0.720095459845 1.9min finished
+
+19 0.720576498127 2.2min finished
+
+21 0.719294947517 2.4min finished
+
+23 0.721136779822 2.6min finished
+
+25 0.720255870052 2.9min finished
+
+27 0.719775793461 3.1min finished
+
+29 0.718734281146 3.4min finished
+
+31 0.715131783332 3.6min finished
