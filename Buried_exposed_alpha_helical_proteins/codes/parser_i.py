@@ -71,6 +71,8 @@ def onehot(dataset, window):
             y = burial[topologies]
             topology_list.append(y)
     outfile = 'SVM_input'
+    print(len(onehot_encoded_windows))
+    print(len(topology_list))
     np.savez(outfile, x=onehot_encoded_windows, y=topology_list)
     return(onehot_encoded_windows, topology_list)
 
