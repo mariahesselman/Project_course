@@ -1,0 +1,12 @@
+Now, I must change the parsing function so that it works for the whole dataset for training but that when I am predicting, I can choose which sequence in a FASTA file I want to predict. Also, make it so that the output is translated into topology letters that are individual for each sequence. My prediction should work for one sequence  or for more. 
+
+I made one code file that takes my dataset, parses, trains a model and saves it as model.sav.
+I will now make a predict file that will parse the data I want to predict and use my model.sav to predict. 
+
+Note on the cross validation:
+I did cross validation using the dataset already divided into windows etc. 
+The built-in cross validation function treats all the training examples equally. 
+
+When building my predict script, I will make itmore modular by handling one sequence at a time. instead of taking in the whole file in every function, I will only use it in the first one. Then, when I'm calling the functions, I tell it to use the output of the first function to run the subsequent ones. If I have time later, I will edit my train script (parser_i) so that it is also modular. 
+
+Finished predictor code. Now printing sequence and predicted topology in letters!
