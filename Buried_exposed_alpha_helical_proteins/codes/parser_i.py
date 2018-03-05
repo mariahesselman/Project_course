@@ -76,6 +76,7 @@ def onehot(dataset, window):
 
 #####Training
 from sklearn import svm
+from sklearn.externals import joblib
 def svmm():
     np.set_printoptions(threshold=np.inf)
     filz = np.load('SVM_input.npz')
@@ -85,20 +86,12 @@ def svmm():
     y = filz['y']
     clf = svm.SVC()
     clf.fit(x, y)
-
-
-#####Testing(on training data)
-    result = clf.predict(x)
-    results = list(result)
-    decoded_results = []
-    #for element in results:
-        #decoded_results.append(burial_decode[element])
-    print(results)
-    #print(decoded_results)
-
+    
+    filename = 'model.sav'
+    joblib.dump(clf, filename)
 
 if __name__ == '__main__':    
-    onehot('dataset', 3)
+    onehot('dataset', 25)
     #print(onehot('test.txt', 3))    
     #print(enc_burial('test.txt'))    
     svmm()   
