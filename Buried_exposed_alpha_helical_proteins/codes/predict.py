@@ -64,9 +64,10 @@ def predict(sequence_in_windows, seqsy):
         decoded_results.append(burial_decode[element])
     print(results)
     print(seqsy, decoded_results)
+    print(len(decoded_results))
     return decoded_results    
 if __name__ == '__main__':
-    seqsy = parse_fasta('fastatest.fasta')
+    seqsy = parse_fasta(input("Please write the name of the fasta file you want to predict: "))
     windowz = windowmaking(seqsy, 25)
     int_wind = window_int(windowz)
     sequence_in_windows = onehot(int_wind)
