@@ -1,2 +1,4 @@
 # Project_course
-For the deadline 2/3, the file inside Buried_exposed.../codes/parser_i.py is the one that should be run. The file dataset is the data for this model.
+I have saved a model called /Buried_exposed_alpha_helical_proteins/codes/model.sav.
+This model can be used to predict the topology of sequences in a FASTA file by running the file
+/Buried_exposed_alpa_helical_proteins/codes/predict.py.
