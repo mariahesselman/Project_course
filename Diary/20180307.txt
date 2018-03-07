@@ -1,2 +1,4 @@
 Today I am testing my predictor on a fasta file with several sequences. It is not working. I will troubleshoot after lunch. in the end I will make my predictor write the results to a file. 
 At the end of the day I will update instructions to TAs. I also have to work on my presentation.
+
+Now I've dug myself in a deep hole of trying to manage one sequence at a time. Tomorrow, I will make a fucntion that can make sliding windows from one sequence. Then, in another file, I will call this function in a loop with my dictionary for fasta file.
