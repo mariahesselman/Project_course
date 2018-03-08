@@ -92,7 +92,7 @@ def results(topology, id_, seq):
 
 if __name__ == '__main__':
     id_, seq = parse_fasta(input("Please write the name of the fasta file you want to predict: "))
-    windowz = windowmaking(seq, 25)
+    windowz = windowmaking(seq, 23)
     int_wind = window_int(windowz)
     sequence_in_windows = onehot(int_wind)
     topology = predict(sequence_in_windows)
