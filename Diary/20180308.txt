@@ -1,0 +1,3 @@
+Success!! Today, I have finished my predictor script that takes an input fasta file and saves the topology prediction to a new file. This script uses the model that i saved as model.sav. 
+
+model.sav is trained on my whole dataset with a window size of 25. 
