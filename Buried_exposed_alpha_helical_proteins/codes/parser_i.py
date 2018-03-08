@@ -101,5 +101,5 @@ def svmm():
 
 
 if __name__ == '__main__':    
-    onehot('dataset', 25)    
+    onehot('dataset', 23)    
     svmm()         
