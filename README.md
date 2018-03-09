@@ -11,7 +11,7 @@ To use my model to predict the burial status of residues in sequences in a fasta
 1. Project_course/Buried_exposed_alpha_helical_proteins/codes/model.sav
 2. Project_course/Buried_exposed_alpha_helical_proteins/codes/predict.py
 
-When running predict.py , you will be prompted to enter the name of a fasta file contianing sequences whose topology you want to predict.
+When running predict.py , you will be prompted to enter the name of a fasta file contianing sequences whose topology you want to predict. The fasta file that I used to test whether this worked is Project_course/Buried_exposed_alpha_helical_proteins/codes/bigfasta.fasta
 
 After running predict.py your results will be available in ./Results.3line.txt
 
