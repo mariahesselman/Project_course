@@ -1,0 +1,1 @@
+After running a five fold cross validation over night, the window size with the highest average cross validation score is 21.
