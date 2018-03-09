@@ -1,0 +1,30 @@
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:   52.4s finished
+3 0.701279512175
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.4min finished
+5 0.701279512175
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  1.8min finished
+7 0.701279512175
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.1min finished
+9 0.703681209648
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  2.6min finished
+11 0.708405886723
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.1min finished
+13 0.714570883669
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  3.5min finished
+15 0.719773637488
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  4.0min finished
+17 0.719693733655
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  4.4min finished
+19 0.720814758834
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  4.9min finished
+21 0.721934950526
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  5.3min finished
+23 0.719853092732
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  5.8min finished
+25 0.720653989706
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  6.2min finished
+27 0.721534309808
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  6.7min finished
+29 0.721694373757
+[Parallel(n_jobs=1)]: Done   5 out of   5 | elapsed:  7.2min finished
+31 0.720653573129
