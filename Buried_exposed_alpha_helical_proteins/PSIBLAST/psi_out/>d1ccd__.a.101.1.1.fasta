@@ -1,0 +1,3427 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2353/Bioinfo_course/uniref50.fasta
+           27,902,002 sequences; 8,665,460,866 total letters
+
+Results from round 1
+
+
+Query= d1ccd__.a.101.1.1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=143701...  157     8e-48
+  UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID...  119     6e-33
+  UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster...  98.2    9e-25
+  UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis Ta...  89.4    8e-21
+  UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=143701...  84.3    2e-19
+  UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID...  82.0    2e-18
+  UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=...  77.0    1e-16
+  UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lep...  76.3    1e-16
+  UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010...  75.5    4e-16
+  UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9...  73.6    5e-15
+  UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=939...  72.8    6e-15
+  UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marm...  73.2    2e-14
+  UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leuca...  72.0    3e-14
+  UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  70.5    7e-14
+  UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchill...  68.2    3e-13
+  UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoe...  68.2    5e-13
+  UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=143701...  66.2    2e-12
+  UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus ...  66.6    3e-12
+  UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopith...  65.9    4e-12
+  UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID...  65.5    7e-12
+  UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID...  63.9    2e-11
+  UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger...  62.0    1e-10
+  UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailu...  60.5    2e-10
+  UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus l...  61.2    2e-10
+  UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID...  58.9    2e-09
+  UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 n=...  60.8    4e-09
+  UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  56.6    7e-09
+  UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145...  56.6    1e-08
+  UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus Tax...  49.3    3e-06
+  UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornith...  48.1    1e-05
+  UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcop...  47.4    2e-05
+
+
+> UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_RAT
+Length=96
+
+ Score = 157 bits (396),  Expect = 8e-48, Method: Compositional matrix adjust.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK
+Sbjct  20  SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  79
+
+Query  61  LTEKILTSPLCEQDLRV  77
+           LTEKILTSPLCEQDLRV
+Sbjct  80  LTEKILTSPLCEQDLRV  96
+
+
+> UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID=UTER_NEOAS
+Length=93
+
+ Score = 119 bits (298),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 56/74 (76%), Positives = 64/74 (86%), Gaps = 0/74 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSD CPGFLQVLE L +GSES YEAALK +NP SDLQN+G QLK+LVDTLP++TR+NIVK
+Sbjct  17  SSDTCPGFLQVLEYLFMGSESTYEAALKFYNPGSDLQNSGMQLKKLVDTLPEKTRVNIVK  76
+
+Query  61  LTEKILTSPLCEQD  74
+           L+E ILTS LC QD
+Sbjct  77  LSEIILTSNLCNQD  90
+
+
+> UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster 
+TaxID=79684 RepID=UPI00038BD3E1
+Length=97
+
+ Score = 98.2 bits (243),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 45/74 (61%), Positives = 61/74 (82%), Gaps = 0/74 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           D+CPGFLQVLE+L    ES Y+ AL+ ++P  +L++AG QLK+LVDTLP+ETR NI+KL+
+Sbjct  23  DVCPGFLQVLESLFTDPESRYKEALEFYSPGPELKDAGIQLKKLVDTLPEETRKNILKLS  82
+
+Query  63  EKILTSPLCEQDLR  76
+           +KILTSPLC++ L 
+Sbjct  83  DKILTSPLCKKGLH  96
+
+
+> UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI000980B223
+Length=140
+
+ Score = 89.4 bits (220),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 39/62 (63%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S  ICPGFL V+E LL+G+ S+YE AL+PFNP  +L NAG Q+K+L+DTLPQ TR+N++K
+Sbjct  41   SVQICPGFLHVIETLLMGTLSSYETALQPFNPDQNLTNAGIQMKQLLDTLPQVTRVNVMK  100
+
+Query  61   LT  62
+            LT
+Sbjct  101  LT  102
+
+
+> UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_HUMAN
+Length=91
+
+ Score = 84.3 bits (207),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 39/71 (55%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP F +V+E LL+ + S+YEAA++ F+P  D++ AG QLK+LVDTLPQ+ R +I+K
+Sbjct  20  SAEICPSFQRVIETLLMDTPSSYEAAMELFSPDQDMREAGAQLKKLVDTLPQKPRESIIK  79
+
+Query  61  LTEKILTSPLC  71
+           L EKI  S LC
+Sbjct  80  LMEKIAQSSLC  90
+
+
+> UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI000184D939
+Length=91
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 35/71 (49%), Positives = 53/71 (75%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S + CP F QVL   L+G+ S+Y++ ++PF P +D+Q AGT +K LVD+LPQ TR  ++K
+Sbjct  20  SEETCPSFHQVLHNFLVGTLSSYQSMVEPFKPDADMQEAGTVMKNLVDSLPQSTREKVLK  79
+
+Query  61  LTEKILTSPLC  71
+           L+EKI+T+ +C
+Sbjct  80  LSEKIVTTKVC  90
+
+
+> UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=UTER_HORSE
+Length=91
+
+ Score = 77.0 bits (188),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 34/71 (48%), Positives = 53/71 (75%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  F  +++ L LG+ +++EAA++PF P +D++ A TQLK LVD LP+ T+ +I+K
+Sbjct  20  SAEICQSFADIIQGLFLGTPASFEAAVEPFKPDADMKAATTQLKTLVDFLPKNTKDSILK  79
+
+Query  61  LTEKILTSPLC  71
+           L +KI  SPLC
+Sbjct  80  LMDKIAKSPLC  90
+
+
+> UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6FXZ2_NEOLE
+Length=71
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 35/52 (67%), Positives = 44/52 (85%), Gaps = 0/52 (0%)
+
+Query  11  VLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           V+ ++   SES YEAALK +NP SDLQNAG QLK+LVDTLP++TRINI+KL+
+Sbjct  10  VMLSICCSSESTYEAALKFYNPGSDLQNAGVQLKKLVDTLPEKTRINILKLS  61
+
+
+> UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_MACFU
+Length=70
+
+ Score = 75.5 bits (184),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 35/69 (51%), Positives = 51/69 (74%), Gaps = 0/69 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           +ICP FL+V+E+L L + S++EAA+  F+P  D+  AG QLK+++DTLP + R +I+KL 
+Sbjct  1   EICPTFLRVIESLFLDTPSSFEAAMGFFSPDQDMSEAGAQLKKVLDTLPAKARDSIIKLM  60
+
+Query  63  EKILTSPLC  71
+           EKI  S LC
+Sbjct  61  EKIDKSLLC  69
+
+
+> UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9733 
+RepID=UPI00062B37E0
+Length=123
+
+ Score = 73.6 bits (179),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G+  +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + ++ K
+Sbjct  20  STEVCLNFLHVIENLFMGTLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMTK  79
+
+Query  61  LT  62
+           LT
+Sbjct  80  LT  81
+
+
+> UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=9397 
+RepID=UPI00078825A7
+Length=91
+
+ Score = 72.8 bits (177),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 49/71 (69%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP FL+V+E L LG+ ++Y+AA   F+P +D++ A   LK  VD +P+ T+  I+K
+Sbjct  20  SAEICPSFLKVVETLFLGTPASYQAATDLFSPDADMKAATIHLKEKVDHIPENTKKGIMK  79
+
+Query  61  LTEKILTSPLC  71
+             EK+L SP C
+Sbjct  80  FMEKVLKSPEC  90
+
+
+> UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marmota 
+TaxID=9994 RepID=UPI0007626E42
+Length=206
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ CP F  ++E L +G+ S+YE++++PFNP  D++ AG Q+K+L+DTLP   ++N++K
+Sbjct  20  SAETCPEFFHIMETLFMGTLSSYESSVEPFNPDPDMKEAGIQMKKLLDTLPVGIKVNVLK  79
+
+Query  61  LT  62
+           L+
+Sbjct  80  LS  81
+
+
+> UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leucas 
+TaxID=9749 RepID=UPI000BB71DC4
+Length=135
+
+ Score = 72.0 bits (175),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G   +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + +++ 
+Sbjct  24  STEVCLNFLHVIENLFMGMLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMIT  83
+
+Query  61  LT  62
+           LT
+Sbjct  84  LT  85
+
+
+> UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Panthera 
+tigris altaica TaxID=74533 RepID=UPI0007663CA2
+Length=123
+
+ Score = 70.5 bits (171),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+++C  FL V E L  G+ S+YEAA++PF P +D+++ G QLKRL DTLPQ+ + +I+K
+Sbjct  52   SAEVCQSFLNVTETLFTGTLSSYEAAVEPFLPDADVKDTGIQLKRLXDTLPQKAKESILK  111
+
+Query  61   LT  62
+            LT
+Sbjct  112  LT  113
+
+
+> UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F0E6E
+Length=86
+
+ Score = 68.2 bits (165),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 29/71 (41%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+  CP F  VL+  L+G+ S YE+ ++PF P  +++ AG ++K LVD+LP+  R  ++K
+Sbjct  15  SAKTCPSFHSVLQNFLMGTLSGYESTVEPFQPDQEMKEAGARMKMLVDSLPKGIREAVLK  74
+
+Query  61  LTEKILTSPLC  71
+           L+EKI+ +  C
+Sbjct  75  LSEKIVKTSEC  85
+
+
+> UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoeutheria 
+TaxID=1437010 RepID=E2RIF5_CANLF
+Length=120
+
+ Score = 68.2 bits (165),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++AL L + S+Y+AAL+ FNP +D+++A  QLK LVDTLP  T  NI+K
+Sbjct  20  SAEICQNFLNVIKALFLDTPSSYQAALEFFNPDADMKDAMIQLKSLVDTLPSNTTENILK  79
+
+Query  61  LT  62
+            T
+Sbjct  80  FT  81
+
+
+> UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_BOVIN
+Length=91
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 31/71 (44%), Positives = 50/71 (70%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  L VL  L+ G+ S++EA L+PF+P  D++ A +QLK LVDTL  + + ++++
+Sbjct  20  STEVCPSLLYVLGNLIAGTPSSFEATLEPFSPDEDMKEATSQLKTLVDTLSPKAKDSMLE  79
+
+Query  61  LTEKILTSPLC  71
+           L  KI+ SP C
+Sbjct  80  LMMKIIQSPEC  90
+
+
+> UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9Z0E2_CAMFR
+Length=163
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 46/61 (75%), Gaps = 0/61 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C G L+V++ L +G+ S+YEAAL+PFNP  D ++ G Q K LVDTLPQ+ + +++K
+Sbjct  20  STEVCSGLLEVIKNLFVGTLSSYEAALEPFNPDKDEKDWGIQTKMLVDTLPQKAKDSMLK  79
+
+Query  61  L  61
+            
+Sbjct  80  F  80
+
+
+> UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=UPI00083C61FD
+Length=130
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL+++E+L L + S++EAA+  F+P  D   A  QLK+LVDTLP + R +IVK
+Sbjct  20  SAKICPTFLRIIESLFLDTPSSFEAAMGIFSPDQDTSEAVAQLKKLVDTLPAKARDSIVK  79
+
+Query  61  L  61
+           L
+Sbjct  80  L  80
+
+
+> UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00034F63F3
+Length=130
+
+ Score = 65.5 bits (158),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 45/66 (68%), Gaps = 0/66 (0%)
+
+Query  6    PGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKI  65
+            P F  +L+  L GS   Y++ ++PF P  D++ AGT++K LVDTLP  TR  +++L+EKI
+Sbjct  64   PLFHTILQNFLTGSLPGYQSTVEPFRPDQDVKEAGTRMKTLVDTLPHSTRRAVLRLSEKI  123
+
+Query  66   LTSPLC  71
+            + + +C
+Sbjct  124  VKTSVC  129
+
+
+> UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00053FFAAA
+Length=125
+
+ Score = 63.9 bits (154),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 27/56 (48%), Positives = 40/56 (71%), Gaps = 0/56 (0%)
+
+Query  6    PGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+            P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++L
+Sbjct  70   PAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLRL  125
+
+
+> UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger 
+TaxID=186990 RepID=UPI00093D42BD
+Length=141
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 28/67 (42%), Positives = 45/67 (67%), Gaps = 0/67 (0%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEK  64
+           C  FL V++ L +G    YEA ++ F+P +D+++A   +KRLV T PQ+ + +I++  +K
+Sbjct  23  CLSFLSVIKTLFMGMLCKYEATIELFSPDADMRDAAMAMKRLVGTPPQQAKDSIMRPMDK  82
+
+Query  65  ILTSPLC  71
+           IL SPLC
+Sbjct  83  ILKSPLC  89
+
+
+> UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HS93_AILME
+Length=68
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/60 (48%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL +++ L L + S+YEAA++ F P  D+++A  QLK LV+TLP  T  NI+K
+Sbjct  9   SAAICPNFLNIIKTLFLDTLSSYEAAIEFFVPDPDMKDAMVQLKSLVNTLPANTTENILK  68
+
+
+> UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus 
+latirostris TaxID=127582 RepID=UPI0002C43AF9
+Length=123
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 48/66 (73%), Gaps = 0/66 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL+V+E L +G+ S +EAA+ PFN   ++ +A TQ+K+L+D+L Q  + +++K
+Sbjct  20  SAEVCRSFLKVIEHLFMGTLSGFEAAILPFNLDPNMIDASTQMKKLMDSLSQNVKNSLMK  79
+
+Query  61  LTEKIL  66
+           LT  +L
+Sbjct  80  LTRPVL  85
+
+
+> UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID=9974 
+RepID=UPI00081333DB
+Length=132
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 43/62 (69%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S++IC  FL  ++   +G+ +NYEA ++PFNP  D+++AG  LK+LVD  P+ ++ + V+
+Sbjct  40   STEICQSFLNAVKNFFMGTLANYEAPIEPFNPDVDMKDAGILLKKLVDPPPETSQDSTVE  99
+
+Query  61   LT  62
+             T
+Sbjct  100  FT  101
+
+
+> UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 
+n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DGN0_FUKDA
+Length=796
+
+ Score = 60.8 bits (146),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+   P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++
+Sbjct  736  SAKTRPAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLR  795
+
+Query  61   L  61
+            L
+Sbjct  796  L  796
+
+
+> UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Microcebus 
+murinus TaxID=30608 RepID=UPI00098B0873
+Length=103
+
+ Score = 56.6 bits (135),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+ ICP F Q+LE+L   +   +E  L+  +P  D++NA  +L++L DTLP++TR +I +
+Sbjct  40   SAKICPSFPQILESLFRHTLPRFETVLENVSPNWDMRNAAIELQKLADTLPEKTRGDIFR  99
+
+Query  61   LTEK  64
+            L ++
+Sbjct  100  LMDQ  103
+
+
+> UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=L5KQF5_PTEAL
+Length=151
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 45/61 (74%), Gaps = 0/61 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++ L++G+ S+YE A+  F+P +D++ A   LK+LVD++P+  + +I++
+Sbjct  20  SAEICSSFLDVVKTLIVGTPSSYETAVDVFSPDADMKVATNGLKKLVDSIPENKKDSIMR  79
+
+Query  61  L  61
+           L
+Sbjct  80  L  80
+
+
+> UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus TaxID=9365 
+RepID=A0A1S3WG87_ERIEU
+Length=103
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 42/73 (58%), Gaps = 0/73 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  + VL+ LL GS++ + +A+  F    D + AG QLK L+D  P   +  +  
+Sbjct  22  SAEVCPPLINVLQNLLKGSKAEFGSAMDVFTLKKDSREAGFQLKLLMDPFPVTFKDKLNN  81
+
+Query  61  LTEKILTSPLCEQ  73
+           L  ++ TSP C +
+Sbjct  82  LLHEMATSPQCAE  94
+
+
+> UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6YR95_ORNAN
+Length=99
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/76 (33%), Positives = 43/76 (57%), Gaps = 1/76 (1%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SS +CP FL ++  L  G+   Y  +L+P++P   +  A ++LK LV+ L  E +  +++
+Sbjct  22  SSGVCPVFLDIVNKLFTGTFREYLQSLQPYHPTEAMIEAVSELKGLVNLLSPEHKATVLQ  81
+
+Query  61  LTEKIL-TSPLCEQDL  75
+           L  + L T P C  +L
+Sbjct  82  LMARALATRPRCFSNL  97
+
+
+> UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3VLI6_SARHA
+Length=99
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 39/67 (58%), Gaps = 0/67 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +D C  F QV E L+ G+   Y  +++ F P   ++ AG  LK  VD L   T+++I++L
+Sbjct  32  ADGCLTFPQVAEILIKGTAQKYLESIQCFQPDEAMEAAGKLLKEQVDVLSNATKMDIMRL  91
+
+Query  62  TEKILTS  68
+             KILT+
+Sbjct  92  MGKILTT  98
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 212458778330
+Results from round 2
+
+
+Query= d1ccd__.a.101.1.1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=143701...  117     2e-32
+  UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster...  110     2e-29
+  UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID...  109     3e-29
+  UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchill...  109     3e-29
+  UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=143701...  109     3e-29
+  UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=...  107     2e-28
+  UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=939...  105     2e-27
+  UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010...  103     5e-27
+  UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID...  103     9e-27
+  UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9...  103     2e-26
+  UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marm...  104     5e-26
+  UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=143701...  100     2e-25
+  UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus ...  101     4e-25
+  UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  100     4e-25
+  UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leuca...  100     4e-25
+  UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger...  100     7e-25
+  UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID...  98.9    1e-24
+  UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoe...  97.7    2e-24
+  UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis Ta...  98.5    2e-24
+  UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID...  96.2    1e-23
+  UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopith...  95.0    4e-23
+  UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145...  95.4    5e-23
+  UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus l...  93.1    2e-22
+  UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailu...  90.4    5e-22
+  UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 n=...  97.7    7e-22
+  UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  89.6    2e-21
+  UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID...  89.2    5e-21
+  UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornith...  88.5    7e-21
+  UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus Tax...  86.5    4e-20
+  UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcop...  82.7    1e-18
+  UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lep...  73.0    3e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_S7MDC0 Uteroglobin n=6 Tax=Vespertilionidae TaxID=9431...  69.2    3e-13
+  UniRef50_Q8TD33 Secretoglobin family 1C member 1 n=5 Tax=Boreoe...  48.0    1e-05
+  UniRef50_I3MP11 Uncharacterized protein n=10 Tax=Boreoeutheria ...  46.9    2e-05
+  UniRef50_F7D241 Secretoglobin RYD5 n=10 Tax=Boreoeutheria TaxID...  46.5    3e-05
+  UniRef50_A0A151NXV1 Secretoglobin family 1D member 2 n=2 Tax=Cr...  46.5    4e-05
+  UniRef50_M7BV77 Outer dense fiber protein 3 n=20 Tax=Sauria Tax...  48.4    4e-05
+  UniRef50_F6VR63 Uncharacterized protein n=2 Tax=Ornithorhynchus...  45.7    5e-05
+  UniRef50_UPI0005330225 secretoglobin family 1C member 1 n=2 Tax...  46.9    6e-05
+  UniRef50_O35176 ABPA2 n=19 Tax=Muroidea TaxID=337687 RepID=O351...  44.9    1e-04
+  UniRef50_G5E7C8 Uncharacterized protein n=2 Tax=Eutheria TaxID=...  44.5    1e-04
+  UniRef50_UPI0004402279 uncharacterized protein LOC103001162 n=1...  46.5    1e-04
+  UniRef50_UPI00001D872C Major allergen I polypeptide, fused chai...  43.8    6e-04
+  UniRef50_UPI0000D79C37 Major allergen I polypeptide, fused chai...  43.4    7e-04
+  UniRef50_G3W621 Uncharacterized protein n=2 Tax=Sarcophilus har...  42.6    8e-04
+  UniRef50_UPI000A28CC88 secretoglobin family 1C member 1 n=1 Tax...  42.6    0.001
+
+
+> UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_RAT
+Length=96
+
+ Score = 117 bits (294),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK
+Sbjct  20  SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  79
+
+Query  61  LTEKILTSPLCEQDLRV  77
+           LTEKILTSPLCEQDLRV
+Sbjct  80  LTEKILTSPLCEQDLRV  96
+
+
+> UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster 
+TaxID=79684 RepID=UPI00038BD3E1
+Length=97
+
+ Score = 110 bits (275),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 45/74 (61%), Positives = 61/74 (82%), Gaps = 0/74 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           D+CPGFLQVLE+L    ES Y+ AL+ ++P  +L++AG QLK+LVDTLP+ETR NI+KL+
+Sbjct  23  DVCPGFLQVLESLFTDPESRYKEALEFYSPGPELKDAGIQLKKLVDTLPEETRKNILKLS  82
+
+Query  63  EKILTSPLCEQDLR  76
+           +KILTSPLC++ L 
+Sbjct  83  DKILTSPLCKKGLH  96
+
+
+> UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID=UTER_NEOAS
+Length=93
+
+ Score = 109 bits (273),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 56/74 (76%), Positives = 64/74 (86%), Gaps = 0/74 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSD CPGFLQVLE L +GSES YEAALK +NP SDLQN+G QLK+LVDTLP++TR+NIVK
+Sbjct  17  SSDTCPGFLQVLEYLFMGSESTYEAALKFYNPGSDLQNSGMQLKKLVDTLPEKTRVNIVK  76
+
+Query  61  LTEKILTSPLCEQD  74
+           L+E ILTS LC QD
+Sbjct  77  LSEIILTSNLCNQD  90
+
+
+> UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F0E6E
+Length=86
+
+ Score = 109 bits (273),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 29/72 (40%), Positives = 48/72 (67%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+  CP F  VL+  L+G+ S YE+ ++PF P  +++ AG ++K LVD+LP+  R  ++K
+Sbjct  15  SAKTCPSFHSVLQNFLMGTLSGYESTVEPFQPDQEMKEAGARMKMLVDSLPKGIREAVLK  74
+
+Query  61  LTEKILTSPLCE  72
+           L+EKI+ +  C 
+Sbjct  75  LSEKIVKTSECA  86
+
+
+> UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_HUMAN
+Length=91
+
+ Score = 109 bits (272),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP F +V+E LL+ + S+YEAA++ F+P  D++ AG QLK+LVDTLPQ+ R +I+K
+Sbjct  20  SAEICPSFQRVIETLLMDTPSSYEAAMELFSPDQDMREAGAQLKKLVDTLPQKPRESIIK  79
+
+Query  61  LTEKILTSPLCE  72
+           L EKI  S LC 
+Sbjct  80  LMEKIAQSSLCN  91
+
+
+> UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=UTER_HORSE
+Length=91
+
+ Score = 107 bits (268),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 53/72 (74%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  F  +++ L LG+ +++EAA++PF P +D++ A TQLK LVD LP+ T+ +I+K
+Sbjct  20  SAEICQSFADIIQGLFLGTPASFEAAVEPFKPDADMKAATTQLKTLVDFLPKNTKDSILK  79
+
+Query  61  LTEKILTSPLCE  72
+           L +KI  SPLC 
+Sbjct  80  LMDKIAKSPLCA  91
+
+
+> UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=9397 
+RepID=UPI00078825A7
+Length=91
+
+ Score = 105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP FL+V+E L LG+ ++Y+AA   F+P +D++ A   LK  VD +P+ T+  I+K
+Sbjct  20  SAEICPSFLKVVETLFLGTPASYQAATDLFSPDADMKAATIHLKEKVDHIPENTKKGIMK  79
+
+Query  61  LTEKILTSPLCE  72
+             EK+L SP C 
+Sbjct  80  FMEKVLKSPECA  91
+
+
+> UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_MACFU
+Length=70
+
+ Score = 103 bits (257),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 51/70 (73%), Gaps = 0/70 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           +ICP FL+V+E+L L + S++EAA+  F+P  D+  AG QLK+++DTLP + R +I+KL 
+Sbjct  1   EICPTFLRVIESLFLDTPSSFEAAMGFFSPDQDMSEAGAQLKKVLDTLPAKARDSIIKLM  60
+
+Query  63  EKILTSPLCE  72
+           EKI  S LC 
+Sbjct  61  EKIDKSLLCN  70
+
+
+> UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI000184D939
+Length=91
+
+ Score = 103 bits (256),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 53/72 (74%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S + CP F QVL   L+G+ S+Y++ ++PF P +D+Q AGT +K LVD+LPQ TR  ++K
+Sbjct  20  SEETCPSFHQVLHNFLVGTLSSYQSMVEPFKPDADMQEAGTVMKNLVDSLPQSTREKVLK  79
+
+Query  61  LTEKILTSPLCE  72
+           L+EKI+T+ +C 
+Sbjct  80  LSEKIVTTKVCA  91
+
+
+> UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9733 
+RepID=UPI00062B37E0
+Length=123
+
+ Score = 103 bits (257),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G+  +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + ++ K
+Sbjct  20  STEVCLNFLHVIENLFMGTLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMTK  79
+
+Query  61  LT  62
+           LT
+Sbjct  80  LT  81
+
+
+> UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marmota 
+TaxID=9994 RepID=UPI0007626E42
+Length=206
+
+ Score = 104 bits (260),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ CP F  ++E L +G+ S+YE++++PFNP  D++ AG Q+K+L+DTLP   ++N++K
+Sbjct  20  SAETCPEFFHIMETLFMGTLSSYESSVEPFNPDPDMKEAGIQMKKLLDTLPVGIKVNVLK  79
+
+Query  61  LT  62
+           L+
+Sbjct  80  LS  81
+
+
+> UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_BOVIN
+Length=91
+
+ Score = 100 bits (248),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 31/72 (43%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  L VL  L+ G+ S++EA L+PF+P  D++ A +QLK LVDTL  + + ++++
+Sbjct  20  STEVCPSLLYVLGNLIAGTPSSFEATLEPFSPDEDMKEATSQLKTLVDTLSPKAKDSMLE  79
+
+Query  61  LTEKILTSPLCE  72
+           L  KI+ SP C 
+Sbjct  80  LMMKIIQSPECA  91
+
+
+> UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9Z0E2_CAMFR
+Length=163
+
+ Score = 101 bits (251),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C G L+V++ L +G+ S+YEAAL+PFNP  D ++ G Q K LVDTLPQ+ + +++K
+Sbjct  20  STEVCSGLLEVIKNLFVGTLSSYEAALEPFNPDKDEKDWGIQTKMLVDTLPQKAKDSMLK  79
+
+Query  61  LT  62
+             
+Sbjct  80  FM  81
+
+
+> UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Panthera 
+tigris altaica TaxID=74533 RepID=UPI0007663CA2
+Length=123
+
+ Score = 100 bits (248),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 32/62 (52%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+++C  FL V E L  G+ S+YEAA++PF P +D+++ G QLKRL DTLPQ+ + +I+K
+Sbjct  52   SAEVCQSFLNVTETLFTGTLSSYEAAVEPFLPDADVKDTGIQLKRLXDTLPQKAKESILK  111
+
+Query  61   LT  62
+            LT
+Sbjct  112  LT  113
+
+
+> UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leucas 
+TaxID=9749 RepID=UPI000BB71DC4
+Length=135
+
+ Score = 100 bits (248),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 32/62 (52%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G   +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + +++ 
+Sbjct  24  STEVCLNFLHVIENLFMGMLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMIT  83
+
+Query  61  LT  62
+           LT
+Sbjct  84  LT  85
+
+
+> UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger 
+TaxID=186990 RepID=UPI00093D42BD
+Length=141
+
+ Score = 100 bits (248),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEK  64
+           C  FL V++ L +G    YEA ++ F+P +D+++A   +KRLV T PQ+ + +I++  +K
+Sbjct  23  CLSFLSVIKTLFMGMLCKYEATIELFSPDADMRDAAMAMKRLVGTPPQQAKDSIMRPMDK  82
+
+Query  65  ILTSPLCE  72
+           IL SPLC 
+Sbjct  83  ILKSPLCA  90
+
+
+> UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00034F63F3
+Length=130
+
+ Score = 98.9 bits (245),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 45/67 (67%), Gaps = 0/67 (0%)
+
+Query  6    PGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKI  65
+            P F  +L+  L GS   Y++ ++PF P  D++ AGT++K LVDTLP  TR  +++L+EKI
+Sbjct  64   PLFHTILQNFLTGSLPGYQSTVEPFRPDQDVKEAGTRMKTLVDTLPHSTRRAVLRLSEKI  123
+
+Query  66   LTSPLCE  72
+            + + +C 
+Sbjct  124  VKTSVCA  130
+
+
+> UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoeutheria 
+TaxID=1437010 RepID=E2RIF5_CANLF
+Length=120
+
+ Score = 97.7 bits (242),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++AL L + S+Y+AAL+ FNP +D+++A  QLK LVDTLP  T  NI+K
+Sbjct  20  SAEICQNFLNVIKALFLDTPSSYQAALEFFNPDADMKDAMIQLKSLVDTLPSNTTENILK  79
+
+Query  61  LT  62
+            T
+Sbjct  80  FT  81
+
+
+> UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI000980B223
+Length=140
+
+ Score = 98.5 bits (244),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 39/62 (63%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S  ICPGFL V+E LL+G+ S+YE AL+PFNP  +L NAG Q+K+L+DTLPQ TR+N++K
+Sbjct  41   SVQICPGFLHVIETLLMGTLSSYETALQPFNPDQNLTNAGIQMKQLLDTLPQVTRVNVMK  100
+
+Query  61   LT  62
+            LT
+Sbjct  101  LT  102
+
+
+> UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID=9974 
+RepID=UPI00081333DB
+Length=132
+
+ Score = 96.2 bits (238),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 44/71 (62%), Gaps = 0/71 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S++IC  FL  ++   +G+ +NYEA ++PFNP  D+++AG  LK+LVD  P+ ++ + V+
+Sbjct  40   STEICQSFLNAVKNFFMGTLANYEAPIEPFNPDVDMKDAGILLKKLVDPPPETSQDSTVE  99
+
+Query  61   LTEKILTSPLC  71
+             T        C
+Sbjct  100  FTACSFLRSHC  110
+
+
+> UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=UPI00083C61FD
+Length=130
+
+ Score = 95.0 bits (235),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 44/62 (71%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL+++E+L L + S++EAA+  F+P  D   A  QLK+LVDTLP + R +IVK
+Sbjct  20  SAKICPTFLRIIESLFLDTPSSFEAAMGIFSPDQDTSEAVAQLKKLVDTLPAKARDSIVK  79
+
+Query  61  LT  62
+           L 
+Sbjct  80  LM  81
+
+
+> UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=L5KQF5_PTEAL
+Length=151
+
+ Score = 95.4 bits (236),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++ L++G+ S+YE A+  F+P +D++ A   LK+LVD++P+  + +I++
+Sbjct  20  SAEICSSFLDVVKTLIVGTPSSYETAVDVFSPDADMKVATNGLKKLVDSIPENKKDSIMR  79
+
+Query  61  LT  62
+           L 
+Sbjct  80  LM  81
+
+
+> UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus 
+latirostris TaxID=127582 RepID=UPI0002C43AF9
+Length=123
+
+ Score = 93.1 bits (230),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 27/66 (41%), Positives = 48/66 (73%), Gaps = 0/66 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL+V+E L +G+ S +EAA+ PFN   ++ +A TQ+K+L+D+L Q  + +++K
+Sbjct  20  SAEVCRSFLKVIEHLFMGTLSGFEAAILPFNLDPNMIDASTQMKKLMDSLSQNVKNSLMK  79
+
+Query  61  LTEKIL  66
+           LT  +L
+Sbjct  80  LTRPVL  85
+
+
+> UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HS93_AILME
+Length=68
+
+ Score = 90.4 bits (223),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 29/60 (48%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL +++ L L + S+YEAA++ F P  D+++A  QLK LV+TLP  T  NI+K
+Sbjct  9   SAAICPNFLNIIKTLFLDTLSSYEAAIEFFVPDPDMKDAMVQLKSLVNTLPANTTENILK  68
+
+
+> UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 
+n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DGN0_FUKDA
+Length=796
+
+ Score = 97.7 bits (242),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+   P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++
+Sbjct  736  SAKTRPAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLR  795
+
+Query  61   L  61
+            L
+Sbjct  796  L  796
+
+
+> UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Microcebus 
+murinus TaxID=30608 RepID=UPI00098B0873
+Length=103
+
+ Score = 89.6 bits (221),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+ ICP F Q+LE+L   +   +E  L+  +P  D++NA  +L++L DTLP++TR +I +
+Sbjct  40   SAKICPSFPQILESLFRHTLPRFETVLENVSPNWDMRNAAIELQKLADTLPEKTRGDIFR  99
+
+Query  61   LTEK  64
+            L ++
+Sbjct  100  LMDQ  103
+
+
+> UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00053FFAAA
+Length=125
+
+ Score = 89.2 bits (220),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+   P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++
+Sbjct  65   SAKTRPAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLR  124
+
+Query  61   L  61
+            L
+Sbjct  125  L  125
+
+
+> UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6YR95_ORNAN
+Length=99
+
+ Score = 88.5 bits (218),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 43/76 (57%), Gaps = 1/76 (1%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SS +CP FL ++  L  G+   Y  +L+P++P   +  A ++LK LV+ L  E +  +++
+Sbjct  22  SSGVCPVFLDIVNKLFTGTFREYLQSLQPYHPTEAMIEAVSELKGLVNLLSPEHKATVLQ  81
+
+Query  61  LTEKIL-TSPLCEQDL  75
+           L  + L T P C  +L
+Sbjct  82  LMARALATRPRCFSNL  97
+
+
+> UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus TaxID=9365 
+RepID=A0A1S3WG87_ERIEU
+Length=103
+
+ Score = 86.5 bits (213),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 42/74 (57%), Gaps = 0/74 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  + VL+ LL GS++ + +A+  F    D + AG QLK L+D  P   +  +  
+Sbjct  22  SAEVCPPLINVLQNLLKGSKAEFGSAMDVFTLKKDSREAGFQLKLLMDPFPVTFKDKLNN  81
+
+Query  61  LTEKILTSPLCEQD  74
+           L  ++ TSP C + 
+Sbjct  82  LLHEMATSPQCAEG  95
+
+
+> UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3VLI6_SARHA
+Length=99
+
+ Score = 82.7 bits (203),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 25/68 (37%), Positives = 39/68 (57%), Gaps = 0/68 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +D C  F QV E L+ G+   Y  +++ F P   ++ AG  LK  VD L   T+++I++L
+Sbjct  32  ADGCLTFPQVAEILIKGTAQKYLESIQCFQPDEAMEAAGKLLKEQVDVLSNATKMDIMRL  91
+
+Query  62  TEKILTSP  69
+             KILT+ 
+Sbjct  92  MGKILTTN  99
+
+
+> UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6FXZ2_NEOLE
+Length=71
+
+ Score = 73.0 bits (178),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 35/52 (67%), Positives = 44/52 (85%), Gaps = 0/52 (0%)
+
+Query  11  VLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           V+ ++   SES YEAALK +NP SDLQNAG QLK+LVDTLP++TRINI+KL+
+Sbjct  10  VMLSICCSSESTYEAALKFYNPGSDLQNAGVQLKKLVDTLPEKTRINILKLS  61
+
+
+> UniRef50_S7MDC0 Uteroglobin n=6 Tax=Vespertilionidae TaxID=9431 
+RepID=S7MDC0_MYOBR
+Length=122
+
+ Score = 69.2 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 38/60 (63%), Gaps = 2/60 (3%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           + C  F  +++   +   S++E +++ F+P +D+++A  ++K LVDTLPQ+ R ++ +  
+Sbjct  19  ESCLDF--IVKTFFVSLLSSHEVSVELFSPDADMRDAAIKIKGLVDTLPQQDRDSVRRAM  76
+
+
+> UniRef50_Q8TD33 Secretoglobin family 1C member 1 n=5 Tax=Boreoeutheria 
+TaxID=1437010 RepID=SG1C1_HUMAN
+Length=95
+
+ Score = 48.0 bits (113),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  +VKL  ++L
+Sbjct  30  FMDFLQTLLVGTPEELYEGTLGKYNVNEDAKAAMTELKSCIDGLQPMHKAELVKLLVQVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_I3MP11 Uncharacterized protein n=10 Tax=Boreoeutheria 
+TaxID=1437010 RepID=I3MP11_ICTTR
+Length=95
+
+ Score = 46.9 bits (110),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  +VKL  ++L
+Sbjct  30  FMDFLQTLLVGTAEELYEGPLGKYNVNEDAKEALTELKSCIDNLQPMHKAELVKLLVQVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_F7D241 Secretoglobin RYD5 n=10 Tax=Boreoeutheria TaxID=1437010 
+RepID=F7D241_MACMU
+Length=95
+
+ Score = 46.5 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 32/62 (52%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  ++KL   +L
+Sbjct  30  FMDFLQTLLVGTPEELYEGPLGKYNVNEDAKAAMTELKSCIDGLQPMHKAELIKLLVHVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_A0A151NXV1 Secretoglobin family 1D member 2 n=2 Tax=Crocodylia 
+TaxID=1294634 RepID=A0A151NXV1_ALLMI
+Length=88
+
+ Score = 46.5 bits (109),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 0/67 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           +++ CP    V+   L  S   Y  A+ PF  +  ++NAG +LK     + ++    + +
+Sbjct  20  TAEACPVLRDVISKFLFASRDQYMEAIAPFVSSPTMENAGLELKGCALGISKDHSEALKE  79
+
+Query  61  LTEKILT  67
+           L   IL 
+Sbjct  80  LMRNILK  86
+
+
+> UniRef50_M7BV77 Outer dense fiber protein 3 n=20 Tax=Sauria TaxID=32561 
+RepID=M7BV77_CHEMY
+Length=302
+
+ Score = 48.4 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           ++D CP  + +L   L GS   Y  ++ PF  +  ++ A  +LK  V  L QE    I +
+Sbjct  20  TADTCPVLINILNKSLFGSCPEYMESIAPFVTSDVMKTAAYELKECVLKLSQEHSGAIGE  79
+
+Query  61  LT  62
+           L 
+Sbjct  80  LM  81
+
+
+> UniRef50_F6VR63 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6VR63_ORNAN
+Length=90
+
+ Score = 45.7 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ +CP  L+ L     GSE  +   L+ FN   D+  A    K+  D L    R+ I K
+Sbjct  20  SAAVCPALLKELNIYFYGSEDTFRNDLEGFNATEDMIQAKLTEKKCTDQLSLNERLLISK  79
+
+Query  61  LT  62
+             
+Sbjct  80  FM  81
+
+
+> UniRef50_UPI0005330225 secretoglobin family 1C member 1 n=2 Tax=Boreoeutheria 
+TaxID=1437010 RepID=UPI0005330225
+Length=198
+
+ Score = 46.9 bits (110),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 31/62 (50%), Gaps = 1/62 (2%)
+
+Query  8    FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+            F+  L+ LL+G+    YE  L  +N   D + A T+LK   D L    +  ++KL   +L
+Sbjct  133  FMDFLQTLLVGTPEELYEGPLGKYNVNEDAKAAMTELKSCTDGLQPMHKAELIKLLVHVL  192
+
+Query  67   TS  68
+             S
+Sbjct  193  GS  194
+
+
+> UniRef50_O35176 ABPA2 n=19 Tax=Muroidea TaxID=337687 RepID=O35176_MOUSE
+Length=93
+
+ Score = 44.9 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKLT  62
+           ICP   + +   L G+   Y   ++ +    +      +LK  VD TL +E + +     
+Sbjct  25  ICPAIKEDVHLFLFGTPEEYVNYVEKYKDDPETLENTEKLKICVDRTLTKENKEHAAAFI  84
+
+Query  63  EKILTSPLC  71
+           EKI +SPLC
+Sbjct  85  EKIESSPLC  93
+
+
+> UniRef50_G5E7C8 Uncharacterized protein n=2 Tax=Eutheria TaxID=9347 
+RepID=G5E7C8_LOXAF
+Length=90
+
+ Score = 44.5 bits (104),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 35/65 (54%), Gaps = 0/65 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  L+   A LL     Y+  ++ + P SD+  A  QLK+ +D L    R+ ++ +
+Sbjct  21  ALVCPSLLEEETAFLLAGPLTYKLLIESYRPPSDVVEAKLQLKQCIDQLSFRNRLRVMNI  80
+
+Query  62  TEKIL  66
+            EKI+
+Sbjct  81  LEKIV  85
+
+
+> UniRef50_UPI0004402279 uncharacterized protein LOC103001162 n=1 
+Tax=Balaenoptera acutorostrata scammoni TaxID=310752 RepID=UPI0004402279
+Length=237
+
+ Score = 46.5 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 35/63 (56%), Gaps = 1/63 (2%)
+
+Query  7    GFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKI  65
+             F+  L+ LL+GS    YE  L  ++ ++D + A T+LK  +D L    +  +VKL  ++
+Sbjct  126  SFIDFLQTLLVGSAEELYEGPLGKYDVSADAKAAVTELKSCIDGLQPMHKAELVKLLGQV  185
+
+Query  66   LTS  68
+            L S
+Sbjct  186  LGS  188
+
+
+> UniRef50_UPI00001D872C Major allergen I polypeptide, fused chain 
+2, chain 1 n=1 Tax=Felis catus TaxID=9685 RepID=UPI00001D872C
+Length=170
+
+ Score = 43.8 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  3    DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+            +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + L
+Sbjct  93   EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSL  152
+
+Query  62   TEKILTSPLCEQ  73
+             +KI TSPLC +
+Sbjct  153  LDKIYTSPLCLE  164
+
+
+> UniRef50_UPI0000D79C37 Major allergen I polypeptide, fused chain 
+1, chain 2 n=1 Tax=Felis catus TaxID=9685 RepID=UPI0000D79C37
+Length=153
+
+ Score = 43.4 bits (101),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + L
+Sbjct  2   EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSL  61
+
+Query  62  TEKILTSPLCEQ  73
+            +KI TSPLC +
+Sbjct  62  LDKIYTSPLCVK  73
+
+
+> UniRef50_G3W621 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3W621_SARHA
+Length=94
+
+ Score = 42.6 bits (99),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 34/63 (54%), Gaps = 1/63 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           FL+ L+ LL GS  + YE  L P++     + A  +LK  +D L    +  +VKL   +L
+Sbjct  30  FLEFLQTLLAGSLEDLYEGPLAPYDINPATKAAMAELKSCIDNLAPVNKAELVKLLVGVL  89
+
+Query  67  TSP  69
+           ++P
+Sbjct  90  SAP  92
+
+
+> UniRef50_UPI000A28CC88 secretoglobin family 1C member 1 n=1 Tax=Phascolarctos 
+cinereus TaxID=38626 RepID=UPI000A28CC88
+Length=124
+
+ Score = 42.6 bits (99),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           FL+ L+ LL G+  + YE  L  +N   D + A ++LK  +D L    +  +VKL   ++
+Sbjct  27  FLEFLQTLLAGALEDLYEGPLASYNINPDCKAAMSELKSCIDNLAPMHKAELVKLLRALV  86
+
+Query  67  TS  68
+            S
+Sbjct  87  PS  88
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.146    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 212458778330
+Results from round 3
+
+
+Query= d1ccd__.a.101.1.1
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=143701...  108     8e-29
+  UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=143701...  102     1e-26
+  UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchill...  102     2e-26
+  UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=...  102     2e-26
+  UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster...  101     4e-26
+  UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID...  101     7e-26
+  UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=939...  99.6    3e-25
+  UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID...  96.9    3e-24
+  UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=143701...  95.3    1e-23
+  UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010...  94.9    1e-23
+  UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marm...  97.6    2e-23
+  UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9...  94.2    7e-23
+  UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID...  93.4    1e-22
+  UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID...  93.0    2e-22
+  UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoe...  92.6    3e-22
+  UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leuca...  92.3    5e-22
+  UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus ...  92.6    7e-22
+  UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger...  91.9    7e-22
+  UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  90.7    1e-21
+  UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145...  90.7    2e-21
+  UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis Ta...  90.3    3e-21
+  UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopith...  88.8    1e-20
+  UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailu...  85.3    4e-20
+  UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 n=...  92.3    5e-20
+  UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus l...  86.5    6e-20
+  UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornith...  84.9    1e-19
+  UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax...  83.8    4e-19
+  UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID...  84.2    5e-19
+  UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus Tax...  79.9    1e-17
+  UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcop...  75.7    4e-16
+  UniRef50_O35176 ABPA2 n=19 Tax=Muroidea TaxID=337687 RepID=O351...  72.2    1e-14
+  UniRef50_M7BV77 Outer dense fiber protein 3 n=20 Tax=Sauria Tax...  73.8    2e-14
+  UniRef50_UPI00001D872C Major allergen I polypeptide, fused chai...  72.6    2e-14
+  UniRef50_UPI0005330225 secretoglobin family 1C member 1 n=2 Tax...  73.0    2e-14
+  UniRef50_Q8TD33 Secretoglobin family 1C member 1 n=5 Tax=Boreoe...  70.7    3e-14
+  UniRef50_A0A151NXV1 Secretoglobin family 1D member 2 n=2 Tax=Cr...  70.3    4e-14
+  UniRef50_UPI0004402279 uncharacterized protein LOC103001162 n=1...  72.2    6e-14
+  UniRef50_F7D241 Secretoglobin RYD5 n=10 Tax=Boreoeutheria TaxID...  70.3    6e-14
+  UniRef50_UPI0000D79C37 Major allergen I polypeptide, fused chai...  71.5    6e-14
+  UniRef50_I3MP11 Uncharacterized protein n=10 Tax=Boreoeutheria ...  69.9    8e-14
+  UniRef50_S7MDC0 Uteroglobin n=6 Tax=Vespertilionidae TaxID=9431...  69.9    1e-13
+  UniRef50_F6VR63 Uncharacterized protein n=2 Tax=Ornithorhynchus...  68.0    4e-13
+  UniRef50_G5E7C8 Uncharacterized protein n=2 Tax=Eutheria TaxID=...  64.5    7e-12
+  UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lep...  64.1    7e-12
+  UniRef50_UPI000A28CC88 secretoglobin family 1C member 1 n=1 Tax...  65.3    7e-12
+  UniRef50_G3W621 Uncharacterized protein n=2 Tax=Sarcophilus har...  62.2    6e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_P30438 Major allergen I polypeptide chain 1 n=19 Tax=B...  69.9    7e-14
+  UniRef50_P30438-2 Isoform 2 of Major allergen I polypeptide cha...  67.2    7e-13
+  UniRef50_UPI0009439E85 secretoglobin family 1C member 1 isoform...  68.4    7e-13
+  UniRef50_UPI00072E2E03 major allergen I polypeptide chain 1-lik...  65.3    3e-12
+  UniRef50_L5K7W5 Secretoglobin family 1C member 1 n=3 Tax=Euther...  65.3    2e-11
+  UniRef50_G5E5S8 Uncharacterized protein n=50 Tax=Mammalia TaxID...  63.0    4e-11
+  UniRef50_D2I611 Uncharacterized protein (Fragment) n=1 Tax=Ailu...  61.8    6e-11
+  UniRef50_UPI00064D35D2 major allergen I polypeptide chain 1-lik...  61.1    3e-10
+  UniRef50_Q05702 Secretoglobin family 1C member 1 n=33 Tax=Boreo...  59.5    6e-10
+  UniRef50_G1T7H2 Uncharacterized protein n=5 Tax=Boreoeutheria T...  58.4    2e-09
+  UniRef50_A0A098KX88 Outer dense fiber protein 3 n=7 Tax=Euarcho...  60.7    3e-09
+  UniRef50_UPI000B4EFC30 secretoglobin family 1C member 1 n=1 Tax...  57.2    5e-09
+  UniRef50_G3V9B4 Androgen binding protein, alpha n=9 Tax=Boreoeu...  56.0    1e-08
+  UniRef50_L5LLC6 Secretoglobin family 1C member 1 n=3 Tax=Vesper...  56.8    1e-08
+  UniRef50_A0A1S3ARK8 major allergen I polypeptide chain 1-like n...  56.0    1e-08
+  UniRef50_UPI0009483546 major allergen I polypeptide chain 1 iso...  56.0    2e-08
+  UniRef50_UPI00062B8303 secretoglobin family 1C member 1 n=1 Tax...  56.4    2e-08
+  UniRef50_E2QUN9 Uncharacterized protein n=8 Tax=Eutheria TaxID=...  55.3    2e-08
+  UniRef50_G1TTX3 Uncharacterized protein n=1 Tax=Oryctolagus cun...  54.5    4e-08
+  UniRef50_Q63930 Salivary androgen-binding protein alpha subunit...  53.3    7e-08
+  UniRef50_Q8CH49 Androgen-binding protein alpha subunit (Fragmen...  52.6    2e-07
+  UniRef50_UPI000223EA48 secretoglobin family 1C member 1-like n=...  52.6    2e-07
+  UniRef50_UPI0007675E78 major allergen I polypeptide chain 1-lik...  52.2    4e-07
+  UniRef50_UPI000A28B595 major allergen I polypeptide chain 1-lik...  51.4    6e-07
+  UniRef50_UPI000944B9C2 secretoglobin family 1D member 2-like n=...  51.0    8e-07
+  UniRef50_A0A1R4AQV9 Heteroglobin A subunit n=2 Tax=Mesocricetus...  49.9    2e-06
+  UniRef50_Q91WB5 ABPA27 n=20 Tax=Boreoeutheria TaxID=1437010 Rep...  49.9    2e-06
+  UniRef50_UPI0002235B21 secretoglobin family 1D member 2-like n=...  49.9    3e-06
+  UniRef50_M3YRE6 Uncharacterized protein n=1 Tax=Mustela putoriu...  49.1    4e-06
+  UniRef50_UPI0007DA5130 major allergen I polypeptide chain 1-lik...  49.1    4e-06
+  UniRef50_UPI00093AF52E secretoglobin family 1D member-like n=1 ...  49.1    4e-06
+  UniRef50_UPI0001E87042 major allergen I polypeptide chain 1-lik...  49.1    4e-06
+  UniRef50_UPI000939055B secretoglobin family 1C member 1-like n=...  48.3    6e-06
+  UniRef50_A0A061HV51 Major allergen I polypeptide chain 1-like p...  48.3    6e-06
+  UniRef50_A0JNP2 Secretoglobin family 1D member n=18 Tax=Cetarti...  48.3    8e-06
+  UniRef50_UPI00045DDE21 secretoglobin family 1D member 2-like n=...  48.0    9e-06
+  UniRef50_F6TBN3 Uncharacterized protein n=2 Tax=Ornithorhynchus...  48.0    1e-05
+  UniRef50_A0A151NXN2 Secretoglobin family 1C member 1 isoform C ...  48.0    1e-05
+  UniRef50_UPI000A32E47D major allergen I polypeptide chain 1-lik...  48.3    1e-05
+  UniRef50_UPI000491ABC9 secretoglobin family 1D member 2-like n=...  47.6    1e-05
+  UniRef50_K9IFS6 Putative secretoglobin family 1d member n=1 Tax...  47.6    1e-05
+  UniRef50_S4UI65 Androgen-binding protein alpha subunit (Fragmen...  47.2    1e-05
+  UniRef50_L8HW74 Uncharacterized protein (Fragment) n=1 Tax=Bos ...  46.4    3e-05
+  UniRef50_UPI000A318A0A secretoglobin family 1D member 4-like n=...  46.4    3e-05
+  UniRef50_A0A212DBW9 Uncharacterized protein n=2 Tax=Pecora TaxI...  46.4    4e-05
+  UniRef50_UPI000454B710 prostatic steroid-binding protein C1 n=1...  46.4    5e-05
+  UniRef50_UPI000A34631F uncharacterized protein LOC110347408 n=1...  47.2    6e-05
+  UniRef50_UPI0003F0AE0A secretoglobin family 1D member-like n=1 ...  45.6    6e-05
+  UniRef50_F7HWZ0 Secretoglobin family 1D member 1 n=3 Tax=Cebida...  45.3    8e-05
+  UniRef50_UPI000BAA1755 major allergen I polypeptide chain 1-lik...  45.6    1e-04
+  UniRef50_UPI0002C6721C secretoglobin family 1D member 1-like n=...  45.6    1e-04
+  UniRef50_O95968 Secretoglobin family 1D member 1 n=52 Tax=Boreo...  44.5    1e-04
+  UniRef50_G3VBG2 Uncharacterized protein n=4 Tax=Metatheria TaxI...  44.9    2e-04
+  UniRef50_A0A091KGX8 Secretoglobin family 1C member 1 (Fragment)...  44.5    2e-04
+  UniRef50_UPI0003C9060C major allergen I polypeptide chain 1-lik...  44.9    2e-04
+  UniRef50_F6WF42 Uncharacterized protein n=11 Tax=Boreoeutheria ...  44.5    2e-04
+  UniRef50_UPI00063C4DD5 LOW QUALITY PROTEIN: secretoglobin famil...  44.9    2e-04
+  UniRef50_UPI0005335062 secretoglobin family 1D member 2-like n=...  44.9    2e-04
+  UniRef50_F7G0A2 Uncharacterized protein n=3 Tax=Ornithorhynchus...  44.5    2e-04
+  UniRef50_A0A091Q969 Secretoglobin family 1C member 1 (Fragment)...  44.1    2e-04
+  UniRef50_F6PR72 Uncharacterized protein n=8 Tax=Perissodactyla ...  44.1    2e-04
+  UniRef50_G3IM12 Secretoglobin family 1D member 2 n=7 Tax=Myomor...  44.1    3e-04
+  UniRef50_UPI00077DEEC9 secretoglobin family 1D member 2-like n=...  43.7    3e-04
+  UniRef50_UPI00045435F2 uteroglobin-like isoform X1 n=1 Tax=Orni...  44.5    3e-04
+  UniRef50_G1SDB8 Uncharacterized protein n=2 Tax=Oryctolagus cun...  43.7    3e-04
+  UniRef50_UPI000809BF4A uncharacterized protein LOC108286277 iso...  44.1    4e-04
+  UniRef50_J9P7B6 Uncharacterized protein n=2 Tax=Canis lupus fam...  43.3    4e-04
+  UniRef50_UPI00062A9DCD major allergen I polypeptide chain 1-lik...  44.1    4e-04
+  UniRef50_F6SUP2 Uncharacterized protein n=4 Tax=Equus TaxID=355...  43.3    5e-04
+  UniRef50_UPI0003C9046A secretoglobin family 1D member 2-like n=...  42.9    5e-04
+  UniRef50_D2HS95 Uncharacterized protein (Fragment) n=1 Tax=Ailu...  42.9    5e-04
+  UniRef50_UPI0004E48AA5 secretoglobin, family 1B, member 30 isof...  44.5    5e-04
+  UniRef50_A0A1S3G846 secretoglobin family 1D member-like n=1 Tax...  42.9    5e-04
+  UniRef50_L8HTH1 Uncharacterized protein n=3 Tax=Bovidae TaxID=9...  43.3    5e-04
+  UniRef50_A0A091DCZ6 Major allergen I polypeptide chain 1 n=2 Ta...  42.9    7e-04
+  UniRef50_UPI0009810D19 secretoglobin family 1D member 1-like n=...  42.6    7e-04
+  UniRef50_A0A1U7UGQ7 secretoglobin family 1D member 4-like n=1 T...  42.9    7e-04
+  UniRef50_UPI000904B001 secretoglobin family 1D member-like n=2 ...  42.6    8e-04
+  UniRef50_G1T9Y9 Uncharacterized protein n=8 Tax=Boreoeutheria T...  42.6    9e-04
+
+
+> UniRef50_P17559 Uteroglobin n=16 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_RAT
+Length=96
+
+ Score = 108 bits (271),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK
+Sbjct  20  SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  79
+
+Query  61  LTEKILTSPLCEQDLRV  77
+           LTEKILTSPLCEQDLRV
+Sbjct  80  LTEKILTSPLCEQDLRV  96
+
+
+> UniRef50_P11684 Uteroglobin n=27 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_HUMAN
+Length=91
+
+ Score = 102 bits (255),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 39/72 (54%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP F +V+E LL+ + S+YEAA++ F+P  D++ AG QLK+LVDTLPQ+ R +I+K
+Sbjct  20  SAEICPSFQRVIETLLMDTPSSYEAAMELFSPDQDMREAGAQLKKLVDTLPQKPRESIIK  79
+
+Query  61  LTEKILTSPLCE  72
+           L EKI  S LC 
+Sbjct  80  LMEKIAQSSLCN  91
+
+
+> UniRef50_UPI00038F0E6E uteroglobin isoform X3 n=1 Tax=Chinchilla 
+lanigera TaxID=34839 RepID=UPI00038F0E6E
+Length=86
+
+ Score = 102 bits (255),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 29/72 (40%), Positives = 48/72 (67%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+  CP F  VL+  L+G+ S YE+ ++PF P  +++ AG ++K LVD+LP+  R  ++K
+Sbjct  15  SAKTCPSFHSVLQNFLMGTLSGYESTVEPFQPDQEMKEAGARMKMLVDSLPKGIREAVLK  74
+
+Query  61  LTEKILTSPLCE  72
+           L+EKI+ +  C 
+Sbjct  75  LSEKIVKTSECA  86
+
+
+> UniRef50_Q8MKG2 Uteroglobin n=22 Tax=Eutheria TaxID=9347 RepID=UTER_HORSE
+Length=91
+
+ Score = 102 bits (254),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 34/72 (47%), Positives = 53/72 (74%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  F  +++ L LG+ +++EAA++PF P +D++ A TQLK LVD LP+ T+ +I+K
+Sbjct  20  SAEICQSFADIIQGLFLGTPASFEAAVEPFKPDADMKAATTQLKTLVDFLPKNTKDSILK  79
+
+Query  61  LTEKILTSPLCE  72
+           L +KI  SPLC 
+Sbjct  80  LMDKIAKSPLCA  91
+
+
+> UniRef50_UPI00038BD3E1 uteroglobin n=1 Tax=Microtus ochrogaster 
+TaxID=79684 RepID=UPI00038BD3E1
+Length=97
+
+ Score = 101 bits (253),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 45/74 (61%), Positives = 61/74 (82%), Gaps = 0/74 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           D+CPGFLQVLE+L    ES Y+ AL+ ++P  +L++AG QLK+LVDTLP+ETR NI+KL+
+Sbjct  23  DVCPGFLQVLESLFTDPESRYKEALEFYSPGPELKDAGIQLKKLVDTLPEETRKNILKLS  82
+
+Query  63  EKILTSPLCEQDLR  76
+           +KILTSPLC++ L 
+Sbjct  83  DKILTSPLCKKGLH  96
+
+
+> UniRef50_Q65C83 Uteroglobin n=4 Tax=Muroidea TaxID=337687 RepID=UTER_NEOAS
+Length=93
+
+ Score = 101 bits (251),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 56/74 (76%), Positives = 64/74 (86%), Gaps = 0/74 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SSD CPGFLQVLE L +GSES YEAALK +NP SDLQN+G QLK+LVDTLP++TR+NIVK
+Sbjct  17  SSDTCPGFLQVLEYLFMGSESTYEAALKFYNPGSDLQNSGMQLKKLVDTLPEKTRVNIVK  76
+
+Query  61  LTEKILTSPLCEQD  74
+           L+E ILTS LC QD
+Sbjct  77  LSEIILTSNLCNQD  90
+
+
+> UniRef50_UPI00078825A7 uteroglobin n=2 Tax=Chiroptera TaxID=9397 
+RepID=UPI00078825A7
+Length=91
+
+ Score = 99.6 bits (247),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ICP FL+V+E L LG+ ++Y+AA   F+P +D++ A   LK  VD +P+ T+  I+K
+Sbjct  20  SAEICPSFLKVVETLFLGTPASYQAATDLFSPDADMKAATIHLKEKVDHIPENTKKGIMK  79
+
+Query  61  LTEKILTSPLCE  72
+             EK+L SP C 
+Sbjct  80  FMEKVLKSPECA  91
+
+
+> UniRef50_UPI000184D939 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI000184D939
+Length=91
+
+ Score = 96.9 bits (240),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 35/72 (49%), Positives = 53/72 (74%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S + CP F QVL   L+G+ S+Y++ ++PF P +D+Q AGT +K LVD+LPQ TR  ++K
+Sbjct  20  SEETCPSFHQVLHNFLVGTLSSYQSMVEPFKPDADMQEAGTVMKNLVDSLPQSTREKVLK  79
+
+Query  61  LTEKILTSPLCE  72
+           L+EKI+T+ +C 
+Sbjct  80  LSEKIVTTKVCA  91
+
+
+> UniRef50_Q2VPS3 Uteroglobin n=14 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_BOVIN
+Length=91
+
+ Score = 95.3 bits (236),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 31/72 (43%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  L VL  L+ G+ S++EA L+PF+P  D++ A +QLK LVDTL  + + ++++
+Sbjct  20  STEVCPSLLYVLGNLIAGTPSSFEATLEPFSPDEDMKEATSQLKTLVDTLSPKAKDSMLE  79
+
+Query  61  LTEKILTSPLCE  72
+           L  KI+ SP C 
+Sbjct  80  LMMKIIQSPECA  91
+
+
+> UniRef50_Q9TS45 Uteroglobin n=7 Tax=Boreoeutheria TaxID=1437010 
+RepID=UTER_MACFU
+Length=70
+
+ Score = 94.9 bits (235),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 51/70 (73%), Gaps = 0/70 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           +ICP FL+V+E+L L + S++EAA+  F+P  D+  AG QLK+++DTLP + R +I+KL 
+Sbjct  1   EICPTFLRVIESLFLDTPSSFEAAMGFFSPDQDMSEAGAQLKKVLDTLPAKARDSIIKLM  60
+
+Query  63  EKILTSPLCE  72
+           EKI  S LC 
+Sbjct  61  EKIDKSLLCN  70
+
+
+> UniRef50_UPI0007626E42 uteroglobin n=1 Tax=Marmota marmota marmota 
+TaxID=9994 RepID=UPI0007626E42
+Length=206
+
+ Score = 97.6 bits (242),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 27/62 (44%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++ CP F  ++E L +G+ S+YE++++PFNP  D++ AG Q+K+L+DTLP   ++N++K
+Sbjct  20  SAETCPEFFHIMETLFMGTLSSYESSVEPFNPDPDMKEAGIQMKKLLDTLPVGIKVNVLK  79
+
+Query  61  LT  62
+           L+
+Sbjct  80  LS  81
+
+
+> UniRef50_UPI00062B37E0 uteroglobin n=1 Tax=Orcinus orca TaxID=9733 
+RepID=UPI00062B37E0
+Length=123
+
+ Score = 94.2 bits (233),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G+  +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + ++ K
+Sbjct  20  STEVCLNFLHVIENLFMGTLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMTK  79
+
+Query  61  LT  62
+           LT
+Sbjct  80  LT  81
+
+
+> UniRef50_UPI00081333DB uteroglobin n=1 Tax=Manis javanica TaxID=9974 
+RepID=UPI00081333DB
+Length=132
+
+ Score = 93.4 bits (231),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 44/71 (62%), Gaps = 0/71 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S++IC  FL  ++   +G+ +NYEA ++PFNP  D+++AG  LK+LVD  P+ ++ + V+
+Sbjct  40   STEICQSFLNAVKNFFMGTLANYEAPIEPFNPDVDMKDAGILLKKLVDPPPETSQDSTVE  99
+
+Query  61   LTEKILTSPLC  71
+             T        C
+Sbjct  100  FTACSFLRSHC  110
+
+
+> UniRef50_UPI00034F63F3 uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00034F63F3
+Length=130
+
+ Score = 93.0 bits (230),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 45/67 (67%), Gaps = 0/67 (0%)
+
+Query  6    PGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKI  65
+            P F  +L+  L GS   Y++ ++PF P  D++ AGT++K LVDTLP  TR  +++L+EKI
+Sbjct  64   PLFHTILQNFLTGSLPGYQSTVEPFRPDQDVKEAGTRMKTLVDTLPHSTRRAVLRLSEKI  123
+
+Query  66   LTSPLCE  72
+            + + +C 
+Sbjct  124  VKTSVCA  130
+
+
+> UniRef50_E2RIF5 Secretoglobin family 1A member 1 n=8 Tax=Boreoeutheria 
+TaxID=1437010 RepID=E2RIF5_CANLF
+Length=120
+
+ Score = 92.6 bits (229),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 34/71 (48%), Positives = 47/71 (66%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++AL L + S+Y+AAL+ FNP +D+++A  QLK LVDTLP  T  NI+K
+Sbjct  20  SAEICQNFLNVIKALFLDTPSSYQAALEFFNPDADMKDAMIQLKSLVDTLPSNTTENILK  79
+
+Query  61  LTEKILTSPLC  71
+            T        C
+Sbjct  80  FTVHSSLHSCC  90
+
+
+> UniRef50_UPI000BB71DC4 uteroglobin n=1 Tax=Delphinapterus leucas 
+TaxID=9749 RepID=UPI000BB71DC4
+Length=135
+
+ Score = 92.3 bits (228),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 33/71 (46%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL V+E L +G   +YEAAL+PF+P  D++NAG QLK LVDTLPQ+ + +++ 
+Sbjct  24  STEVCLNFLHVIENLFMGMLPSYEAALEPFSPEEDMKNAGAQLKMLVDTLPQKAQDSMIT  83
+
+Query  61  LTEKILTSPLC  71
+           LT        C
+Sbjct  84  LTVHGSLHSHC  94
+
+
+> UniRef50_S9Z0E2 Uteroglobin-like protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9Z0E2_CAMFR
+Length=163
+
+ Score = 92.6 bits (229),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C G L+V++ L +G+ S+YEAAL+PFNP  D ++ G Q K LVDTLPQ+ + +++K
+Sbjct  20  STEVCSGLLEVIKNLFVGTLSSYEAALEPFNPDKDEKDWGIQTKMLVDTLPQKAKDSMLK  79
+
+Query  61  LT  62
+             
+Sbjct  80  FM  81
+
+
+> UniRef50_UPI00093D42BD uteroglobin n=1 Tax=Hipposideros armiger 
+TaxID=186990 RepID=UPI00093D42BD
+Length=141
+
+ Score = 91.9 bits (227),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEK  64
+           C  FL V++ L +G    YEA ++ F+P +D+++A   +KRLV T PQ+ + +I++  +K
+Sbjct  23  CLSFLSVIKTLFMGMLCKYEATIELFSPDADMRDAAMAMKRLVGTPPQQAKDSIMRPMDK  82
+
+Query  65  ILTSPLCEQD  74
+           IL SPLC   
+Sbjct  83  ILKSPLCAWG  92
+
+
+> UniRef50_UPI0007663CA2 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Panthera 
+tigris altaica TaxID=74533 RepID=UPI0007663CA2
+Length=123
+
+ Score = 90.7 bits (224),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 32/62 (52%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+++C  FL V E L  G+ S+YEAA++PF P +D+++ G QLKRL DTLPQ+ + +I+K
+Sbjct  52   SAEVCQSFLNVTETLFTGTLSSYEAAVEPFLPDADVKDTGIQLKRLXDTLPQKAKESILK  111
+
+Query  61   LT  62
+            LT
+Sbjct  112  LT  113
+
+
+> UniRef50_L5KQF5 Uteroglobin n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=L5KQF5_PTEAL
+Length=151
+
+ Score = 90.7 bits (224),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/72 (36%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S++IC  FL V++ L++G+ S+YE A+  F+P +D++ A   LK+LVD++P+  + +I++
+Sbjct  20  SAEICSSFLDVVKTLIVGTPSSYETAVDVFSPDADMKVATNGLKKLVDSIPENKKDSIMR  79
+
+Query  61  LTEKILTSPLCE  72
+           L  + + SP   
+Sbjct  80  LMVRGV-SPHAA  90
+
+
+> UniRef50_UPI000980B223 uteroglobin n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI000980B223
+Length=140
+
+ Score = 90.3 bits (223),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 39/62 (63%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S  ICPGFL V+E LL+G+ S+YE AL+PFNP  +L NAG Q+K+L+DTLPQ TR+N++K
+Sbjct  41   SVQICPGFLHVIETLLMGTLSSYETALQPFNPDQNLTNAGIQMKQLLDTLPQVTRVNVMK  100
+
+Query  61   LT  62
+            LT
+Sbjct  101  LT  102
+
+
+> UniRef50_UPI00083C61FD uteroglobin isoform X1 n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=UPI00083C61FD
+Length=130
+
+ Score = 88.8 bits (219),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/62 (50%), Positives = 44/62 (71%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL+++E+L L + S++EAA+  F+P  D   A  QLK+LVDTLP + R +IVK
+Sbjct  20  SAKICPTFLRIIESLFLDTPSSFEAAMGIFSPDQDTSEAVAQLKKLVDTLPAKARDSIVK  79
+
+Query  61  LT  62
+           L 
+Sbjct  80  LM  81
+
+
+> UniRef50_D2HS93 Uncharacterized protein (Fragment) n=2 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HS93_AILME
+Length=68
+
+ Score = 85.3 bits (210),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/60 (48%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ ICP FL +++ L L + S+YEAA++ F P  D+++A  QLK LV+TLP  T  NI+K
+Sbjct  9   SAAICPNFLNIIKTLFLDTLSSYEAAIEFFVPDPDMKDAMVQLKSLVNTLPANTTENILK  68
+
+
+> UniRef50_A0A091DGN0 Coiled-coil domain-containing protein 15 
+n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DGN0_FUKDA
+Length=796
+
+ Score = 92.3 bits (228),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+   P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++
+Sbjct  736  SAKTRPAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLR  795
+
+Query  61   L  61
+            L
+Sbjct  796  L  796
+
+
+> UniRef50_UPI0002C43AF9 uteroglobin n=1 Tax=Trichechus manatus 
+latirostris TaxID=127582 RepID=UPI0002C43AF9
+Length=123
+
+ Score = 86.5 bits (213),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 27/67 (40%), Positives = 48/67 (72%), Gaps = 0/67 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++C  FL+V+E L +G+ S +EAA+ PFN   ++ +A TQ+K+L+D+L Q  + +++K
+Sbjct  20  SAEVCRSFLKVIEHLFMGTLSGFEAAILPFNLDPNMIDASTQMKKLMDSLSQNVKNSLMK  79
+
+Query  61  LTEKILT  67
+           LT  +L 
+Sbjct  80  LTRPVLP  86
+
+
+> UniRef50_F6YR95 Secretoglobin family 1A member 1 n=3 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6YR95_ORNAN
+Length=99
+
+ Score = 84.9 bits (209),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 43/76 (57%), Gaps = 1/76 (1%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           SS +CP FL ++  L  G+   Y  +L+P++P   +  A ++LK LV+ L  E +  +++
+Sbjct  22  SSGVCPVFLDIVNKLFTGTFREYLQSLQPYHPTEAMIEAVSELKGLVNLLSPEHKATVLQ  81
+
+Query  61  LTEKIL-TSPLCEQDL  75
+           L  + L T P C  +L
+Sbjct  82  LMARALATRPRCFSNL  97
+
+
+> UniRef50_UPI00098B0873 LOW QUALITY PROTEIN: uteroglobin n=1 Tax=Microcebus 
+murinus TaxID=30608 RepID=UPI00098B0873
+Length=103
+
+ Score = 83.8 bits (206),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+ ICP F Q+LE+L   +   +E  L+  +P  D++NA  +L++L DTLP++TR +I +
+Sbjct  40   SAKICPSFPQILESLFRHTLPRFETVLENVSPNWDMRNAAIELQKLADTLPEKTRGDIFR  99
+
+Query  61   LTEK  64
+            L ++
+Sbjct  100  LMDQ  103
+
+
+> UniRef50_UPI00053FFAAA uteroglobin n=2 Tax=Hystricomorpha TaxID=33550 
+RepID=UPI00053FFAAA
+Length=125
+
+ Score = 84.2 bits (207),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 28/61 (46%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  1    SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+            S+   P F  VL   L+GS S Y++ ++PF P  D+++AGT++K LVDTLPQ TR  +++
+Sbjct  65   SAKTRPAFHSVLHTFLVGSLSEYQSMVEPFQPDEDMKDAGTKMKTLVDTLPQSTRQAVLR  124
+
+Query  61   L  61
+            L
+Sbjct  125  L  125
+
+
+> UniRef50_A0A1S3WG87 uteroglobin n=1 Tax=Erinaceus europaeus TaxID=9365 
+RepID=A0A1S3WG87_ERIEU
+Length=103
+
+ Score = 79.9 bits (196),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 25/74 (34%), Positives = 42/74 (57%), Gaps = 0/74 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+++CP  + VL+ LL GS++ + +A+  F    D + AG QLK L+D  P   +  +  
+Sbjct  22  SAEVCPPLINVLQNLLKGSKAEFGSAMDVFTLKKDSREAGFQLKLLMDPFPVTFKDKLNN  81
+
+Query  61  LTEKILTSPLCEQD  74
+           L  ++ TSP C + 
+Sbjct  82  LLHEMATSPQCAEG  95
+
+
+> UniRef50_G3VLI6 Secretoglobin family 1A member 1 n=1 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3VLI6_SARHA
+Length=99
+
+ Score = 75.7 bits (185),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 25/68 (37%), Positives = 39/68 (57%), Gaps = 0/68 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +D C  F QV E L+ G+   Y  +++ F P   ++ AG  LK  VD L   T+++I++L
+Sbjct  32  ADGCLTFPQVAEILIKGTAQKYLESIQCFQPDEAMEAAGKLLKEQVDVLSNATKMDIMRL  91
+
+Query  62  TEKILTSP  69
+             KILT+ 
+Sbjct  92  MGKILTTN  99
+
+
+> UniRef50_O35176 ABPA2 n=19 Tax=Muroidea TaxID=337687 RepID=O35176_MOUSE
+Length=93
+
+ Score = 72.2 bits (176),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKLT  62
+           ICP   + +   L G+   Y   ++ +    +      +LK  VD TL +E + +     
+Sbjct  25  ICPAIKEDVHLFLFGTPEEYVNYVEKYKDDPETLENTEKLKICVDRTLTKENKEHAAAFI  84
+
+Query  63  EKILTSPLC  71
+           EKI +SPLC
+Sbjct  85  EKIESSPLC  93
+
+
+> UniRef50_M7BV77 Outer dense fiber protein 3 n=20 Tax=Sauria TaxID=32561 
+RepID=M7BV77_CHEMY
+Length=302
+
+ Score = 73.8 bits (180),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           ++D CP  + +L   L GS   Y  ++ PF  +  ++ A  +LK  V  L QE    I +
+Sbjct  20  TADTCPVLINILNKSLFGSCPEYMESIAPFVTSDVMKTAAYELKECVLKLSQEHSGAIGE  79
+
+Query  61  LT  62
+           L 
+Sbjct  80  LM  81
+
+
+> UniRef50_UPI00001D872C Major allergen I polypeptide, fused chain 
+2, chain 1 n=1 Tax=Felis catus TaxID=9685 RepID=UPI00001D872C
+Length=170
+
+ Score = 72.6 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  3    DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+            +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + L
+Sbjct  93   EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSL  152
+
+Query  62   TEKILTSPLCEQ  73
+             +KI TSPLC +
+Sbjct  153  LDKIYTSPLCLE  164
+
+
+> UniRef50_UPI0005330225 secretoglobin family 1C member 1 n=2 Tax=Boreoeutheria 
+TaxID=1437010 RepID=UPI0005330225
+Length=198
+
+ Score = 73.0 bits (178),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 31/62 (50%), Gaps = 1/62 (2%)
+
+Query  8    FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+            F+  L+ LL+G+    YE  L  +N   D + A T+LK   D L    +  ++KL   +L
+Sbjct  133  FMDFLQTLLVGTPEELYEGPLGKYNVNEDAKAAMTELKSCTDGLQPMHKAELIKLLVHVL  192
+
+Query  67   TS  68
+             S
+Sbjct  193  GS  194
+
+
+> UniRef50_Q8TD33 Secretoglobin family 1C member 1 n=5 Tax=Boreoeutheria 
+TaxID=1437010 RepID=SG1C1_HUMAN
+Length=95
+
+ Score = 70.7 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  +VKL  ++L
+Sbjct  30  FMDFLQTLLVGTPEELYEGTLGKYNVNEDAKAAMTELKSCIDGLQPMHKAELVKLLVQVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_A0A151NXV1 Secretoglobin family 1D member 2 n=2 Tax=Crocodylia 
+TaxID=1294634 RepID=A0A151NXV1_ALLMI
+Length=88
+
+ Score = 70.3 bits (171),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 31/67 (46%), Gaps = 0/67 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           +++ CP    V+   L  S   Y  A+ PF  +  ++NAG +LK     + ++    + +
+Sbjct  20  TAEACPVLRDVISKFLFASRDQYMEAIAPFVSSPTMENAGLELKGCALGISKDHSEALKE  79
+
+Query  61  LTEKILT  67
+           L   IL 
+Sbjct  80  LMRNILK  86
+
+
+> UniRef50_UPI0004402279 uncharacterized protein LOC103001162 n=1 
+Tax=Balaenoptera acutorostrata scammoni TaxID=310752 RepID=UPI0004402279
+Length=237
+
+ Score = 72.2 bits (176),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 35/63 (56%), Gaps = 1/63 (2%)
+
+Query  7    GFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKI  65
+             F+  L+ LL+GS    YE  L  ++ ++D + A T+LK  +D L    +  +VKL  ++
+Sbjct  126  SFIDFLQTLLVGSAEELYEGPLGKYDVSADAKAAVTELKSCIDGLQPMHKAELVKLLGQV  185
+
+Query  66   LTS  68
+            L S
+Sbjct  186  LGS  188
+
+
+> UniRef50_F7D241 Secretoglobin RYD5 n=10 Tax=Boreoeutheria TaxID=1437010 
+RepID=F7D241_MACMU
+Length=95
+
+ Score = 70.3 bits (171),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 32/62 (52%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  ++KL   +L
+Sbjct  30  FMDFLQTLLVGTPEELYEGPLGKYNVNEDAKAAMTELKSCIDGLQPMHKAELIKLLVHVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_UPI0000D79C37 Major allergen I polypeptide, fused chain 
+1, chain 2 n=1 Tax=Felis catus TaxID=9685 RepID=UPI0000D79C37
+Length=153
+
+ Score = 71.5 bits (174),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 20/72 (28%), Positives = 34/72 (47%), Gaps = 1/72 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + L
+Sbjct  2   EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSL  61
+
+Query  62  TEKILTSPLCEQ  73
+            +KI TSPLC +
+Sbjct  62  LDKIYTSPLCVK  73
+
+
+> UniRef50_P30438 Major allergen I polypeptide chain 1 n=19 Tax=Boreoeutheria 
+TaxID=1437010 RepID=FEL1A_FELCA
+Length=92
+
+ Score = 69.9 bits (170),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 33/70 (47%), Gaps = 1/70 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + +
+Sbjct  23  EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSV  82
+
+Query  62  TEKILTSPLC  71
+            +KI TSPLC
+Sbjct  83  LDKIYTSPLC  92
+
+
+> UniRef50_I3MP11 Uncharacterized protein n=10 Tax=Boreoeutheria 
+TaxID=1437010 RepID=I3MP11_ICTTR
+Length=95
+
+ Score = 69.9 bits (170),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+G+    YE  L  +N   D + A T+LK  +D L    +  +VKL  ++L
+Sbjct  30  FMDFLQTLLVGTAEELYEGPLGKYNVNEDAKEALTELKSCIDNLQPMHKAELVKLLVQVL  89
+
+Query  67  TS  68
+            S
+Sbjct  90  GS  91
+
+
+> UniRef50_S7MDC0 Uteroglobin n=6 Tax=Vespertilionidae TaxID=9431 
+RepID=S7MDC0_MYOBR
+Length=122
+
+ Score = 69.9 bits (170),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 39/62 (63%), Gaps = 2/62 (3%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           + C  F  +++   +   S++E +++ F+P +D+++A  ++K LVDTLPQ+ R ++ +  
+Sbjct  19  ESCLDF--IVKTFFVSLLSSHEVSVELFSPDADMRDAAIKIKGLVDTLPQQDRDSVRRAM  76
+
+Query  63  EK  64
+            +
+Sbjct  77  VR  78
+
+
+> UniRef50_F6VR63 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6VR63_ORNAN
+Length=90
+
+ Score = 68.0 bits (165),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           S+ +CP  L+ L     GSE  +   L+ FN   D+  A    K+  D L    R+ I K
+Sbjct  20  SAAVCPALLKELNIYFYGSEDTFRNDLEGFNATEDMIQAKLTEKKCTDQLSLNERLLISK  79
+
+Query  61  LT  62
+             
+Sbjct  80  FM  81
+
+
+> UniRef50_P30438-2 Isoform 2 of Major allergen I polypeptide chain 
+1 n=20 Tax=Boreoeutheria TaxID=1437010 RepID=P30438-2
+Length=88
+
+ Score = 67.2 bits (163),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 33/70 (47%), Gaps = 1/70 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +ICP   + ++  L G+   Y   +  +     +      LK  VD  + +E + N + +
+Sbjct  19  EICPAVKRDVDLFLTGTPDEYVEQVAQYKALPVVLENARILKNCVDAKMTEEDKENALSV  78
+
+Query  62  TEKILTSPLC  71
+            +KI TSPLC
+Sbjct  79  LDKIYTSPLC  88
+
+
+> UniRef50_UPI0009439E85 secretoglobin family 1C member 1 isoform 
+X1 n=2 Tax=Rhinolophus sinicus TaxID=89399 RepID=UPI0009439E85
+Length=162
+
+ Score = 68.4 bits (166),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 32/62 (52%), Gaps = 1/62 (2%)
+
+Query  8    FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+            F+  L+ LL+GS    YE  L  +N  +  + A  +LK  +D L    +  +VKL  ++L
+Sbjct  97   FMDFLQTLLVGSTEELYEGPLGKYNVNAGAKEALAELKSCIDGLQPMHKAEMVKLLVQVL  156
+
+Query  67   TS  68
+             S
+Sbjct  157  GS  158
+
+
+> UniRef50_UPI00072E2E03 major allergen I polypeptide chain 1-like 
+isoform X2 n=1 Tax=Acinonyx jubatus TaxID=32536 RepID=UPI00072E2E03
+Length=88
+
+ Score = 65.3 bits (158),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 34/70 (49%), Gaps = 1/70 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +IC    + ++  L+G+   Y   +  +N    +     +LK  VD  + +E + + + +
+Sbjct  19  EICSALKRDVDLFLMGTPDEYVEQVAQYNARPVVLANARKLKNCVDAKMTEEDKEHALSV  78
+
+Query  62  TEKILTSPLC  71
+            +KI TSP C
+Sbjct  79  LDKIYTSPGC  88
+
+
+> UniRef50_G5E7C8 Uncharacterized protein n=2 Tax=Eutheria TaxID=9347 
+RepID=G5E7C8_LOXAF
+Length=90
+
+ Score = 64.5 bits (156),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 35/65 (54%), Gaps = 0/65 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  L+   A LL     Y+  ++ + P SD+  A  QLK+ +D L    R+ ++ +
+Sbjct  21  ALVCPSLLEEETAFLLAGPLTYKLLIESYRPPSDVVEAKLQLKQCIDQLSFRNRLRVMNI  80
+
+Query  62  TEKIL  66
+            EKI+
+Sbjct  81  LEKIV  85
+
+
+> UniRef50_A0A1A6FXZ2 Uncharacterized protein n=1 Tax=Neotoma lepida 
+TaxID=56216 RepID=A0A1A6FXZ2_NEOLE
+Length=71
+
+ Score = 64.1 bits (155),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 35/54 (65%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  11  VLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEK  64
+           V+ ++   SES YEAALK +NP SDLQNAG QLK+LVDTLP++TRINI+KL+  
+Sbjct  10  VMLSICCSSESTYEAALKFYNPGSDLQNAGVQLKKLVDTLPEKTRINILKLSVC  63
+
+
+> UniRef50_UPI000A28CC88 secretoglobin family 1C member 1 n=1 Tax=Phascolarctos 
+cinereus TaxID=38626 RepID=UPI000A28CC88
+Length=124
+
+ Score = 65.3 bits (158),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           FL+ L+ LL G+  + YE  L  +N   D + A ++LK  +D L    +  +VKL   ++
+Sbjct  27  FLEFLQTLLAGALEDLYEGPLASYNINPDCKAAMSELKSCIDNLAPMHKAELVKLLRALV  86
+
+Query  67  TS  68
+            S
+Sbjct  87  PS  88
+
+
+> UniRef50_L5K7W5 Secretoglobin family 1C member 1 n=3 Tax=Eutheria 
+TaxID=9347 RepID=L5K7W5_PTEAL
+Length=199
+
+ Score = 65.3 bits (158),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 30/56 (54%), Gaps = 1/56 (2%)
+
+Query  8    FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+            F++ L+ LL+GS    YE  L  +   +D + A T+LK  +D L    +  +VKL 
+Sbjct  131  FMEFLQTLLVGSPEELYEGPLSKYEVNADAKAALTELKSCIDGLQPMHKAELVKLL  186
+
+
+> UniRef50_G5E5S8 Uncharacterized protein n=50 Tax=Mammalia TaxID=40674 
+RepID=G5E5S8_BOVIN
+Length=95
+
+ Score = 63.0 bits (152),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 32/61 (52%), Gaps = 1/61 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F+  L+ LL+GS    YE  L  +N  +D + A  +LK  +D L    +  +VKL  ++L
+Sbjct  30  FMDFLQTLLVGSTEELYEGPLSRYNINADAKAAMEELKSCIDGLQPMHKAELVKLLVQVL  89
+
+Query  67  T  67
+            
+Sbjct  90  G  90
+
+
+> UniRef50_G3W621 Uncharacterized protein n=2 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3W621_SARHA
+Length=94
+
+ Score = 62.2 bits (150),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 34/63 (54%), Gaps = 1/63 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           FL+ L+ LL GS  + YE  L P++     + A  +LK  +D L    +  +VKL   +L
+Sbjct  30  FLEFLQTLLAGSLEDLYEGPLAPYDINPATKAAMAELKSCIDNLAPVNKAELVKLLVGVL  89
+
+Query  67  TSP  69
+           ++P
+Sbjct  90  SAP  92
+
+
+> UniRef50_D2I611 Uncharacterized protein (Fragment) n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2I611_AILME
+Length=71
+
+ Score = 61.8 bits (149),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 30/56 (54%), Gaps = 1/56 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           F+  L+ LL+GS    YE  L  ++  +D + A T+LK  +D L    +  +VKL 
+Sbjct  11  FMDFLQTLLVGSPEELYEGPLGKYDVNTDAKAALTELKSCIDGLQPMHKAELVKLL  66
+
+
+> UniRef50_UPI00064D35D2 major allergen I polypeptide chain 1-like 
+n=1 Tax=Jaculus jaculus TaxID=51337 RepID=UPI00064D35D2
+Length=173
+
+ Score = 61.1 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 31/73 (42%), Gaps = 1/73 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKL  61
+           DICP   + +   L GS+  Y   L+ +     +      LK  VD  L +E +  +   
+Sbjct  23  DICPAVRKDVSKFLDGSKREYVGYLQNYVNDPAVLANAATLKTCVDEKLTEEDKALVGSA  82
+
+Query  62  TEKILTSPLCEQD  74
+            EKI TS  C  D
+Sbjct  83  LEKIYTSRYCSVD  95
+
+
+> UniRef50_Q05702 Secretoglobin family 1C member 1 n=33 Tax=Boreoeutheria 
+TaxID=1437010 RepID=SG1C1_RAT
+Length=94
+
+ Score = 59.5 bits (143),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 32/60 (53%), Gaps = 1/60 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F++ L+ LL+G+    YE  L  +N     + A T+LK  +D L    +  +VKL  ++L
+Sbjct  29  FMEFLQTLLVGTPEELYEGPLGKYNVNDMAKAALTELKSCIDELQPVHKEQLVKLLVQVL  88
+
+
+> UniRef50_G1T7H2 Uncharacterized protein n=5 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1T7H2_RABIT
+Length=95
+
+ Score = 58.4 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 16/61 (26%), Positives = 33/61 (54%), Gaps = 1/61 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F++ L+ LL+G+    +E  L  ++     + A T+LK  +D L    + +++KL  ++L
+Sbjct  30  FMEFLQTLLVGTTDELFEGPLGKYDVNEGARAALTELKSCLDGLQPVHKEDLLKLLMQVL  89
+
+Query  67  T  67
+            
+Sbjct  90  G  90
+
+
+> UniRef50_A0A098KX88 Outer dense fiber protein 3 n=7 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A098KX88_CRIGR
+Length=391
+
+ Score = 60.7 bits (146),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 28/56 (50%), Gaps = 1/56 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           F++ L+ LL+G+    YE  L  +N     + A  +LK  +D L    +  +VKL 
+Sbjct  30  FMEFLQTLLVGTPEELYEGPLGKYNVNDMAKAALGELKSCIDGLQPVHKEQLVKLL  85
+
+
+> UniRef50_UPI000B4EFC30 secretoglobin family 1C member 1 n=1 Tax=Meriones 
+unguiculatus TaxID=10047 RepID=UPI000B4EFC30
+Length=95
+
+ Score = 57.2 bits (137),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 1/62 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F++ L+ LL+G+    +E  L  ++     ++A T+LK  +D L  E +  +VKL  ++L
+Sbjct  30  FMEFLQTLLVGTPEELFEGPLGKYDVNDKAKSALTELKTCIDELQPEHKEQLVKLLVQVL  89
+
+Query  67  TS  68
+            +
+Sbjct  90  DT  91
+
+
+> UniRef50_G3V9B4 Androgen binding protein, alpha n=9 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G3V9B4_RAT
+Length=92
+
+ Score = 56.0 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 34/68 (50%), Gaps = 1/68 (1%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLTE  63
+           CP     ++ LL G+  +Y A ++ +     +      +K+ VD+ L +E + +   L E
+Sbjct  25  CPAMQTKVDLLLHGTVDDYVAYVEQYKDNPAILANAESIKQCVDSKLTKEDKDHATSLVE  84
+
+Query  64  KILTSPLC  71
+           KI  SPLC
+Sbjct  85  KIKASPLC  92
+
+
+> UniRef50_L5LLC6 Secretoglobin family 1C member 1 n=3 Tax=Vespertilionidae 
+TaxID=9431 RepID=L5LLC6_MYODS
+Length=160
+
+ Score = 56.8 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 17/64 (27%), Positives = 28/64 (44%), Gaps = 1/64 (2%)
+
+Query  8   FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+           F++ L+ LL+G     Y   L  +   +  + A T LK  +D L    +  ++KL    L
+Sbjct  30  FMEFLQTLLVGDPEELYTGPLAKYEVNAACREALTTLKSCIDGLQPTHKAELIKLLVPWL  89
+
+Query  67  TSPL  70
+              L
+Sbjct  90  GGAL  93
+
+
+> UniRef50_A0A1S3ARK8 major allergen I polypeptide chain 1-like 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3ARK8_ERIEU
+Length=96
+
+ Score = 56.0 bits (134),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 37/71 (52%), Gaps = 1/71 (1%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVK  60
+           S ICP  ++ ++  L+GS+  Y   +  +   + ++     LK+ VDT L  E +  ++ 
+Sbjct  26  SKICPAVMEDIDMFLMGSQKEYVNLVASYQNKTLVKENAENLKQCVDTKLTAEEKRMVLN  85
+
+Query  61  LTEKILTSPLC  71
+           + +K+  S LC
+Sbjct  86  VLDKMENSLLC  96
+
+
+> UniRef50_UPI0009483546 major allergen I polypeptide chain 1 isoform 
+X1 n=2 Tax=Caniformia TaxID=379584 RepID=UPI0009483546
+Length=114
+
+ Score = 56.0 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 29/70 (41%), Gaps = 1/70 (1%)
+
+Query  3    DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+             IC    + +   L G+   Y   +  +   S +      LK  +D  + ++ + N V +
+Sbjct  45   KICSAVHKDVSLFLTGTTEEYVQEVARYRNESVILKNAESLKECIDGKMTEDDKKNAVNV  104
+
+Query  62   TEKILTSPLC  71
+              KI  SPLC
+Sbjct  105  LSKIHASPLC  114
+
+
+> UniRef50_UPI00062B8303 secretoglobin family 1C member 1 n=1 Tax=Orcinus 
+orca TaxID=9733 RepID=UPI00062B8303
+Length=179
+
+ Score = 56.4 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  8    FLQVLEALLLGSESNY-EAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEKIL  66
+            F+  L+ LL+GS     E  L  ++ ++D + A T+LK   D L    +  +VKL  ++L
+Sbjct  114  FIDFLQMLLVGSAEELCEGPLGKYDISTDAKAAVTKLKSCTDGLQPMHKAELVKLLVQVL  173
+
+Query  67   TS  68
+             S
+Sbjct  174  GS  175
+
+
+> UniRef50_E2QUN9 Uncharacterized protein n=8 Tax=Eutheria TaxID=9347 
+RepID=E2QUN9_CANLF
+Length=92
+
+ Score = 55.3 bits (132),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 17/69 (25%), Positives = 28/69 (41%), Gaps = 1/69 (1%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLT  62
+           ICP     +   L GS  +Y   +  +  +  +      LK  VD  +    + N + + 
+Sbjct  24  ICPAVRDDVSLFLTGSTEDYVDNVARYQSSPVILENAKLLKECVDGKMTDGDKQNALSVL  83
+
+Query  63  EKILTSPLC  71
+           +KI  S LC
+Sbjct  84  DKIYASDLC  92
+
+
+> UniRef50_G1TTX3 Uncharacterized protein n=1 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1TTX3_RABIT
+Length=92
+
+ Score = 54.5 bits (130),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 19/72 (26%), Positives = 31/72 (43%), Gaps = 1/72 (1%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIV  59
+           S DICP     +   L G    Y + ++ +     +      LK+ VD  L +E + + +
+Sbjct  21  SCDICPAVQTAVYEFLSGPSDEYISYVQNYQSDPLVLQNALALKQCVDGKLTEEDKGHAI  80
+
+Query  60  KLTEKILTSPLC  71
+               KI + PLC
+Sbjct  81  SAVNKIFSDPLC  92
+
+
+> UniRef50_Q63930 Salivary androgen-binding protein alpha subunit 
+(Fragment) n=16 Tax=Muroidea TaxID=337687 RepID=Q63930_MOUSE
+Length=70
+
+ Score = 53.3 bits (127),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 30/68 (44%), Gaps = 1/68 (1%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKLTE  63
+           CP   + ++  L G+   Y   LK FN   D+ +    +K+  D TL +E +     L  
+Sbjct  3   CPALQRKVDLFLNGTTEEYVQYLKQFNENRDVLDNAANIKKCSDRTLTEEDKAQATSLIN  62
+
+Query  64  KILTSPLC  71
+           KI  S  C
+Sbjct  63  KITASRTC  70
+
+
+> UniRef50_Q8CH49 Androgen-binding protein alpha subunit (Fragment) 
+n=6 Tax=Apodemus TaxID=10128 RepID=Q8CH49_APOSY
+Length=70
+
+ Score = 52.6 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/68 (25%), Positives = 32/68 (47%), Gaps = 1/68 (1%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLTE  63
+           CP   + +E    G+  +Y   +K +     +     ++K  VD+ L +E + +I  + E
+Sbjct  3   CPALDRKVELFFHGNLKDYLQHVKAYTNNPVIVEEAERMKTCVDSNLTEEDKTHITNVIE  62
+
+Query  64  KILTSPLC  71
+           +I  SP C
+Sbjct  63  RIKASPYC  70
+
+
+> UniRef50_UPI000223EA48 secretoglobin family 1C member 1-like 
+n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=UPI000223EA48
+Length=119
+
+ Score = 52.6 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  8    FLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRI  56
+            FL  L+ LL+GS    YE  L  F   +  + A  +LK  +D L  + + 
+Sbjct  53   FLDFLQTLLVGSLKELYEGPLSHFKINAAAKRAMAELKSCIDHLEPQNKA  102
+
+
+> UniRef50_UPI0007675E78 major allergen I polypeptide chain 1-like 
+isoform X1 n=2 Tax=Myotis TaxID=9434 RepID=UPI0007675E78
+Length=142
+
+ Score = 52.2 bits (124),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 15/61 (25%), Positives = 28/61 (46%), Gaps = 1/61 (2%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           DICP   + +   L G+   Y A ++ +   S +     +LK  +D  L +E + + V +
+Sbjct  23  DICPPVKKDVTIFLTGTPEEYVAQVEKYQNNSLILANARKLKDCIDQKLTEEDKEHAVTV  82
+
+Query  62  T  62
+            
+Sbjct  83  L  83
+
+
+> UniRef50_UPI000A28B595 major allergen I polypeptide chain 1-like 
+isoform X2 n=2 Tax=Phascolarctos cinereus TaxID=38626 RepID=UPI000A28B595
+Length=102
+
+ Score = 51.4 bits (122),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 17/70 (24%), Positives = 31/70 (44%), Gaps = 1/70 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           +ICP     + A + G+   Y   ++      ++     +LK  +D+ L  E +   V L
+Sbjct  30  EICPAVADDVFAYIRGTPEQYLDVVRKHTGNQEVIENARKLKACIDSKLTTEDKDAAVSL  89
+
+Query  62  TEKILTSPLC  71
+            +KI +S  C
+Sbjct  90  VKKINSSIYC  99
+
+
+> UniRef50_UPI000944B9C2 secretoglobin family 1D member 2-like 
+n=2 Tax=Microchiroptera TaxID=30560 RepID=UPI000944B9C2
+Length=94
+
+ Score = 51.0 bits (121),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 16/66 (24%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +  CP  L  +++ L+GS S  ++ L+ +NP  +  ++  + K  +D +  E R +I+ +
+Sbjct  25  TGACPSALVAVKSFLMGSISELKSILEKYNPPEEALSSTLEAKECIDEISSEDRHHILHI  84
+
+Query  62  TEKILT  67
+             +I++
+Sbjct  85  LIRIVS  90
+
+
+> UniRef50_A0A1R4AQV9 Heteroglobin A subunit n=2 Tax=Mesocricetus 
+auratus TaxID=10036 RepID=A0A1R4AQV9_MESAU
+Length=95
+
+ Score = 49.9 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/67 (24%), Positives = 35/67 (52%), Gaps = 1/67 (1%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVK  60
+           +++CP  L V ++ L      +EA L+ FN   +   A  ++K+ +D TL    ++ + K
+Sbjct  22  ANVCPAVLSVSKSFLFDKVEKFEAYLQTFNAPPEAVKAKVEVKKCIDSTLNYLEKMEMGK  81
+
+Query  61  LTEKILT  67
+           +  +++ 
+Sbjct  82  ILAEVVG  88
+
+
+> UniRef50_Q91WB5 ABPA27 n=20 Tax=Boreoeutheria TaxID=1437010 RepID=Q91WB5_MOUSE
+Length=92
+
+ Score = 49.9 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 19/68 (28%), Positives = 29/68 (43%), Gaps = 1/68 (1%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKLTE  63
+           CP   + ++  L G+   Y   LK FN  + +      +K+  D TL +E +     L  
+Sbjct  25  CPALQRKVDLFLNGTTEEYVEYLKQFNENTKVLENAANIKKCSDRTLTEEDKAQATSLIN  84
+
+Query  64  KILTSPLC  71
+           KI  S  C
+Sbjct  85  KITASRTC  92
+
+
+> UniRef50_UPI0002235B21 secretoglobin family 1D member 2-like 
+n=1 Tax=Loxodonta africana TaxID=9785 RepID=UPI0002235B21
+Length=125
+
+ Score = 49.9 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 32/59 (54%), Gaps = 0/59 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           + +CP  +      L+G+  +++  L+ ++P S++  A  +LK+  D +  E+R  IV 
+Sbjct  21  ALVCPSVVAESTTFLVGNPYDFKLLLESYDPPSEVVQAKLELKKCTDEMSLESRQLIVN  79
+
+
+> UniRef50_M3YRE6 Uncharacterized protein n=1 Tax=Mustela putorius 
+furo TaxID=9669 RepID=M3YRE6_MUSPF
+Length=90
+
+ Score = 49.1 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/68 (19%), Positives = 31/68 (46%), Gaps = 1/68 (1%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALK-PFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           + +C  F+ V +  L    ++++  ++  FNP   +     ++K+  D +    R  + +
+Sbjct  21  ATVCLDFVNVSKGFLFQDAASFKTTIQGKFNPPQGVIEDYLEVKKCTDQISAGNRKRLGE  80
+
+Query  61  LTEKILTS  68
+              KI+ S
+Sbjct  81  ALGKIVLS  88
+
+
+> UniRef50_UPI0007DA5130 major allergen I polypeptide chain 1-like 
+isoform X2 n=2 Tax=Muroidea TaxID=337687 RepID=UPI0007DA5130
+Length=92
+
+ Score = 49.1 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 17/69 (25%), Positives = 30/69 (43%), Gaps = 1/69 (1%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLT  62
+           ICP   + +  L+  S  +Y   ++ +   +        LK  VD  L +E + N++ L 
+Sbjct  24  ICPAIKEEVGLLVGPSVPDYLMFVEKYKKDNATLENAKNLKTCVDNKLTEEDKENVLSLL  83
+
+Query  63  EKILTSPLC  71
+            KI  +  C
+Sbjct  84  AKIDANKYC  92
+
+
+> UniRef50_UPI00093AF52E secretoglobin family 1D member-like n=1 
+Tax=Hipposideros armiger TaxID=186990 RepID=UPI00093AF52E
+Length=88
+
+ Score = 49.1 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 15/67 (22%), Positives = 33/67 (49%), Gaps = 0/67 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  L  L  L++G +  +E +L+ FNP  +      + K  +D    + ++ ++ +
+Sbjct  21  AGVCPAVLGELGNLIIGPKFIFEISLQQFNPPPEALQDALEAKECIDGFSIQEKLRLMSI  80
+
+Query  62  TEKILTS  68
+             K+  S
+Sbjct  81  LTKMTLS  87
+
+
+> UniRef50_UPI0001E87042 major allergen I polypeptide chain 1-like 
+n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI0001E87042
+Length=92
+
+ Score = 49.1 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKL  61
+           D+CP   + +   + G   +Y A ++  N    +Q++  +LK  +D TL QE   N + +
+Sbjct  23  DVCPKLKETIALFVAGDYEDYMAKVRENNSNPFIQDSLQKLKICMDRTLTQEDMQNALNI  82
+
+Query  62  TEKILTSPLC  71
+             K+ +SP C
+Sbjct  83  MVKLYSSPGC  92
+
+
+> UniRef50_UPI000939055B secretoglobin family 1C member 1-like 
+n=2 Tax=Archosauria TaxID=8492 RepID=UPI000939055B
+Length=75
+
+ Score = 48.3 bits (114),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 31/68 (46%), Gaps = 4/68 (6%)
+
+Query  1   SSDICPGFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIV  59
+           S ++ P  L   + LL GS    Y   +  +N       A T+LK+ +D L  E    +V
+Sbjct  9   SHEVVPSLL---QTLLEGSVEQLYAGPISRYNVDEMTSAALTELKKCIDELSPEHLKALV  65
+
+Query  60  KLTEKILT  67
+            L ++I T
+Sbjct  66  NLLKQIRT  73
+
+
+> UniRef50_A0A061HV51 Major allergen I polypeptide chain 1-like 
+protein (Fragment) n=5 Tax=Cricetinae TaxID=10026 RepID=A0A061HV51_CRIGR
+Length=83
+
+ Score = 48.3 bits (114),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 18/60 (30%), Positives = 32/60 (53%), Gaps = 1/60 (2%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           DICP   + ++ LL  S S+Y   ++ ++ +  +      LK+ VD+ L QE + +I  L
+Sbjct  23  DICPAIKEDIDLLLGQSVSDYVGFVERYSNSPAVLENAENLKKCVDSKLTQEDKESIQSL  82
+
+
+> UniRef50_A0JNP2 Secretoglobin family 1D member n=18 Tax=Cetartiodactyla 
+TaxID=91561 RepID=SG1D_BOVIN
+Length=102
+
+ Score = 48.3 bits (114),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 15/65 (23%), Positives = 27/65 (42%), Gaps = 0/65 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP F   L       +  Y  +L  +N   +   A  ++K+  D    + R+ I  +
+Sbjct  21  AIVCPTFAADLTEFFYFPDLLYRLSLAKYNAPPEAVAAKMEVKQCTDRFSVKNRLIITNI  80
+
+Query  62  TEKIL  66
+             KIL
+Sbjct  81  LGKIL  85
+
+
+> UniRef50_UPI00045DDE21 secretoglobin family 1D member 2-like 
+n=1 Tax=Orycteropus afer afer TaxID=1230840 RepID=UPI00045DDE21
+Length=85
+
+ Score = 48.0 bits (113),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 14/63 (22%), Positives = 29/63 (46%), Gaps = 0/63 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  +  +   L G+ +     L+ F    ++  +  +LK+  D +P E R  I+  
+Sbjct  21  ALVCPSIISEVTNFLFGTSTTERLQLQSFGIPEEIILSKLELKKCTDQIPLEKRELIMST  80
+
+Query  62  TEK  64
+            E+
+Sbjct  81  LEQ  83
+
+
+> UniRef50_F6TBN3 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6TBN3_ORNAN
+Length=93
+
+ Score = 48.0 bits (113),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 17/69 (25%), Positives = 31/69 (45%), Gaps = 0/69 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +D C  F +++          Y + L PFNP  + Q+A   +KR  D+L    +     +
+Sbjct  21  ADACDSFRELVTDYAFSEPEVYYSHLNPFNPTEEAQDAMVTIKRAADSLTYAQKKEANDV  80
+
+Query  62  TEKILTSPL  70
+            +K+  + L
+Sbjct  81  MQKVFATSL  89
+
+
+> UniRef50_A0A151NXN2 Secretoglobin family 1C member 1 isoform 
+C n=5 Tax=Archosauria TaxID=8492 RepID=A0A151NXN2_ALLMI
+Length=89
+
+ Score = 48.0 bits (113),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/64 (30%), Positives = 30/64 (47%), Gaps = 4/64 (6%)
+
+Query  3   DICPGFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +I PGFL     LL G+    Y   +  +      + A   LK+ +++L QE    +VKL
+Sbjct  25  EILPGFLN---TLLEGTLEQLYVGPISQYRIDDVTKAALAALKKCIESLSQEHTKALVKL  81
+
+Query  62  TEKI  65
+            + I
+Sbjct  82  LKMI  85
+
+
+> UniRef50_UPI000A32E47D major allergen I polypeptide chain 1-like 
+n=1 Tax=Heterocephalus glaber TaxID=10181 RepID=UPI000A32E47D
+Length=129
+
+ Score = 48.3 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 16/79 (20%), Positives = 30/79 (38%), Gaps = 11/79 (14%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLV-DTLPQETRINIVKL  61
+           ++C    + ++  L G+   Y   +K +    ++      +K  V D L +E + N    
+Sbjct  23  ELCSAVKKDVDLFLNGTTDEYVTYMKKYISDPEMLAIAASVKECVDDKLTEEDKENASS-  81
+
+Query  62  TEKILTSP------LCEQD  74
+              +L SP      LC   
+Sbjct  82  ---VLVSPQGMSVYLCLSG  97
+
+
+> UniRef50_UPI000491ABC9 secretoglobin family 1D member 2-like 
+n=4 Tax=Glires TaxID=314147 RepID=UPI000491ABC9
+Length=90
+
+ Score = 47.6 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 30/66 (45%), Gaps = 0/66 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +  CP F+    A LL ++S +  AL  +N   +   A  QLK   D +  E R  +  +
+Sbjct  21  AAACPAFVADSTACLLATKSAFRLALAKYNAPPEAVEAKMQLKECTDKIALEKRQLMAAV  80
+
+Query  62  TEKILT  67
+             +I+ 
+Sbjct  81  LAQIVK  86
+
+
+> UniRef50_K9IFS6 Putative secretoglobin family 1d member n=1 Tax=Desmodus 
+rotundus TaxID=9430 RepID=K9IFS6_DESRO
+Length=90
+
+ Score = 47.6 bits (112),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/72 (26%), Positives = 33/72 (46%), Gaps = 2/72 (3%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP F   L +  L  E  Y   L  F P  +   A  ++K+ VD +P+++R      
+Sbjct  21  ATLCPAFRTELRSFFLDPEELYNLNLLRFFPPREASEAMIKVKQCVDRMPKQSRQKAHDA  80
+
+Query  62  TEKILTSPLCEQ  73
+            E I+   +C +
+Sbjct  81  VEGIV--SICNK  90
+
+
+> UniRef50_S4UI65 Androgen-binding protein alpha subunit (Fragment) 
+n=6 Tax=Cricetidae TaxID=337677 RepID=S4UI65_PERLE
+Length=70
+
+ Score = 47.2 bits (111),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 16/68 (24%), Positives = 27/68 (40%), Gaps = 1/68 (1%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLTE  63
+           CP   +     L  S ++Y   +K +           +LK+  D    +E + +I  L  
+Sbjct  3   CPALEEDFTIFLDQSVTDYVNFIKQYKEDPATLKNAEKLKKCADNKFTEEDKESIKSLLR  62
+
+Query  64  KILTSPLC  71
+           KI  S +C
+Sbjct  63  KIEASEVC  70
+
+
+> UniRef50_L8HW74 Uncharacterized protein (Fragment) n=1 Tax=Bos 
+mutus TaxID=72004 RepID=L8HW74_9CETA
+Length=62
+
+ Score = 46.4 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/61 (21%), Positives = 26/61 (43%), Gaps = 1/61 (2%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKL  61
+           D+CP     ++  + GS   Y   ++ +N  SD+      LK   D  L  + + + + +
+Sbjct  2   DLCPALRDTVDLYISGSHEAYVEQVEKYNQNSDVLETANTLKSCTDEKLTPQDKQDTLNV  61
+
+Query  62  T  62
+            
+Sbjct  62  L  62
+
+
+> UniRef50_UPI000A318A0A secretoglobin family 1D member 4-like 
+n=1 Tax=Mus caroli TaxID=10089 RepID=UPI000A318A0A
+Length=107
+
+ Score = 46.4 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/64 (30%), Positives = 31/64 (48%), Gaps = 0/64 (0%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTE  63
+           +C   L+ +   LLGS+ + E  LK ++P  +  +A   +K  VD +    R+ I     
+Sbjct  25  VCKPVLKEMTLFLLGSKESLEENLKSYDPPQEAIDAKLLVKDCVDEISYLDRLKIAGAVV  84
+
+Query  64  KILT  67
+           KIL 
+Sbjct  85  KILG  88
+
+
+> UniRef50_A0A212DBW9 Uncharacterized protein n=2 Tax=Pecora TaxID=35500 
+RepID=A0A212DBW9_CEREH
+Length=109
+
+ Score = 46.4 bits (109),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 14/61 (23%), Positives = 24/61 (39%), Gaps = 1/61 (2%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKL  61
+           DIC      +   + GS   Y   ++ +N  SD+      LK   D +L  E + + +  
+Sbjct  24  DICQALRDSINLFISGSHDTYTEQIEKYNKTSDVPETADTLKSCADKSLTVEDKQDALSA  83
+
+Query  62  T  62
+            
+Sbjct  84  L  84
+
+
+> UniRef50_UPI000454B710 prostatic steroid-binding protein C1 n=1 
+Tax=Cricetulus griseus TaxID=10029 RepID=UPI000454B710
+Length=142
+
+ Score = 46.4 bits (109),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 29/64 (45%), Gaps = 1/64 (2%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVK  60
+           + +CP  ++     + GSE      L+ ++   +   A  ++KR VD+ L    +  I K
+Sbjct  22  AMVCPAVIKESGIFVTGSEETLRKELEKYDAPPEAVEAKLEVKRCVDSKLSTLEKAEIAK  81
+
+Query  61  LTEK  64
+           +  +
+Sbjct  82  VLGR  85
+
+
+> UniRef50_UPI000A34631F uncharacterized protein LOC110347408 n=1 
+Tax=Heterocephalus glaber TaxID=10181 RepID=UPI000A34631F
+Length=223
+
+ Score = 47.2 bits (111),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 32/67 (48%), Gaps = 2/67 (3%)
+
+Query  5    CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTEK  64
+            CP     +   L+ ++  ++ +L+ FNP  +   A   +K  V  L   +RI I+K+   
+Sbjct  126  CPALQDEIIKFLMSTKYLFKMSLRKFNPPEEAVAAKLLVKDCVANLSFLSRIRILKIL--  183
+
+Query  65   ILTSPLC  71
+            + +  LC
+Sbjct  184  VTSFSLC  190
+
+
+> UniRef50_UPI0003F0AE0A secretoglobin family 1D member-like n=1 
+Tax=Elephantulus edwardii TaxID=28737 RepID=UPI0003F0AE0A
+Length=103
+
+ Score = 45.6 bits (107),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 14/63 (22%), Positives = 33/63 (52%), Gaps = 0/63 (0%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLTE  63
+           +CP  +  +++ +L  +   EA L+ + P  +   A  ++K+ VD +    ++ ++K   
+Sbjct  23  VCPSLMVDMKSFVLDHKYILEAFLRSYGPPEEYVQAKMEVKKCVDEISLVEKMAVMKTLV  82
+
+Query  64  KIL  66
+           K+L
+Sbjct  83  KVL  85
+
+
+> UniRef50_F7HWZ0 Secretoglobin family 1D member 1 n=3 Tax=Cebidae 
+TaxID=9498 RepID=F7HWZ0_CALJA
+Length=90
+
+ Score = 45.3 bits (106),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 14/65 (22%), Positives = 31/65 (48%), Gaps = 0/65 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           ++ICP  L  +      SE  ++  L  ++   +   A  ++K+  D +  E R+ + ++
+Sbjct  21  AEICPALLSEISGFFFISEPVFKLKLAKYDAPPEAVAAILEMKKCPDQMALEKRLLLEEV  80
+
+Query  62  TEKIL  66
+             KI+
+Sbjct  81  QLKIV  85
+
+
+> UniRef50_UPI000BAA1755 major allergen I polypeptide chain 1-like 
+isoform X1 n=2 Tax=Canis lupus familiaris TaxID=9615 RepID=UPI000BAA1755
+Length=149
+
+ Score = 45.6 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/66 (20%), Positives = 23/66 (35%), Gaps = 1/66 (2%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLT  62
+           ICP     +   L GS  +Y   +  +  +  +      LK  VD  +    + N + + 
+Sbjct  24  ICPAVRDDVSLFLTGSTEDYVDNVARYQSSPVILENAKLLKECVDGKMTDGDKQNALSVL  83
+
+Query  63  EKILTS  68
+                S
+Sbjct  84  ACNAPS  89
+
+
+> UniRef50_UPI0002C6721C secretoglobin family 1D member 1-like 
+n=1 Tax=Ceratotherium simum simum TaxID=73337 RepID=UPI0002C6721C
+Length=167
+
+ Score = 45.6 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 32/72 (44%), Gaps = 2/72 (3%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP     L   L   +S Y+  L+ +    ++  A  Q+K+  + +    R+ I + 
+Sbjct  21  AVVCPSLAIDLSGFLFTIDSVYKLQLQKYAAPQEVVEAKLQVKQCTNEISFGNRVLITET  80
+
+Query  62  TEKILTSPLCEQ  73
+             ++  S LC +
+Sbjct  81  LVRL--SSLCIE  90
+
+
+> UniRef50_O95968 Secretoglobin family 1D member 1 n=52 Tax=Boreoeutheria 
+TaxID=1437010 RepID=SG1D1_HUMAN
+Length=90
+
+ Score = 44.5 bits (104),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 16/65 (25%), Positives = 28/65 (43%), Gaps = 0/65 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +C      +   LL  +  ++  L  F    +   A  ++K+ VDT+  E R+ I K 
+Sbjct  21  AVVCQALGSEITGFLLAGKPVFKFQLAKFKAPLEAVAAKMEVKKCVDTMAYEKRVLITKT  80
+
+Query  62  TEKIL  66
+             KI 
+Sbjct  81  LGKIA  85
+
+
+> UniRef50_G3VBG2 Uncharacterized protein n=4 Tax=Metatheria TaxID=9263 
+RepID=G3VBG2_SARHA
+Length=108
+
+ Score = 44.9 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 29/72 (40%), Gaps = 1/72 (1%)
+
+Query  5    CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKLTE  63
+            CP   + + A + G+   Y   +K       +      LK  VD  L +E +   V L  
+Sbjct  34   CPAVSEDVYAFINGTSKEYTDIVKKHTENPAIIENAKILKACVDAKLTKEDKDAAVNLVT  93
+
+Query  64   KILTSPLCEQDL  75
+            KI+    C+ +L
+Sbjct  94   KIINYKFCKWEL  105
+
+
+> UniRef50_A0A091KGX8 Secretoglobin family 1C member 1 (Fragment) 
+n=15 Tax=Aves TaxID=8782 RepID=A0A091KGX8_9GRUI
+Length=85
+
+ Score = 44.5 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/61 (30%), Positives = 25/61 (41%), Gaps = 4/61 (7%)
+
+Query  3   DICPGFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +I P FL   + LL GS    Y   L  +      + A T LK  +D L  E    ++ L
+Sbjct  24  EIVPSFL---QTLLEGSAEQLYAGPLSQYQVDDVTRAALTALKECIDELSPEHVKALINL  80
+
+Query  62  T  62
+            
+Sbjct  81  L  81
+
+
+> UniRef50_UPI0003C9060C major allergen I polypeptide chain 1-like 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=UPI0003C9060C
+Length=125
+
+ Score = 44.9 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/54 (26%), Positives = 25/54 (46%), Gaps = 1/54 (2%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETR  55
+            +C   ++ +   L+GS   Y   LK +N    + +   +LK  VD  L +E +
+Sbjct  25  KMCSPVIKDVNLFLMGSPDEYINNLKNYNLNPIMLSLSRKLKECVDGKLTEEDK  78
+
+
+> UniRef50_F6WF42 Uncharacterized protein n=11 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F6WF42_HORSE
+Length=93
+
+ Score = 44.5 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/70 (23%), Positives = 26/70 (37%), Gaps = 2/70 (3%)
+
+Query  5   CPGFLQVLEALLLG--SESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           C     V+E  +    S + Y  A++ F P    + A  QLK+       ET  +   + 
+Sbjct  22  CQLLEDVVEKTITAELSPAEYVEAVQEFIPDEATEKAAIQLKQCYLKQSNETLNDFRTMM  81
+
+Query  63  EKILTSPLCE  72
+             +  S  C 
+Sbjct  82  NSMYNSAYCA  91
+
+
+> UniRef50_UPI00063C4DD5 LOW QUALITY PROTEIN: secretoglobin family 
+1D member-like n=2 Tax=Odobenus rosmarus divergens TaxID=9708 
+RepID=UPI00063C4DD5
+Length=120
+
+ Score = 44.9 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/55 (25%), Positives = 26/55 (47%), Gaps = 0/55 (0%)
+
+Query  6   PGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+             F   L   LL   + Y+  L+ +NP  ++  A  ++K   D +P + R+ I +
+Sbjct  36  LSFAADLLNFLLQHAAIYKRTLEKYNPPQEVIQAKMEVKACTDXIPFKNRMLIAR  90
+
+
+> UniRef50_UPI0005335062 secretoglobin family 1D member 2-like 
+n=2 Tax=Simiiformes TaxID=314293 RepID=UPI0005335062
+Length=154
+
+ Score = 44.9 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/76 (21%), Positives = 33/76 (43%), Gaps = 2/76 (3%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP     +   L  +E  ++  L  ++   +   A  ++K+  D +  E  + I K+
+Sbjct  21  AVVCPALFSEISGFLFINEPVFKLKLAKYDAPPEAVAAILEVKKCTDQISLEKHLLIEKV  80
+
+Query  62  TEKIL--TSPLCEQDL  75
+               L   SP C +D+
+Sbjct  81  QVTCLDAMSPECAEDM  96
+
+
+> UniRef50_F7G0A2 Uncharacterized protein n=3 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F7G0A2_ORNAN
+Length=89
+
+ Score = 44.5 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 28/70 (40%), Gaps = 0/70 (0%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           D CP F  +++  L  S     A L P+ P+ +   A   LK   D      R ++ +  
+Sbjct  20  DACPDFQNIIDDYLGYSTDVLLAKLAPYEPSDNALEAVRALKDTSDAFTVAERKSVGETL  79
+
+Query  63  EKILTSPLCE  72
+            K L  P C 
+Sbjct  80  LKRLKEPRCF  89
+
+
+> UniRef50_A0A091Q969 Secretoglobin family 1C member 1 (Fragment) 
+n=15 Tax=Aves TaxID=8782 RepID=A0A091Q969_LEPDC
+Length=80
+
+ Score = 44.1 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/61 (30%), Positives = 25/61 (41%), Gaps = 4/61 (7%)
+
+Query  3   DICPGFLQVLEALLLGSESN-YEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +I PGFL   + LL GS    Y   +  +      + A   LK  +D L  E    +V L
+Sbjct  21  EIVPGFL---QTLLEGSAEQLYAGPISQYEVDGLTRAALAALKECIDGLSPEHVKALVNL  77
+
+Query  62  T  62
+            
+Sbjct  78  L  78
+
+
+> UniRef50_F6PR72 Uncharacterized protein n=8 Tax=Perissodactyla 
+TaxID=9787 RepID=F6PR72_HORSE
+Length=82
+
+ Score = 44.1 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 27/59 (46%), Gaps = 0/59 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           + ICP  L      L  SE+ Y+  L+ FN   +   A  Q+KR  D +    R+ + K
+Sbjct  21  AVICPAALTDATQFLFISEALYKLQLQRFNAPPEAVEAKLQVKRCTDKISLGNRVLLTK  79
+
+
+> UniRef50_G3IM12 Secretoglobin family 1D member 2 n=7 Tax=Myomorpha 
+TaxID=1963758 RepID=G3IM12_CRIGR
+Length=96
+
+ Score = 44.1 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 14/66 (21%), Positives = 28/66 (42%), Gaps = 1/66 (2%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVK  60
+           + +CP  ++     + GSE      L+ ++   +   A  ++KR VD+ L    +  I K
+Sbjct  22  AMVCPAVIKESGIFVTGSEETLRKELEKYDAPPEAVEAKLEVKRCVDSKLSTLEKAEIAK  81
+
+Query  61  LTEKIL  66
+           +     
+Sbjct  82  VLVCAF  87
+
+
+> UniRef50_UPI00077DEEC9 secretoglobin family 1D member 2-like 
+n=1 Tax=Peromyscus maniculatus bairdii TaxID=230844 RepID=UPI00077DEEC9
+Length=93
+
+ Score = 43.7 bits (102),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 12/66 (18%), Positives = 31/66 (47%), Gaps = 1/66 (2%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVK  60
+           + +C   ++     ++G+E+  +A L+ ++   +   A  ++KR VD  L    +  I  
+Sbjct  21  AKVCEAVMRESTIFIMGTEAQLKAQLETYDAPPEAVEAKLEVKRCVDKNLNVIEKGGIAA  80
+
+Query  61  LTEKIL  66
+           +  ++ 
+Sbjct  81  ILGEVA  86
+
+
+> UniRef50_UPI00045435F2 uteroglobin-like isoform X1 n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=UPI00045435F2
+Length=159
+
+ Score = 44.5 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/63 (24%), Positives = 26/63 (41%), Gaps = 0/63 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +D C  F +++          Y + L PFNP  + Q+A   +KR  D+L    +     +
+Sbjct  21  ADACDSFRELVTDYAFSEPEVYYSHLNPFNPTEEAQDAMVTIKRAADSLTYAQKKEANDV  80
+
+Query  62  TEK  64
+              
+Sbjct  81  MVC  83
+
+
+> UniRef50_G1SDB8 Uncharacterized protein n=2 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1SDB8_RABIT
+Length=91
+
+ Score = 43.7 bits (102),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 31/67 (46%), Gaps = 0/67 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +  CP F+    A LL SES + A+L  +    +   A  Q+KR  D +    R+   K+
+Sbjct  21  AAACPTFIAESTANLLASESVFRASLSKYGAPPEAVEAKLQVKRCTDKMSLGKRVLFGKV  80
+
+Query  62  TEKILTS  68
+             +I+  
+Sbjct  81  LGEIVLR  87
+
+
+> UniRef50_UPI000809BF4A uncharacterized protein LOC108286277 isoform 
+X1 n=1 Tax=Cebus capucinus imitator TaxID=1737458 RepID=UPI000809BF4A
+Length=146
+
+ Score = 44.1 bits (103),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 12/65 (18%), Positives = 25/65 (38%), Gaps = 4/65 (6%)
+
+Query  2    SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+            + +CP  +  +       +   +  +  +NP  +   A  ++K+  D +  E R     L
+Sbjct  66   AVVCPAVVSDIINFFFLPDDLLKLDISKYNPPPEAVAAKFEVKKCTDQISSENR----NL  121
+
+Query  62   TEKIL  66
+               IL
+Sbjct  122  LHDIL  126
+
+
+> UniRef50_J9P7B6 Uncharacterized protein n=2 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P7B6_CANLF
+Length=91
+
+ Score = 43.3 bits (101),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 32/66 (48%), Gaps = 1/66 (2%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKP-FNPASDLQNAGTQLKRLVDTLPQETRINIVK  60
+           + +CP   + + A L   E+ Y+  L+  +NP     NA  Q+K   D +P   R  I  
+Sbjct  21  AIVCPSLGKDMIAFLFQHEALYKPHLQLAYNPPEAALNAKLQVKSCTDKIPIVQRKLIAG  80
+
+Query  61  LTEKIL  66
+           + EKIL
+Sbjct  81  VLEKIL  86
+
+
+> UniRef50_UPI00062A9DCD major allergen I polypeptide chain 1-like 
+n=1 Tax=Octodon degus TaxID=10160 RepID=UPI00062A9DCD
+Length=167
+
+ Score = 44.1 bits (103),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 25/57 (44%), Gaps = 2/57 (4%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPAS-DLQNAGTQLKRLV-DTLPQETRIN  57
+           D+C    + +   L GS   Y A +  +N     +Q     LK+ V D L +E + N
+Sbjct  23  DLCSTVKEDVALFLHGSTDEYVAYVARYNTDDTAVQENARLLKQCVDDKLSKEDKQN  79
+
+
+> UniRef50_F6SUP2 Uncharacterized protein n=4 Tax=Equus TaxID=35510 
+RepID=F6SUP2_HORSE
+Length=82
+
+ Score = 43.3 bits (101),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKLT  62
+           ICP     L A L   +  Y+A L+ +N   +L  A  Q+K+  + +  + R+ I ++ 
+Sbjct  23  ICPSVFTDLAAFLFVPDLPYKAQLQKYNAPDELIEAKLQVKQCTNNITLKNRLIISEIL  81
+
+
+> UniRef50_UPI0003C9046A secretoglobin family 1D member 2-like 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=UPI0003C9046A
+Length=81
+
+ Score = 42.9 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 3/60 (5%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  +   E +L      YE  LK FN  +D   A  Q+K+ +D +P   R +I K+
+Sbjct  21  AMVCPAVVIDTENILTMPMGMYEKRLKAFNAPADAVQAKLQVKQCIDQMP---REDIRKI  77
+
+
+> UniRef50_D2HS95 Uncharacterized protein (Fragment) n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HS95_AILME
+Length=64
+
+ Score = 42.9 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 22/54 (41%), Gaps = 0/54 (0%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINI  58
+           CP  +      L    S Y+  L+ +NP  ++  A   +K   D +  + R  I
+Sbjct  6   CPDVIADFSEYLFLPASVYKITLEKYNPPPEVIQAKMTVKDCSDQISFKHRGLI  59
+
+
+> UniRef50_UPI0004E48AA5 secretoglobin, family 1B, member 30 isoform 
+X1 n=1 Tax=Rattus norvegicus TaxID=10116 RepID=UPI0004E48AA5
+Length=191
+
+ Score = 44.5 bits (104),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 27/58 (47%), Gaps = 1/58 (2%)
+
+Query  5   CPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDT-LPQETRINIVKL  61
+           CP     ++ LL G+  +Y A ++ +     +      +K+ VD+ L +E + +   L
+Sbjct  25  CPAMQTKVDLLLHGTVDDYVAYVEQYKDNPAILANAESIKQCVDSKLTKEDKDHATSL  82
+
+
+> UniRef50_A0A1S3G846 secretoglobin family 1D member-like n=1 Tax=Dipodomys 
+ordii TaxID=10020 RepID=A0A1S3G846_DIPOR
+Length=90
+
+ Score = 42.9 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 11/61 (18%), Positives = 25/61 (41%), Gaps = 0/61 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP  +      + GS       L+ +N   +   A  ++K+ +D +    R  I ++
+Sbjct  21  ALVCPSLVIESYTFISGSSLALRLQLESYNAPQEAVEAKMEVKKCIDDISFVNRKFIEEV  80
+
+Query  62  T  62
+            
+Sbjct  81  M  81
+
+
+> UniRef50_L8HTH1 Uncharacterized protein n=3 Tax=Bovidae TaxID=9895 
+RepID=L8HTH1_9CETA
+Length=139
+
+ Score = 43.3 bits (101),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 25/58 (43%), Gaps = 1/58 (2%)
+
+Query  4   ICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVK  60
+           ICP     ++  + GS   Y   ++ +N  +D+      LK   D +L  E + +  +
+Sbjct  35  ICPALRDSIKLFISGSHEAYIEHVEKYNKTTDVLETADTLKSCTDKSLTAEDKQDASQ  92
+
+
+> UniRef50_A0A091DCZ6 Major allergen I polypeptide chain 1 n=2 
+Tax=Bathyergidae TaxID=10167 RepID=A0A091DCZ6_FUKDA
+Length=134
+
+ Score = 42.9 bits (100),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 13/75 (17%), Positives = 31/75 (41%), Gaps = 6/75 (8%)
+
+Query  3   DICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVD-TLPQETRINIVKL  61
+           ++C    + ++  L G+   Y   +K +    ++      +K  VD  L +E + N    
+Sbjct  23  EMCSPVKEDVDLFLHGTTDEYINYMKKYISNPEILAIAASVKECVDANLTEEDKANASSA  82
+
+Query  62  TEKI-----LTSPLC  71
+              +     +++P+C
+Sbjct  83  LVSLPVYVCVSAPVC  97
+
+
+> UniRef50_UPI0009810D19 secretoglobin family 1D member 1-like 
+n=1 Tax=Castor canadensis TaxID=51338 RepID=UPI0009810D19
+Length=81
+
+ Score = 42.6 bits (99),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 11/58 (19%), Positives = 28/58 (48%), Gaps = 0/58 (0%)
+
+Query  1   SSDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINI  58
+           ++ +CP  L     +L+G+    +  L  +    +  +A  ++K  +D +   +R++I
+Sbjct  20  TAIVCPSLLIENTNILMGTPQTAKFQLSFYGAPQEAVDALLKVKECLDNISYLSRLSI  77
+
+
+> UniRef50_A0A1U7UGQ7 secretoglobin family 1D member 4-like n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7UGQ7_TARSY
+Length=120
+
+ Score = 42.9 bits (100),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/60 (23%), Positives = 28/60 (47%), Gaps = 0/60 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           + +CP       + LL +E ++E  L+ F    +   A  ++K+ +D +P   R  I  +
+Sbjct  21  ALVCPVMSIEALSFLLLNEESFEPQLRKFQATPEAVAATMEVKKCMDQIPFWNRFKIANI  80
+
+
+> UniRef50_UPI000904B001 secretoglobin family 1D member-like n=2 
+Tax=Panthera TaxID=9688 RepID=UPI000904B001
+Length=90
+
+ Score = 42.6 bits (99),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 13/64 (20%), Positives = 25/64 (39%), Gaps = 0/64 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLPQETRINIVKL  61
+           +  CP F+  L   L  +    E +L  +N   +   A   +K   D +    +  + ++
+Sbjct  21  ASACPAFVADLSGFLWKTPGLLEPSLAKYNAPEEAVQAVLDVKSCTDNISIPRKTILTEI  80
+
+Query  62  TEKI  65
+             KI
+Sbjct  81  LGKI  84
+
+
+> UniRef50_G1T9Y9 Uncharacterized protein n=8 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1T9Y9_RABIT
+Length=96
+
+ Score = 42.6 bits (99),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  2   SDICPGFLQVLEALLLGSESNYEAALKPFNPASDLQNAGTQLKRLVDTLP  51
+           S +CP F   L   LL S+  +   ++ FN  ++   A   +KR VD L 
+Sbjct  21  SSVCPAFATELTGFLLASDVLFRLQIEKFNAPAEAVEAKMNVKRCVDELS  70
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.152    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0462    0.140     1.90     42.6     43.6 
+
+Effective search space used: 212458778330
+
+
+  Database: /home/u2353/Bioinfo_course/uniref50.fasta
+    Posted date:  Mar 12, 2018 11:50 AM
+  Number of letters in database: 8,665,460,866
+  Number of sequences in database:  27,902,002
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

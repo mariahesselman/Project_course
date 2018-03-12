@@ -1,0 +1,647 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2353/Bioinfo_course/uniref50.fasta
+           27,902,002 sequences; 8,665,460,866 total letters
+
+Results from round 1
+
+
+Query= d1mjma_.a.43.1.2
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P06203 Met repressor n=979 Tax=cellular organisms TaxI...  212     6e-69
+  UniRef50_A6TGC7 Met repressor n=316 Tax=root TaxID=1 RepID=METJ...  205     4e-66
+  UniRef50_A0A0J1H6X6 Met repressor n=14 Tax=Gammaproteobacteria ...  175     2e-54
+  UniRef50_A7MXB2 Met repressor n=302 Tax=root TaxID=1 RepID=METJ...  174     5e-54
+  UniRef50_A0A1J5MTD6 Met repressor n=5 Tax=Gammaproteobacteria T...  168     1e-51
+  UniRef50_A1SR19 Met repressor n=12 Tax=Gammaproteobacteria TaxI...  162     3e-49
+  UniRef50_A0A2A4WS56 Met regulon transcriptional regulator MetJ ...  129     2e-36
+  UniRef50_A5UGB2 Met repressor n=14 Tax=Proteobacteria TaxID=122...  119     6e-33
+  UniRef50_A0A1T5FWC4 Met repressor n=96 Tax=Bacteria TaxID=2 Rep...  121     4e-32
+  UniRef50_J6CQC0 Met repressor n=1 Tax=Pasteurella multocida sub...  114     1e-30
+  UniRef50_A0A160DRI4 Met repressor n=2 Tax=Rhodanobacteraceae Ta...  115     2e-30
+  UniRef50_A0A1M7J901 Met repressor n=47 Tax=root TaxID=1 RepID=A...  113     2e-29
+  UniRef50_S0ANH8 Met repressor n=4 Tax=Enterobacterales TaxID=91...  93.2    7e-23
+  UniRef50_J5KQ83 Met repressor (Fragment) n=1 Tax=Pasteurella mu...  82.0    1e-18
+  UniRef50_A0A1E4NPD7 Met repressor n=3 Tax=cellular organisms Ta...  66.6    4e-12
+  UniRef50_A0A0U5L0W5 Met repressor n=1 Tax=Erwinia gerundensis T...  50.1    1e-06
+  UniRef50_J6CSG9 Met repressor (Fragment) n=2 Tax=Gammaproteobac...  45.8    5e-05
+  UniRef50_J5KL61 Met repressor (Fragment) n=1 Tax=Pasteurella mu...  43.1    5e-04
+
+
+> UniRef50_P06203 Met repressor n=979 Tax=cellular organisms TaxID=131567 
+RepID=METJ_SALTY
+Length=105
+
+ Score = 212 bits (540),  Expect = 6e-69, Method: Compositional matrix adjust.
+ Identities = 101/104 (97%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRE+GI+PETWEY
+Sbjct  62   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRELGIDPETWEY  105
+
+
+> UniRef50_A6TGC7 Met repressor n=316 Tax=root TaxID=1 RepID=METJ_KLEP7
+Length=105
+
+ Score = 205 bits (521),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 97/104 (93%), Positives = 102/104 (98%), Gaps = 0/104 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            FLHAFTGQPLP+D DLRKERSDEIPEAAK IMRE+GI+P+TWEY
+Sbjct  62   FLHAFTGQPLPNDEDLRKERSDEIPEAAKAIMRELGIDPDTWEY  105
+
+
+> UniRef50_A0A0J1H6X6 Met repressor n=14 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0J1H6X6_9GAMM
+Length=105
+
+ Score = 175 bits (444),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 91/100 (91%), Gaps = 0/100 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEW+GEYISPYAEHGKK+EQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWNGEYISPYAEHGKKNEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPE  100
+            FLHA+TGQPLP D D+RK+R D++P  AK IM EMGI  E
+Sbjct  62   FLHAYTGQPLPTDDDIRKDRPDDLPAEAKSIMEEMGIKIE  101
+
+
+> UniRef50_A7MXB2 Met repressor n=302 Tax=root TaxID=1 RepID=METJ_VIBCB
+Length=106
+
+ Score = 174 bits (441),  Expect = 5e-54, Method: Compositional matrix adjust.
+ Identities = 81/103 (79%), Positives = 92/103 (89%), Gaps = 0/103 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            A+W+GEYISPYAEHGKKSEQVKKITVSIPLKVLK+LTDERTRR++NNLRHATNSELLCEA
+Sbjct  2    ADWNGEYISPYAEHGKKSEQVKKITVSIPLKVLKVLTDERTRRQINNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWE  103
+            FLHA+TGQPLP D DLRK+R D+IP  AK +M  MGI  E ++
+Sbjct  62   FLHAYTGQPLPTDEDLRKDRPDDIPTEAKALMTAMGIEFEAFD  104
+
+
+> UniRef50_A0A1J5MTD6 Met repressor n=5 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1J5MTD6_9GAMM
+Length=109
+
+ Score = 168 bits (426),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 75/94 (80%), Positives = 89/94 (95%), Gaps = 0/94 (0%)
+
+Query  3   WSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFL  62
+           W+GEYISPYAEHGKK+EQVKK+TVS+PLK+LKILTDERTRR+VNNLRHATNSELLCEAFL
+Sbjct  4   WNGEYISPYAEHGKKNEQVKKVTVSVPLKLLKILTDERTRRQVNNLRHATNSELLCEAFL  63
+
+Query  63  HAFTGQPLPDDADLRKERSDEIPEAAKEIMREMG  96
+           HA+TGQPLP+D+DL K++   IPEAA+E+M E+G
+Sbjct  64  HAYTGQPLPEDSDLSKDKPSTIPEAARELMEELG  97
+
+
+> UniRef50_A1SR19 Met repressor n=12 Tax=Gammaproteobacteria TaxID=1236 
+RepID=A1SR19_PSYIN
+Length=96
+
+ Score = 162 bits (409),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 74/94 (79%), Positives = 86/94 (91%), Gaps = 0/94 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            +W+GEYISPYAEHGKKSEQVKKITVSIP KVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  3   TKWNGEYISPYAEHGKKSEQVKKITVSIPTKVLKILTDERTRRQVNNLRHATNSELLCEA  62
+
+Query  61  FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRE  94
+           FLHA+TGQPLP+D DL K ++  IPE+ K++M++
+Sbjct  63  FLHAYTGQPLPEDGDLDKNQATGIPESVKKLMKK  96
+
+
+> UniRef50_A0A2A4WS56 Met regulon transcriptional regulator MetJ 
+n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A2A4WS56_9GAMM
+Length=80
+
+ Score = 129 bits (323),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 58/78 (74%), Positives = 68/78 (87%), Gaps = 0/78 (0%)
+
+Query  2   EWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAF  61
+           +W+GE ISPY EHG + + VKKITVSIP KVLKILTDERTRR++ NL+HATNSELLCEAF
+Sbjct  3   KWNGEIISPYIEHGDRKDNVKKITVSIPFKVLKILTDERTRRQIGNLKHATNSELLCEAF  62
+
+Query  62  LHAFTGQPLPDDADLRKE  79
+           LHA+TGQPLP D +L K+
+Sbjct  63  LHAYTGQPLPTDLELEKD  80
+
+
+> UniRef50_A5UGB2 Met repressor n=14 Tax=Proteobacteria TaxID=1224 
+RepID=A5UGB2_HAEIG
+Length=69
+
+ Score = 119 bits (298),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 53/69 (77%), Positives = 64/69 (93%), Gaps = 0/69 (0%)
+
+Query  36   LTDERTRRKVNNLRHATNSELLCEAFLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREM  95
+            +T+ERTRR++ +LRHATNSELLCEAFLHAFTGQPLP DADL KER+DEIPE AK +MRE+
+Sbjct  1    MTNERTRRQLKSLRHATNSELLCEAFLHAFTGQPLPTDADLMKERNDEIPEDAKVLMREL  60
+
+Query  96   GINPETWEY  104
+            G++PE+WEY
+Sbjct  61   GVDPESWEY  69
+
+
+> UniRef50_A0A1T5FWC4 Met repressor n=96 Tax=Bacteria TaxID=2 RepID=A0A1T5FWC4_9GAMM
+Length=213
+
+ Score = 121 bits (304),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 51/75 (68%), Positives = 66/75 (88%), Gaps = 0/75 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           +G+++ PY EHG K+  V+KITVSIPL +L++L+DERTRR+VNNLRHATNS+LL EAFLH
+Sbjct  3   TGKFVRPYVEHGSKAGAVRKITVSIPLHILRLLSDERTRRQVNNLRHATNSDLLVEAFLH  62
+
+Query  64  AFTGQPLPDDADLRK  78
+           AFTGQPLP D +L++
+Sbjct  63  AFTGQPLPTDEELKR  77
+
+
+> UniRef50_J6CQC0 Met repressor n=1 Tax=Pasteurella multocida subsp. 
+multocida str. Anand1_buffalo TaxID=1032868 RepID=J6CQC0_PASMD
+Length=74
+
+ Score = 114 bits (284),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 52/62 (84%), Positives = 58/62 (94%), Gaps = 0/62 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+           A W G+YISPYAEHGKKSEQVKKITVSIP+KVL+ILT+ERTRR++ NLRHATNSELLCEA
+Sbjct  2   ANWDGKYISPYAEHGKKSEQVKKITVSIPIKVLEILTNERTRRQIRNLRHATNSELLCEA  61
+
+Query  61  FL  62
+           F 
+Sbjct  62  FF  63
+
+
+> UniRef50_A0A160DRI4 Met repressor n=2 Tax=Rhodanobacteraceae 
+TaxID=1775411 RepID=A0A160DRI4_9GAMM
+Length=151
+
+ Score = 115 bits (288),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 51/76 (67%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           +  ++ PY  HG KS  VKKITVSIPL +L++L+DERTRR+V NLRHATNS+LLCEAFLH
+Sbjct  3   ASRFVDPYVLHGLKSGSVKKITVSIPLHILQLLSDERTRRQVKNLRHATNSDLLCEAFLH  62
+
+Query  64  AFTGQPLPDDADLRKE  79
+           AFTGQ LP D +LR++
+Sbjct  63  AFTGQKLPTDEELRRD  78
+
+
+> UniRef50_A0A1M7J901 Met repressor n=47 Tax=root TaxID=1 RepID=A0A1M7J901_9GAMM
+Length=178
+
+ Score = 113 bits (283),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 51/75 (68%), Positives = 63/75 (84%), Gaps = 0/75 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           + ++I PY EHG+K+  V+KITVSIPL VL+ L+D RT R+VNNLRHATNS+LL EAFLH
+Sbjct  3   TAKFIKPYVEHGEKANAVRKITVSIPLHVLRRLSDLRTHRQVNNLRHATNSDLLVEAFLH  62
+
+Query  64  AFTGQPLPDDADLRK  78
+           AFTGQPLP D +LR+
+Sbjct  63  AFTGQPLPTDEELRR  77
+
+
+> UniRef50_S0ANH8 Met repressor n=4 Tax=Enterobacterales TaxID=91347 
+RepID=S0ANH8_SERPL
+Length=49
+
+ Score = 93.2 bits (230),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+
+Query  56   LLCEAFLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            +LCEAFLHAFTGQPLP+D DLRKERSDEIPEAAK +MRE+G++P+TWEY
+Sbjct  1    MLCEAFLHAFTGQPLPNDEDLRKERSDEIPEAAKVLMRELGVDPDTWEY  49
+
+
+> UniRef50_J5KQ83 Met repressor (Fragment) n=1 Tax=Pasteurella 
+multocida subsp. multocida str. Anand1_cattle TaxID=1032867 
+RepID=J5KQ83_PASMD
+Length=46
+
+ Score = 82.0 bits (201),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 37/46 (80%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  33  LKILTDERTRRKVNNLRHATNSELLCEAFLHAFTGQPLPDDADLRK  78
+           ++ILT+ERTRR++ NLRHATNSELLCEAFLHAFTGQPLP D DL K
+Sbjct  1   MEILTNERTRRQIRNLRHATNSELLCEAFLHAFTGQPLPTDEDLLK  46
+
+
+> UniRef50_A0A1E4NPD7 Met repressor n=3 Tax=cellular organisms 
+TaxID=131567 RepID=A0A1E4NPD7_9GAMM
+Length=117
+
+ Score = 66.6 bits (161),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 27/34 (79%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  45  VNNLRHATNSELLCEAFLHAFTGQPLPDDADLRK  78
+           ++NLRHATNS+LLCEAFLHAFTGQPLP D +LR+
+Sbjct  1   MSNLRHATNSDLLCEAFLHAFTGQPLPTDEELRR  34
+
+
+> UniRef50_A0A0U5L0W5 Met repressor n=1 Tax=Erwinia gerundensis 
+TaxID=1619313 RepID=A0A0U5L0W5_9GAMM
+Length=30
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 22/24 (92%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKI  24
+           AEW+GEYISPYAEHGKKSEQVKK+
+Sbjct  2   AEWNGEYISPYAEHGKKSEQVKKL  25
+
+
+> UniRef50_J6CSG9 Met repressor (Fragment) n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=J6CSG9_PASMD
+Length=33
+
+ Score = 45.8 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3   WSGEYISPYAEHGKKSEQVKKITVSIPLKVLK  34
+           W G+YISPYAEHGKKSEQVKK+     LK  K
+Sbjct  1   WDGKYISPYAEHGKKSEQVKKLQYRFRLKYWK  32
+
+
+> UniRef50_J5KL61 Met repressor (Fragment) n=1 Tax=Pasteurella 
+multocida subsp. multocida str. Anand1_buffalo TaxID=1032868 
+RepID=J5KL61_PASMD
+Length=35
+
+ Score = 43.1 bits (100),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 19/23 (83%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  61  FLHAFTGQPLPDDADLRKERSDE  83
+           FLHAFTGQPLP D DL KER DE
+Sbjct  12  FLHAFTGQPLPTDEDLLKERHDE  34
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 213008535104
+Results from round 2
+
+
+Query= d1mjma_.a.43.1.2
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A6TGC7 Met repressor n=316 Tax=root TaxID=1 RepID=METJ...  195     4e-62
+  UniRef50_P06203 Met repressor n=979 Tax=cellular organisms TaxI...  194     7e-62
+  UniRef50_A7MXB2 Met repressor n=302 Tax=root TaxID=1 RepID=METJ...  187     4e-59
+  UniRef50_A0A0J1H6X6 Met repressor n=14 Tax=Gammaproteobacteria ...  182     4e-57
+  UniRef50_A0A1J5MTD6 Met repressor n=5 Tax=Gammaproteobacteria T...  170     2e-52
+  UniRef50_A1SR19 Met repressor n=12 Tax=Gammaproteobacteria TaxI...  167     2e-51
+  UniRef50_A0A2A4WS56 Met regulon transcriptional regulator MetJ ...  144     2e-42
+  UniRef50_A0A160DRI4 Met repressor n=2 Tax=Rhodanobacteraceae Ta...  141     2e-40
+  UniRef50_A0A1M7J901 Met repressor n=47 Tax=root TaxID=1 RepID=A...  134     2e-37
+  UniRef50_A0A1T5FWC4 Met repressor n=96 Tax=Bacteria TaxID=2 Rep...  134     3e-37
+  UniRef50_A5UGB2 Met repressor n=14 Tax=Proteobacteria TaxID=122...  125     2e-35
+  UniRef50_J6CQC0 Met repressor n=1 Tax=Pasteurella multocida sub...  124     1e-34
+  UniRef50_S0ANH8 Met repressor n=4 Tax=Enterobacterales TaxID=91...  95.5    9e-24
+  UniRef50_J5KQ83 Met repressor (Fragment) n=1 Tax=Pasteurella mu...  92.0    2e-22
+  UniRef50_A0A1E4NPD7 Met repressor n=3 Tax=cellular organisms Ta...  70.1    3e-13
+  UniRef50_J6CSG9 Met repressor (Fragment) n=2 Tax=Gammaproteobac...  57.0    4e-09
+  UniRef50_A0A0U5L0W5 Met repressor n=1 Tax=Erwinia gerundensis T...  49.3    3e-06
+  UniRef50_J5KL61 Met repressor (Fragment) n=1 Tax=Pasteurella mu...  48.1    7e-06
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_A6TGC7 Met repressor n=316 Tax=root TaxID=1 RepID=METJ_KLEP7
+Length=105
+
+ Score = 195 bits (495),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 97/104 (93%), Positives = 102/104 (98%), Gaps = 0/104 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            FLHAFTGQPLP+D DLRKERSDEIPEAAK IMRE+GI+P+TWEY
+Sbjct  62   FLHAFTGQPLPNDEDLRKERSDEIPEAAKAIMRELGIDPDTWEY  105
+
+
+> UniRef50_P06203 Met repressor n=979 Tax=cellular organisms TaxID=131567 
+RepID=METJ_SALTY
+Length=105
+
+ Score = 194 bits (493),  Expect = 7e-62, Method: Composition-based stats.
+ Identities = 101/104 (97%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRE+GI+PETWEY
+Sbjct  62   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRELGIDPETWEY  105
+
+
+> UniRef50_A7MXB2 Met repressor n=302 Tax=root TaxID=1 RepID=METJ_VIBCB
+Length=106
+
+ Score = 187 bits (475),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 81/103 (79%), Positives = 92/103 (89%), Gaps = 0/103 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            A+W+GEYISPYAEHGKKSEQVKKITVSIPLKVLK+LTDERTRR++NNLRHATNSELLCEA
+Sbjct  2    ADWNGEYISPYAEHGKKSEQVKKITVSIPLKVLKVLTDERTRRQINNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWE  103
+            FLHA+TGQPLP D DLRK+R D+IP  AK +M  MGI  E ++
+Sbjct  62   FLHAYTGQPLPTDEDLRKDRPDDIPTEAKALMTAMGIEFEAFD  104
+
+
+> UniRef50_A0A0J1H6X6 Met repressor n=14 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0J1H6X6_9GAMM
+Length=105
+
+ Score = 182 bits (462),  Expect = 4e-57, Method: Composition-based stats.
+ Identities = 83/100 (83%), Positives = 91/100 (91%), Gaps = 0/100 (0%)
+
+Query  1    AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            AEW+GEYISPYAEHGKK+EQVKKITVSIPLKVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  2    AEWNGEYISPYAEHGKKNEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEA  61
+
+Query  61   FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPE  100
+            FLHA+TGQPLP D D+RK+R D++P  AK IM EMGI  E
+Sbjct  62   FLHAYTGQPLPTDDDIRKDRPDDLPAEAKSIMEEMGIKIE  101
+
+
+> UniRef50_A0A1J5MTD6 Met repressor n=5 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1J5MTD6_9GAMM
+Length=109
+
+ Score = 170 bits (431),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 75/94 (80%), Positives = 89/94 (95%), Gaps = 0/94 (0%)
+
+Query  3   WSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFL  62
+           W+GEYISPYAEHGKK+EQVKK+TVS+PLK+LKILTDERTRR+VNNLRHATNSELLCEAFL
+Sbjct  4   WNGEYISPYAEHGKKNEQVKKVTVSVPLKLLKILTDERTRRQVNNLRHATNSELLCEAFL  63
+
+Query  63  HAFTGQPLPDDADLRKERSDEIPEAAKEIMREMG  96
+           HA+TGQPLP+D+DL K++   IPEAA+E+M E+G
+Sbjct  64  HAYTGQPLPEDSDLSKDKPSTIPEAARELMEELG  97
+
+
+> UniRef50_A1SR19 Met repressor n=12 Tax=Gammaproteobacteria TaxID=1236 
+RepID=A1SR19_PSYIN
+Length=96
+
+ Score = 167 bits (423),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 74/94 (79%), Positives = 86/94 (91%), Gaps = 0/94 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+            +W+GEYISPYAEHGKKSEQVKKITVSIP KVLKILTDERTRR+VNNLRHATNSELLCEA
+Sbjct  3   TKWNGEYISPYAEHGKKSEQVKKITVSIPTKVLKILTDERTRRQVNNLRHATNSELLCEA  62
+
+Query  61  FLHAFTGQPLPDDADLRKERSDEIPEAAKEIMRE  94
+           FLHA+TGQPLP+D DL K ++  IPE+ K++M++
+Sbjct  63  FLHAYTGQPLPEDGDLDKNQATGIPESVKKLMKK  96
+
+
+> UniRef50_A0A2A4WS56 Met regulon transcriptional regulator MetJ 
+n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A2A4WS56_9GAMM
+Length=80
+
+ Score = 144 bits (363),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 58/78 (74%), Positives = 68/78 (87%), Gaps = 0/78 (0%)
+
+Query  2   EWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAF  61
+           +W+GE ISPY EHG + + VKKITVSIP KVLKILTDERTRR++ NL+HATNSELLCEAF
+Sbjct  3   KWNGEIISPYIEHGDRKDNVKKITVSIPFKVLKILTDERTRRQIGNLKHATNSELLCEAF  62
+
+Query  62  LHAFTGQPLPDDADLRKE  79
+           LHA+TGQPLP D +L K+
+Sbjct  63  LHAYTGQPLPTDLELEKD  80
+
+
+> UniRef50_A0A160DRI4 Met repressor n=2 Tax=Rhodanobacteraceae 
+TaxID=1775411 RepID=A0A160DRI4_9GAMM
+Length=151
+
+ Score = 141 bits (355),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 51/76 (67%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           +  ++ PY  HG KS  VKKITVSIPL +L++L+DERTRR+V NLRHATNS+LLCEAFLH
+Sbjct  3   ASRFVDPYVLHGLKSGSVKKITVSIPLHILQLLSDERTRRQVKNLRHATNSDLLCEAFLH  62
+
+Query  64  AFTGQPLPDDADLRKE  79
+           AFTGQ LP D +LR++
+Sbjct  63  AFTGQKLPTDEELRRD  78
+
+
+> UniRef50_A0A1M7J901 Met repressor n=47 Tax=root TaxID=1 RepID=A0A1M7J901_9GAMM
+Length=178
+
+ Score = 134 bits (337),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 51/75 (68%), Positives = 63/75 (84%), Gaps = 0/75 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           + ++I PY EHG+K+  V+KITVSIPL VL+ L+D RT R+VNNLRHATNS+LL EAFLH
+Sbjct  3   TAKFIKPYVEHGEKANAVRKITVSIPLHVLRRLSDLRTHRQVNNLRHATNSDLLVEAFLH  62
+
+Query  64  AFTGQPLPDDADLRK  78
+           AFTGQPLP D +LR+
+Sbjct  63  AFTGQPLPTDEELRR  77
+
+
+> UniRef50_A0A1T5FWC4 Met repressor n=96 Tax=Bacteria TaxID=2 RepID=A0A1T5FWC4_9GAMM
+Length=213
+
+ Score = 134 bits (338),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 51/75 (68%), Positives = 66/75 (88%), Gaps = 0/75 (0%)
+
+Query  4   SGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEAFLH  63
+           +G+++ PY EHG K+  V+KITVSIPL +L++L+DERTRR+VNNLRHATNS+LL EAFLH
+Sbjct  3   TGKFVRPYVEHGSKAGAVRKITVSIPLHILRLLSDERTRRQVNNLRHATNSDLLVEAFLH  62
+
+Query  64  AFTGQPLPDDADLRK  78
+           AFTGQPLP D +L++
+Sbjct  63  AFTGQPLPTDEELKR  77
+
+
+> UniRef50_A5UGB2 Met repressor n=14 Tax=Proteobacteria TaxID=1224 
+RepID=A5UGB2_HAEIG
+Length=69
+
+ Score = 125 bits (315),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 53/69 (77%), Positives = 64/69 (93%), Gaps = 0/69 (0%)
+
+Query  36   LTDERTRRKVNNLRHATNSELLCEAFLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREM  95
+            +T+ERTRR++ +LRHATNSELLCEAFLHAFTGQPLP DADL KER+DEIPE AK +MRE+
+Sbjct  1    MTNERTRRQLKSLRHATNSELLCEAFLHAFTGQPLPTDADLMKERNDEIPEDAKVLMREL  60
+
+Query  96   GINPETWEY  104
+            G++PE+WEY
+Sbjct  61   GVDPESWEY  69
+
+
+> UniRef50_J6CQC0 Met repressor n=1 Tax=Pasteurella multocida subsp. 
+multocida str. Anand1_buffalo TaxID=1032868 RepID=J6CQC0_PASMD
+Length=74
+
+ Score = 124 bits (310),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 52/62 (84%), Positives = 58/62 (94%), Gaps = 0/62 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRKVNNLRHATNSELLCEA  60
+           A W G+YISPYAEHGKKSEQVKKITVSIP+KVL+ILT+ERTRR++ NLRHATNSELLCEA
+Sbjct  2   ANWDGKYISPYAEHGKKSEQVKKITVSIPIKVLEILTNERTRRQIRNLRHATNSELLCEA  61
+
+Query  61  FL  62
+           F 
+Sbjct  62  FF  63
+
+
+> UniRef50_S0ANH8 Met repressor n=4 Tax=Enterobacterales TaxID=91347 
+RepID=S0ANH8_SERPL
+Length=49
+
+ Score = 95.5 bits (236),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 40/49 (82%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+
+Query  56   LLCEAFLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY  104
+            +LCEAFLHAFTGQPLP+D DLRKERSDEIPEAAK +MRE+G++P+TWEY
+Sbjct  1    MLCEAFLHAFTGQPLPNDEDLRKERSDEIPEAAKVLMRELGVDPDTWEY  49
+
+
+> UniRef50_J5KQ83 Met repressor (Fragment) n=1 Tax=Pasteurella 
+multocida subsp. multocida str. Anand1_cattle TaxID=1032867 
+RepID=J5KQ83_PASMD
+Length=46
+
+ Score = 92.0 bits (227),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  33  LKILTDERTRRKVNNLRHATNSELLCEAFLHAFTGQPLPDDADLRK  78
+           ++ILT+ERTRR++ NLRHATNSELLCEAFLHAFTGQPLP D DL K
+Sbjct  1   MEILTNERTRRQIRNLRHATNSELLCEAFLHAFTGQPLPTDEDLLK  46
+
+
+> UniRef50_A0A1E4NPD7 Met repressor n=3 Tax=cellular organisms 
+TaxID=131567 RepID=A0A1E4NPD7_9GAMM
+Length=117
+
+ Score = 70.1 bits (170),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 27/34 (79%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  45  VNNLRHATNSELLCEAFLHAFTGQPLPDDADLRK  78
+           ++NLRHATNS+LLCEAFLHAFTGQPLP D +LR+
+Sbjct  1   MSNLRHATNSDLLCEAFLHAFTGQPLPTDEELRR  34
+
+
+> UniRef50_J6CSG9 Met repressor (Fragment) n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=J6CSG9_PASMD
+Length=33
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/32 (69%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  3   WSGEYISPYAEHGKKSEQVKKITVSIPLKVLK  34
+           W G+YISPYAEHGKKSEQVKK+     LK  K
+Sbjct  1   WDGKYISPYAEHGKKSEQVKKLQYRFRLKYWK  32
+
+
+> UniRef50_A0A0U5L0W5 Met repressor n=1 Tax=Erwinia gerundensis 
+TaxID=1619313 RepID=A0A0U5L0W5_9GAMM
+Length=30
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 22/24 (92%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  1   AEWSGEYISPYAEHGKKSEQVKKI  24
+           AEW+GEYISPYAEHGKKSEQVKK+
+Sbjct  2   AEWNGEYISPYAEHGKKSEQVKKL  25
+
+
+> UniRef50_J5KL61 Met repressor (Fragment) n=1 Tax=Pasteurella 
+multocida subsp. multocida str. Anand1_buffalo TaxID=1032868 
+RepID=J5KL61_PASMD
+Length=35
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  58  CEAFLHAFTGQPLPDDADLRKERSDE  83
+            + FLHAFTGQPLP D DL KER DE
+Sbjct  9   VKPFLHAFTGQPLPTDEDLLKERHDE  34
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 213008535104
+
+Search has CONVERGED!
+
+
+  Database: /home/u2353/Bioinfo_course/uniref50.fasta
+    Posted date:  Mar 12, 2018 11:50 AM
+  Number of letters in database: 8,665,460,866
+  Number of sequences in database:  27,902,002
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

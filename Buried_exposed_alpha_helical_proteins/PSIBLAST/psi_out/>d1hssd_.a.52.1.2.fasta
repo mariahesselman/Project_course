@@ -1,0 +1,3112 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2353/Bioinfo_course/uniref50.fasta
+           27,902,002 sequences; 8,665,460,866 total letters
+
+Results from round 1
+
+
+Query= d1hssd_.a.52.1.2
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum ae...  166     2e-49
+  UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticea...  123     2e-33
+  UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment...  113     1e-29
+  UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum ...  93.6    9e-22
+  UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 ...  85.9    5e-19
+  UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 T...  75.5    6e-16
+  UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza Tax...  75.1    9e-15
+  UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID...  75.5    3e-14
+  UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia per...  76.6    3e-14
+  UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punct...  72.4    1e-12
+  UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza merid...  70.5    4e-12
+  UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic pro...  64.3    7e-11
+  UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum ae...  58.5    3e-09
+  UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa Ta...  59.3    4e-09
+  UniRef50_T1NMC6 Uncharacterized protein n=1 Tax=Triticum urartu...  56.2    1e-08
+  UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vul...  52.0    1e-06
+  UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sat...  51.2    2e-06
+  UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthe...  50.4    1e-05
+  UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicol...  48.1    2e-05
+  UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade ...  46.6    7e-05
+  UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor...  44.3    6e-04
+
+
+> UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5VPJ2_WHEAT
+Length=199
+
+ Score = 166 bits (420),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 81/98 (83%), Positives = 85/98 (87%), Gaps = 9/98 (9%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            MCYPG AF+VPALP CRP+L+LQCNGSQVPEAVLRDCCQQLA ISEWCRCGALYSMLDSM
+Sbjct  35   MCYPGYAFKVPALPGCRPVLKLQCNGSQVPEAVLRDCCQQLADISEWCRCGALYSMLDSM  94
+
+Query  61   YKEH---------GAFPRCRREVVKLTAASITAVCRLP  89
+            YKEH         GAFPR RREVVKLTAASITAVC+LP
+Sbjct  95   YKEHGVQEGQAGTGAFPRRRREVVKLTAASITAVCKLP  132
+
+
+> UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticeae 
+TaxID=147389 RepID=IAA2_WHEAT
+Length=153
+
+ Score = 123 bits (309),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 69/117 (59%), Positives = 83/117 (71%), Gaps = 9/117 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA I +EWCRCG L SML S+
+Sbjct  37   CNPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADINNEWCRCGDLSSMLRSV  96
+
+Query  61   YKEHG------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVC-KDVAAYPD  110
+            Y+E G        P CR+EV+KLTAAS+  VC++PI  + SGD A VC  D AAYPD
+Sbjct  97   YQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPI-PNPSGDRAGVCYGDWAAYPD  152
+
+
+> UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment) 
+n=14 Tax=Triticinae TaxID=1648030 RepID=D2TGC3_WHEAT
+Length=121
+
+ Score = 113 bits (282),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 66/116 (57%), Positives = 81/116 (70%), Gaps = 9/116 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA + +EWCRC  L SML S+
+Sbjct  7    CDPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADVNNEWCRCEDLSSMLRSV  66
+
+Query  61   YKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            Y+E GA       P CR+EV+KLTAAS+  V ++PI  + SGD A VC   AAYPD
+Sbjct  67   YQELGAREGKEVLPGCRKEVMKLTAASVPEVRKVPI-PNPSGDRAGVCY-WAAYPD  120
+
+
+> UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum 
+vulgare TaxID=4513 RepID=IAA2_HORVU
+Length=152
+
+ Score = 93.6 bits (231),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 49/103 (48%), Positives = 68/103 (66%), Gaps = 8/103 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHIS-EWCRCGALYSMLDSM  60
+            C P    +V  L  CR L++L+C G++VPE VLRDCCQ++A+IS EWCRCG L SML S+
+Sbjct  37   CDPEMGHKVSPLTRCRALVKLECVGNRVPEDVLRDCCQEVANISNEWCRCGDLGSMLRSV  96
+
+Query  61   YKEHG-------AFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            Y   G        FP C+++V+KL  A + A+C +PI  +A+G
+Sbjct  97   YAALGVGGGPEEVFPGCQKDVMKLLVAGVPALCNVPIPNEAAG  139
+
+
+> UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 
+Tax=BOP clade TaxID=359160 RepID=IAA1_HORVU
+Length=146
+
+ Score = 85.9 bits (211),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 49/110 (45%), Positives = 60/110 (55%), Gaps = 13/110 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHIS-EWCRCGALYSMLDSM  60
+            C+PG  + V   P CR L++ QC G QV E++ +DCC+Q+A I  EWC CGAL SM  SM
+Sbjct  20   CWPGMGYPVYPFPRCRALVKSQCAGGQVVESIQKDCCRQIAAIGDEWCICGALGSMRGSM  79
+
+Query  61   YKEHG------------AFPRCRREVVKLTAASITAVCRLPIVVDASGDG  98
+            YKE G             FP CR EV+    AS+ AVC   I      DG
+Sbjct  80   YKELGVALADDKATVAEVFPGCRTEVMDRAVASLPAVCNQYIPNTNGTDG  129
+
+
+> UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 
+Tax=Triticum aestivum TaxID=4565 RepID=IAA3_WHEAT
+Length=44
+
+ Score = 75.5 bits (184),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 35/40 (88%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQ  40
+           MCYPG AF+VPALP CRP+L LQCNGSQVPEAVLRDCCQQ
+Sbjct  5   MCYPGYAFKVPALPGCRPVLLLQCNGSQVPEAVLRDCCQQ  44
+
+
+> UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza TaxID=4527 
+RepID=RAG1_ORYSJ
+Length=163
+
+ Score = 75.1 bits (183),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 46/110 (42%), Positives = 60/110 (55%), Gaps = 15/110 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L+R QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPTYSLPQCRTLVRRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G
+Sbjct  99   LSGIYRELGATEAGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG  148
+
+
+> UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID=4527 
+RepID=A0A0E0AHA2_9ORYZ
+Length=336
+
+ Score = 75.5 bits (184),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 46/107 (43%), Positives = 59/107 (55%), Gaps = 11/107 (10%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDS  59
+            +C  G+ + +  LP CR L + QC G  V E V +DCC+QLA I + +CRC AL  ML  
+Sbjct  215  LCTAGRGYPMYPLPRCRALAKRQCAGGAVDEQVRQDCCRQLAAIDDSFCRCPALSHMLVG  274
+
+Query  60   MYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            MYKE GA          FP CRR  +K  AAS+ A C + I +   G
+Sbjct  275  MYKELGAPADGKPMDEVFPGCRRGDMKRAAASLPAFCNVDIPIGIGG  321
+
+
+ Score = 73.6 bits (179),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 44/104 (42%), Positives = 59/104 (57%), Gaps = 15/104 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L++ QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPAYSLPQCRTLVKRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I
+Sbjct  99   LSGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDI  142
+
+
+> UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia perrieri 
+TaxID=77586 RepID=A0A0D9WWU7_9ORYZ
+Length=589
+
+ Score = 76.6 bits (187),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 46/106 (43%), Positives = 60/106 (57%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            CY G+ + V  LP CR L++ QC G  V E V +DCC+QLA + + +CRC AL  ML SM
+Sbjct  329  CYGGEGYPVYPLPRCRALVKRQCVGGAVDEQVRQDCCRQLAAVDDSFCRCPALSLMLVSM  388
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            YKE GA          F  CRR  +K  AAS+   C++ I +   G
+Sbjct  389  YKELGAPADGKPMDEVFRGCRRGDIKRLAASLPVFCKIDIPIGVGG  434
+
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 56/106 (53%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C PG  + +   P CR L++ QC G  V E + +DCC+QLA I + +CRC AL  ML SM
+Sbjct  188  CMPGLGYPMYPFPRCRALVKRQCAGGAVDEQLRQDCCRQLAAIDNNFCRCPALSLMLASM  247
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            YKE GA             CRR  +K  AAS+   C + I +   G
+Sbjct  248  YKELGAPADGQPMDEVLRGCRRGDMKRLAASLPVFCNVNIPIGVGG  293
+
+
+> UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punctata 
+TaxID=4537 RepID=A0A0E0LII4_ORYPU
+Length=657
+
+ Score = 72.4 bits (176),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 46/110 (42%), Positives = 61/110 (55%), Gaps = 14/110 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQ---VPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            +C PG+ + +  LP CR L++ QC G     V E + +DCC+QLA I + +CRC AL  M
+Sbjct  533  LCTPGRGYPMYPLPRCRALVKRQCAGGAAGAVDEQLRQDCCRQLAAIDDSFCRCPALIHM  592
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            L  MYKE GA          FP CRR  +K  AAS+ A C + I +   G
+Sbjct  593  LVGMYKELGAPADGQPMDEVFPGCRRGDMKRAAASLPAFCGVDIPIGIGG  642
+
+
+ Score = 70.1 bits (170),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 42/103 (41%), Positives = 56/103 (54%), Gaps = 13/103 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQC--NGSQVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+             C PG  + +  LP CR L++ QC   G+   E V RDCC+QLA I + WCRC A+  ML
+Sbjct  41   FCRPGMGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAIDDSWCRCEAINHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+              +Y+E GA          F  CRR  ++  AAS+ A C + I
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDI  143
+
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 42/104 (40%), Positives = 57/104 (55%), Gaps = 15/104 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAV----LRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC     P AV     +DCC+QLA + + WCRC AL  M
+Sbjct  349  CQPGMGYPMYSLPRCRALVKRQCVSHGAPAAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  408
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I
+Sbjct  409  LTGIYRELGATDAGHPMAEVFPGCRRGDLERAAASLPAFCNVDI  452
+
+
+ Score = 64.3 bits (155),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 54/102 (53%), Gaps = 12/102 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG-SQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC G   V E V + CC+QLA I + WCRC AL  ML 
+Sbjct  182  LCQPGIGYPTYPLPRCRALVKRQCVGHGTVDEQVRQGCCRQLAAIGNSWCRCEALNHMLR  241
+
+Query  59   SMYKEHG----------AFPRCRREVVKLTAASITAVCRLPI  90
+             +Y+E+G           F  CRR  ++   AS+ A C + I
+Sbjct  242  IIYRENGVADVGHPMAEVFRGCRRGDIERATASLPAFCNVDI  283
+
+
+> UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza meridionalis 
+TaxID=40149 RepID=A0A0E0E950_9ORYZ
+Length=449
+
+ Score = 70.5 bits (171),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 42/104 (40%), Positives = 58/104 (56%), Gaps = 15/104 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAV----LRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC G   P AV     +DCC+QLA + + WCRC AL  M
+Sbjct  325  CQPGMGYPMYSLPRCRALVKRQCVGHGAPGAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  384
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+            +  +Y+E GA          FP CRR  ++  AAS+ A C + I
+Sbjct  385  VGGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDI  428
+
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 57/103 (55%), Gaps = 13/103 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQC--NGSQVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+            +C PG  + +  LP CR L++ QC   G+   E V RDCC+QLA + + WCRC A+  ML
+Sbjct  41   LCQPGLGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAVDDSWCRCEAISHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+              +Y+E GA          F  CRR  ++  AAS+ A C + I
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDI  143
+
+
+ Score = 63.9 bits (154),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 41/102 (40%), Positives = 52/102 (51%), Gaps = 12/102 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG-SQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC       E V R CC+QLA I S WCRC AL  ML 
+Sbjct  178  LCQPGIGYPTYPLPRCRALVKRQCVAPGTADEQVRRGCCRQLAAIDSSWCRCDALNHMLR  237
+
+Query  59   SMYKEHGA----------FPRCRREVVKLTAASITAVCRLPI  90
+             +Y+E GA          F  CRR  ++   AS+ A C + I
+Sbjct  238  IIYRESGAADAGHPMAEVFRGCRRGDIERATASLPAFCNVDI  279
+
+
+> UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic protein 
+RAG2-like n=1 Tax=Oryza brachyantha TaxID=4533 RepID=UPI0007769F0E
+Length=146
+
+ Score = 64.3 bits (155),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 42/106 (40%), Positives = 53/106 (50%), Gaps = 20/106 (19%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            C PG+ F    LP CR L + QC G          CC+QLA + + WCRC AL  ML  +
+Sbjct  40   CRPGEGFPEHPLPRCRALAKQQCLGX---------CCRQLAAVDDGWCRCEALRHMLRGV  90
+
+Query  61   YKEHG----------AFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            Y+E G           FP CRRE ++  AAS  A+C + I   A G
+Sbjct  91   YRELGVADVGHPKAEVFPGCRREDIERAAASAPALCGVDIPNGAGG  136
+
+
+> UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6BDS6_WHEAT
+Length=87
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 37/68 (54%), Positives = 45/68 (66%), Gaps = 8/68 (12%)
+
+Query  49   RCGALYSMLDSMYKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVC  102
+            RCG L SML S+Y+E G        P CR+EV+KLTAAS+  VC++PI  + SGD A VC
+Sbjct  21   RCGDLSSMLRSVYQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPI-PNPSGDRAGVC  79
+
+Query  103  KDVAAYPD  110
+               AAYPD
+Sbjct  80   Y-WAAYPD  86
+
+
+> UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa 
+TaxID=4530 RepID=A2YJF6_ORYSI
+Length=167
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 41/105 (39%), Positives = 53/105 (50%), Gaps = 16/105 (15%)
+
+Query  8    FQVPALPACRPLLRLQCNGS----QVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSMYK  62
+              V  LP CR +++ QC G      V E V RDCC+QLA I +  CRC  L   L  MYK
+Sbjct  61   LDVYPLPRCRTMVKGQCIGGGAAGNVDEQVWRDCCRQLATINNNLCRCPVLSHKLVGMYK  120
+
+Query  63   EHGA----------FPRCRREVVK-LTAASITAVCRLPIVVDASG  96
+            E G           FP CRR+ +K +  AS+ A+C + I +   G
+Sbjct  121  ELGTAAHGQPMDEVFPGCRRDNMKCMVVASLLALCGVDIHIGIGG  165
+
+
+> UniRef50_T1NMC6 Uncharacterized protein n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=T1NMC6_TRIUA
+Length=62
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1   MCYPGQAFQVPALPACRPLLRLQCNGSQ  28
+           MCYPGQAFQVPALP C P+L+LQCNGS+
+Sbjct  35  MCYPGQAFQVPALPGCHPVLKLQCNGSK  62
+
+
+> UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vulgare 
+TaxID=4513 RepID=A0A287JQN1_HORVV
+Length=154
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/92 (32%), Positives = 48/92 (52%), Gaps = 9/92 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C  G++  +  LPACR  +  +C     QVP+ + + CC++L+ + E CRC AL  +++ 
+Sbjct  39   CRVGKSIPINPLPACREYITRRCAVGDQQVPDVLKQQCCRELSDLPESCRCDALSILVNG  98
+
+Query  60   MYKEHG-------AFPRCRREVVKLTAASITA  84
+            +  E G       A P C RE +    + +TA
+Sbjct  99   VITEDGSRVGRMEAVPGCDRERIHSMGSYLTA  130
+
+
+> UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sativa 
+subsp. japonica TaxID=39947 RepID=Q40720_ORYSJ
+Length=113
+
+ Score = 51.2 bits (121),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/77 (38%), Positives = 42/77 (55%), Gaps = 11/77 (14%)
+
+Query  31  EAVLRDCCQQLAHISE-WCRCGALYSMLDSMYKEHGA----------FPRCRREVVKLTA  79
+           + + +DCC+QLA + + WCRC AL  M+  +Y+E GA          FP CRR  ++  A
+Sbjct  22  QQLRQDCCRQLAAVDDSWCRCSALNHMVGGIYRELGATDVGHPMAEVFPGCRRGDLERAA  81
+
+Query  80  ASITAVCRLPIVVDASG  96
+           AS+ A C + I     G
+Sbjct  82  ASLPAFCNVDIPNGTGG  98
+
+
+> UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthelium 
+oligosanthes TaxID=888268 RepID=A0A1E5W1N4_9POAL
+Length=270
+
+ Score = 50.4 bits (119),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 36/113 (32%), Positives = 52/113 (46%), Gaps = 7/113 (6%)
+
+Query  2    CYPGQAFQVPALPACRPL-LRLQCN-----GSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A  +P +P+CR   +   C      G Q P  V ++ CC++LA +   CRC AL 
+Sbjct  28   CAPGMAIPIPPVPSCRIYAVSRTCGLGGPYGPQDPSPVFKERCCRELAAVPPRCRCAALE  87
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAA  107
+             M+DS +     F  C RE  +  A+ +T      +     G  +YV    AA
+Sbjct  88   YMMDSDFGRLQDFRGCTREAQRSLASRLTRAAECDLRTIDGGMSSYVLLSAAA  140
+
+
+ Score = 45.4 bits (106),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 39/69 (57%), Gaps = 5/69 (7%)
+
+Query  2    CYPGQAFQVPALPACRP-LLRLQCN---GSQVPEAVLRD-CCQQLAHISEWCRCGALYSM  56
+            C PG    +  LP+CR  L+R  C    G  VP  ++++ CC++L  I  +CRCGAL  M
+Sbjct  156  CEPGLVIPLDPLPSCRAYLVRRTCGPGRGRFVPLRLIKERCCRELEDIVPYCRCGALRIM  215
+
+Query  57   LDSMYKEHG  65
+            +DSM    G
+Sbjct  216  MDSMPGGSG  224
+
+
+> UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicolor 
+TaxID=4558 RepID=IAA4_SORBI
+Length=118
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 35/100 (35%), Positives = 46/100 (46%), Gaps = 10/100 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC------NGSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A   P LP CR   R +        G   P  VL+  CC++LA +   CRC AL 
+Sbjct  7    CAPGLAIPAPPLPTCRTFARPRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  66
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAAS---ITAVCRLPIV  91
+             M+D +      F  C RE+ ++ A S     A C LP +
+Sbjct  67   FMMDGVDAPLQDFRGCTREMQRIYAVSRLTRAAECNLPTI  106
+
+
+> UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade 
+TaxID=147370 RepID=IAA5_SORBI
+Length=116
+
+ Score = 46.6 bits (109),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 29/74 (39%), Positives = 40/74 (54%), Gaps = 5/74 (7%)
+
+Query  2   CYPGQAFQVPALPACRP-LLRLQCN---GSQVPEAVLRD-CCQQLAHISEWCRCGALYSM  56
+           C PG    +  LP+CR  ++R  C    G  VP  VL++ CC +L  +  +CRCGAL + 
+Sbjct  4   CEPGLVIPLNPLPSCRTYMVRRACGVSIGPVVPLPVLKERCCSELEKLVPYCRCGALRTA  63
+
+Query  57  LDSMYKEHGAFPRC  70
+           LDSM   +   P C
+Sbjct  64  LDSMMTGYEMRPTC  77
+
+
+> UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor 
+TaxID=4558 RepID=C5XDC4_SORBI
+Length=148
+
+ Score = 44.3 bits (103),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 46/99 (46%), Gaps = 9/99 (9%)
+
+Query  2    CYPGQAFQVPALPACRP-LLRLQCN-----GSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A   P +P CR   +   C      G   P  VL+  CC++LA +   CRC AL 
+Sbjct  29   CAPGLAIPAPPVPTCRIYTVSRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  88
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASIT--AVCRLPIV  91
+             M+D +      F  C RE+ +  A  +T  A C LP +
+Sbjct  89   FMMDGVDAPLQDFRGCTREMQRTFARRLTRAAECNLPTI  127
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.138    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214140455430
+Results from round 2
+
+
+Query= d1hssd_.a.52.1.2
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticea...  139     2e-39
+  UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum ae...  129     3e-35
+  UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment...  126     7e-35
+  UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID...  127     2e-33
+  UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 ...  120     4e-32
+  UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza merid...  124     1e-31
+  UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza Tax...  119     1e-31
+  UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punct...  125     2e-31
+  UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum ...  115     3e-30
+  UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia per...  119     2e-29
+  UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic pro...  107     3e-27
+  UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthe...  107     4e-26
+  UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vul...  97.8    2e-23
+  UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor...  95.9    8e-23
+  UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa Ta...  93.2    2e-21
+  UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sat...  89.4    1e-20
+  UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicol...  88.6    3e-20
+  UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum ae...  74.0    5e-15
+  UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade ...  73.6    2e-14
+  UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 T...  55.1    3e-08
+  UniRef50_T1NMC6 Uncharacterized protein n=1 Tax=Triticum urartu...  43.5    5e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A1D6B7P2 Uncharacterized protein n=3 Tax=Triticinae ...  81.3    9e-17
+  UniRef50_P16969 Alpha-amylase/trypsin inhibitor n=25 Tax=Pooide...  69.7    7e-13
+  UniRef50_UPI00001108AE BIFUNCTIONAL AMYLASE/SERINE PROTEASE INH...  69.3    8e-13
+  UniRef50_I1H2M2 Uncharacterized protein n=1 Tax=Brachypodium di...  69.0    1e-12
+  UniRef50_A0A0E0Q5L9 Uncharacterized protein n=1 Tax=Oryza rufip...  69.3    1e-12
+  UniRef50_A0A1D5UB33 Uncharacterized protein n=2 Tax=Triticum ae...  69.3    1e-12
+  UniRef50_A0A1D6ACI6 Uncharacterized protein n=1 Tax=Triticum ae...  65.9    1e-11
+  UniRef50_P01087 Alpha-amylase/trypsin inhibitor n=13 Tax=Poacea...  65.5    2e-11
+  UniRef50_A0A0E0AHC4 Uncharacterized protein n=1 Tax=Oryza glumi...  67.0    2e-11
+  UniRef50_P01086 Trypsin inhibitor CMe n=63 Tax=Poaceae TaxID=44...  62.8    2e-10
+  UniRef50_Q8H4M5 Os07g0213600 protein n=6 Tax=Oryza TaxID=4527 R...  61.6    6e-10
+  UniRef50_A0A0E0HY49 Uncharacterized protein n=4 Tax=Oryza TaxID...  59.7    1e-09
+  UniRef50_Q7X7E6 17kDa alpha-amylase/trypsin inhibitor 1 n=12 Ta...  59.3    3e-09
+  UniRef50_A0MLU8 Limit dextrinase inhibitor n=7 Tax=Oryza TaxID=...  58.6    6e-09
+  UniRef50_A0A0E0Q5N0 Uncharacterized protein n=1 Tax=Oryza rufip...  60.1    7e-09
+  UniRef50_P32936 Alpha-amylase/trypsin inhibitor CMb n=16 Tax=Po...  58.6    7e-09
+  UniRef50_A0A0E0Q5M9 Uncharacterized protein n=1 Tax=Oryza rufip...  57.8    1e-08
+  UniRef50_Q41540 CM 17 protein n=2 Tax=Triticinae TaxID=1648030 ...  57.0    2e-08
+  UniRef50_A0A0E0AHA1 Uncharacterized protein n=1 Tax=Oryza glumi...  56.6    2e-08
+  UniRef50_A0A0E0HY62 Uncharacterized protein n=1 Tax=Oryza nivar...  55.1    1e-07
+  UniRef50_M7ZXQ3 Trypsin inhibitor CMe n=2 Tax=Triticinae TaxID=...  53.2    4e-07
+  UniRef50_P28041 Alpha-amylase/trypsin inhibitor CMa n=16 Tax=Po...  52.4    9e-07
+  UniRef50_P83207 Chymotrypsin inhibitor WCI n=4 Tax=Triticinae T...  52.0    1e-06
+  UniRef50_P16850 Alpha-amylase/trypsin inhibitor CM1 n=7 Tax=Tri...  51.6    1e-06
+  UniRef50_D2TGC2 Putative alpha-amylase inhibitor CM2 (Fragment)...  50.5    4e-06
+  UniRef50_P34951 Trypsin inhibitor CMc n=4 Tax=Hordeum vulgare T...  50.5    4e-06
+  UniRef50_A0A1D6RYZ8 Uncharacterized protein n=1 Tax=Triticum ae...  45.8    1e-04
+  UniRef50_A0A022R733 Uncharacterized protein n=7 Tax=Lamiales Ta...  45.8    2e-04
+  UniRef50_P11643 Alpha-amylase/trypsin inhibitor CMd n=24 Tax=Po...  45.8    3e-04
+  UniRef50_M8CCY7 Uncharacterized protein n=4 Tax=Triticinae TaxI...  45.1    4e-04
+  UniRef50_Q45FA6 Cereal-type amylase inhibitor (Fragment) n=1 Ta...  44.7    4e-04
+
+
+> UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticeae 
+TaxID=147389 RepID=IAA2_WHEAT
+Length=153
+
+ Score = 139 bits (350),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 69/117 (59%), Positives = 82/117 (70%), Gaps = 9/117 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA I +EWCRCG L SML S+
+Sbjct  37   CNPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADINNEWCRCGDLSSMLRSV  96
+
+Query  61   YKEHG------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCK-DVAAYPD  110
+            Y+E G        P CR+EV+KLTAAS+  VC++PI    SGD A VC  D AAYPD
+Sbjct  97   YQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPIPN-PSGDRAGVCYGDWAAYPD  152
+
+
+> UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5VPJ2_WHEAT
+Length=199
+
+ Score = 129 bits (325),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 81/98 (83%), Positives = 85/98 (87%), Gaps = 9/98 (9%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            MCYPG AF+VPALP CRP+L+LQCNGSQVPEAVLRDCCQQLA ISEWCRCGALYSMLDSM
+Sbjct  35   MCYPGYAFKVPALPGCRPVLKLQCNGSQVPEAVLRDCCQQLADISEWCRCGALYSMLDSM  94
+
+Query  61   YKEH---------GAFPRCRREVVKLTAASITAVCRLP  89
+            YKEH         GAFPR RREVVKLTAASITAVC+LP
+Sbjct  95   YKEHGVQEGQAGTGAFPRRRREVVKLTAASITAVCKLP  132
+
+
+> UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment) 
+n=14 Tax=Triticinae TaxID=1648030 RepID=D2TGC3_WHEAT
+Length=121
+
+ Score = 126 bits (316),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 66/116 (57%), Positives = 80/116 (69%), Gaps = 9/116 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA + +EWCRC  L SML S+
+Sbjct  7    CDPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADVNNEWCRCEDLSSMLRSV  66
+
+Query  61   YKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            Y+E GA       P CR+EV+KLTAAS+  V ++PI    SGD A VC   AAYPD
+Sbjct  67   YQELGAREGKEVLPGCRKEVMKLTAASVPEVRKVPIPN-PSGDRAGVCY-WAAYPD  120
+
+
+> UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID=4527 
+RepID=A0A0E0AHA2_9ORYZ
+Length=336
+
+ Score = 127 bits (320),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 50/120 (42%), Positives = 64/120 (53%), Gaps = 16/120 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDS  59
+            +C  G+ + +  LP CR L + QC G  V E V +DCC+QLA I + +CRC AL  ML  
+Sbjct  215  LCTAGRGYPMYPLPRCRALAKRQCAGGAVDEQVRQDCCRQLAAIDDSFCRCPALSHMLVG  274
+
+Query  60   MYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+            MYKE GA          FP CRR  +K  AAS+ A C + I +   G    VC    +YP
+Sbjct  275  MYKELGAPADGKPMDEVFPGCRRGDMKRAAASLPAFCNVDIPIGIGG----VCY-WLSYP  329
+
+
+ Score = 122 bits (307),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 49/123 (40%), Positives = 64/123 (52%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L++ QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPAYSLPQCRTLVKRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  99   LSGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  153
+
+Query  107  AYP  109
+             YP
+Sbjct  154  GYP  156
+
+
+> UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 
+Tax=BOP clade TaxID=359160 RepID=IAA1_HORVU
+Length=146
+
+ Score = 120 bits (300),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 51/120 (43%), Positives = 64/120 (53%), Gaps = 15/120 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C+PG  + V   P CR L++ QC G QV E++ +DCC+Q+A I  EWC CGAL SM  SM
+Sbjct  20   CWPGMGYPVYPFPRCRALVKSQCAGGQVVESIQKDCCRQIAAIGDEWCICGALGSMRGSM  79
+
+Query  61   YKEHG------------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAY  108
+            YKE G             FP CR EV+    AS+ AVC   I      D   VC  ++ Y
+Sbjct  80   YKELGVALADDKATVAEVFPGCRTEVMDRAVASLPAVCNQYIPNTNGTD--GVCYWLSYY  137
+
+
+> UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza meridionalis 
+TaxID=40149 RepID=A0A0E0E950_9ORYZ
+Length=449
+
+ Score = 124 bits (311),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 46/123 (37%), Positives = 63/123 (51%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC G      V E + +DCC+QLA + + WCRC AL  M
+Sbjct  325  CQPGMGYPMYSLPRCRALVKRQCVGHGAPGAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  384
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            +  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  385  VGGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  439
+
+Query  107  AYP  109
+             YP
+Sbjct  440  GYP  442
+
+
+ Score = 117 bits (293),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 58/108 (54%), Gaps = 13/108 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCN--GSQVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+            +C PG  + +  LP CR L++ QC   G+   E V RDCC+QLA + + WCRC A+  ML
+Sbjct  41   LCQPGLGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAVDDSWCRCEAISHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDAS  95
+              +Y+E GA          F  CRR  ++  AAS+ A C + I    +
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDIPNGVA  148
+
+
+ Score = 109 bits (273),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 41/117 (35%), Positives = 53/117 (45%), Gaps = 12/117 (10%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQ-VPEAVLRDCCQQLAHIS-EWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC       E V R CC+QLA I   WCRC AL  ML 
+Sbjct  178  LCQPGIGYPTYPLPRCRALVKRQCVAPGTADEQVRRGCCRQLAAIDSSWCRCDALNHMLR  237
+
+Query  59   SMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDV  105
+             +Y+E GA          F  CRR  ++   AS+ A C + I    +     V    
+Sbjct  238  IIYRESGAADAGHPMAEVFRGCRRGDIERATASLPAFCNVDIPNGKTMASNKVVFSA  294
+
+
+> UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza TaxID=4527 
+RepID=RAG1_ORYSJ
+Length=163
+
+ Score = 119 bits (298),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 50/123 (41%), Positives = 64/123 (52%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L+R QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPTYSLPQCRTLVRRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  99   LSGIYRELGATEAGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  153
+
+Query  107  AYP  109
+             YP
+Sbjct  154  GYP  156
+
+
+> UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punctata 
+TaxID=4537 RepID=A0A0E0LII4_ORYPU
+Length=657
+
+ Score = 125 bits (315),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 50/123 (41%), Positives = 66/123 (54%), Gaps = 19/123 (15%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG---SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            +C PG+ + +  LP CR L++ QC G     V E + +DCC+QLA I + +CRC AL  M
+Sbjct  533  LCTPGRGYPMYPLPRCRALVKRQCAGGAAGAVDEQLRQDCCRQLAAIDDSFCRCPALIHM  592
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  MYKE GA          FP CRR  +K  AAS+ A C + I +   G    VC    
+Sbjct  593  LVGMYKELGAPADGQPMDEVFPGCRRGDMKRAAASLPAFCGVDIPIGIGG----VCY-WL  647
+
+Query  107  AYP  109
+            +YP
+Sbjct  648  SYP  650
+
+
+ Score = 124 bits (312),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 46/123 (37%), Positives = 62/123 (50%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVP----EAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC     P    E + +DCC+QLA + + WCRC AL  M
+Sbjct  349  CQPGMGYPMYSLPRCRALVKRQCVSHGAPAAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  408
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  409  LTGIYRELGATDAGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  463
+
+Query  107  AYP  109
+             YP
+Sbjct  464  GYP  466
+
+
+ Score = 121 bits (304),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 43/112 (38%), Positives = 57/112 (51%), Gaps = 13/112 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCN--GSQVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+             C PG  + +  LP CR L++ QC   G+   E V RDCC+QLA I + WCRC A+  ML
+Sbjct  41   FCRPGMGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAIDDSWCRCEAINHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGA  99
+              +Y+E GA          F  CRR  ++  AAS+ A C + I        A
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDIPNGIGVISA  152
+
+
+ Score = 113 bits (282),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 54/105 (51%), Gaps = 12/105 (11%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG-SQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC G   V E V + CC+QLA I + WCRC AL  ML 
+Sbjct  182  LCQPGIGYPTYPLPRCRALVKRQCVGHGTVDEQVRQGCCRQLAAIGNSWCRCEALNHMLR  241
+
+Query  59   SMYKEHG----------AFPRCRREVVKLTAASITAVCRLPIVVD  93
+             +Y+E+G           F  CRR  ++   AS+ A C + I   
+Sbjct  242  IIYRENGVADVGHPMAEVFRGCRRGDIERATASLPAFCNVDIPNG  286
+
+
+> UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum 
+vulgare TaxID=4513 RepID=IAA2_HORVU
+Length=152
+
+ Score = 115 bits (288),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 52/117 (44%), Positives = 73/117 (62%), Gaps = 10/117 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P    +V  L  CR L++L+C G++VPE VLRDCCQ++A+I +EWCRCG L SML S+
+Sbjct  37   CDPEMGHKVSPLTRCRALVKLECVGNRVPEDVLRDCCQEVANISNEWCRCGDLGSMLRSV  96
+
+Query  61   YKEHG-------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            Y   G        FP C+++V+KL  A + A+C +PI  +A+G    VC   +A  D
+Sbjct  97   YAALGVGGGPEEVFPGCQKDVMKLLVAGVPALCNVPIPNEAAGTR-GVCY-WSASTD  151
+
+
+> UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia perrieri 
+TaxID=77586 RepID=A0A0D9WWU7_9ORYZ
+Length=589
+
+ Score = 119 bits (298),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 46/106 (43%), Positives = 60/106 (57%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            CY G+ + V  LP CR L++ QC G  V E V +DCC+QLA + + +CRC AL  ML SM
+Sbjct  329  CYGGEGYPVYPLPRCRALVKRQCVGGAVDEQVRQDCCRQLAAVDDSFCRCPALSLMLVSM  388
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            YKE GA          F  CRR  +K  AAS+   C++ I +   G
+Sbjct  389  YKELGAPADGKPMDEVFRGCRRGDIKRLAASLPVFCKIDIPIGVGG  434
+
+
+ Score = 115 bits (289),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 43/106 (41%), Positives = 55/106 (52%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHIS-EWCRCGALYSMLDSM  60
+            C PG  + +   P CR L++ QC G  V E + +DCC+QLA I   +CRC AL  ML SM
+Sbjct  188  CMPGLGYPMYPFPRCRALVKRQCAGGAVDEQLRQDCCRQLAAIDNNFCRCPALSLMLASM  247
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            YKE GA             CRR  +K  AAS+   C + I +   G
+Sbjct  248  YKELGAPADGQPMDEVLRGCRRGDMKRLAASLPVFCNVNIPIGVGG  293
+
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 30/110 (27%), Positives = 46/110 (42%), Gaps = 20/110 (18%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN---GSQV-----PEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C    G Q+     P ++L  CC +LA + E CRC AL
+Sbjct  36   CRVGKAVSRNPVPSCRRYIARWCAISKGQQIGSKMPPRSLLDPCCHELAAVPERCRCDAL  95
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAV--CRLPIV  91
+              ++  +  E G            P C    +   A+ +T    C LP+ 
+Sbjct  96   SVLVRGVITEEGERIPGMVSKKEAPECDGATIASMASDLTHYGRCNLPVP  145
+
+
+ Score = 55.9 bits (133),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 40/100 (40%), Gaps = 11/100 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMY  61
+            C  G+A     +P+CR  +    N S  P    + CC++LA + E CRC AL  ++  + 
+Sbjct  480  CRVGKAVSRNPVPSCRRYIERWEN-SLGPTCRPKACCRELAAVPERCRCDALSVLVRGVI  538
+
+Query  62   KEHGAF----------PRCRREVVKLTAASITAVCRLPIV  91
+             E G            P C    +   A+ +    R  + 
+Sbjct  539  TEEGERIPGMVSKKEAPECDGATIASMASDLMHYGRCYLP  578
+
+
+> UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic protein 
+RAG2-like n=1 Tax=Oryza brachyantha TaxID=4533 RepID=UPI0007769F0E
+Length=146
+
+ Score = 107 bits (267),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 46/119 (39%), Positives = 57/119 (48%), Gaps = 25/119 (21%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            C PG+ F    LP CR L + QC G          CC+QLA + + WCRC AL  ML  +
+Sbjct  40   CRPGEGFPEHPLPRCRALAKQQCLGX---------CCRQLAAVDDGWCRCEALRHMLRGV  90
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+            Y+E G           FP CRRE ++  AAS  A+C + I   A G    VC     YP
+Sbjct  91   YRELGVADVGHPKAEVFPGCRREDIERAAASAPALCGVDIPNGAGG----VCY-WLGYP  144
+
+
+> UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthelium 
+oligosanthes TaxID=888268 RepID=A0A1E5W1N4_9POAL
+Length=270
+
+ Score = 107 bits (267),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 36/113 (32%), Positives = 52/113 (46%), Gaps = 7/113 (6%)
+
+Query  2    CYPGQAFQVPALPACRPL-LRLQCN-----GSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A  +P +P+CR   +   C      G Q P  V ++ CC++LA +   CRC AL 
+Sbjct  28   CAPGMAIPIPPVPSCRIYAVSRTCGLGGPYGPQDPSPVFKERCCRELAAVPPRCRCAALE  87
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAA  107
+             M+DS +     F  C RE  +  A+ +T      +     G  +YV    AA
+Sbjct  88   YMMDSDFGRLQDFRGCTREAQRSLASRLTRAAECDLRTIDGGMSSYVLLSAAA  140
+
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 31/115 (27%), Positives = 45/115 (39%), Gaps = 6/115 (5%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQ----VPEAVLRD-CCQQLAHISEWCRCGALYSM  56
+            C PG    +  LP+CR  L  +  G      VP  ++++ CC++L  I  +CRCGAL  M
+Sbjct  156  CEPGLVIPLDPLPSCRAYLVRRTCGPGRGRFVPLRLIKERCCRELEDIVPYCRCGALRIM  215
+
+Query  57   LDSMYKEHGAFPR-CRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            +DSM    G     C        AA++       +         Y         D
+Sbjct  216  MDSMPGGSGVQTSPCSWAGQLDLAATLVTEAECSLPTIHGRPFCYALGAEGTTSD  270
+
+
+> UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vulgare 
+TaxID=4513 RepID=A0A287JQN1_HORVV
+Length=154
+
+ Score = 97.8 bits (242),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 33/107 (31%), Positives = 52/107 (49%), Gaps = 11/107 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C  G++  +  LPACR  +  +C     QVP+ + + CC++L+ + E CRC AL  +++ 
+Sbjct  39   CRVGKSIPINPLPACREYITRRCAVGDQQVPDVLKQQCCRELSDLPESCRCDALSILVNG  98
+
+Query  60   MYKEHG-------AFPRCRREVVKLTAASITA--VCRLPIVVDASGD  97
+            +  E G       A P C RE +    + +TA   C L       GD
+Sbjct  99   VITEDGSRVGRMEAVPGCDRERIHSMGSYLTAYSECNLHNPGTPGGD  145
+
+
+> UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor 
+TaxID=4558 RepID=C5XDC4_SORBI
+Length=148
+
+ Score = 95.9 bits (237),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 31/103 (30%), Positives = 43/103 (42%), Gaps = 7/103 (7%)
+
+Query  2    CYPGQAFQVPALPACRPL-LRLQCN-----GSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A   P +P CR   +   C      G   P  VL+  CC++LA +   CRC AL 
+Sbjct  29   CAPGLAIPAPPVPTCRIYTVSRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  88
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGD  97
+             M+D +      F  C RE+ +  A  +T      +     G 
+Sbjct  89   FMMDGVDAPLQDFRGCTREMQRTFARRLTRAAECNLPTIDGGM  131
+
+
+> UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa 
+TaxID=4530 RepID=A2YJF6_ORYSI
+Length=167
+
+ Score = 93.2 bits (230),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 53/105 (50%), Gaps = 16/105 (15%)
+
+Query  8    FQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSMYK  62
+              V  LP CR +++ QC G      V E V RDCC+QLA I +  CRC  L   L  MYK
+Sbjct  61   LDVYPLPRCRTMVKGQCIGGGAAGNVDEQVWRDCCRQLATINNNLCRCPVLSHKLVGMYK  120
+
+Query  63   EHG----------AFPRCRREVVK-LTAASITAVCRLPIVVDASG  96
+            E G           FP CRR+ +K +  AS+ A+C + I +   G
+Sbjct  121  ELGTAAHGQPMDEVFPGCRRDNMKCMVVASLLALCGVDIHIGIGG  165
+
+
+> UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sativa 
+subsp. japonica TaxID=39947 RepID=Q40720_ORYSJ
+Length=113
+
+ Score = 89.4 bits (220),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 36/105 (34%), Positives = 51/105 (49%), Gaps = 21/105 (20%)
+
+Query  21   RLQCNGSQVP-----EAVLRDCCQQLAHISE-WCRCGALYSMLDSMYKEHGA--------  66
+            + QC G +       + + +DCC+QLA + + WCRC AL  M+  +Y+E GA        
+Sbjct  7    QRQCVGPRRTRRRWTQQLRQDCCRQLAAVDDSWCRCSALNHMVGGIYRELGATDVGHPMA  66
+
+Query  67   --FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+              FP CRR  ++  AAS+ A C + I     G    VC     YP
+Sbjct  67   EVFPGCRRGDLERAAASLPAFCNVDIPNGTGG----VCY-WLGYP  106
+
+
+> UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicolor 
+TaxID=4558 RepID=IAA4_SORBI
+Length=118
+
+ Score = 88.6 bits (218),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 33/103 (32%), Positives = 45/103 (44%), Gaps = 8/103 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC------NGSQVPEAVLRD-CCQQLAHISEWCRCGALY  54
+            C PG A   P LP CR   R +        G   P  VL+  CC++LA +   CRC AL 
+Sbjct  7    CAPGLAIPAPPLPTCRTFARPRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  66
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAAS-ITAVCRLPIVVDASG  96
+             M+D +      F  C RE+ ++ A S +T      +     G
+Sbjct  67   FMMDGVDAPLQDFRGCTREMQRIYAVSRLTRAAECNLPTIPGG  109
+
+
+> UniRef50_A0A1D6B7P2 Uncharacterized protein n=3 Tax=Triticinae 
+TaxID=1648030 RepID=A0A1D6B7P2_WHEAT
+Length=226
+
+ Score = 81.3 bits (199),  Expect = 9e-17, Method: Composition-based stats.
+ Identities = 34/106 (32%), Positives = 47/106 (44%), Gaps = 12/106 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQCN-GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C PG AF   AL  C   + +  C  G   P  V   CC++LA + ++CRC AL  ++D 
+Sbjct  105  CQPGVAFPHNALATCHTYVIKRVCGRGPSRPMLVKERCCRELAVVPDYCRCEALRVLMDG  164
+
+Query  60   MYKE--------HGAFPRCRREVVKLTAASI--TAVCRLPIVVDAS  95
+            +  E         G    C RE  +  AA++   A C LP V    
+Sbjct  165  VRAEEGHVVEGRLGDRRDCPREAQREFAATLVTAAECNLPTVSGVG  210
+
+
+> UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6BDS6_WHEAT
+Length=87
+
+ Score = 74.0 bits (180),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 37/68 (54%), Positives = 44/68 (65%), Gaps = 8/68 (12%)
+
+Query  49   RCGALYSMLDSMYKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVC  102
+            RCG L SML S+Y+E G        P CR+EV+KLTAAS+  VC++PI    SGD A VC
+Sbjct  21   RCGDLSSMLRSVYQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPIPN-PSGDRAGVC  79
+
+Query  103  KDVAAYPD  110
+               AAYPD
+Sbjct  80   Y-WAAYPD  86
+
+
+> UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade 
+TaxID=147370 RepID=IAA5_SORBI
+Length=116
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 45/99 (45%), Gaps = 5/99 (5%)
+
+Query  2    CYPGQAFQVPALPACRP-LLRLQCN---GSQVPEAVLRD-CCQQLAHISEWCRCGALYSM  56
+            C PG    +  LP+CR  ++R  C    G  VP  VL++ CC +L  +  +CRCGAL + 
+Sbjct  4    CEPGLVIPLNPLPSCRTYMVRRACGVSIGPVVPLPVLKERCCSELEKLVPYCRCGALRTA  63
+
+Query  57   LDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+            LDSM   +   P C    +   A +I       +     
+Sbjct  64   LDSMMTGYEMRPTCSWGGLLTFAPTIVCYRECNLRTLHG  102
+
+
+> UniRef50_P16969 Alpha-amylase/trypsin inhibitor n=25 Tax=Pooideae 
+TaxID=147368 RepID=IAA_HORVU
+Length=147
+
+ Score = 69.7 bits (169),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 41/106 (39%), Gaps = 12/106 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQCN-GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C  G  F    L  C   + +  C  G   P  V   CC++LA + + CRC AL  ++D 
+Sbjct  33   CQLGVDFPHNPLATCHTYVIKRVCGRGPSRPMLVKERCCRELAAVPDHCRCEALRILMDG  92
+
+Query  60   MYKE--------HGAFPRCRREVVKLTAASI--TAVCRLPIVVDAS  95
+            +            G    C RE  +  AA++   A C L  V    
+Sbjct  93   VRTPEGRVVEGRLGDRRDCPREEQRAFAATLVTAAECNLSSVQAPG  138
+
+
+> UniRef50_UPI00001108AE BIFUNCTIONAL AMYLASE/SERINE PROTEASE INHIBITOR 
+n=1 Tax=Zea mays TaxID=4577 RepID=UPI00001108AE
+Length=134
+
+ Score = 69.3 bits (168),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 30/106 (28%), Positives = 45/106 (42%), Gaps = 12/106 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQCN-GSQVPEA-VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     LP+CR  +    C  G ++P   + R CC++LA I  +CRC AL  ++D
+Sbjct  13   CVPGWAIPHNPLPSCRWYVTSRTCGIGPRLPWPELKRRCCRELADIPAYCRCTALSILMD  72
+
+Query  59   SMY---------KEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+                              P C REV +  AA++       +   + 
+Sbjct  73   GAIPPGPDAQLEGRLEDLPGCPREVQRGFAATLVTEAECNLATISG  118
+
+
+> UniRef50_I1H2M2 Uncharacterized protein n=1 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=I1H2M2_BRADI
+Length=149
+
+ Score = 69.0 bits (167),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 42/102 (41%), Gaps = 13/102 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN------GSQVPEAVLRDCCQQLAHISEWCRCGALYS  55
+            C  G+      LP CR  +   C          VP+ V R CC +++ + + CRC AL  
+Sbjct  36   CRVGKKIPYNPLPGCREYITRWCAVRNDPKKQLVPDEVKRRCCGEVSELPKGCRCDALGI  95
+
+Query  56   MLDSMYKEHG-------AFPRCRREVVKLTAASITAVCRLPI  90
+            + + +  E G       A P C RE +   A+ +  +    I
+Sbjct  96   LANGVITEEGVKVGRMEAVPGCDRETIAFLASDLMEIRHCYI  137
+
+
+> UniRef50_A0A0E0Q5L9 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5L9_ORYRU
+Length=211
+
+ Score = 69.3 bits (168),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 42/100 (42%), Gaps = 2/100 (2%)
+
+Query  2    CYPGQAF-QVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            C PGQ       LP CR  L  +C G   P  V   CC QL  ++  CRC AL +M++ +
+Sbjct  48   CEPGQGVVPKDPLPGCRAYLLRRCAGG-DPPGVRARCCHQLREVAPRCRCDALRAMVEVL  106
+
+Query  61   YKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAY  100
+             +E  A P C +  +   A  +       +   A  D   
+Sbjct  107  VEEEEAPPACNKGAMAAIAEGLPGRGECDLDTRAGADDGG  146
+
+
+> UniRef50_A0A1D5UB33 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5UB33_WHEAT
+Length=195
+
+ Score = 69.3 bits (168),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 40/99 (40%), Gaps = 7/99 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQCNGSQVPEA----VLRDCCQQLAHISEWCRCGALYSM  56
+            C PG       LP+CR  + +  C  +Q            CC++L  +SE CRC A+   
+Sbjct  76   CRPGVGIPPKPLPSCRAYVVQKTCKDTQQTTPGKVASKDPCCRELEAVSEECRCTAMEDF  135
+
+Query  57   LDSMYKEHGAFPRCRREVVKLTAASI--TAVCRLPIVVD  93
+            +  M +  G    C R+ +     S+    +C L  +  
+Sbjct  136  MQGMLRLEGVPEGCTRKDLWEFTLSLVKPELCNLKTITG  174
+
+
+> UniRef50_A0A1D6ACI6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6ACI6_WHEAT
+Length=115
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 35/66 (53%), Gaps = 2/66 (3%)
+
+Query  2   CYPGQAFQVPALPACRPLL-RLQCN-GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+           C PG AF   AL  C   + +  C  G  +P  V   CC++LA + ++CRC AL  ++D 
+Sbjct  32  CRPGVAFPHNALATCHTYVIKRVCGRGPSLPMLVKERCCRELAAVPDYCRCEALRVLMDG  91
+
+Query  60  MYKEHG  65
+           +  E G
+Sbjct  92  VRVEGG  97
+
+
+> UniRef50_P01087 Alpha-amylase/trypsin inhibitor n=13 Tax=Poaceae 
+TaxID=4479 RepID=IAAT_ELECO
+Length=122
+
+ Score = 65.5 bits (158),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 39/106 (37%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG---SQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     L +CR  +  +  G       + +   CC+QL  I  +CRC A+  ++D
+Sbjct  6    CIPGMAIPHNPLDSCRWYVSTRTCGVGPRLATQEMKARCCRQLEAIPAYCRCEAVRILMD  65
+
+Query  59   SMYKE--------HGAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+             +               P C R+V +  A  +       +     G
+Sbjct  66   GVVTPSGQHEGRLLQDLPGCPRQVQRAFAPKLVTEVECNLATIHGG  111
+
+
+> UniRef50_A0A0E0AHC4 Uncharacterized protein n=1 Tax=Oryza glumipatula 
+TaxID=40148 RepID=A0A0E0AHC4_9ORYZ
+Length=300
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 39/102 (38%), Gaps = 7/102 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC-----NGSQVPEAVLRDCCQQLAHISEWCRCGALYSM  56
+            C PG A     L  CR  +  +       G     ++   CC++LA +  +CRC AL   
+Sbjct  185  CQPGMAIPHDPLRGCRRYVLRRACGLAAGGRLYDWSLKERCCRELAAVPAYCRCAALAYF  244
+
+Query  57   LDSMYKE--HGAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            +D   +       P C RE  +  AA +T      +     G
+Sbjct  245  MDGASEGRLLEDLPGCPRETQRGLAAMLTTPGECNLETIHGG  286
+
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/97 (30%), Positives = 43/97 (44%), Gaps = 7/97 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG+AF    L  CR  +    C  +G + PE     CC++LA +   CRC AL   +D
+Sbjct  40   CQPGEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLFMD  99
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+             +    G    C RE  +  AA++ A     +   + 
+Sbjct  100  GV----GELRGCPREAQRAAAAALMAAGECDLRGGSG  132
+
+
+> UniRef50_P01086 Trypsin inhibitor CMe n=63 Tax=Poaceae TaxID=4479 
+RepID=IAAE_HORVU
+Length=148
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 44/107 (41%), Gaps = 13/107 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC---NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     L ACR  +  Q        +   + R CC +L+ I  +CRC AL  ++ 
+Sbjct  29   CAPGDALPHNPLRACRTYVVSQICHQGPRLLTSDMKRRCCDELSAIPAYCRCEALRIIMQ  88
+
+Query  59   SMYKEHGAF--------PRCRREVVKLTAASI--TAVCRLPIVVDAS  95
+             +    GAF        P C RE     AA++     C L  +  ++
+Sbjct  89   GVVTWQGAFEGAYFKDSPNCPRERQTSYAANLVTPQECNLGTIHGSA  135
+
+
+> UniRef50_Q8H4M5 Os07g0213600 protein n=6 Tax=Oryza TaxID=4527 
+RepID=Q8H4M5_ORYSJ
+Length=154
+
+ Score = 61.6 bits (148),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 31/100 (31%), Positives = 43/100 (43%), Gaps = 4/100 (4%)
+
+Query  2    CYPGQAF-QVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            C PGQ       LP CR  L  +C G   P  V   CC QL  ++  CRC AL +M++ +
+Sbjct  49   CEPGQGVVPKDPLPGCRAYLLRRCGGG-DPPGVRARCCHQLREVAARCRCDALRAMVEVL  107
+
+Query  61   YKEHGAFPRCRREVVKLTAASITA--VCRLPIVVDASGDG  98
+             +E  A   C++  +   A  +     C L    D  G  
+Sbjct  108  VEEEEAPLACKKGAMAAIAEGLPGRDECDLDTRADDGGSR  147
+
+
+> UniRef50_A0A0E0HY49 Uncharacterized protein n=4 Tax=Oryza TaxID=4527 
+RepID=A0A0E0HY49_ORYNI
+Length=81
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 32/62 (52%), Gaps = 10/62 (16%)
+
+Query  45  SEWCRCGALYSMLDSMYKEH----------GAFPRCRREVVKLTAASITAVCRLPIVVDA  94
+           +  CRC AL  +L  MYKE             FP C+R+ VK  AAS+ A+C + I +  
+Sbjct  18  NNLCRCPALSHLLVGMYKELCAVTDGKPMDEVFPGCQRDNVKCVAASLLALCNVDIPIGI  77
+
+Query  95  SG  96
+           SG
+Sbjct  78  SG  79
+
+
+> UniRef50_Q7X7E6 17kDa alpha-amylase/trypsin inhibitor 1 n=12 
+Tax=Oryza TaxID=4527 RepID=AI171_ORYSJ
+Length=158
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 43/112 (38%), Gaps = 18/112 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGS--------QVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C  +        Q P   L  CC++LA +   CRC AL
+Sbjct  35   CRVGKAVSRNPVPSCRNYIARWCAAAGGRMDSRKQPPREFLEPCCRELAAVPMQCRCDAL  94
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPIVVDAS  95
+              ++  +  E G            P C    +   A+++T   R  +   A 
+Sbjct  95   SVLVRGVVTEEGDRVSGMISQHAAPGCDAATIAGMASALTDYGRCNLQHTAG  146
+
+
+> UniRef50_A0MLU8 Limit dextrinase inhibitor n=7 Tax=Oryza TaxID=4527 
+RepID=A0MLU8_ORYSI
+Length=146
+
+ Score = 58.6 bits (140),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 28/97 (29%), Positives = 42/97 (43%), Gaps = 7/97 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P +AF    L  CR  +    C  +G + PE     CC++LA +   CRC AL   +D
+Sbjct  35   CQPWEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLFMD  94
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+             +    G    C RE  +  AA++ A     +   + 
+Sbjct  95   GV----GELRGCPREAQRAAAAALMAAGECDLRGGSG  127
+
+
+> UniRef50_A0A0E0Q5N0 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5N0_ORYRU
+Length=308
+
+ Score = 60.1 bits (144),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/107 (25%), Positives = 43/107 (40%), Gaps = 18/107 (17%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C         G Q P  +L  CC++LA +   CRC AL
+Sbjct  186  CRVGKAVSRNPVPSCRNYIARWCAAAGGRLDSGKQPPRQLLEPCCRELAAVPMQCRCDAL  245
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPI  90
+              ++  +  E G            P C    +   A+++T   R  +
+Sbjct  246  SVLVRGVITEEGDRVAGMISQHAAPECDGATIGRMASALTDYGRCNL  292
+
+
+ Score = 59.3 bits (142),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 43/107 (40%), Gaps = 18/107 (17%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+C+  +   C         G Q P  +L  CC++LA +   CRC AL
+Sbjct  37   CRVGKAVSRNPVPSCQNYIARWCAVAGGRLDSGKQPPRQLLEPCCRELAAVPMQCRCDAL  96
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPI  90
+              ++  +  E G            P C    +   A+++T   R  +
+Sbjct  97   SVLVRGVVTEEGDRVAGMISQHAAPGCDAATIAGMASALTDYGRCNL  143
+
+
+> UniRef50_P32936 Alpha-amylase/trypsin inhibitor CMb n=16 Tax=Pooideae 
+TaxID=147368 RepID=IAAB_HORVU
+Length=149
+
+ Score = 58.6 bits (140),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 40/102 (39%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P  A  +  LP+CR  +  Q    + P       + CC +LA+I + CRC AL   + 
+Sbjct  30   CTPWTATPITPLPSCRDYVEQQACRIETPGPPYLAKQQCCGELANIPQQCRCQALRFFMG  89
+
+Query  59   SMYKEHGA----FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+               +   +     P C REV       +     C L  V + 
+Sbjct  90   RKSRPDQSGLMELPGCPREVQMDFVRILVTPGFCNLTTVHNT  131
+
+
+> UniRef50_A0A0E0Q5M9 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5M9_ORYRU
+Length=133
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 32/74 (43%), Gaps = 8/74 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC--------NGSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C         G Q P  +L  CC++LA +   CRC  L
+Sbjct  36   CRVGKAVSRNPVPSCRNYIARWCAVAGGRLDYGKQPPRQLLEPCCRELAAVPMQCRCDVL  95
+
+Query  54   YSMLDSMYKEHGAF  67
+              ++  +  E G  
+Sbjct  96   SVLVRGVVTEEGDR  109
+
+
+> UniRef50_Q41540 CM 17 protein n=2 Tax=Triticinae TaxID=1648030 
+RepID=Q41540_WHEAT
+Length=143
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 43/102 (42%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P  +  +  LP+CR  +  Q    ++P       ++CC+QLA+I + CRC AL   + 
+Sbjct  30   CTPWTSTLITPLPSCRNYVEEQACRIEMPGPPYLAKQECCEQLANIPQQCRCQALRYFMG  89
+
+Query  59   SMYKEHGA----FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+               +   +     P C REV       +     C L  V + 
+Sbjct  90   PKSRPDQSGLMELPGCPREVQMNFVPILVTPGYCNLTTVHNT  131
+
+
+> UniRef50_A0A0E0AHA1 Uncharacterized protein n=1 Tax=Oryza glumipatula 
+TaxID=40148 RepID=A0A0E0AHA1_9ORYZ
+Length=104
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 33/102 (32%), Positives = 43/102 (42%), Gaps = 17/102 (17%)
+
+Query  5    GQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEH  64
+            G  +  P LPA   L         V   +L D  +  A      RC AL  +L  MYKE 
+Sbjct  8    GSVYPRPTLPAKNRL-------PDVAAPMLPDNSEAPARWLRRSRCPALSHLLVGMYKEL  60
+
+Query  65   ----------GAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+                        FP C+R+ VK  AAS+ A+C + I +  SG
+Sbjct  61   CAVTDGKPMDEVFPGCQRDNVKCVAASLLALCNVDIPIGISG  102
+
+
+> UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 
+Tax=Triticum aestivum TaxID=4565 RepID=IAA3_WHEAT
+Length=44
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 35/40 (88%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQ  40
+           MCYPG AF+VPALP CRP+L LQCNGSQVPEAVLRDCCQQ
+Sbjct  5   MCYPGYAFKVPALPGCRPVLLLQCNGSQVPEAVLRDCCQQ  44
+
+
+> UniRef50_A0A0E0HY62 Uncharacterized protein n=1 Tax=Oryza nivara 
+TaxID=4536 RepID=A0A0E0HY62_ORYNI
+Length=146
+
+ Score = 55.1 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 44/100 (44%), Gaps = 7/100 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLL-RLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG+AF    L  CR  +    C  +G + PE     CC++LA +   CRC AL   +D
+Sbjct  40   CQPGEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLHMD  99
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDG  98
+             +    G    C RE  +  AA++ A     +   +   G
+Sbjct  100  GV----GELRGCPREAQRAAAAALLAEEECDLWSGSGKTG  135
+
+
+> UniRef50_M7ZXQ3 Trypsin inhibitor CMe n=2 Tax=Triticinae TaxID=1648030 
+RepID=M7ZXQ3_TRIUA
+Length=142
+
+ Score = 53.2 bits (126),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 31/100 (31%), Positives = 39/100 (39%), Gaps = 8/100 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQ--CNGSQVPEA--VLRDCCQQLAHISEWCRCGALYSML  57
+            C PG       L ACR LL  +    G        + R CC QL+ I  +CRC AL  ++
+Sbjct  29   CVPGSDIPYNPLQACRDLLSTKICSIGPVYASVGMLKRRCCNQLSRIPAYCRCEALRILM  88
+
+Query  58   DSMYKEHGAF---PRCRREVVKLTAASI-TAVCRLPIVVD  93
+            D      G F   P C R   K T   +    C L  +  
+Sbjct  89   DGAETPQGVFEDMPSCPRFTRKYTMGLVDPDECNLETIHG  128
+
+
+> UniRef50_P28041 Alpha-amylase/trypsin inhibitor CMa n=16 Tax=Pooideae 
+TaxID=147368 RepID=IAAA_HORVU
+Length=145
+
+ Score = 52.4 bits (124),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 38/108 (35%), Gaps = 15/108 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--------SQVPEAVLRD-CCQQLAHISEWCRCGA  52
+            CY G       L  CR  +  Q  G        S  P    +D CCQ+L    + CRC A
+Sbjct  30   CYAGMGLPSNPLEGCREYVAQQTCGVTIAGSPVSSEPGDTPKDRCCQELDEAPQHCRCEA  89
+
+Query  53   LYSMLD----SMYKEHGAFPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+            +   +       +      P C +E  +  A  +     C +  V +A
+Sbjct  90   VRYFIGRRSHPDWSVLKDLPGCPKEPQRDFAKVLVTPGQCNVLTVHNA  137
+
+
+> UniRef50_P83207 Chymotrypsin inhibitor WCI n=4 Tax=Triticinae 
+TaxID=1648030 RepID=ICIW2_WHEAT
+Length=119
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 29/108 (27%), Positives = 43/108 (40%), Gaps = 13/108 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRD-CCQQLAHISEWCRCGALYSMLD  58
+            CY G    V  L  C   +  Q  G    +P  V++D CC++LA IS  CRC  L   +D
+Sbjct  6    CYEGVGLPVDPLQGCHYYVTSQTCGFVPLLPIEVMKDRCCRELAAISSNCRCEGLRVFID  65
+
+Query  59   SMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+              +    +           PRC  EV +  A ++    +  +     G
+Sbjct  66   RAFPPSQSQGGGPPQPPLAPRCPTEVKRDFARTLALPGQCNLPTIHGG  113
+
+
+> UniRef50_P16850 Alpha-amylase/trypsin inhibitor CM1 n=7 Tax=Triticinae 
+TaxID=1648030 RepID=IAAC1_WHEAT
+Length=145
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/94 (27%), Positives = 34/94 (36%), Gaps = 13/94 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--------SQVPEAVLRD-CCQQLAHISEWCRCGA  52
+            CY G    +  L  CR  +  Q  G        S  P    RD CC++L   S+ CRC A
+Sbjct  30   CYAGMGLPINPLEGCREYVAQQTCGISISGSAVSTEPGNTPRDRCCKELYDASQHCRCEA  89
+
+Query  53   LYSMLDSMYKE----HGAFPRCRREVVKLTAASI  82
+            +   +              P C RE  +  A  +
+Sbjct  90   VRYFIGRRSDPNSSVLKDLPGCPREPQRDFAKVL  123
+
+
+> UniRef50_D2TGC2 Putative alpha-amylase inhibitor CM2 (Fragment) 
+n=1 Tax=Triticum aestivum TaxID=4565 RepID=D2TGC2_WHEAT
+Length=120
+
+ Score = 50.5 bits (119),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 24/102 (24%), Positives = 34/102 (33%), Gaps = 15/102 (15%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQ-CNGSQVPEAV--------LRDCCQQLAHISEWCRCGA  52
+            CYPG       L  CR  +  Q C    V   V           CC++L   S+ C C A
+Sbjct  5    CYPGMGLPSNPLEGCREYVAQQTCGVGIVGSPVSTEPGNTPRDRCCKELYDASQHCWCEA  64
+
+Query  53   LYSMLDSMYKE----HGAFPRCRREVVKLTAASI--TAVCRL  88
+            +   +              P C RE  + +A  +     C +
+Sbjct  65   VRYFIGRTSDPNSGVLKDLPGCPREPQRDSAKVLVTPGHCNV  106
+
+
+> UniRef50_P34951 Trypsin inhibitor CMc n=4 Tax=Hordeum vulgare 
+TaxID=4513 RepID=IAAC_HORVU
+Length=143
+
+ Score = 50.5 bits (119),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 46/108 (43%), Gaps = 13/108 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRD-CCQQLAHISEWCRCGALYSMLD  58
+            CY G    V  L  CR  +  Q  G    +P  V++D CC++LA IS  CRC  L   +D
+Sbjct  30   CYEGMGLPVNPLQGCRFYVASQTCGAVPLLPIEVMKDWCCRELAGISSNCRCEGLRVFID  89
+
+Query  59   SMY---KEHGAFPR-------CRREVVKLTAASITAVCRLPIVVDASG  96
+              +   +  GA P+       C  EV +  A ++    +  +     G
+Sbjct  90   RAFPPSQSQGAPPQLPPLATECPAEVKRDFARTLALPGQCNLPAIHGG  137
+
+
+> UniRef50_A0A1D6RYZ8 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6RYZ8_WHEAT
+Length=97
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 23/66 (35%), Positives = 33/66 (50%), Gaps = 4/66 (6%)
+
+Query  2   CYPGQAFQVPALPACRPLLRLQ-CNGSQV---PEAVLRDCCQQLAHISEWCRCGALYSML  57
+           C PG       L ACR LL ++ C+ S V      + R CC QL+ +  +CRC AL  ++
+Sbjct  29  CVPGSDIPYNPLQACRNLLSIKICSVSPVYVSAGMLKRRCCDQLSRVPAYCRCEALRILV  88
+
+Query  58  DSMYKE  63
+           D +   
+Sbjct  89  DGVETP  94
+
+
+> UniRef50_A0A022R733 Uncharacterized protein n=7 Tax=Lamiales 
+TaxID=4143 RepID=A0A022R733_ERYGU
+Length=156
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 34/74 (46%), Gaps = 0/74 (0%)
+
+Query  18   PLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKL  77
+             ++ +     Q     LRDCCQQL ++++ CRC A+   +  + ++ G +   + E V  
+Sbjct  73   EVIEMTTGNPQQQSQYLRDCCQQLQNVNQQCRCEAIKQAVKEIQQQGGQYQTGQYEQVYQ  132
+
+Query  78   TAASITAVCRLPIV  91
+             A S+   C     
+Sbjct  133  KARSLPRQCNFRSP  146
+
+
+> UniRef50_P11643 Alpha-amylase/trypsin inhibitor CMd n=24 Tax=Pooideae 
+TaxID=147368 RepID=IAAD_HORVU
+Length=171
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/128 (22%), Positives = 40/128 (31%), Gaps = 35/128 (27%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRD-------------------CCQQLA  42
+            C PG AF    L  CR  +  Q      P + L +                   CCQ+LA
+Sbjct  32   CSPGVAFPTNLLGHCRDYVLQQTCAVFTPGSKLPEWMTSAELNYPGQPYLAKLYCCQELA  91
+
+Query  43   HISEWCRCGALYSML--------------DSMYKEHGAFPRCRREVVKLTAASI--TAVC  86
+             I + CRC AL   +              +         P C RE+ +     +     C
+Sbjct  92   EIPQQCRCEALRYFMALPVPSQPVDPSTGNVGQSGLMDLPGCPREMQRDFVRLLVAPGQC  151
+
+Query  87   RLPIVVDA  94
+             L  + + 
+Sbjct  152  NLATIHNV  159
+
+
+> UniRef50_M8CCY7 Uncharacterized protein n=4 Tax=Triticinae TaxID=1648030 
+RepID=M8CCY7_AEGTA
+Length=145
+
+ Score = 45.1 bits (105),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 24/105 (23%), Positives = 44/105 (42%), Gaps = 13/105 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISEWCRCGALYSML  57
+            C PGQ     +L AC   +  Q  G        E + + CC+QL+ +S +CRC  +  ++
+Sbjct  28   CIPGQQITYDSLHACSDYVVRQTCGFEPYYVSVETMKKRCCEQLSGVSSYCRCEVVRILM  87
+
+Query  58   DSMYKE--------HGAFPRCRREVVKLTAASITA-VCRLPIVVD  93
+            + +  +           +PRC+    +  A  +    C L  ++ 
+Sbjct  88   EGIVNKRGEVVGSLLQDWPRCKSLTREYIAGIVGRGECNLETILG  132
+
+
+> UniRef50_Q45FA6 Cereal-type amylase inhibitor (Fragment) n=1 
+Tax=Secale cereale TaxID=4550 RepID=Q45FA6_SECCE
+Length=118
+
+ Score = 44.7 bits (104),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 25/102 (25%), Positives = 37/102 (36%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P     +  L  CR  +  Q    + P       + CC +LA+I + CRC AL   + 
+Sbjct  5    CTPWTTTPITPLAGCRDYVEQQSCRIETPGPPYLAKQQCCGELANIPQQCRCQALRYFMG  64
+
+Query  59   SMYKEHGA----FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+               +   +     P C REV       +     C L  V + 
+Sbjct  65   PKSRPDQSGLMELPGCPREVQMNFVKILVTPGYCNLTTVHNT  106
+
+
+> UniRef50_T1NMC6 Uncharacterized protein n=1 Tax=Triticum urartu 
+TaxID=4572 RepID=T1NMC6_TRIUA
+Length=62
+
+ Score = 43.5 bits (101),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1   MCYPGQAFQVPALPACRPLLRLQCNGSQ  28
+           MCYPGQAFQVPALP C P+L+LQCNGS+
+Sbjct  35  MCYPGQAFQVPALPGCHPVLKLQCNGSK  62
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214140455430
+Results from round 3
+
+
+Query= d1hssd_.a.52.1.2
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticea...  120     2e-32
+  UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID...  119     4e-30
+  UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza merid...  119     1e-29
+  UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punct...  118     6e-29
+  UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 ...  111     9e-29
+  UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment...  110     1e-28
+  UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum ae...  112     1e-28
+  UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza Tax...  109     6e-28
+  UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthe...  110     2e-27
+  UniRef50_A0A1D6B7P2 Uncharacterized protein n=3 Tax=Triticinae ...  107     2e-26
+  UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor...  105     2e-26
+  UniRef50_P01087 Alpha-amylase/trypsin inhibitor n=13 Tax=Poacea...  103     4e-26
+  UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia per...  110     6e-26
+  UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum ...  103     1e-25
+  UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic pro...  102     2e-25
+  UniRef50_UPI00001108AE BIFUNCTIONAL AMYLASE/SERINE PROTEASE INH...  101     6e-25
+  UniRef50_Q41540 CM 17 protein n=2 Tax=Triticinae TaxID=1648030 ...  101     7e-25
+  UniRef50_P32936 Alpha-amylase/trypsin inhibitor CMb n=16 Tax=Po...  101     8e-25
+  UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vul...  100     1e-24
+  UniRef50_P01086 Trypsin inhibitor CMe n=63 Tax=Poaceae TaxID=44...  100     2e-24
+  UniRef50_P16969 Alpha-amylase/trypsin inhibitor n=25 Tax=Pooide...  98.9    7e-24
+  UniRef50_A0A0E0AHC4 Uncharacterized protein n=1 Tax=Oryza glumi...  100     1e-23
+  UniRef50_A0A1D5UB33 Uncharacterized protein n=2 Tax=Triticum ae...  97.7    5e-23
+  UniRef50_P16850 Alpha-amylase/trypsin inhibitor CM1 n=7 Tax=Tri...  95.8    8e-23
+  UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicol...  94.3    2e-22
+  UniRef50_P28041 Alpha-amylase/trypsin inhibitor CMa n=16 Tax=Po...  93.9    5e-22
+  UniRef50_Q7X7E6 17kDa alpha-amylase/trypsin inhibitor 1 n=12 Ta...  91.2    7e-21
+  UniRef50_M7ZXQ3 Trypsin inhibitor CMe n=2 Tax=Triticinae TaxID=...  90.4    1e-20
+  UniRef50_P34951 Trypsin inhibitor CMc n=4 Tax=Hordeum vulgare T...  90.0    1e-20
+  UniRef50_A0A0E0Q5L9 Uncharacterized protein n=1 Tax=Oryza rufip...  91.6    1e-20
+  UniRef50_D2TGC2 Putative alpha-amylase inhibitor CM2 (Fragment)...  89.3    2e-20
+  UniRef50_P83207 Chymotrypsin inhibitor WCI n=4 Tax=Triticinae T...  89.3    2e-20
+  UniRef50_I1H2M2 Uncharacterized protein n=1 Tax=Brachypodium di...  88.9    5e-20
+  UniRef50_P11643 Alpha-amylase/trypsin inhibitor CMd n=24 Tax=Po...  88.9    7e-20
+  UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade ...  85.4    4e-19
+  UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sat...  84.6    8e-19
+  UniRef50_A0A0E0Q5N0 Uncharacterized protein n=1 Tax=Oryza rufip...  87.7    8e-19
+  UniRef50_A0MLU8 Limit dextrinase inhibitor n=7 Tax=Oryza TaxID=...  85.0    1e-18
+  UniRef50_A0A1D6ACI6 Uncharacterized protein n=1 Tax=Triticum ae...  83.1    3e-18
+  UniRef50_Q45FA6 Cereal-type amylase inhibitor (Fragment) n=1 Ta...  81.9    9e-18
+  UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa Ta...  80.0    1e-16
+  UniRef50_M8CCY7 Uncharacterized protein n=4 Tax=Triticinae TaxI...  79.2    2e-16
+  UniRef50_Q8H4M5 Os07g0213600 protein n=6 Tax=Oryza TaxID=4527 R...  78.9    2e-16
+  UniRef50_A0A0E0HY62 Uncharacterized protein n=1 Tax=Oryza nivar...  78.5    4e-16
+  UniRef50_A0A0E0AHA1 Uncharacterized protein n=1 Tax=Oryza glumi...  76.2    1e-15
+  UniRef50_A0A0E0Q5M9 Uncharacterized protein n=1 Tax=Oryza rufip...  76.9    1e-15
+  UniRef50_A0A1D6RYZ8 Uncharacterized protein n=1 Tax=Triticum ae...  71.5    5e-14
+  UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum ae...  65.0    1e-11
+  UniRef50_A0A022R733 Uncharacterized protein n=7 Tax=Lamiales Ta...  65.8    2e-11
+  UniRef50_A0A0E0HY49 Uncharacterized protein n=4 Tax=Oryza TaxID...  56.5    1e-08
+  UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 T...  49.6    3e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_M8BV45 Alpha-amylase/trypsin inhibitor CM3 n=1 Tax=Aeg...  83.5    2e-17
+  UniRef50_A0A1S6KXP9 Alpha amylase/trypsin inhibitor (Fragment) ...  74.2    1e-14
+  UniRef50_B6SMH0 Trypsin/factor XIIA inhibitor n=6 Tax=Panicoide...  62.7    2e-10
+  UniRef50_Q0D7Q9 Os07g0222100 protein n=1 Tax=Oryza sativa subsp...  56.9    1e-08
+  UniRef50_UPI0003EAA778 alpha-amylase/trypsin inhibitor CM2-like...  56.9    2e-08
+  UniRef50_A0A0D9WWU5 Uncharacterized protein n=1 Tax=Leersia per...  55.4    3e-07
+  UniRef50_A0A1E5UJV4 Uncharacterized protein n=2 Tax=Dichantheli...  50.7    1e-06
+  UniRef50_Q43659 15kDa grain softness protein n=85 Tax=Poaceae T...  51.5    2e-06
+  UniRef50_A0A067L4P9 2S n=4 Tax=Euphorbiaceae TaxID=3977 RepID=A...  50.0    6e-06
+  UniRef50_A0A200QKG1 Bifunctional inhibitor/plant lipid transfer...  48.4    2e-05
+  UniRef50_Q8H2B8 2s albumin n=5 Tax=rosids TaxID=71275 RepID=Q8H...  47.7    4e-05
+  UniRef50_A0A218XUV4 Uncharacterized protein n=1 Tax=Punica gran...  47.7    4e-05
+  UniRef50_A0A173G7R5 Putative storage protein n=5 Tax=PACMAD cla...  47.3    5e-05
+  UniRef50_J3S6X8 2S albumin n=2 Tax=Crotonoideae TaxID=235631 Re...  47.7    5e-05
+  UniRef50_UPI000C04A645 2S sulfur-rich seed storage protein 2-li...  46.9    7e-05
+  UniRef50_UPI0008F8A3B8 hypothetical protein n=1 Tax=Acinetobact...  46.5    1e-04
+  UniRef50_A5AEI6 Uncharacterized protein n=2 Tax=Vitis vinifera ...  48.4    1e-04
+  UniRef50_D7NLB9 Seed globulin n=1 Tax=Brachypodium distachyon T...  46.9    2e-04
+  UniRef50_A0A219D1L6 Albumin n=1 Tax=Cannabis sativa TaxID=3483 ...  45.3    2e-04
+  UniRef50_P26986 2S seed storage-like protein n=15 Tax=Pinaceae ...  45.0    5e-04
+  UniRef50_A0A0P0XE49 Os08g0255750 protein n=3 Tax=Oryza TaxID=45...  44.2    6e-04
+  UniRef50_A0A1D5S923 Globulin 1 n=1 Tax=Triticum aestivum TaxID=...  45.0    6e-04
+  UniRef50_P29835 19 kDa globulin n=14 Tax=Poaceae TaxID=4479 Rep...  45.0    6e-04
+  UniRef50_Q0Q5D9 Globulin 1 n=13 Tax=Triticeae TaxID=147389 RepI...  45.3    6e-04
+  UniRef50_W1PG49 Uncharacterized protein n=3 Tax=Amborella trich...  44.2    8e-04
+  UniRef50_A1E0W0 2S albumin isoform 2 n=1 Tax=Ficus pumila var. ...  43.8    9e-04
+  UniRef50_A0A1V0JB72 PawS-like protein 1b n=1 Tax=Melampodium pa...  45.0    0.001
+  UniRef50_A0A159B8H9 Seed storage albumin 13 n=1 Tax=Helianthus ...  43.4    0.001
+  UniRef50_UPI000C1D54CD 2S albumin-like n=3 Tax=Olea europaea va...  43.8    0.001
+  UniRef50_UPI00028BC861 2S albumin n=1 Tax=Bertholletia excelsa ...  43.4    0.001
+
+
+> UniRef50_P01083 Alpha-amylase inhibitor 0.28 n=473 Tax=Triticeae 
+TaxID=147389 RepID=IAA2_WHEAT
+Length=153
+
+ Score = 120 bits (302),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 69/117 (59%), Positives = 82/117 (70%), Gaps = 9/117 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA I +EWCRCG L SML S+
+Sbjct  37   CNPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADINNEWCRCGDLSSMLRSV  96
+
+Query  61   YKEHG------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCK-DVAAYPD  110
+            Y+E G        P CR+EV+KLTAAS+  VC++PI    SGD A VC  D AAYPD
+Sbjct  97   YQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPIPN-PSGDRAGVCYGDWAAYPD  152
+
+
+> UniRef50_A0A0E0AHA2 Uncharacterized protein n=6 Tax=Oryza TaxID=4527 
+RepID=A0A0E0AHA2_9ORYZ
+Length=336
+
+ Score = 119 bits (298),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 50/120 (42%), Positives = 64/120 (53%), Gaps = 16/120 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDS  59
+            +C  G+ + +  LP CR L + QC G  V E V +DCC+QLA I + +CRC AL  ML  
+Sbjct  215  LCTAGRGYPMYPLPRCRALAKRQCAGGAVDEQVRQDCCRQLAAIDDSFCRCPALSHMLVG  274
+
+Query  60   MYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+            MYKE GA          FP CRR  +K  AAS+ A C + I +   G    VC    +YP
+Sbjct  275  MYKELGAPADGKPMDEVFPGCRRGDMKRAAASLPAFCNVDIPIGIGG----VCY-WLSYP  329
+
+
+ Score = 114 bits (285),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 49/123 (40%), Positives = 64/123 (52%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L++ QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPAYSLPQCRTLVKRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  99   LSGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  153
+
+Query  107  AYP  109
+             YP
+Sbjct  154  GYP  156
+
+
+> UniRef50_A0A0E0E950 Uncharacterized protein n=1 Tax=Oryza meridionalis 
+TaxID=40149 RepID=A0A0E0E950_9ORYZ
+Length=449
+
+ Score = 119 bits (298),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 46/123 (37%), Positives = 63/123 (51%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC G      V E + +DCC+QLA + + WCRC AL  M
+Sbjct  325  CQPGMGYPMYSLPRCRALVKRQCVGHGAPGAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  384
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            +  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  385  VGGIYRELGATDVGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  439
+
+Query  107  AYP  109
+             YP
+Sbjct  440  GYP  442
+
+
+ Score = 110 bits (275),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 41/108 (38%), Positives = 57/108 (53%), Gaps = 13/108 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGS--QVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+            +C PG  + +  LP CR L++ QC G      E V RDCC+QLA + + WCRC A+  ML
+Sbjct  41   LCQPGLGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAVDDSWCRCEAISHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDAS  95
+              +Y+E GA          F  CRR  ++  AAS+ A C + I    +
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDIPNGVA  148
+
+
+ Score = 101 bits (253),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 42/118 (36%), Positives = 54/118 (46%), Gaps = 12/118 (10%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVP-EAVLRDCCQQLAHI-SEWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC       E V R CC+QLA I S WCRC AL  ML 
+Sbjct  178  LCQPGIGYPTYPLPRCRALVKRQCVAPGTADEQVRRGCCRQLAAIDSSWCRCDALNHMLR  237
+
+Query  59   SMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+             +Y+E GA          F  CRR  ++   AS+ A C + I    +     V     
+Sbjct  238  IIYRESGAADAGHPMAEVFRGCRRGDIERATASLPAFCNVDIPNGKTMASNKVVFSAL  295
+
+
+> UniRef50_A0A0E0LII4 Uncharacterized protein n=1 Tax=Oryza punctata 
+TaxID=4537 RepID=A0A0E0LII4_ORYPU
+Length=657
+
+ Score = 118 bits (297),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 46/123 (37%), Positives = 63/123 (51%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC----NGSQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG  + + +LP CR L++ QC      + V E + +DCC+QLA + + WCRC AL  M
+Sbjct  349  CQPGMGYPMYSLPRCRALVKRQCVSHGAPAAVDEQLRQDCCRQLAAVDDSWCRCEALNHM  408
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  409  LTGIYRELGATDAGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  463
+
+Query  107  AYP  109
+             YP
+Sbjct  464  GYP  466
+
+
+ Score = 115 bits (289),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 50/123 (41%), Positives = 66/123 (54%), Gaps = 19/123 (15%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG---SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            +C PG+ + +  LP CR L++ QC G     V E + +DCC+QLA I + +CRC AL  M
+Sbjct  533  LCTPGRGYPMYPLPRCRALVKRQCAGGAAGAVDEQLRQDCCRQLAAIDDSFCRCPALIHM  592
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  MYKE GA          FP CRR  +K  AAS+ A C + I +   G    VC    
+Sbjct  593  LVGMYKELGAPADGQPMDEVFPGCRRGDMKRAAASLPAFCGVDIPIGIGG----VCY-WL  647
+
+Query  107  AYP  109
+            +YP
+Sbjct  648  SYP  650
+
+
+ Score = 114 bits (286),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 42/108 (39%), Positives = 55/108 (51%), Gaps = 13/108 (12%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGS--QVPEAVLRDCCQQLAHISE-WCRCGALYSML  57
+             C PG  + +  LP CR L++ QC G      E V RDCC+QLA I + WCRC A+  ML
+Sbjct  41   FCRPGMGYPMYPLPRCRALVKRQCVGRGTAAAEQVRRDCCRQLAAIDDSWCRCEAINHML  100
+
+Query  58   DSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDAS  95
+              +Y+E GA          F  CRR  ++  AAS+ A C + I     
+Sbjct  101  GGIYRELGAPDVGHPMSEVFRGCRRGDIERAAASLPAFCNVDIPNGIG  148
+
+
+ Score = 105 bits (261),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 40/105 (38%), Positives = 54/105 (51%), Gaps = 12/105 (11%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNG-SQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLD  58
+            +C PG  +    LP CR L++ QC G   V E V + CC+QLA I + WCRC AL  ML 
+Sbjct  182  LCQPGIGYPTYPLPRCRALVKRQCVGHGTVDEQVRQGCCRQLAAIGNSWCRCEALNHMLR  241
+
+Query  59   SMYKEHG----------AFPRCRREVVKLTAASITAVCRLPIVVD  93
+             +Y+E+G           F  CRR  ++   AS+ A C + I   
+Sbjct  242  IIYRENGVADVGHPMAEVFRGCRRGDIERATASLPAFCNVDIPNG  286
+
+
+> UniRef50_P16968 Alpha-amylase inhibitor BMAI-1 (Fragment) n=14 
+Tax=BOP clade TaxID=359160 RepID=IAA1_HORVU
+Length=146
+
+ Score = 111 bits (278),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 51/120 (43%), Positives = 64/120 (53%), Gaps = 15/120 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C+PG  + V   P CR L++ QC G QV E++ +DCC+Q+A I  EWC CGAL SM  SM
+Sbjct  20   CWPGMGYPVYPFPRCRALVKSQCAGGQVVESIQKDCCRQIAAIGDEWCICGALGSMRGSM  79
+
+Query  61   YKEHG------------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAY  108
+            YKE G             FP CR EV+    AS+ AVC   I      D   VC  ++ Y
+Sbjct  80   YKELGVALADDKATVAEVFPGCRTEVMDRAVASLPAVCNQYIPNTNGTD--GVCYWLSYY  137
+
+
+> UniRef50_D2TGC3 Putative alpha-amylase inhibitor 0.28 (Fragment) 
+n=14 Tax=Triticinae TaxID=1648030 RepID=D2TGC3_WHEAT
+Length=121
+
+ Score = 110 bits (275),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 66/116 (57%), Positives = 80/116 (69%), Gaps = 9/116 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P   ++V AL  CR +++LQC GSQVPEAVLRDCCQQLA + +EWCRC  L SML S+
+Sbjct  7    CDPATGYKVSALTGCRAMVKLQCVGSQVPEAVLRDCCQQLADVNNEWCRCEDLSSMLRSV  66
+
+Query  61   YKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            Y+E GA       P CR+EV+KLTAAS+  V ++PI    SGD A VC   AAYPD
+Sbjct  67   YQELGAREGKEVLPGCRKEVMKLTAASVPEVRKVPIPN-PSGDRAGVCY-WAAYPD  120
+
+
+> UniRef50_A0A1D5VPJ2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5VPJ2_WHEAT
+Length=199
+
+ Score = 112 bits (280),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 85/119 (71%), Positives = 90/119 (76%), Gaps = 15/119 (13%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            MCYPG AF+VPALP CRP+L+LQCNGSQVPEAVLRDCCQQLA ISEWCRCGALYSMLDSM
+Sbjct  35   MCYPGYAFKVPALPGCRPVLKLQCNGSQVPEAVLRDCCQQLADISEWCRCGALYSMLDSM  94
+
+Query  61   YKEH---------GAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            YKEH         GAFPR RREVVKLTAASITAVC+LP      G G  +C       D
+Sbjct  95   YKEHGVQEGQAGTGAFPRRRREVVKLTAASITAVCKLP------GLGPLLCIWAMTDDD  147
+
+
+> UniRef50_Q01883 Seed allergenic protein RAG1 n=21 Tax=Oryza TaxID=4527 
+RepID=RAG1_ORYSJ
+Length=163
+
+ Score = 109 bits (273),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 50/123 (41%), Positives = 64/123 (52%), Gaps = 20/123 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISE-WCRCGALYSM  56
+            C PG ++   +LP CR L+R QC G    S   E V +DCC+QLA + + WCRCGAL  M
+Sbjct  39   CRPGISYPTYSLPQCRTLVRRQCVGRGAASAADEQVWQDCCRQLAAVDDGWCRCGALDHM  98
+
+Query  57   LDSMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVA  106
+            L  +Y+E GA          FP CRR  ++  AAS+ A C + I     G    VC    
+Sbjct  99   LSGIYRELGATEAGHPMAEVFPGCRRGDLERAAASLPAFCNVDIPNGPGG----VCY-WL  153
+
+Query  107  AYP  109
+             YP
+Sbjct  154  GYP  156
+
+
+> UniRef50_A0A1E5W1N4 Alpha-amylase inhibitor 5 n=1 Tax=Dichanthelium 
+oligosanthes TaxID=888268 RepID=A0A1E5W1N4_9POAL
+Length=270
+
+ Score = 110 bits (276),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 35/113 (31%), Positives = 49/113 (43%), Gaps = 7/113 (6%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG------SQVPEAV-LRDCCQQLAHISEWCRCGALY  54
+            C PG A  +P +P+CR     +  G       Q P  V    CC++LA +   CRC AL 
+Sbjct  28   CAPGMAIPIPPVPSCRIYAVSRTCGLGGPYGPQDPSPVFKERCCRELAAVPPRCRCAALE  87
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAA  107
+             M+DS +     F  C RE  +  A+ +T      +     G  +YV    AA
+Sbjct  88   YMMDSDFGRLQDFRGCTREAQRSLASRLTRAAECDLRTIDGGMSSYVLLSAAA  140
+
+
+ Score = 84.6 bits (208),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 29/115 (25%), Positives = 40/115 (35%), Gaps = 6/115 (5%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGS-----QVPEAVLRDCCQQLAHISEWCRCGALYSM  56
+            C PG    +  LP+CR  L  +  G           +   CC++L  I  +CRCGAL  M
+Sbjct  156  CEPGLVIPLDPLPSCRAYLVRRTCGPGRGRFVPLRLIKERCCRELEDIVPYCRCGALRIM  215
+
+Query  57   LDSMYKEHGAFPR-CRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYPD  110
+            +DSM    G     C        AA++       +         Y         D
+Sbjct  216  MDSMPGGSGVQTSPCSWAGQLDLAATLVTEAECSLPTIHGRPFCYALGAEGTTSD  270
+
+
+> UniRef50_A0A1D6B7P2 Uncharacterized protein n=3 Tax=Triticinae 
+TaxID=1648030 RepID=A0A1D6B7P2_WHEAT
+Length=226
+
+ Score = 107 bits (267),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 28/104 (27%), Positives = 43/104 (41%), Gaps = 10/104 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C PG AF   AL  C   +  +  G     P  V   CC++LA + ++CRC AL  ++D 
+Sbjct  105  CQPGVAFPHNALATCHTYVIKRVCGRGPSRPMLVKERCCRELAVVPDYCRCEALRVLMDG  164
+
+Query  60   MYKE--------HGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+            +  E         G    C RE  +  AA++       +   + 
+Sbjct  165  VRAEEGHVVEGRLGDRRDCPREAQREFAATLVTAAECNLPTVSG  208
+
+
+> UniRef50_C5XDC4 Uncharacterized protein n=3 Tax=Sorghum bicolor 
+TaxID=4558 RepID=C5XDC4_SORBI
+Length=148
+
+ Score = 105 bits (261),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 29/103 (28%), Positives = 41/103 (40%), Gaps = 7/103 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG------SQVPEAV-LRDCCQQLAHISEWCRCGALY  54
+            C PG A   P +P CR     +  G         P  V  + CC++LA +   CRC AL 
+Sbjct  29   CAPGLAIPAPPVPTCRIYTVSRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  88
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGD  97
+             M+D +      F  C RE+ +  A  +T      +     G 
+Sbjct  89   FMMDGVDAPLQDFRGCTREMQRTFARRLTRAAECNLPTIDGGM  131
+
+
+> UniRef50_P01087 Alpha-amylase/trypsin inhibitor n=13 Tax=Poaceae 
+TaxID=4479 RepID=IAAT_ELECO
+Length=122
+
+ Score = 103 bits (258),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 39/106 (37%), Gaps = 11/106 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG---SQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     L +CR  +  +  G       + +   CC+QL  I  +CRC A+  ++D
+Sbjct  6    CIPGMAIPHNPLDSCRWYVSTRTCGVGPRLATQEMKARCCRQLEAIPAYCRCEAVRILMD  65
+
+Query  59   SMYKE--------HGAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+             +               P C R+V +  A  +       +     G
+Sbjct  66   GVVTPSGQHEGRLLQDLPGCPRQVQRAFAPKLVTEVECNLATIHGG  111
+
+
+> UniRef50_A0A0D9WWU7 Uncharacterized protein n=1 Tax=Leersia perrieri 
+TaxID=77586 RepID=A0A0D9WWU7_9ORYZ
+Length=589
+
+ Score = 110 bits (274),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 45/118 (38%), Positives = 59/118 (50%), Gaps = 15/118 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C PG  + +   P CR L++ QC G  V E + +DCC+QLA I + +CRC AL  ML SM
+Sbjct  188  CMPGLGYPMYPFPRCRALVKRQCAGGAVDEQLRQDCCRQLAAIDNNFCRCPALSLMLASM  247
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAY  108
+            YKE GA             CRR  +K  AAS+   C + I +   G    +C    A 
+Sbjct  248  YKELGAPADGQPMDEVLRGCRRGDMKRLAASLPVFCNVNIPIGVGG----ICYWKMAS  301
+
+
+ Score = 109 bits (273),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 49/115 (43%), Positives = 63/115 (55%), Gaps = 15/115 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            CY G+ + V  LP CR L++ QC G  V E V +DCC+QLA + + +CRC AL  ML SM
+Sbjct  329  CYGGEGYPVYPLPRCRALVKRQCVGGAVDEQVRQDCCRQLAAVDDSFCRCPALSLMLVSM  388
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDV  105
+            YKE GA          F  CRR  +K  AAS+   C++ I +   G    VC  V
+Sbjct  389  YKELGAPADGKPMDEVFRGCRRGDIKRLAASLPVFCKIDIPIGVGG----VCYWV  439
+
+
+ Score = 82.3 bits (202),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 41/108 (38%), Gaps = 18/108 (17%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC--------NGSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C             P ++L  CC +LA + E CRC AL
+Sbjct  36   CRVGKAVSRNPVPSCRRYIARWCAISKGQQIGSKMPPRSLLDPCCHELAAVPERCRCDAL  95
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPIV  91
+              ++  +  E G            P C    +   A+ +T   R  + 
+Sbjct  96   SVLVRGVITEEGERIPGMVSKKEAPECDGATIASMASDLTHYGRCNLP  143
+
+
+ Score = 77.3 bits (189),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 24/100 (24%), Positives = 39/100 (39%), Gaps = 11/100 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMY  61
+            C  G+A     +P+CR  +      S  P    + CC++LA + E CRC AL  ++  + 
+Sbjct  480  CRVGKAVSRNPVPSCRRYIERW-ENSLGPTCRPKACCRELAAVPERCRCDALSVLVRGVI  538
+
+Query  62   KEHGAF----------PRCRREVVKLTAASITAVCRLPIV  91
+             E G            P C    +   A+ +    R  + 
+Sbjct  539  TEEGERIPGMVSKKEAPECDGATIASMASDLMHYGRCYLP  578
+
+
+> UniRef50_P13691 Alpha-amylase inhibitor BDAI-1 n=3 Tax=Hordeum 
+vulgare TaxID=4513 RepID=IAA2_HORVU
+Length=152
+
+ Score = 103 bits (257),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 51/115 (44%), Positives = 72/115 (63%), Gaps = 9/115 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHI-SEWCRCGALYSMLDSM  60
+            C P    +V  L  CR L++L+C G++VPE VLRDCCQ++A+I +EWCRCG L SML S+
+Sbjct  37   CDPEMGHKVSPLTRCRALVKLECVGNRVPEDVLRDCCQEVANISNEWCRCGDLGSMLRSV  96
+
+Query  61   YKEHG-------AFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAY  108
+            Y   G        FP C+++V+KL  A + A+C +PI  +A+G    VC   A+ 
+Sbjct  97   YAALGVGGGPEEVFPGCQKDVMKLLVAGVPALCNVPIPNEAAGTR-GVCYWSAST  150
+
+
+> UniRef50_UPI0007769F0E LOW QUALITY PROTEIN: seed allergenic protein 
+RAG2-like n=1 Tax=Oryza brachyantha TaxID=4533 RepID=UPI0007769F0E
+Length=146
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 46/119 (39%), Positives = 57/119 (48%), Gaps = 25/119 (21%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISE-WCRCGALYSMLDSM  60
+            C PG+ F    LP CR L + QC G          CC+QLA + + WCRC AL  ML  +
+Sbjct  40   CRPGEGFPEHPLPRCRALAKQQCLGX---------CCRQLAAVDDGWCRCEALRHMLRGV  90
+
+Query  61   YKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+            Y+E G           FP CRRE ++  AAS  A+C + I   A G    VC     YP
+Sbjct  91   YRELGVADVGHPKAEVFPGCRREDIERAAASAPALCGVDIPNGAGG----VCY-WLGYP  144
+
+
+> UniRef50_UPI00001108AE BIFUNCTIONAL AMYLASE/SERINE PROTEASE INHIBITOR 
+n=1 Tax=Zea mays TaxID=4577 RepID=UPI00001108AE
+Length=134
+
+ Score = 101 bits (251),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 45/106 (42%), Gaps = 12/106 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEA-VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     LP+CR  +  +  G   ++P   + R CC++LA I  +CRC AL  ++D
+Sbjct  13   CVPGWAIPHNPLPSCRWYVTSRTCGIGPRLPWPELKRRCCRELADIPAYCRCTALSILMD  72
+
+Query  59   SMYKE---------HGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+                              P C REV +  AA++       +   + 
+Sbjct  73   GAIPPGPDAQLEGRLEDLPGCPREVQRGFAATLVTEAECNLATISG  118
+
+
+> UniRef50_Q41540 CM 17 protein n=2 Tax=Triticinae TaxID=1648030 
+RepID=Q41540_WHEAT
+Length=143
+
+ Score = 101 bits (251),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 43/102 (42%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P  +  +  LP+CR  +  Q    ++P       ++CC+QLA+I + CRC AL   + 
+Sbjct  30   CTPWTSTLITPLPSCRNYVEEQACRIEMPGPPYLAKQECCEQLANIPQQCRCQALRYFMG  89
+
+Query  59   SMYKEHGA----FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+               +   +     P C REV       +     C L  V + 
+Sbjct  90   PKSRPDQSGLMELPGCPREVQMNFVPILVTPGYCNLTTVHNT  131
+
+
+> UniRef50_P32936 Alpha-amylase/trypsin inhibitor CMb n=16 Tax=Pooideae 
+TaxID=147368 RepID=IAAB_HORVU
+Length=149
+
+ Score = 101 bits (251),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 40/102 (39%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P  A  +  LP+CR  +  Q    + P       + CC +LA+I + CRC AL   + 
+Sbjct  30   CTPWTATPITPLPSCRDYVEQQACRIETPGPPYLAKQQCCGELANIPQQCRCQALRFFMG  89
+
+Query  59   SMYKEHGA----FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+               +   +     P C REV       +     C L  V + 
+Sbjct  90   RKSRPDQSGLMELPGCPREVQMDFVRILVTPGFCNLTTVHNT  131
+
+
+> UniRef50_A0A287JQN1 Uncharacterized protein n=2 Tax=Hordeum vulgare 
+TaxID=4513 RepID=A0A287JQN1_HORVV
+Length=154
+
+ Score = 100 bits (250),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 33/107 (31%), Positives = 52/107 (49%), Gaps = 11/107 (10%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C  G++  +  LPACR  +  +C     QVP+ + + CC++L+ + E CRC AL  +++ 
+Sbjct  39   CRVGKSIPINPLPACREYITRRCAVGDQQVPDVLKQQCCRELSDLPESCRCDALSILVNG  98
+
+Query  60   MYKEHG-------AFPRCRREVVKLTAASITAV--CRLPIVVDASGD  97
+            +  E G       A P C RE +    + +TA   C L       GD
+Sbjct  99   VITEDGSRVGRMEAVPGCDRERIHSMGSYLTAYSECNLHNPGTPGGD  145
+
+
+> UniRef50_P01086 Trypsin inhibitor CMe n=63 Tax=Poaceae TaxID=4479 
+RepID=IAAE_HORVU
+Length=148
+
+ Score = 100 bits (248),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 44/107 (41%), Gaps = 13/107 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN---GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG A     L ACR  +  Q        +   + R CC +L+ I  +CRC AL  ++ 
+Sbjct  29   CAPGDALPHNPLRACRTYVVSQICHQGPRLLTSDMKRRCCDELSAIPAYCRCEALRIIMQ  88
+
+Query  59   SMYKEHGAF--------PRCRREVVKLTAASI--TAVCRLPIVVDAS  95
+             +    GAF        P C RE     AA++     C L  +  ++
+Sbjct  89   GVVTWQGAFEGAYFKDSPNCPRERQTSYAANLVTPQECNLGTIHGSA  135
+
+
+> UniRef50_P16969 Alpha-amylase/trypsin inhibitor n=25 Tax=Pooideae 
+TaxID=147368 RepID=IAA_HORVU
+Length=147
+
+ Score = 98.9 bits (245),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 40/106 (38%), Gaps = 12/106 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C  G  F    L  C   +  +  G     P  V   CC++LA + + CRC AL  ++D 
+Sbjct  33   CQLGVDFPHNPLATCHTYVIKRVCGRGPSRPMLVKERCCRELAAVPDHCRCEALRILMDG  92
+
+Query  60   MYKE--------HGAFPRCRREVVKLTAASI--TAVCRLPIVVDAS  95
+            +            G    C RE  +  AA++   A C L  V    
+Sbjct  93   VRTPEGRVVEGRLGDRRDCPREEQRAFAATLVTAAECNLSSVQAPG  138
+
+
+> UniRef50_A0A0E0AHC4 Uncharacterized protein n=1 Tax=Oryza glumipatula 
+TaxID=40148 RepID=A0A0E0AHC4_9ORYZ
+Length=300
+
+ Score = 100 bits (250),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 39/102 (38%), Gaps = 7/102 (7%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG-----SQVPEAVLRDCCQQLAHISEWCRCGALYSM  56
+            C PG A     L  CR  +  +  G          ++   CC++LA +  +CRC AL   
+Sbjct  185  CQPGMAIPHDPLRGCRRYVLRRACGLAAGGRLYDWSLKERCCRELAAVPAYCRCAALAYF  244
+
+Query  57   LDSMY--KEHGAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+            +D     +     P C RE  +  AA +T      +     G
+Sbjct  245  MDGASEGRLLEDLPGCPRETQRGLAAMLTTPGECNLETIHGG  286
+
+
+ Score = 87.3 bits (215),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 43/106 (41%), Gaps = 9/106 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN---GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG+AF    L  CR  +  +     G + PE     CC++LA +   CRC AL   +D
+Sbjct  40   CQPGEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLFMD  99
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKD  104
+             +    G    C RE  +  AA++ A     +   +       C  
+Sbjct  100  GV----GELRGCPREAQRAAAAALMAAGECDLRGGSGETER--CYW  139
+
+
+> UniRef50_A0A1D5UB33 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D5UB33_WHEAT
+Length=195
+
+ Score = 97.7 bits (242),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 24/105 (23%), Positives = 39/105 (37%), Gaps = 5/105 (5%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQ-CNGSQVPEA----VLRDCCQQLAHISEWCRCGALYSM  56
+            C PG       LP+CR  +  + C  +Q            CC++L  +SE CRC A+   
+Sbjct  76   CRPGVGIPPKPLPSCRAYVVQKTCKDTQQTTPGKVASKDPCCRELEAVSEECRCTAMEDF  135
+
+Query  57   LDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYV  101
+            +  M +  G    C R+ +     S+       +     G    +
+Sbjct  136  MQGMLRLEGVPEGCTRKDLWEFTLSLVKPELCNLKTITGGPYCGL  180
+
+
+> UniRef50_P16850 Alpha-amylase/trypsin inhibitor CM1 n=7 Tax=Triticinae 
+TaxID=1648030 RepID=IAAC1_WHEAT
+Length=145
+
+ Score = 95.8 bits (237),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 21/106 (20%), Positives = 34/106 (32%), Gaps = 13/106 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAV---------LRDCCQQLAHISEWCRCGA  52
+            CY G    +  L  CR  +  Q  G  +  +             CC++L   S+ CRC A
+Sbjct  30   CYAGMGLPINPLEGCREYVAQQTCGISISGSAVSTEPGNTPRDRCCKELYDASQHCRCEA  89
+
+Query  53   LYSMLDSMYKE----HGAFPRCRREVVKLTAASITAVCRLPIVVDA  94
+            +   +              P C RE  +  A  +       ++   
+Sbjct  90   VRYFIGRRSDPNSSVLKDLPGCPREPQRDFAKVLVTSGHCNVMTVH  135
+
+
+> UniRef50_P81367 Alpha-amylase inhibitor 4 n=1 Tax=Sorghum bicolor 
+TaxID=4558 RepID=IAA4_SORBI
+Length=118
+
+ Score = 94.3 bits (233),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 44/103 (43%), Gaps = 8/103 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG------SQVPEAV-LRDCCQQLAHISEWCRCGALY  54
+            C PG A   P LP CR   R +  G         P  V  + CC++LA +   CRC AL 
+Sbjct  7    CAPGLAIPAPPLPTCRTFARPRTCGLGGPYGPVDPSPVLKQRCCRELAAVPSRCRCAALG  66
+
+Query  55   SMLDSMYKEHGAFPRCRREVVKLTAAS-ITAVCRLPIVVDASG  96
+             M+D +      F  C RE+ ++ A S +T      +     G
+Sbjct  67   FMMDGVDAPLQDFRGCTREMQRIYAVSRLTRAAECNLPTIPGG  109
+
+
+> UniRef50_P28041 Alpha-amylase/trypsin inhibitor CMa n=16 Tax=Pooideae 
+TaxID=147368 RepID=IAAA_HORVU
+Length=145
+
+ Score = 93.9 bits (232),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 23/108 (21%), Positives = 35/108 (32%), Gaps = 15/108 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAV---------LRDCCQQLAHISEWCRCGA  52
+            CY G       L  CR  +  Q  G  +  +             CCQ+L    + CRC A
+Sbjct  30   CYAGMGLPSNPLEGCREYVAQQTCGVTIAGSPVSSEPGDTPKDRCCQELDEAPQHCRCEA  89
+
+Query  53   LYSMLDSMYKE----HGAFPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+            +   +              P C +E  +  A  +     C +  V +A
+Sbjct  90   VRYFIGRRSHPDWSVLKDLPGCPKEPQRDFAKVLVTPGQCNVLTVHNA  137
+
+
+> UniRef50_Q7X7E6 17kDa alpha-amylase/trypsin inhibitor 1 n=12 
+Tax=Oryza TaxID=4527 RepID=AI171_ORYSJ
+Length=158
+
+ Score = 91.2 bits (225),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 27/112 (24%), Positives = 42/112 (38%), Gaps = 18/112 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C           Q P   L  CC++LA +   CRC AL
+Sbjct  35   CRVGKAVSRNPVPSCRNYIARWCAAAGGRMDSRKQPPREFLEPCCRELAAVPMQCRCDAL  94
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPIVVDAS  95
+              ++  +  E G            P C    +   A+++T   R  +   A 
+Sbjct  95   SVLVRGVVTEEGDRVSGMISQHAAPGCDAATIAGMASALTDYGRCNLQHTAG  146
+
+
+> UniRef50_M7ZXQ3 Trypsin inhibitor CMe n=2 Tax=Triticinae TaxID=1648030 
+RepID=M7ZXQ3_TRIUA
+Length=142
+
+ Score = 90.4 bits (223),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/101 (31%), Positives = 40/101 (40%), Gaps = 8/101 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--GSQVP--EAVLRDCCQQLAHISEWCRCGALYSML  57
+            C PG       L ACR LL  +    G        + R CC QL+ I  +CRC AL  ++
+Sbjct  29   CVPGSDIPYNPLQACRDLLSTKICSIGPVYASVGMLKRRCCNQLSRIPAYCRCEALRILM  88
+
+Query  58   DSMYKEHGAF---PRCRREVVKLTAASI-TAVCRLPIVVDA  94
+            D      G F   P C R   K T   +    C L  +  +
+Sbjct  89   DGAETPQGVFEDMPSCPRFTRKYTMGLVDPDECNLETIHGS  129
+
+
+> UniRef50_P34951 Trypsin inhibitor CMc n=4 Tax=Hordeum vulgare 
+TaxID=4513 RepID=IAAC_HORVU
+Length=143
+
+ Score = 90.0 bits (222),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 45/108 (42%), Gaps = 13/108 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRD-CCQQLAHISEWCRCGALYSMLD  58
+            CY G    V  L  CR  +  Q  G    +P  V++D CC++LA IS  CRC  L   +D
+Sbjct  30   CYEGMGLPVNPLQGCRFYVASQTCGAVPLLPIEVMKDWCCRELAGISSNCRCEGLRVFID  89
+
+Query  59   SMYKE---HGAFPR-------CRREVVKLTAASITAVCRLPIVVDASG  96
+              +      GA P+       C  EV +  A ++    +  +     G
+Sbjct  90   RAFPPSQSQGAPPQLPPLATECPAEVKRDFARTLALPGQCNLPAIHGG  137
+
+
+> UniRef50_A0A0E0Q5L9 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5L9_ORYRU
+Length=211
+
+ Score = 91.6 bits (226),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 42/100 (42%), Gaps = 2/100 (2%)
+
+Query  2    CYPGQAF-QVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            C PGQ       LP CR  L  +C G   P  V   CC QL  ++  CRC AL +M++ +
+Sbjct  48   CEPGQGVVPKDPLPGCRAYLLRRCAGGDPPG-VRARCCHQLREVAPRCRCDALRAMVEVL  106
+
+Query  61   YKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAY  100
+             +E  A P C +  +   A  +       +   A  D   
+Sbjct  107  VEEEEAPPACNKGAMAAIAEGLPGRGECDLDTRAGADDGG  146
+
+
+> UniRef50_D2TGC2 Putative alpha-amylase inhibitor CM2 (Fragment) 
+n=1 Tax=Triticum aestivum TaxID=4565 RepID=D2TGC2_WHEAT
+Length=120
+
+ Score = 89.3 bits (220),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 36/108 (33%), Gaps = 15/108 (14%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG-SQVPEAV--------LRDCCQQLAHISEWCRCGA  52
+            CYPG       L  CR  +  Q  G   V   V           CC++L   S+ C C A
+Sbjct  5    CYPGMGLPSNPLEGCREYVAQQTCGVGIVGSPVSTEPGNTPRDRCCKELYDASQHCWCEA  64
+
+Query  53   LYSMLDSMYKE----HGAFPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+            +   +              P C RE  + +A  +     C +  V + 
+Sbjct  65   VRYFIGRTSDPNSGVLKDLPGCPREPQRDSAKVLVTPGHCNVMTVHNT  112
+
+
+> UniRef50_P83207 Chymotrypsin inhibitor WCI n=4 Tax=Triticinae 
+TaxID=1648030 RepID=ICIW2_WHEAT
+Length=119
+
+ Score = 89.3 bits (220),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/108 (26%), Positives = 41/108 (38%), Gaps = 13/108 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVP-EAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            CY G    V  L  C   +  Q  G    +P E +   CC++LA IS  CRC  L   +D
+Sbjct  6    CYEGVGLPVDPLQGCHYYVTSQTCGFVPLLPIEVMKDRCCRELAAISSNCRCEGLRVFID  65
+
+Query  59   SMYKEHGA----------FPRCRREVVKLTAASITAVCRLPIVVDASG  96
+              +    +           PRC  EV +  A ++    +  +     G
+Sbjct  66   RAFPPSQSQGGGPPQPPLAPRCPTEVKRDFARTLALPGQCNLPTIHGG  113
+
+
+> UniRef50_I1H2M2 Uncharacterized protein n=1 Tax=Brachypodium 
+distachyon TaxID=15368 RepID=I1H2M2_BRADI
+Length=149
+
+ Score = 88.9 bits (219),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 42/102 (41%), Gaps = 13/102 (13%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGS------QVPEAVLRDCCQQLAHISEWCRCGALYS  55
+            C  G+      LP CR  +   C          VP+ V R CC +++ + + CRC AL  
+Sbjct  36   CRVGKKIPYNPLPGCREYITRWCAVRNDPKKQLVPDEVKRRCCGEVSELPKGCRCDALGI  95
+
+Query  56   MLDSMYKEHG-------AFPRCRREVVKLTAASITAVCRLPI  90
+            + + +  E G       A P C RE +   A+ +  +    I
+Sbjct  96   LANGVITEEGVKVGRMEAVPGCDRETIAFLASDLMEIRHCYI  137
+
+
+> UniRef50_P11643 Alpha-amylase/trypsin inhibitor CMd n=24 Tax=Pooideae 
+TaxID=147368 RepID=IAAD_HORVU
+Length=171
+
+ Score = 88.9 bits (219),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 27/126 (21%), Positives = 39/126 (31%), Gaps = 33/126 (26%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRD-------------------CCQQLA  42
+            C PG AF    L  CR  +  Q      P + L +                   CCQ+LA
+Sbjct  32   CSPGVAFPTNLLGHCRDYVLQQTCAVFTPGSKLPEWMTSAELNYPGQPYLAKLYCCQELA  91
+
+Query  43   HISEWCRCGALYSML--------------DSMYKEHGAFPRCRREVVKLTAASITAVCRL  88
+             I + CRC AL   +              +         P C RE+ +     + A  + 
+Sbjct  92   EIPQQCRCEALRYFMALPVPSQPVDPSTGNVGQSGLMDLPGCPREMQRDFVRLLVAPGQC  151
+
+Query  89   PIVVDA  94
+             +    
+Sbjct  152  NLATIH  157
+
+
+> UniRef50_P81368 Alpha-amylase inhibitor 5 n=5 Tax=PACMAD clade 
+TaxID=147370 RepID=IAA5_SORBI
+Length=116
+
+ Score = 85.4 bits (210),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 40/99 (40%), Gaps = 5/99 (5%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAV-LRDCCQQLAHISEWCRCGALYSM  56
+            C PG    +  LP+CR  +  +  G      VP  V    CC +L  +  +CRCGAL + 
+Sbjct  4    CEPGLVIPLNPLPSCRTYMVRRACGVSIGPVVPLPVLKERCCSELEKLVPYCRCGALRTA  63
+
+Query  57   LDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+            LDSM   +   P C    +   A +I       +     
+Sbjct  64   LDSMMTGYEMRPTCSWGGLLTFAPTIVCYRECNLRTLHG  102
+
+
+> UniRef50_Q40720 Allergenic protein (Fragment) n=3 Tax=Oryza sativa 
+subsp. japonica TaxID=39947 RepID=Q40720_ORYSJ
+Length=113
+
+ Score = 84.6 bits (208),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 36/105 (34%), Positives = 51/105 (49%), Gaps = 21/105 (20%)
+
+Query  21   RLQCNGSQV-----PEAVLRDCCQQLAHISE-WCRCGALYSMLDSMYKEHGA--------  66
+            + QC G +       + + +DCC+QLA + + WCRC AL  M+  +Y+E GA        
+Sbjct  7    QRQCVGPRRTRRRWTQQLRQDCCRQLAAVDDSWCRCSALNHMVGGIYRELGATDVGHPMA  66
+
+Query  67   --FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKDVAAYP  109
+              FP CRR  ++  AAS+ A C + I     G    VC     YP
+Sbjct  67   EVFPGCRRGDLERAAASLPAFCNVDIPNGTGG----VCY-WLGYP  106
+
+
+> UniRef50_A0A0E0Q5N0 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5N0_ORYRU
+Length=308
+
+ Score = 87.7 bits (216),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 43/110 (39%), Gaps = 18/110 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+C+  +   C         G Q P  +L  CC++LA +   CRC AL
+Sbjct  37   CRVGKAVSRNPVPSCQNYIARWCAVAGGRLDSGKQPPRQLLEPCCRELAAVPMQCRCDAL  96
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPIVVD  93
+              ++  +  E G            P C    +   A+++T   R  +   
+Sbjct  97   SVLVRGVVTEEGDRVAGMISQHAAPGCDAATIAGMASALTDYGRCNLQHT  146
+
+
+ Score = 87.7 bits (216),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 43/110 (39%), Gaps = 18/110 (16%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C         G Q P  +L  CC++LA +   CRC AL
+Sbjct  186  CRVGKAVSRNPVPSCRNYIARWCAAAGGRLDSGKQPPRQLLEPCCRELAAVPMQCRCDAL  245
+
+Query  54   YSMLDSMYKEHGAF----------PRCRREVVKLTAASITAVCRLPIVVD  93
+              ++  +  E G            P C    +   A+++T   R  +   
+Sbjct  246  SVLVRGVITEEGDRVAGMISQHAAPECDGATIGRMASALTDYGRCNLQHT  295
+
+
+> UniRef50_A0MLU8 Limit dextrinase inhibitor n=7 Tax=Oryza TaxID=4527 
+RepID=A0MLU8_ORYSI
+Length=146
+
+ Score = 85.0 bits (209),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 42/106 (40%), Gaps = 9/106 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN---GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C P +AF    L  CR  +  +     G + PE     CC++LA +   CRC AL   +D
+Sbjct  35   CQPWEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLFMD  94
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKD  104
+             +    G    C RE  +  AA++ A     +   +       C  
+Sbjct  95   GV----GELRGCPREAQRAAAAALMAAGECDLRGGSGETER--CYW  134
+
+
+> UniRef50_A0A1D6ACI6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6ACI6_WHEAT
+Length=115
+
+ Score = 83.1 bits (204),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 25/79 (32%), Positives = 37/79 (47%), Gaps = 2/79 (3%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG--SQVPEAVLRDCCQQLAHISEWCRCGALYSMLDS  59
+            C PG AF   AL  C   +  +  G    +P  V   CC++LA + ++CRC AL  ++D 
+Sbjct  32   CRPGVAFPHNALATCHTYVIKRVCGRGPSLPMLVKERCCRELAAVPDYCRCEALRVLMDG  91
+
+Query  60   MYKEHGAFPRCRREVVKLT  78
+            +  E G     R     +T
+Sbjct  92   VRVEGGHVLEGRLGDRWMT  110
+
+
+> UniRef50_Q45FA6 Cereal-type amylase inhibitor (Fragment) n=1 
+Tax=Secale cereale TaxID=4550 RepID=Q45FA6_SECCE
+Length=118
+
+ Score = 81.9 bits (201),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 23/91 (25%), Positives = 34/91 (37%), Gaps = 9/91 (10%)
+
+Query  13   LPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGA---  66
+            L  CR  +  Q    + P       + CC +LA+I + CRC AL   +    +   +   
+Sbjct  16   LAGCRDYVEQQSCRIETPGPPYLAKQQCCGELANIPQQCRCQALRYFMGPKSRPDQSGLM  75
+
+Query  67   -FPRCRREVVKLTAASI--TAVCRLPIVVDA  94
+              P C REV       +     C L  V + 
+Sbjct  76   ELPGCPREVQMNFVKILVTPGYCNLTTVHNT  106
+
+
+> UniRef50_M8BV45 Alpha-amylase/trypsin inhibitor CM3 n=1 Tax=Aegilops 
+tauschii TaxID=37682 RepID=M8BV45_AEGTA
+Length=221
+
+ Score = 83.5 bits (205),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/127 (22%), Positives = 42/127 (33%), Gaps = 33/127 (26%)
+
+Query  1    MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRD-------------------CCQQL  41
+             C PG AF+   LP CR  +  Q  G+  P + L +                   CCQ+L
+Sbjct  81   FCVPGVAFRTDLLPHCRDYVLQQTCGTFTPGSKLPEWMTSASIFSPMKPYLAKLYCCQEL  140
+
+Query  42   AHISEWCRCGALYSML--------------DSMYKEHGAFPRCRREVVKLTAASITAVCR  87
+            A I + CRC AL   +              +         P C R++       + A  +
+Sbjct  141  AEIPQQCRCEALRYFIALPVPSQPVDPRSGNVGESGLIDLPGCPRQMQWDFVRLLVAPGQ  200
+
+Query  88   LPIVVDA  94
+              +    
+Sbjct  201  CNLATIH  207
+
+
+> UniRef50_A2YJF6 Uncharacterized protein n=2 Tax=Oryza sativa 
+TaxID=4530 RepID=A2YJF6_ORYSI
+Length=167
+
+ Score = 80.0 bits (196),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 41/105 (39%), Positives = 52/105 (50%), Gaps = 16/105 (15%)
+
+Query  8    FQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISEW-CRCGALYSMLDSMYK  62
+              V  LP CR +++ QC G      V E V RDCC+QLA I+   CRC  L   L  MYK
+Sbjct  61   LDVYPLPRCRTMVKGQCIGGGAAGNVDEQVWRDCCRQLATINNNLCRCPVLSHKLVGMYK  120
+
+Query  63   EHG----------AFPRCRREVVKLT-AASITAVCRLPIVVDASG  96
+            E G           FP CRR+ +K    AS+ A+C + I +   G
+Sbjct  121  ELGTAAHGQPMDEVFPGCRRDNMKCMVVASLLALCGVDIHIGIGG  165
+
+
+> UniRef50_M8CCY7 Uncharacterized protein n=4 Tax=Triticinae TaxID=1648030 
+RepID=M8CCY7_AEGTA
+Length=145
+
+ Score = 79.2 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 24/105 (23%), Positives = 44/105 (42%), Gaps = 13/105 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNG----SQVPEAVLRDCCQQLAHISEWCRCGALYSML  57
+            C PGQ     +L AC   +  Q  G        E + + CC+QL+ +S +CRC  +  ++
+Sbjct  28   CIPGQQITYDSLHACSDYVVRQTCGFEPYYVSVETMKKRCCEQLSGVSSYCRCEVVRILM  87
+
+Query  58   DSMYKE--------HGAFPRCRREVVKLTAASIT-AVCRLPIVVD  93
+            + +  +           +PRC+    +  A  +    C L  ++ 
+Sbjct  88   EGIVNKRGEVVGSLLQDWPRCKSLTREYIAGIVGRGECNLETILG  132
+
+
+> UniRef50_Q8H4M5 Os07g0213600 protein n=6 Tax=Oryza TaxID=4527 
+RepID=Q8H4M5_ORYSJ
+Length=154
+
+ Score = 78.9 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 31/100 (31%), Positives = 43/100 (43%), Gaps = 4/100 (4%)
+
+Query  2    CYPGQAF-QVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSM  60
+            C PGQ       LP CR  L  +C G   P  V   CC QL  ++  CRC AL +M++ +
+Sbjct  49   CEPGQGVVPKDPLPGCRAYLLRRCGGGDPPG-VRARCCHQLREVAARCRCDALRAMVEVL  107
+
+Query  61   YKEHGAFPRCRREVVKLTAASITA--VCRLPIVVDASGDG  98
+             +E  A   C++  +   A  +     C L    D  G  
+Sbjct  108  VEEEEAPLACKKGAMAAIAEGLPGRDECDLDTRADDGGSR  147
+
+
+> UniRef50_A0A0E0HY62 Uncharacterized protein n=1 Tax=Oryza nivara 
+TaxID=4536 RepID=A0A0E0HY62_ORYNI
+Length=146
+
+ Score = 78.5 bits (192),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 30/106 (28%), Positives = 44/106 (42%), Gaps = 9/106 (8%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN---GSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            C PG+AF    L  CR  +  +     G + PE     CC++LA +   CRC AL   +D
+Sbjct  40   CQPGEAFPHNPLSGCRGYVISRACPGHGPRRPEMAKARCCRELAAVQPRCRCEALRLHMD  99
+
+Query  59   SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVCKD  104
+             +    G    C RE  +  AA++ A     +   +   G   C  
+Sbjct  100  GV----GELRGCPREAQRAAAAALLAEEECDLWSGSGKTGR--CYW  139
+
+
+> UniRef50_A0A0E0AHA1 Uncharacterized protein n=1 Tax=Oryza glumipatula 
+TaxID=40148 RepID=A0A0E0AHA1_9ORYZ
+Length=104
+
+ Score = 76.2 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 33/102 (32%), Positives = 43/102 (42%), Gaps = 17/102 (17%)
+
+Query  5    GQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEH  64
+            G  +  P LPA   L         V   +L D  +  A      RC AL  +L  MYKE 
+Sbjct  8    GSVYPRPTLPAKNRL-------PDVAAPMLPDNSEAPARWLRRSRCPALSHLLVGMYKEL  60
+
+Query  65   ----------GAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+                        FP C+R+ VK  AAS+ A+C + I +  SG
+Sbjct  61   CAVTDGKPMDEVFPGCQRDNVKCVAASLLALCNVDIPIGISG  102
+
+
+> UniRef50_A0A0E0Q5M9 Uncharacterized protein n=1 Tax=Oryza rufipogon 
+TaxID=4529 RepID=A0A0E0Q5M9_ORYRU
+Length=133
+
+ Score = 76.9 bits (188),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 32/74 (43%), Gaps = 8/74 (11%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCN--------GSQVPEAVLRDCCQQLAHISEWCRCGAL  53
+            C  G+A     +P+CR  +   C         G Q P  +L  CC++LA +   CRC  L
+Sbjct  36   CRVGKAVSRNPVPSCRNYIARWCAVAGGRLDYGKQPPRQLLEPCCRELAAVPMQCRCDVL  95
+
+Query  54   YSMLDSMYKEHGAF  67
+              ++  +  E G  
+Sbjct  96   SVLVRGVVTEEGDR  109
+
+
+> UniRef50_A0A1S6KXP9 Alpha amylase/trypsin inhibitor (Fragment) 
+n=1 Tax=Triticum aestivum TaxID=4565 RepID=A0A1S6KXP9_WHEAT
+Length=133
+
+ Score = 74.2 bits (181),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 24/118 (20%), Positives = 37/118 (31%), Gaps = 33/118 (28%)
+
+Query  10   VPALPACRPLLRLQCNGSQVPEAVLRD-------------------CCQQLAHISEWCRC  50
+               LP CR  +  Q  G+  P + L +                   CCQ+LA IS+ CRC
+Sbjct  2    TNLLPHCRDYVLQQTCGTFTPGSKLPEWMTSASIYSPGKPYLAKLYCCQELAEISQQCRC  61
+
+Query  51   GALYSML--------------DSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDA  94
+             AL   +              +         P C R++       + A  +  +    
+Sbjct  62   EALRYFIALPVPSQPVDPRSGNVGESGLIDLPGCPRQMQWDFVRLLVAPGQCNLATIH  119
+
+
+> UniRef50_A0A1D6RYZ8 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6RYZ8_WHEAT
+Length=97
+
+ Score = 71.5 bits (174),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 30/69 (43%), Gaps = 4/69 (6%)
+
+Query  2   CYPGQAFQVPALPACRPLLRLQCN----GSQVPEAVLRDCCQQLAHISEWCRCGALYSML  57
+           C PG       L ACR LL ++             + R CC QL+ +  +CRC AL  ++
+Sbjct  29  CVPGSDIPYNPLQACRNLLSIKICSVSPVYVSAGMLKRRCCDQLSRVPAYCRCEALRILV  88
+
+Query  58  DSMYKEHGA  66
+           D +     +
+Sbjct  89  DGVETPEES  97
+
+
+> UniRef50_A0A1D6BDS6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A1D6BDS6_WHEAT
+Length=87
+
+ Score = 65.0 bits (157),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 37/68 (54%), Positives = 44/68 (65%), Gaps = 8/68 (12%)
+
+Query  49   RCGALYSMLDSMYKEHGA------FPRCRREVVKLTAASITAVCRLPIVVDASGDGAYVC  102
+            RCG L SML S+Y+E G        P CR+EV+KLTAAS+  VC++PI    SGD A VC
+Sbjct  21   RCGDLSSMLRSVYQELGVREGKEVLPGCRKEVMKLTAASVPEVCKVPIPN-PSGDRAGVC  79
+
+Query  103  KDVAAYPD  110
+               AAYPD
+Sbjct  80   Y-WAAYPD  86
+
+
+> UniRef50_A0A022R733 Uncharacterized protein n=7 Tax=Lamiales 
+TaxID=4143 RepID=A0A022R733_ERYGU
+Length=156
+
+ Score = 65.8 bits (159),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 34/74 (46%), Gaps = 0/74 (0%)
+
+Query  18   PLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKL  77
+             ++ +     Q     LRDCCQQL ++++ CRC A+   +  + ++ G +   + E V  
+Sbjct  73   EVIEMTTGNPQQQSQYLRDCCQQLQNVNQQCRCEAIKQAVKEIQQQGGQYQTGQYEQVYQ  132
+
+Query  78   TAASITAVCRLPIV  91
+             A S+   C     
+Sbjct  133  KARSLPRQCNFRSP  146
+
+
+> UniRef50_B6SMH0 Trypsin/factor XIIA inhibitor n=6 Tax=Panicoideae 
+TaxID=147369 RepID=B6SMH0_MAIZE
+Length=142
+
+ Score = 62.7 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 36/102 (35%), Gaps = 9/102 (9%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQCNGSQVP-----EAVLRDCCQQLAHISEWCRCGALYSM  56
+            C PGQA     L  C   +  +              +   CC QL  I   CRC AL  M
+Sbjct  32   CAPGQAIPYRPLSGCTWYVASRSCDVIEAMLPNRAVLKETCCSQLRDIPAECRCRALRVM  91
+
+Query  57   LD---SMYKEHGAFPRCRREVVKLTAASITAVCRLPIVVDAS  95
+            ++    +  E GA  RC R      A ++ A     ++    
+Sbjct  92   METPLVVGAEPGAQQRC-RVAQARFAPALVAAAECGLLTAHG  132
+
+
+> UniRef50_Q0D7Q9 Os07g0222100 protein n=1 Tax=Oryza sativa subsp. 
+japonica TaxID=39947 RepID=Q0D7Q9_ORYSJ
+Length=80
+
+ Score = 56.9 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 17/64 (27%), Positives = 27/64 (42%), Gaps = 4/64 (6%)
+
+Query  32  AVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIV  91
+                CC++LA +   CRC AL   +D +    G    C RE  +  AA++ A     + 
+Sbjct  1   MAKARCCRELAAVQPRCRCEALRLFMDGV----GELRGCPREAQRAAAAALMAAGECDLR  56
+
+Query  92  VDAS  95
+             + 
+Sbjct  57  GGSG  60
+
+
+> UniRef50_A0A0E0HY49 Uncharacterized protein n=4 Tax=Oryza TaxID=4527 
+RepID=A0A0E0HY49_ORYNI
+Length=81
+
+ Score = 56.5 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 32/62 (52%), Gaps = 10/62 (16%)
+
+Query  45  SEWCRCGALYSMLDSMYKEH----------GAFPRCRREVVKLTAASITAVCRLPIVVDA  94
+           +  CRC AL  +L  MYKE             FP C+R+ VK  AAS+ A+C + I +  
+Sbjct  18  NNLCRCPALSHLLVGMYKELCAVTDGKPMDEVFPGCQRDNVKCVAASLLALCNVDIPIGI  77
+
+Query  95  SG  96
+           SG
+Sbjct  78  SG  79
+
+
+> UniRef50_UPI0003EAA778 alpha-amylase/trypsin inhibitor CM2-like 
+n=1 Tax=Oryza brachyantha TaxID=4533 RepID=UPI0003EAA778
+Length=106
+
+ Score = 56.9 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/95 (21%), Positives = 25/95 (26%), Gaps = 32/95 (34%)
+
+Query  2   CYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMY  61
+           C PG A     L  CR  +R                           R GAL        
+Sbjct  30  CQPGMAIPHDPLRGCRQYVRR--------------------------RAGALEG------  57
+
+Query  62  KEHGAFPRCRREVVKLTAASITAVCRLPIVVDASG  96
+           +     P C RE  +  AA +T      +     G
+Sbjct  58  RLLEDVPGCPRETQRELAAMLTTPGECNLETVHGG  92
+
+
+> UniRef50_A0A0D9WWU5 Uncharacterized protein n=1 Tax=Leersia perrieri 
+TaxID=77586 RepID=A0A0D9WWU5_9ORYZ
+Length=270
+
+ Score = 55.4 bits (132),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 25/52 (48%), Gaps = 0/52 (0%)
+
+Query  41   LAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVV  92
+            L  ++  CRC AL +M++ +  E  A P CR+  +   AA + A     +  
+Sbjct  194  LQEVAAACRCEALRAMVEVLVDEEEAPPGCRKGALSAMAARLPARDECDLET  245
+
+
+> UniRef50_A0A1E5UJV4 Uncharacterized protein n=2 Tax=Dichanthelium 
+oligosanthes TaxID=888268 RepID=A0A1E5UJV4_9POAL
+Length=75
+
+ Score = 50.7 bits (120),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 23/64 (36%), Gaps = 0/64 (0%)
+
+Query  32  AVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIV  91
+            +   CCQQL  I   CRC AL  M++   +  G   +         A+++       + 
+Sbjct  1   MMKAMCCQQLEAIPAECRCKALRVMMEDTSQSAGLRGQVCWHAQAEFASAVVTEAECGLT  60
+
+Query  92  VDAS  95
+               
+Sbjct  61  TIHG  64
+
+
+> UniRef50_Q43659 15kDa grain softness protein n=85 Tax=Poaceae 
+TaxID=4479 RepID=Q43659_WHEAT
+Length=164
+
+ Score = 51.5 bits (122),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 21/105 (20%), Positives = 36/105 (34%), Gaps = 19/105 (18%)
+
+Query  10   VPALPACRPLLRLQCNGSQVP--------------EAVLRDCCQQLAHISEWCRCGALYS  55
+             P L +C   +  +C    +P              E V   CCQQL   +  CRC A+++
+Sbjct  57   HPKLDSCSDYVMDRCVMKDMPLSWIFPRTWGKRSCEEVRNQCCQQLRQTTPRCRCKAIWT  116
+
+Query  56   MLDSMYKEHGAFPRCRREVVKLTAASITAVCR-----LPIVVDAS  95
+             +           +  +     TA S+ + C        I + + 
+Sbjct  117  SIQGDLSGFKGVQQGLKARTVQTAKSLPSKCNIDPKYCNIPITSG  161
+
+
+> UniRef50_P10846 Alpha-amylase inhibitor WDAI-3 (Fragment) n=1 
+Tax=Triticum aestivum TaxID=4565 RepID=IAA3_WHEAT
+Length=44
+
+ Score = 49.6 bits (117),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 35/40 (88%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   MCYPGQAFQVPALPACRPLLRLQCNGSQVPEAVLRDCCQQ  40
+           MCYPG AF+VPALP CRP+L LQCNGSQVPEAVLRDCCQQ
+Sbjct  5   MCYPGYAFKVPALPGCRPVLLLQCNGSQVPEAVLRDCCQQ  44
+
+
+> UniRef50_A0A067L4P9 2S n=4 Tax=Euphorbiaceae TaxID=3977 RepID=A0A067L4P9_JATCU
+Length=150
+
+ Score = 50.0 bits (118),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 19/93 (20%), Positives = 32/93 (34%), Gaps = 8/93 (9%)
+
+Query  13   LPACRPLLRLQCNGS-------QVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHG  65
+            L AC+  LR Q           +  +    +CC+QL  +   CRC  L   +D + +  G
+Sbjct  56   LRACQQYLRQQTGSPWGRRFDNEENQMEREECCRQLQRMEARCRCDGLRQAIDQLQRR-G  114
+
+Query  66   AFPRCRREVVKLTAASITAVCRLPIVVDASGDG  98
+                       + A  + + C +       G  
+Sbjct  115  ILGGQDVREAYMLARQLPSECGVSPRQCHFGTR  147
+
+
+> UniRef50_A0A200QKG1 Bifunctional inhibitor/plant lipid transfer 
+protein/seed storage helical domain n=2 Tax=Macleaya cordata 
+TaxID=56857 RepID=A0A200QKG1_9MAGN
+Length=142
+
+ Score = 48.4 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/86 (22%), Positives = 33/86 (38%), Gaps = 9/86 (10%)
+
+Query  16   CRPLLRLQCNG---SQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRR  72
+            C   L     G         V  +CC+++  +SE CRC A+  M+  M ++ G +     
+Sbjct  54   CERYLEQSRRGLIMINPTRQVPEECCREMREVSEECRCEAVKQMMHHM-QQGGEYKGQEM  112
+
+Query  73   EVVKLTAASITAVC-----RLPIVVD  93
+              +  TA  + ++C        I   
+Sbjct  113  REMMQTAKQLPSMCGMRPQHCEIPGG  138
+
+
+> UniRef50_Q8H2B8 2s albumin n=5 Tax=rosids TaxID=71275 RepID=Q8H2B8_ANAOC
+Length=138
+
+ Score = 47.7 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/74 (23%), Positives = 33/74 (45%), Gaps = 4/74 (5%)
+
+Query  16   CRPLLRL---QCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRR  72
+            C+  ++    +       +  LR+CCQ+L  +   CRC  L  M+  + ++        R
+Sbjct  52   CQRYVKQEVQRGGRYNQRQESLRECCQELQEVDRRCRCQNLEQMVRQLQQQEQIKGEEVR  111
+
+Query  73   EVVKLTAASITAVC  86
+            E +  TA+ +  +C
+Sbjct  112  E-LYETASELPRIC  124
+
+
+> UniRef50_A0A218XUV4 Uncharacterized protein n=1 Tax=Punica granatum 
+TaxID=22663 RepID=A0A218XUV4_PUNGR
+Length=144
+
+ Score = 47.7 bits (112),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 31/75 (41%), Gaps = 9/75 (12%)
+
+Query  19   LLRLQC--NGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVK  76
+             + LQ        PE  L++CC QL  + E CRC  L  ++    K+        R+ + 
+Sbjct  61   YIVLQTRLGVMDRPEQQLQECCGQLRQVDESCRCKGLRHIVQEQAKKGEL----PRKEMH  116
+
+Query  77   LT---AASITAVCRL  88
+                 A ++  +C L
+Sbjct  117  KFVMRAENLPEMCSL  131
+
+
+> UniRef50_A0A173G7R5 Putative storage protein n=5 Tax=PACMAD clade 
+TaxID=147370 RepID=A0A173G7R5_ERATE
+Length=144
+
+ Score = 47.3 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 21/92 (23%), Positives = 35/92 (38%), Gaps = 14/92 (15%)
+
+Query  10   VPALPACRPLLRLQCNGSQVP------------EAVLRDCCQQLAHISEWCRCGALYSML  57
+              A+ ACR  L  QC  S +P              +   CC QL  +   CRC A+ S +
+Sbjct  38   RQAMDACRDYLMKQCTASTMPITWPWKWLMASCRELKHRCCNQLEQVPPTCRCKAIRSTV  97
+
+Query  58   DSMYKEHGAFPRCRREVVKLTAASITAVCRLP  89
+              ++             V+  A ++ ++C + 
+Sbjct  98   QEIHGSKQK--GMMISEVRQMAKTLPSICNMY  127
+
+
+> UniRef50_J3S6X8 2S albumin n=2 Tax=Crotonoideae TaxID=235631 
+RepID=J3S6X8_VERFO
+Length=155
+
+ Score = 47.7 bits (112),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 16/80 (20%), Positives = 28/80 (35%), Gaps = 5/80 (6%)
+
+Query  13   LPACRPLLRLQCNGSQVP----EAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFP  68
+            L  C+  +R Q   ++        V ++CC QL  +   CRC  L   +    +  G   
+Sbjct  64   LRRCQEYIRQQMASTRRAYDNQWRVRQECCNQLQRVDARCRCNGLTQAIQQ-QESEGRLQ  122
+
+Query  69   RCRREVVKLTAASITAVCRL  88
+                      A  + + C +
+Sbjct  123  GFDVRQAFNLARELPSECGV  142
+
+
+> UniRef50_UPI000C04A645 2S sulfur-rich seed storage protein 2-like 
+n=1 Tax=Durio zibethinus TaxID=66656 RepID=UPI000C04A645
+Length=139
+
+ Score = 46.9 bits (110),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 32/79 (41%), Gaps = 1/79 (1%)
+
+Query  11   PALPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRC  70
+              L  CR  +  QC+    P   +  CC+QL  +   C+C  L   ++ + +E       
+Sbjct  50   NYLTHCREYMEEQCSSHSRPAVSIEPCCEQLKKLDTQCQCTGLKQAVERLLEEGELGREE  109
+
+Query  71   RREVVKLTAASITAVCRLP  89
+            ++E +   A  +   C + 
+Sbjct  110  QQE-MYEVAERVMRKCEME  127
+
+
+> UniRef50_UPI0008F8A3B8 hypothetical protein n=1 Tax=Acinetobacter 
+baumannii TaxID=470 RepID=UPI0008F8A3B8
+Length=163
+
+ Score = 46.5 bits (109),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 33/68 (49%), Gaps = 4/68 (6%)
+
+Query  25   NGSQVPEAVLRDCCQQLAHISEW-CRCGALYSMLD---SMYKEHGAFPRCRREVVKLTAA  80
+             G+Q     L  CCQQL+ I +  CRC AL  ++     M ++ G   R   E ++  A 
+Sbjct  83   GGNQQQAEELGQCCQQLSQIRDHGCRCAALSQIVRYQVEMQQDEGEIKRQPVEQLRKMAE  142
+
+Query  81   SITAVCRL  88
+             +  +C++
+Sbjct  143  QLPVMCQI  150
+
+
+> UniRef50_A5AEI6 Uncharacterized protein n=2 Tax=Vitis vinifera 
+TaxID=29760 RepID=A5AEI6_VITVI
+Length=575
+
+ Score = 48.4 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/97 (20%), Positives = 34/97 (35%), Gaps = 12/97 (12%)
+
+Query  2    CYPGQAFQVPALPACRPLLRLQ---------CNGSQVPEAVLRDCCQQLAHISEWCRCGA  52
+            C      +   L  C   L  +             +  E  L+ CC Q+  +   CRC  
+Sbjct  476  CR--MQIKRLKLTHCEQYLIERELLLLGHALLLNQEQEEEHLKPCCDQMEKLGTKCRCMG  533
+
+Query  53   LYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLP  89
+            L  +++ + +E G       E ++  A  + + C L 
+Sbjct  534  LEQIVEQL-REQGEMQGEEVEDMEDCARHLPSDCDLE  569
+
+
+> UniRef50_D7NLB9 Seed globulin n=1 Tax=Brachypodium distachyon 
+TaxID=15368 RepID=D7NLB9_BRADI
+Length=232
+
+ Score = 46.9 bits (110),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 27/85 (32%), Gaps = 15/85 (18%)
+
+Query  11   PALPACRPLLRLQCNGSQ------VPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEH  64
+              L ACR +L     G        V       CC+QL  +S  CRC A+  M+    +  
+Sbjct  46   NPLDACRQILHRHLTGRAPGGLAGVQWGARDRCCEQLQAVSLPCRCAAIRGMVRGYEQSM  105
+
+Query  65   GAF---------PRCRREVVKLTAA  80
+             A          P C  E       
+Sbjct  106  PAPLDQGSHYSSPGCMTEEQGQAGR  130
+
+
+> UniRef50_A0A219D1L6 Albumin n=1 Tax=Cannabis sativa TaxID=3483 
+RepID=A0A219D1L6_CANSA
+Length=142
+
+ Score = 45.3 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 23/81 (28%), Positives = 37/81 (46%), Gaps = 14/81 (17%)
+
+Query  13   LPACRPLLRLQCNGSQVPE-------AVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHG  65
+            L  CR  +R + +G    E         L  CC QL +++E CRC AL      + KE G
+Sbjct  55   LNHCRMYMREKMHGRFEEEDEIENYSQHLDQCCSQLRNVNERCRCPALEM---EIQKEQG  111
+
+Query  66   AFPRCRREVVKLTAASITAVC  86
+                  ++ +  +A +I ++C
+Sbjct  112  Q----DKQRMMESARNIPSMC  128
+
+
+> UniRef50_P26986 2S seed storage-like protein n=15 Tax=Pinaceae 
+TaxID=3318 RepID=2SSL_PICGL
+Length=172
+
+ Score = 45.0 bits (105),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 23/46 (50%), Gaps = 6/46 (13%)
+
+Query  13  LPACRPLLRLQCNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+           L +CR  L  +    + P      CC++L  +S  CRC A+  MLD
+Sbjct  61  LSSCRDYLERR---REQPS---ERCCEELQRMSPQCRCQAIQQMLD  100
+
+
+> UniRef50_A0A0P0XE49 Os08g0255750 protein n=3 Tax=Oryza TaxID=4527 
+RepID=A0A0P0XE49_ORYSJ
+Length=125
+
+ Score = 44.2 bits (103),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 13/60 (22%), Positives = 24/60 (40%), Gaps = 1/60 (2%)
+
+Query  33  VLRDCCQQLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLPIVV  92
+           +   CC QL  +     C AL +M++ +  E  A P C++E +      +       +  
+Sbjct  1   MRAWCCHQLREVVLHYHCDALRAMVE-VLVEEEAPPMCKKEAMAAIVEGLPGRDECDLET  59
+
+
+> UniRef50_A0A1D5S923 Globulin 1 n=1 Tax=Triticum aestivum TaxID=4565 
+RepID=A0A1D5S923_WHEAT
+Length=180
+
+ Score = 45.0 bits (105),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 23/58 (40%), Gaps = 11/58 (19%)
+
+Query  12  ALPACRPLLRLQCNGS-----------QVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            L ACR +L  Q  G            Q        CCQQL  +S  CRC AL  M+ 
+Sbjct  41  PLHACRQILEQQLTGRAGEGAFGVPLFQAQSDARERCCQQLESVSRECRCAALRGMVR  98
+
+
+> UniRef50_P29835 19 kDa globulin n=14 Tax=Poaceae TaxID=4479 RepID=GL19_ORYSJ
+Length=186
+
+ Score = 45.0 bits (105),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 27/57 (47%), Gaps = 9/57 (16%)
+
+Query  12  ALPACRPLLRLQCNGSQVPEAVLRD---------CCQQLAHISEWCRCGALYSMLDS  59
+            L ACR +L  Q  G +  + + R          CCQQL  +S  CRC A+  M+ S
+Sbjct  44  PLDACRQVLDRQLTGRERFQPMFRRPGALGLRMQCCQQLQDVSRECRCAAIRRMVRS  100
+
+
+> UniRef50_Q0Q5D9 Globulin 1 n=13 Tax=Triticeae TaxID=147389 RepID=Q0Q5D9_WHEAT
+Length=225
+
+ Score = 45.3 bits (106),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 23/58 (40%), Gaps = 11/58 (19%)
+
+Query  12  ALPACRPLLRLQCNGS-----------QVPEAVLRDCCQQLAHISEWCRCGALYSMLD  58
+            L ACR +L  Q  G            Q        CCQQL  +S  CRC AL  M+ 
+Sbjct  41  PLHACRQILEQQLTGRAGEGAFGVPLFQAQSDARERCCQQLESVSRECRCAALRGMVR  98
+
+
+> UniRef50_W1PG49 Uncharacterized protein n=3 Tax=Amborella trichopoda 
+TaxID=13333 RepID=W1PG49_AMBTC
+Length=149
+
+ Score = 44.2 bits (103),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 19/82 (23%), Positives = 34/82 (41%), Gaps = 10/82 (12%)
+
+Query  10   VPALPACRPLLRLQCNGSQVP-----EAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEH  64
+              +L +CR  +  Q    ++          R CC++L +I E CRC  +  M  S+  E 
+Sbjct  57   RKSLESCRRFI--QTGRPELTLFPYQRDAPRRCCEKLENIREECRCEQIRQMARSLMSEA  114
+
+Query  65   GAFPRCRREVVKLTAASITAVC  86
+            G      ++ +   A  +  +C
+Sbjct  115  GQ---GEQQQIIERAEQLPQIC  133
+
+
+> UniRef50_A1E0W0 2S albumin isoform 2 n=1 Tax=Ficus pumila var. 
+awkeotsang TaxID=204231 RepID=A1E0W0_FICPW
+Length=132
+
+ Score = 43.8 bits (102),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 24/82 (29%), Positives = 33/82 (40%), Gaps = 8/82 (10%)
+
+Query  13   LPACRPLLRLQCNGSQV-------PEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHG  65
+            L  C   LR Q    +        PE  L  CC QL  +S WCRC  L S ++   ++ G
+Sbjct  37   LSDCMRYLREQLLNEEAYNKLDNSPEDYLDQCCGQLRMMSVWCRCDGLKSEMNR-QRQQG  95
+
+Query  66   AFPRCRREVVKLTAASITAVCR  87
+                     +   A S+  +CR
+Sbjct  96   QLWGQDMSRIMQAAESLPGMCR  117
+
+
+> UniRef50_A0A1V0JB72 PawS-like protein 1b n=1 Tax=Melampodium 
+paludosum TaxID=415156 RepID=A0A1V0JB72_9ASTR
+Length=209
+
+ Score = 45.0 bits (105),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/86 (23%), Positives = 32/86 (37%), Gaps = 8/86 (9%)
+
+Query  8    FQVPALPACRPLLRLQCNGS---QVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEH  64
+              +  L  C+  L          Q  +  L  CC QL  +SE C+C A+  + D   ++ 
+Sbjct  119  IPIQQLNQCQMHLTQGIGSRRSMQQEQQHLEQCCSQLKRVSERCQCEAIQQVFDEARQQG  178
+
+Query  65   GAFPRCRREVVKLTAASITAVCRLPI  90
+            G         +   A  +   CRL +
+Sbjct  179  GVM-----SQMLEKARRLPTECRLDV  199
+
+
+> UniRef50_A0A159B8H9 Seed storage albumin 13 n=1 Tax=Helianthus 
+annuus TaxID=4232 RepID=A0A159B8H9_HELAN
+Length=121
+
+ Score = 43.4 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/86 (20%), Positives = 35/86 (41%), Gaps = 4/86 (5%)
+
+Query  6    QAFQVPALPACRPLLRLQCNGSQVPEA---VLRDCCQQLAHISEWCRCGALYSMLDSMYK  62
+               +   +  C   L      + V      +L+ CCQQL  +++ CRC  +   +  + +
+Sbjct  30   SQIKQQPMQYCHMFLSRYGAATAVTRPQDSLLQRCCQQLGKLAQRCRCMEIREFV-RVQQ  88
+
+Query  63   EHGAFPRCRREVVKLTAASITAVCRL  88
+            + G +   R + +   A ++   C L
+Sbjct  89   QGGGWDAPRMKRLLKEAPNLPKTCSL  114
+
+
+> UniRef50_UPI000C1D54CD 2S albumin-like n=3 Tax=Olea europaea 
+var. sylvestris TaxID=158386 RepID=UPI000C1D54CD
+Length=140
+
+ Score = 43.8 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 26/58 (45%), Gaps = 2/58 (3%)
+
+Query  33   VLRDCCQ-QLAHISEWCRCGALYSMLDSMYKEHGAFPRCRREVVKLTAASITAVCRLP  89
+              R CC+ +L+ I + C C A+ +M+ +M    G       E +   A  +  VC L 
+Sbjct  80   YKRRCCRNELSGIDKQCVCFAVRTMMKNMMDS-GRLSAEDMEAMLELAGDLPTVCNLR  136
+
+
+> UniRef50_UPI00028BC861 2S albumin n=1 Tax=Bertholletia excelsa 
+TaxID=3645 RepID=UPI00028BC861
+Length=114
+
+ Score = 43.4 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 34/83 (41%), Gaps = 7/83 (8%)
+
+Query  13  LPACRPLLRLQ-------CNGSQVPEAVLRDCCQQLAHISEWCRCGALYSMLDSMYKEHG  65
+           L  CR  +R Q           +  E  + +CC+QL  + E CRC  L  M+  M ++  
+Sbjct  18  LSHCRMYMRQQMEESTYQTMPRRGMEPHMSECCEQLEGMDESCRCEGLRMMMRMMQQKEM  77
+
+Query  66  AFPRCRREVVKLTAASITAVCRL  88
+                +   +   A +I + C L
+Sbjct  78  QPRGEQMRRMMRLAENIPSRCNL  100
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.143    0.493    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214140455430
+
+
+  Database: /home/u2353/Bioinfo_course/uniref50.fasta
+    Posted date:  Mar 12, 2018 11:50 AM
+  Number of letters in database: 8,665,460,866
+  Number of sequences in database:  27,902,002
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

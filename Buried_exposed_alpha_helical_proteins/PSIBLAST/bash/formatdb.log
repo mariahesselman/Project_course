@@ -1,0 +1,38 @@
+
+========================[ Mar 12, 2018 11:16 AM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta with 2721434 sequences, 999,999,365 letters(.psq file = 1002721984 bytes; .phr file = 495831118 bytes)
+Formatted 2721434 sequences in volume 0
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.01 with 2461216 sequences, 999,999,296 letters(.psq file = 1002462452 bytes; .phr file = 432775918 bytes)
+Formatted 2461216 sequences in volume 1
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.02 with 2827000 sequences, 999,999,806 letters(.psq file = 1002827219 bytes; .phr file = 484105654 bytes)
+Formatted 2827000 sequences in volume 2
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.03 with 3694876 sequences, 999,999,868 letters(.psq file = 1003694914 bytes; .phr file = 654602056 bytes)
+Formatted 3694876 sequences in volume 3
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.04 with 3583845 sequences, 999,999,588 letters(.psq file = 1003584168 bytes; .phr file = 639070812 bytes)
+Formatted 3583845 sequences in volume 4
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.05 with 3557647 sequences, 999,999,823 letters(.psq file = 1003557896 bytes; .phr file = 634773328 bytes)
+Formatted 3557647 sequences in volume 5
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.06 with 3626478 sequences, 999,999,842 letters(.psq file = 1003626580 bytes; .phr file = 647219273 bytes)
+Formatted 3626478 sequences in volume 6
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Closing volume /home/u2353/Bioinfo_course/uniref50.fasta.07 with 3347658 sequences, 999,999,934 letters(.psq file = 1003347678 bytes; .phr file = 593632989 bytes)
+Formatted 3347658 sequences in volume 7
+Version 2.2.26 [Sep-21-2011]
+Started database file "/home/u2353/Bioinfo_course/uniref50.fasta"
+Formatted 2081848 sequences in volume 8
+SUCCESS: formatted database /home/u2353/Bioinfo_course/uniref50.fasta

@@ -1,0 +1,269 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2353/Bioinfo_course/uniref50.fasta
+           27,902,002 sequences; 8,665,460,866 total letters
+
+Results from round 1
+
+
+Query= d1g2yd_.a.34.1.1
+
+Length=29
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P20823-8 Isoform 8 of Hepatocyte nuclear factor 1-alph...  48.9    1e-06
+  UniRef50_P20823-4 Isoform 4 of Hepatocyte nuclear factor 1-alph...  50.1    2e-06
+  UniRef50_E0YMI9 HNF1 alpha A splice variant 3 n=7 Tax=Boreoeuth...  49.7    4e-06
+  UniRef50_P20823 Hepatocyte nuclear factor 1-alpha n=310 Tax=Gna...  50.1    5e-06
+  UniRef50_P20823-2 Isoform B of Hepatocyte nuclear factor 1-alph...  50.1    5e-06
+  UniRef50_U6DPD6 HNF1 homeobox A (Fragment) n=2 Tax=Euteleostomi...  47.4    9e-06
+  UniRef50_UPI00093C6666 hepatocyte nuclear factor 1-alpha n=1 Ta...  47.4    2e-05
+  UniRef50_E0YMK3 HNF1 alpha B splice variant 6 n=1 Tax=Homo sapi...  41.6    5e-04
+  UniRef50_F6Q5D3 HNF1 homeobox A n=9 Tax=Gnathostomata TaxID=350...  43.9    5e-04
+  UniRef50_F5H3Z5 Hepatocyte nuclear factor 1-alpha n=1 Tax=Homo ...  40.8    6e-04
+
+
+> UniRef50_P20823-8 Isoform 8 of Hepatocyte nuclear factor 1-alpha 
+n=3 Tax=Boreoeutheria TaxID=1437010 RepID=P20823-8
+Length=119
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_P20823-4 Isoform 4 of Hepatocyte nuclear factor 1-alpha 
+n=6 Tax=Euarchontoglires TaxID=314146 RepID=P20823-4
+Length=278
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_E0YMI9 HNF1 alpha A splice variant 3 n=7 Tax=Boreoeutheria 
+TaxID=1437010 RepID=E0YMI9_HUMAN
+Length=452
+
+ Score = 49.7 bits (117),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_P20823 Hepatocyte nuclear factor 1-alpha n=310 Tax=Gnathostomata 
+TaxID=35060 RepID=HNF1A_HUMAN
+Length=631
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_P20823-2 Isoform B of Hepatocyte nuclear factor 1-alpha 
+n=15 Tax=Mammalia TaxID=40674 RepID=P20823-2
+Length=572
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_U6DPD6 HNF1 homeobox A (Fragment) n=2 Tax=Euteleostomi 
+TaxID=117571 RepID=U6DPD6_NEOVI
+Length=204
+
+ Score = 47.4 bits (111),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL  ALLESGLSKEALIQAL
+Sbjct  50  MVSKLSQLQTELLVALLESGLSKEALIQAL  79
+
+
+> UniRef50_UPI00093C6666 hepatocyte nuclear factor 1-alpha n=1 
+Tax=Hipposideros armiger TaxID=186990 RepID=UPI00093C6666
+Length=278
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQ EL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQMELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_E0YMK3 HNF1 alpha B splice variant 6 n=1 Tax=Homo sapiens 
+TaxID=9606 RepID=E0YMK3_HUMAN
+Length=124
+
+ Score = 41.6 bits (96),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 24/25 (96%), Positives = 24/25 (96%), Gaps = 1/25 (4%)
+
+Query  1   MVSKLSQLQTE-LAALLESGLSKEA  24
+           MVSKLSQLQTE LAALLESGLSKEA
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEA  25
+
+
+> UniRef50_F6Q5D3 HNF1 homeobox A n=9 Tax=Gnathostomata TaxID=35060 
+RepID=F6Q5D3_MONDO
+Length=613
+
+ Score = 43.9 bits (102),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 25/30 (83%), Positives = 28/30 (93%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVS+LSQLQTEL AALLESGL+KE LI+AL
+Sbjct  1   MVSQLSQLQTELLAALLESGLTKETLIRAL  30
+
+
+> UniRef50_F5H3Z5 Hepatocyte nuclear factor 1-alpha n=1 Tax=Homo 
+sapiens TaxID=9606 RepID=F5H3Z5_HUMAN
+Length=41
+
+ Score = 40.8 bits (94),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 24/25 (96%), Positives = 24/25 (96%), Gaps = 1/25 (4%)
+
+Query  1   MVSKLSQLQTE-LAALLESGLSKEA  24
+           MVSKLSQLQTE LAALLESGLSKEA
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEA  25
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.122    0.275    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 213846321450
+Results from round 2
+
+
+Query= d1g2yd_.a.34.1.1
+
+Length=29
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P20823-4 Isoform 4 of Hepatocyte nuclear factor 1-alph...  46.6    3e-05
+  UniRef50_UPI00093C6666 hepatocyte nuclear factor 1-alpha n=1 Ta...  46.2    6e-05
+  UniRef50_U6DPD6 HNF1 homeobox A (Fragment) n=2 Tax=Euteleostomi...  44.3    1e-04
+  UniRef50_P20823-2 Isoform B of Hepatocyte nuclear factor 1-alph...  43.9    5e-04
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_P20823-4 Isoform 4 of Hepatocyte nuclear factor 1-alpha 
+n=6 Tax=Euarchontoglires TaxID=314146 RepID=P20823-4
+Length=278
+
+ Score = 46.6 bits (109),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_UPI00093C6666 hepatocyte nuclear factor 1-alpha n=1 
+Tax=Hipposideros armiger TaxID=186990 RepID=UPI00093C6666
+Length=278
+
+ Score = 46.2 bits (108),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQ EL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQMELLAALLESGLSKEALIQAL  30
+
+
+> UniRef50_U6DPD6 HNF1 homeobox A (Fragment) n=2 Tax=Euteleostomi 
+TaxID=117571 RepID=U6DPD6_NEOVI
+Length=204
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL  ALLESGLSKEALIQAL
+Sbjct  50  MVSKLSQLQTELLVALLESGLSKEALIQAL  79
+
+
+> UniRef50_P20823-2 Isoform B of Hepatocyte nuclear factor 1-alpha 
+n=15 Tax=Mammalia TaxID=40674 RepID=P20823-2
+Length=572
+
+ Score = 43.9 bits (102),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 1/30 (3%)
+
+Query  1   MVSKLSQLQTEL-AALLESGLSKEALIQAL  29
+           MVSKLSQLQTEL AALLESGLSKEALIQAL
+Sbjct  1   MVSKLSQLQTELLAALLESGLSKEALIQAL  30
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.137    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 213846321450
+
+Search has CONVERGED!
+
+
+  Database: /home/u2353/Bioinfo_course/uniref50.fasta
+    Posted date:  Mar 12, 2018 11:50 AM
+  Number of letters in database: 8,665,460,866
+  Number of sequences in database:  27,902,002
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

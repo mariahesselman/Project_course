@@ -1,0 +1,2621 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: /home/u2353/Bioinfo_course/uniref50.fasta
+           27,902,002 sequences; 8,665,460,866 total letters
+
+Results from round 1
+
+
+Query= d1bbn__.a.26.1.2
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID...  273     7e-92
+  UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 Rep...  262     1e-87
+  UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823...  110     3e-28
+  UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437...  105     3e-26
+  UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxI...  104     6e-26
+  UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=934...  102     4e-25
+  UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis...  101     1e-24
+  UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID...  99.8    4e-24
+  UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis ...  97.1    5e-23
+  UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 Re...  94.4    7e-22
+  UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus fa...  90.9    4e-21
+  UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=1...  89.4    5e-20
+  UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 ...  86.3    6e-19
+  UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria ...  81.6    2e-17
+  UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID...  80.5    1e-16
+  UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla laniger...  80.9    2e-16
+  UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxI...  77.0    2e-15
+  UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=41961...  75.9    4e-15
+  UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus Ta...  77.8    4e-15
+  UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus gla...  75.9    1e-14
+  UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus a...  71.2    3e-13
+  UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=1...  63.2    3e-10
+  UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis Ta...  62.8    3e-10
+  UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID...  60.8    4e-10
+  UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 Rep...  60.5    2e-09
+  UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=882...  54.3    3e-07
+  UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos ...  52.4    1e-06
+  UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 ...  50.4    4e-06
+  UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus...  48.9    2e-05
+  UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae Ta...  49.3    4e-05
+  UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxI...  47.4    4e-05
+  UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1...  47.0    4e-05
+  UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus...  47.0    8e-05
+  UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=99...  43.9    4e-04
+
+
+> UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0000110826
+Length=133
+
+ Score = 273 bits (697),  Expect = 7e-92, Method: Compositional matrix adjust.
+ Identities = 133/133 (100%), Positives = 133/133 (100%), Gaps = 0/133 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY
+Sbjct  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+            SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL
+Sbjct  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+
+Query  121  KTIMREKYSKCSS  133
+            KTIMREKYSKCSS
+Sbjct  121  KTIMREKYSKCSS  133
+
+
+> UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 RepID=IL4_HUMAN
+Length=153
+
+ Score = 262 bits (670),  Expect = 1e-87, Method: Compositional matrix adjust.
+ Identities = 127/132 (96%), Positives = 129/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK+TTEKETFCRAATVLRQFYS
+Sbjct  22   VHGHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKNTTEKETFCRAATVLRQFYS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA+QSTLENFLERLK
+Sbjct  82   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEANQSTLENFLERLK  141
+
+Query  122  TIMREKYSKCSS  133
+            TIMREKYSKCSS
+Sbjct  142  TIMREKYSKCSS  153
+
+
+> UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=A0A287BPS1_PIG
+Length=117
+
+ Score = 110 bits (274),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 66/130 (51%), Positives = 77/130 (59%), Gaps = 34/130 (26%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLN LT                A K+TTEKETFCRA+TVLR  Y 
+Sbjct  22   VHGHKCDITLQEIIKTLNILT----------------ARKNTTEKETFCRASTVLRHIYR  65
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HH     C+ +              L  LDRNL  +A + +C V EA +STL++FLERLK
+Sbjct  66   HHT----CMKS-------------LLSGLDRNLSSMANM-TCSVHEAKKSTLKDFLERLK  107
+
+Query  122  TIMREKYSKC  131
+            TIM+EKYSKC
+Sbjct  108  TIMKEKYSKC  117
+
+
+> UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437010 
+RepID=IL4_CANLF
+Length=132
+
+ Score = 105 bits (262),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 57/129 (44%), Positives = 79/129 (61%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+
+Sbjct  22   VHGHNFNITIKEIIKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYT  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H+  +                  R+L+ L RNL  +A   +C + E  +STL++FLERLK
+Sbjct  82   HNCSN------------------RYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             IM++KY +
+Sbjct  123  VIMQKKYYR  131
+
+
+> UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000944E109
+Length=136
+
+ Score = 104 bits (260),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 61/124 (49%), Positives = 73/124 (59%), Gaps = 18/124 (15%)
+
+Query  9    ITLQEIIKTLNSLTEQKT--LCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKD  66
+            I LQEIIKTLN LTE KT   C ELTV ++  A K+TTEK  FCRAA  LRQ Y  H+  
+Sbjct  28   ILLQEIIKTLNHLTEAKTKDGCMELTVAEVLPAPKNTTEKGAFCRAAIELRQMYHTHQCK  87
+
+Query  67   TRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+            T                 + L RL RNL  +A +NSCPV E  + TL+  LERLK  M++
+Sbjct  88   T----------------TKHLSRLHRNLSSMANMNSCPVNEDKKITLKELLERLKQTMKK  131
+
+Query  127  KYSK  130
+            KY+K
+Sbjct  132  KYAK  135
+
+
+> UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=9347 
+RepID=UPI0003F0A94A
+Length=137
+
+ Score = 102 bits (254),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 62/131 (47%), Positives = 77/131 (59%), Gaps = 18/131 (14%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H C ITL+EIIKTLN LT  K  C EL V D+FA  K T+E+ETFC+A TVL Q  S
+Sbjct  22   VHGHHCGITLKEIIKTLNYLTVPKHACNELMVADVFAVPKKTSEQETFCKARTVLEQVSS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLA-GLNSCPVKEADQSTLENFLERL  120
+                +++C           KQL+R    L  NL  +      CPV +A  STL +FL+RL
+Sbjct  82   ----NSKC----------SKQLLR---GLSINLTSMTESQIPCPVNKAQTSTLLDFLKRL  124
+
+Query  121  KTIMREKYSKC  131
+            KT+M +KYSKC
+Sbjct  125  KTVMMKKYSKC  135
+
+
+> UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=UPI0008FF5D31
+Length=140
+
+ Score = 101 bits (251),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 59/127 (46%), Positives = 78/127 (61%), Gaps = 8/127 (6%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+            H C+ TLQEII  LN L+ QKTLC+EL V D+FA  K     E  C+AATVL +  S+  
+Sbjct  22   HGCNDTLQEIINDLNVLSSQKTLCSELAVADVFAGPK-VRSSEKLCQAATVLHR-TSYLR  79
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+             +  C        HR    +  LK++ RNL  +A  N CPV E  Q+TL++FLE LKTI+
+Sbjct  80   VEPPCSNG-----HRESVFLILLKKVYRNLRSMARPN-CPVSELKQTTLKDFLENLKTIL  133
+
+Query  125  REKYSKC  131
+            ++KYS+C
+Sbjct  134  KKKYSEC  140
+
+
+> UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID=IL4_AILME
+Length=132
+
+ Score = 99.8 bits (247),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 57/129 (44%), Positives = 76/129 (59%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIKTLN LT +   C ELTVT+IFAA K+TT+ ETFCRA TVL+Q  +
+Sbjct  22   VHGHNFNITIKEIIKTLNILTARNDTCMELTVTNIFAAPKNTTDTETFCRATTVLQQLST  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H   +                  + L  L RNL  +A + +C V E  +STL +FLERLK
+Sbjct  82   HSCSN------------------KLLGGLHRNLKTMANM-TCSVNEVKKSTLRDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             I++ KY +
+Sbjct  123  AIVQRKYYR  131
+
+
+> UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI0009814B0B
+Length=133
+
+ Score = 97.1 bits (240),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 55/130 (42%), Positives = 77/130 (59%), Gaps = 21/130 (16%)
+
+Query  4    AHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+             H C+ +L EII+TLN+L+E+K                +TTEKE  CRA  VLRQ Y+  
+Sbjct  22   VHGCNRSLTEIIQTLNTLSEKK----------------NTTEKELLCRATAVLRQMYNPQ  65
+
+Query  64   EKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTI  123
+             K T+CL       H+ + ++  LK+L R L  +    +CPV E+ Q+TL+NFLE LK I
+Sbjct  66   SKVTQCLTG-----HKDRDVLSRLKQLYRILHSMVQSKNCPVNESMQTTLKNFLESLKRI  120
+
+Query  124  MREKYSKCSS  133
+            M++KYS+C S
+Sbjct  121  MQKKYSQCGS  130
+
+
+> UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 
+RepID=IL4_RAT
+Length=147
+
+ Score = 94.4 bits (233),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 52/125 (42%), Positives = 74/125 (59%), Gaps = 9/125 (7%)
+
+Query  5    HKC-DITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+            H C D  L+EII TLN +TE+ T CTE+ V D+  A+++TTE E  CRA+ VLR+FY   
+Sbjct  23   HGCNDSPLREIINTLNQVTEKGTPCTEMFVPDVLTATRNTTENELICRASRVLRKFYFPR  82
+
+Query  64   EKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTI  123
+            +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+I
+Sbjct  83   D--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKSI  134
+
+Query  124  MREKY  128
+            +R KY
+Sbjct  135  LRGKY  139
+
+
+> UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus 
+familiaris TaxID=9615 RepID=Q9TV11_CANLF
+Length=92
+
+ Score = 90.9 bits (224),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 51/110 (46%), Positives = 65/110 (59%), Gaps = 18/110 (16%)
+
+Query  15   IKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATA  74
+            IK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+HH           
+Sbjct  1    IKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYTHHNCSN-------  53
+
+Query  75   QQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                      R+L+ L RNL  +A   +C + E  +STL++FLERLK IM
+Sbjct  54   ----------RYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLKAIM  92
+
+
+> UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=10089 
+RepID=UPI000A319451
+Length=142
+
+ Score = 89.4 bits (220),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 53/130 (41%), Positives = 77/130 (59%), Gaps = 9/130 (7%)
+
+Query  2    AEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            +  H CD   L EII  LN +T + T CT++ V D+  A+K+TTE E  CRA+ VLR FY
+Sbjct  20   SHIHGCDDNHLIEIIGILNEVTGEGTPCTKMLVPDVLTATKNTTESELICRASKVLRIFY  79
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+              H K T CL   ++     ++L R L  LD ++       SC + E+  ++L++FLERL
+Sbjct  80   LKHGK-TPCLKKNSRVLTELQRLFRALGCLDSSI-------SCTMNESKSTSLKDFLERL  131
+
+Query  121  KTIMREKYSK  130
+            K+IM+  YS+
+Sbjct  132  KSIMQMDYSQ  141
+
+
+> UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 
+RepID=IL4_MOUSE
+Length=140
+
+ Score = 86.3 bits (212),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 51/129 (40%), Positives = 75/129 (58%), Gaps = 9/129 (7%)
+
+Query  2    AEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            +  H CD   L+EII  LN +T + T CTE+ V ++  A+K+TTE E  CRA+ VLR FY
+Sbjct  20   SHIHGCDKNHLREIIGILNEVTGEGTPCTEMDVPNVLTATKNTTESELVCRASKVLRIFY  79
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+              H K T CL   +      ++L R  + LD ++       SC + E+  ++L++FLE L
+Sbjct  80   LKHGK-TPCLKKNSSVLMELQRLFRAFRCLDSSI-------SCTMNESKSTSLKDFLESL  131
+
+Query  121  KTIMREKYS  129
+            K+IM+  YS
+Sbjct  132  KSIMQMDYS  140
+
+
+> UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria 
+TaxID=1437010 RepID=B3V279_TURTR
+Length=101
+
+ Score = 81.6 bits (200),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 54/107 (50%), Positives = 64/107 (60%), Gaps = 18/107 (17%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCD+TLQEIIKTLN LT +K LC EL V D+FA +K+TTEKETFCRA TVLR  Y 
+Sbjct  13   VHGHKCDVTLQEIIKTLNILTAKKNLCMELPVEDVFATTKNTTEKETFCRAGTVLRHIYR  72
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA  108
+            HH    +C               + L  L RNL  +A + +C V EA
+Sbjct  73   HH----KCFN-------------KPLSGLHRNLSSMANM-TCSVNEA  101
+
+
+> UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID=G0WM66_CAVPO
+Length=144
+
+ Score = 80.5 bits (197),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 72/123 (59%), Gaps = 10/123 (8%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            TLQEII+ LN+L+ +K+ C EL VTD+FA  +     +  C AATVL     HH    R 
+Sbjct  29   TLQEIIQHLNTLSREKSPCAELLVTDVFADPQGPASGD-LCTAATVL-----HHTAYLR-  81
+
+Query  70   LGATAQQFHRHKQLIR-FLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKY  128
+             G  +        L    L+++ RNL  +A  N CPV E  Q+TL++FLE LK IM+++Y
+Sbjct  82   -GPQSCPNREGDPLYPSVLRQVFRNLRSMAQSN-CPVSELRQTTLKDFLENLKRIMQKRY  139
+
+Query  129  SKC  131
+            SKC
+Sbjct  140  SKC  142
+
+
+> UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI0006991273
+Length=193
+
+ Score = 80.9 bits (198),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 52/130 (40%), Positives = 70/130 (54%), Gaps = 9/130 (7%)
+
+Query  4    AHKCD-ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+            A  C+   LQEII+ L++L+ +KT C EL V D+FA  K T +    C A+TVL      
+Sbjct  22   ARGCNHYPLQEIIQDLDTLSREKTPCAELAVADVFADPKGTVQAR-LCGASTVL------  74
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+            H       G +     R    +  LKR+ RNL      N CPV E  Q+TL++FLE LK 
+Sbjct  75   HRTSYLGAGLSCSNGDRESLFLTLLKRVYRNLRSTVRQN-CPVSELKQTTLKDFLENLKR  133
+
+Query  123  IMREKYSKCS  132
+            IM++KY +C 
+Sbjct  134  IMQKKYLECG  143
+
+
+> UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxID=9526 
+RepID=U3LVN1_HUMAN
+Length=136
+
+ Score = 77.0 bits (188),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 37/38 (97%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  4   AHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  41
+            HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK
+Sbjct  24  GHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  61
+
+
+> UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=419612 
+RepID=S9YLP2_CAMFR
+Length=131
+
+ Score = 75.9 bits (185),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 47/97 (48%), Positives = 51/97 (53%), Gaps = 33/97 (34%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+            A  HKCDITLQEIIKTLN+LT                A K+TTEKETFC+AAT LR  Y 
+Sbjct  41   AHGHKCDITLQEIIKTLNTLT----------------ARKNTTEKETFCKAATALRHIYR  84
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLA  98
+            HH     CL              + L  LDRNL GLA
+Sbjct  85   HH----NCLS-------------KHLSGLDRNLSGLA  104
+
+
+> UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000332FA04
+Length=290
+
+ Score = 77.8 bits (190),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 44/94 (47%), Positives = 55/94 (59%), Gaps = 9/94 (10%)
+
+Query  7    CDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKD  66
+            C+  L EI++TL SL E+KT CTE+TV  I   SK  ++ E  CRAA VLRQFY  H   
+Sbjct  25   CNRVLGEIVQTLTSLLEEKTPCTEMTVAPILTDSKSASDSEALCRAAGVLRQFYQPHGAA  84
+
+Query  67   TRCLGATAQQFHRHKQ--LIRFLKRLDRNLWGLA  98
+            TRCL        RH+Q  L+  L+ L R +  LA
+Sbjct  85   TRCL-------IRHQQCHLLASLRGLYRTISRLA  111
+
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  102  SCPVKEADQSTLENFLERLKTIMREKYSKCSS  133
+            +CPV E+ Q TL+NFLE LK IM++KYS+C S
+Sbjct  256  NCPVNESTQRTLKNFLENLKAIMQKKYSQCGS  287
+
+
+> UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus glaber 
+TaxID=10181 RepID=UPI000A338EB4
+Length=179
+
+ Score = 75.9 bits (185),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 56/164 (34%), Positives = 73/164 (45%), Gaps = 48/164 (29%)
+
+Query  7    CDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-------------------------  41
+            C+  LQEII  LN L+ QKT C EL   D+FAA K                         
+Sbjct  25   CNDALQEIINDLNVLSSQKTPCAELAAADVFAAPKVRGCSLVFLGRWAAWGGGILQHLNK  84
+
+Query  42   --------------DTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFL  87
+                          DT EK   C+A TVL      H      +G +    HR    +  L
+Sbjct  85   KLSTVVANFGMRAADTAEK--LCQAVTVL------HRTSYLGVGLSCLNRHRESVFLVLL  136
+
+Query  88   KRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYSKC  131
+            K++ RNL  +   N C V E  Q+TL++FLE LKTI+++KYS+C
+Sbjct  137  KKVYRNLRSMVQPN-CSVSELKQTTLKDFLENLKTILKKKYSEC  179
+
+
+> UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus 
+asinus TaxID=9793 RepID=UPI00071A1CF3
+Length=137
+
+ Score = 71.2 bits (173),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 47/96 (49%), Positives = 55/96 (57%), Gaps = 20/96 (21%)
+
+Query  6    KCDITLQEIIKTLNSLTE--QKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+            K DITLQEIIKTLN+LT+   K  C ELTV D FA  K+T  KE  CRAA VL+Q Y  H
+Sbjct  26   KYDITLQEIIKTLNNLTDGKGKNSCMELTVADAFAGPKNTDGKE-ICRAAKVLQQLYKRH  84
+
+Query  64   EKDTRCLGATAQQFHRHKQLIR-FLKRLDRNLWGLA  98
+            +                + LI+  L  LDRNL G+A
+Sbjct  85   D----------------RSLIKECLSGLDRNLKGMA  104
+
+
+> UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=10116 
+RepID=Q6RIC4_RAT
+Length=147
+
+ Score = 63.2 bits (152),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 43/125 (34%), Positives = 60/125 (48%), Gaps = 29/125 (23%)
+
+Query  5    HKC-DITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+            H C D  L+EII TLN +                    +TTE E  CRA+ VLR+FY   
+Sbjct  23   HGCNDSPLREIINTLNQV--------------------NTTENELICRASRVLRKFYFPR  62
+
+Query  64   EKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTI  123
+            +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+I
+Sbjct  63   D--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKSI  114
+
+Query  124  MREKY  128
+            +R KY
+Sbjct  115  LRGKY  119
+
+
+> UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis 
+TaxID=38654 RepID=A0A1U7RHQ0_ALLSI
+Length=139
+
+ Score = 62.8 bits (151),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 43/111 (39%), Positives = 54/111 (49%), Gaps = 18/111 (16%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             LQEII++LN L EQK  C ++ V+DIF   K+  + E  C+AA VL +           
+Sbjct  33   VLQEIIRSLNFLKEQKVSCKQMNVSDIFEDPKENNQSEMLCKAAAVLTK-----------  81
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+                AQ F    Q  R LK +  NL  L     CPV     +TL  FLERL
+Sbjct  82   ----AQCFC---QECRHLKVIRVNLLELTRTVRCPVNTTSNTTLHGFLERL  125
+
+
+> UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID=9347 
+RepID=A8DRA0_SAISC
+Length=58
+
+ Score = 60.8 bits (146),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  4   AHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFA  38
+            H CD+ L+EIIKTLN +TEQKTLCTELTVTDIFA
+Sbjct  24  GHNCDVALEEIIKTLNIVTEQKTLCTELTVTDIFA  58
+
+
+> UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 RepID=G3WEJ0_SARHA
+Length=156
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/130 (31%), Positives = 72/130 (55%), Gaps = 1/130 (1%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-DTTEKETFCRAATVLRQFY  60
+             +   C  T++EII + +SLT +K LC+E+ V DIF  +K +++ ++     ++  +   
+Sbjct  24   GQRRNCRSTVREIILSASSLTTKKFLCSEMEVLDIFEDTKKNSSTRKLLPEMSSCSQLAM  83
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+            + ++ +T C   T  Q   +    + LK++ RNL  L     CPV E   + L++FL +L
+Sbjct  84   TVNDFETLCRAVTVLQQASNSCPRQELKKMCRNLMHLVNQTKCPVNETKITKLQDFLSKL  143
+
+Query  121  KTIMREKYSK  130
+            KTI ++ +SK
+Sbjct  144  KTINQKIFSK  153
+
+
+> UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=8825 
+RepID=A0A218V3Z5_9PASE
+Length=136
+
+ Score = 54.3 bits (129),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 36/124 (29%), Positives = 57/124 (46%), Gaps = 27/124 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E IK L+ L + +  C ++ V +IFA  K     E +C+AAT+ ++  S H       
+Sbjct  30   LKESIKLLDQLQQMEVSCNKMNVINIFADHKRGNNTEIYCKAATIAQEHQSCH-------  82
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLN------SCPVKEADQSTLENFLERLKTIM  124
+                          R+L  L  NL  LA  +       CPV     ++L+NFL  L  ++
+Sbjct  83   --------------RYLGGLYYNLLSLAWGSRARHKKPCPVAAGSTTSLKNFLNDLHHVL  128
+
+Query  125  REKY  128
+            +E+Y
+Sbjct  129  QEEY  132
+
+
+> UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos 
+cinereus TaxID=38626 RepID=X2FJF4_PHACI
+Length=138
+
+ Score = 52.4 bits (124),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/117 (27%), Positives = 57/117 (49%), Gaps = 0/117 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            + +   C  +L+EI+   NSLT +K  C E+ V DIF  +++++  + F   ++  +   
+Sbjct  21   QGQRRTCQPSLREIVHMANSLTMKKFPCFEMEVPDIFEDTENSSTPKLFPEESSCSQLVM  80
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFL  117
+            + ++ +T C   T  Q   +      L  + RNL  L     CPV E   + L++FL
+Sbjct  81   TMNDFETLCRAVTVLQQVSNSCPFPKLSNMLRNLMHLVNQTKCPVNETKITKLQDFL  137
+
+
+> UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR4_RABIT
+Length=83
+
+ Score = 50.4 bits (119),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 21/37 (57%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  28  CTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+           CT+  + D  A  K+TTE+E  CRAAT LRQFY HH+
+Sbjct  1   CTKPMIADALAVPKNTTEREAVCRAATALRQFYLHHK  37
+
+
+> UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004574A2D
+Length=146
+
+ Score = 48.9 bits (115),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 35/122 (29%), Positives = 57/122 (47%), Gaps = 24/122 (20%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLR--QFYSHHEKDT  67
+            +L+EII T+  + E +    +  V +IF   KD ++ E FC+AA VL    FY++     
+Sbjct  31   SLKEIISTIRHILENQVHHHQNHVPEIFEDVKDRSDSEVFCKAAQVLELLPFYNN-----  85
+
+Query  68   RCLGATAQQFHRHKQLIRFLKRLDRNLWGLAG-LNSCPVKEADQSTLENFLERLKTIMRE  126
+                            ++ L +L  NL  + G +  C V E  Q   +NFL+RL    ++
+Sbjct  86   ----------------LKELHKLRHNLIHMGGQITECEVSELSQVEFKNFLKRLLNFSQK  129
+
+Query  127  KY  128
+            K+
+Sbjct  130  KF  131
+
+
+> UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae 
+TaxID=8825 RepID=UPI000510E9CA
+Length=215
+
+ Score = 49.3 bits (116),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 55/116 (47%), Gaps = 15/116 (13%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I  LN L E K  C +  V  IFA  K   + ET C+A TV  +  S H K  + +
+Sbjct  111  LKESIMLLNKLLESKVSCNKTNVPSIFAGDKKDNDIETLCKATTVTLEHQSCH-KYLKGI  169
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+                     H  L+ F++R        A    CPV   + ++L +FL+ L+ ++++
+Sbjct  170  ---------HLNLVHFVQRKST-----AYKAPCPVAAGNTTSLNDFLQDLRRLLQQ  211
+
+
+> UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxID=379584 
+RepID=G1MH87_AILME
+Length=81
+
+ Score = 47.4 bits (111),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 29/62 (47%), Positives = 39/62 (63%), Gaps = 3/62 (5%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVT-DIFAASKDTTEKETFCRAATVLRQFY  60
+              H  +IT++EIIKTLN LT +       T++ D F  S +TT+ ETFCRA TVL+Q  
+Sbjct  22  VHGHNFNITIKEIIKTLNILTARNVSKLSGTISPDHF--SFNTTDTETFCRATTVLQQLS  79
+
+Query  61  SH  62
+           +H
+Sbjct  80  TH  81
+
+
+> UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR6_RABIT
+Length=60
+
+ Score = 47.0 bits (110),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  101  NSCPVKEADQSTLENFLERLKTIMREKYSK  130
+            ++CP KEA Q+TLE+FL+RLKT M+EKYSK
+Sbjct  28   SNCPGKEARQTTLEDFLDRLKTAMQEKYSK  57
+
+
+> UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004575944
+Length=131
+
+ Score = 47.0 bits (110),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 55/120 (46%), Gaps = 21/120 (18%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+EI KTL  +T+ K  C    + D+F+ +K  +  E FC+AA  L +            
+Sbjct  29   LREITKTLGHMTQDKIECGATLIPDVFSDTKGQSASEIFCKAAEALVKI-----------  77
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLW--GLAGLNSCPVKEADQSTLENFLERLKTIMREKY  128
+                +   RH      LK L  NL   G   L SCPV +  +  L  FL +L+ + ++KY
+Sbjct  78   -PPCESIKRH------LKALRLNLAKEGEQTL-SCPVNKFSEIELTTFLRKLRKLSQQKY  129
+
+
+> UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=9935 
+RepID=D3UAN9_9CETA
+Length=56
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTV  33
+              HKCDITL+EIIKTLN LT +K  C EL V
+Sbjct  25  VHGHKCDITLEEIIKTLNILTSRKNSCMELPV  56
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.130    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214522800192
+Results from round 2
+
+
+Query= d1bbn__.a.26.1.2
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 Rep...  171     1e-51
+  UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID...  166     6e-50
+  UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437...  134     2e-37
+  UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis...  128     5e-35
+  UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 Re...  124     1e-33
+  UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla laniger...  124     5e-33
+  UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=1...  121     2e-32
+  UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID...  120     4e-32
+  UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=934...  117     6e-31
+  UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 ...  116     1e-30
+  UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos ...  116     2e-30
+  UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus gla...  116     5e-30
+  UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 Rep...  113     3e-29
+  UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID...  112     9e-29
+  UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis ...  109     5e-28
+  UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxI...  108     4e-27
+  UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus fa...  104     1e-26
+  UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823...  103     1e-25
+  UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=882...  93.8    1e-21
+  UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=1...  91.1    1e-20
+  UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus...  89.9    4e-20
+  UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria ...  88.0    6e-20
+  UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus Ta...  89.2    4e-19
+  UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae Ta...  88.4    4e-19
+  UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus...  86.1    6e-19
+  UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis Ta...  86.1    9e-19
+  UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus a...  78.4    6e-16
+  UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=41961...  71.4    2e-13
+  UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxI...  69.1    5e-13
+  UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxI...  59.9    3e-09
+  UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID...  56.4    2e-08
+  UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 ...  52.6    7e-07
+  UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=99...  49.5    5e-06
+  UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1...  44.5    3e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI0003598085 interleukin-4 n=1 Tax=Ficedula albicolli...  84.1    1e-17
+  UniRef50_A0A226MIA9 Uncharacterized protein n=2 Tax=Odontophori...  69.5    2e-12
+  UniRef50_A0A1U9X9K3 Interleukin-4 n=2 Tax=Anatidae TaxID=8830 R...  66.8    1e-11
+  UniRef50_UPI00051E35D9 interleukin-4-like n=1 Tax=Struthio came...  65.3    3e-11
+  UniRef50_UPI000B3E2F58 interleukin-4 n=1 Tax=Numida meleagris T...  63.3    2e-10
+  UniRef50_A0A091EWH9 Interleukin-4 (Fragment) n=4 Tax=Neognathae...  61.4    4e-10
+  UniRef50_Q5W4U1 Interleukin-4 n=18 Tax=Neognathae TaxID=8825 Re...  59.5    5e-09
+  UniRef50_V9NJM6 IL-4 delta 3 n=2 Tax=Cavia porcellus TaxID=1014...  53.3    3e-07
+  UniRef50_J9P3G4 Interleukin-4 n=2 Tax=Canis lupus familiaris Ta...  48.3    3e-05
+  UniRef50_R0L8U2 Uncharacterized protein (Fragment) n=2 Tax=Anas...  47.2    8e-05
+  UniRef50_A0A093CG74 Uncharacterized protein n=2 Tax=Tauraco ery...  46.0    3e-04
+  UniRef50_Q5W4U0 Interleukin-13 n=30 Tax=Neognathae TaxID=8825 R...  45.2    5e-04
+
+
+> UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 RepID=IL4_HUMAN
+Length=153
+
+ Score = 171 bits (433),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 127/132 (96%), Positives = 129/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK+TTEKETFCRAATVLRQFYS
+Sbjct  22   VHGHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKNTTEKETFCRAATVLRQFYS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA+QSTLENFLERLK
+Sbjct  82   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEANQSTLENFLERLK  141
+
+Query  122  TIMREKYSKCSS  133
+            TIMREKYSKCSS
+Sbjct  142  TIMREKYSKCSS  153
+
+
+> UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0000110826
+Length=133
+
+ Score = 166 bits (420),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 133/133 (100%), Positives = 133/133 (100%), Gaps = 0/133 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY
+Sbjct  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+            SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL
+Sbjct  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+
+Query  121  KTIMREKYSKCSS  133
+            KTIMREKYSKCSS
+Sbjct  121  KTIMREKYSKCSS  133
+
+
+> UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437010 
+RepID=IL4_CANLF
+Length=132
+
+ Score = 134 bits (336),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 57/129 (44%), Positives = 79/129 (61%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+
+Sbjct  22   VHGHNFNITIKEIIKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYT  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H+  +                  R+L+ L RNL  +A   +C + E  +STL++FLERLK
+Sbjct  82   HNCSN------------------RYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             IM++KY +
+Sbjct  123  VIMQKKYYR  131
+
+
+> UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=UPI0008FF5D31
+Length=140
+
+ Score = 128 bits (321),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 58/127 (46%), Positives = 75/127 (59%), Gaps = 8/127 (6%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+            H C+ TLQEII  LN L+ QKTLC+EL V D+FA  K     E  C+AATVL      H 
+Sbjct  22   HGCNDTLQEIINDLNVLSSQKTLCSELAVADVFAGPK-VRSSEKLCQAATVL------HR  74
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                 +       HR    +  LK++ RNL  +A  N CPV E  Q+TL++FLE LKTI+
+Sbjct  75   TSYLRVEPPCSNGHRESVFLILLKKVYRNLRSMARPN-CPVSELKQTTLKDFLENLKTIL  133
+
+Query  125  REKYSKC  131
+            ++KYS+C
+Sbjct  134  KKKYSEC  140
+
+
+> UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 
+RepID=IL4_RAT
+Length=147
+
+ Score = 124 bits (311),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 53/132 (40%), Positives = 79/132 (60%), Gaps = 10/132 (8%)
+
+Query  4    AHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+             H C+ + L+EII TLN +TE+ T CTE+ V D+  A+++TTE E  CRA+ VLR+FY  
+Sbjct  22   IHGCNDSPLREIINTLNQVTEKGTPCTEMFVPDVLTATRNTTENELICRASRVLRKFYFP  81
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+             +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+
+Sbjct  82   RD--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKS  133
+
+Query  123  IMREKYSK-CSS  133
+            I+R KY + C+S
+Sbjct  134  ILRGKYLQSCTS  145
+
+
+> UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI0006991273
+Length=193
+
+ Score = 124 bits (311),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 52/130 (40%), Positives = 70/130 (54%), Gaps = 9/130 (7%)
+
+Query  4    AHKCD-ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+            A  C+   LQEII+ L++L+ +KT C EL V D+FA  K T +    C A+TVL      
+Sbjct  22   ARGCNHYPLQEIIQDLDTLSREKTPCAELAVADVFADPKGTVQAR-LCGASTVL------  74
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+            H       G +     R    +  LKR+ RNL      N CPV E  Q+TL++FLE LK 
+Sbjct  75   HRTSYLGAGLSCSNGDRESLFLTLLKRVYRNLRSTVRQN-CPVSELKQTTLKDFLENLKR  133
+
+Query  123  IMREKYSKCS  132
+            IM++KY +C 
+Sbjct  134  IMQKKYLECG  143
+
+
+> UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=10089 
+RepID=UPI000A319451
+Length=142
+
+ Score = 121 bits (304),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 51/130 (39%), Positives = 75/130 (58%), Gaps = 9/130 (7%)
+
+Query  2    AEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            +  H CD   L EII  LN +T + T CT++ V D+  A+K+TTE E  CRA+ VLR FY
+Sbjct  20   SHIHGCDDNHLIEIIGILNEVTGEGTPCTKMLVPDVLTATKNTTESELICRASKVLRIFY  79
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+              H K             ++ +++  L+RL R L  L    SC + E+  ++L++FLERL
+Sbjct  80   LKHGK--------TPCLKKNSRVLTELQRLFRALGCLDSSISCTMNESKSTSLKDFLERL  131
+
+Query  121  KTIMREKYSK  130
+            K+IM+  YS+
+Sbjct  132  KSIMQMDYSQ  141
+
+
+> UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID=IL4_AILME
+Length=132
+
+ Score = 120 bits (300),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 57/129 (44%), Positives = 75/129 (58%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIKTLN LT +   C ELTVT+IFAA K+TT+ ETFCRA TVL+Q  +
+Sbjct  22   VHGHNFNITIKEIIKTLNILTARNDTCMELTVTNIFAAPKNTTDTETFCRATTVLQQLST  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H                      + L  L RNL  +A + +C V E  +STL +FLERLK
+Sbjct  82   H------------------SCSNKLLGGLHRNLKTMANM-TCSVNEVKKSTLRDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             I++ KY +
+Sbjct  123  AIVQRKYYR  131
+
+
+> UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=9347 
+RepID=UPI0003F0A94A
+Length=137
+
+ Score = 117 bits (293),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 59/131 (45%), Positives = 72/131 (55%), Gaps = 18/131 (14%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H C ITL+EIIKTLN LT  K  C EL V D+FA  K T+E+ETFC+A TVL Q  S
+Sbjct  22   VHGHHCGITLKEIIKTLNYLTVPKHACNELMVADVFAVPKKTSEQETFCKARTVLEQVSS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLA-GLNSCPVKEADQSTLENFLERL  120
+                               K   + L+ L  NL  +      CPV +A  STL +FL+RL
+Sbjct  82   -----------------NSKCSKQLLRGLSINLTSMTESQIPCPVNKAQTSTLLDFLKRL  124
+
+Query  121  KTIMREKYSKC  131
+            KT+M +KYSKC
+Sbjct  125  KTVMMKKYSKC  135
+
+
+> UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 
+RepID=IL4_MOUSE
+Length=140
+
+ Score = 116 bits (291),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 49/130 (38%), Positives = 72/130 (55%), Gaps = 9/130 (7%)
+
+Query  1    EAEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQF  59
+             +  H CD   L+EII  LN +T + T CTE+ V ++  A+K+TTE E  CRA+ VLR F
+Sbjct  19   RSHIHGCDKNHLREIIGILNEVTGEGTPCTEMDVPNVLTATKNTTESELVCRASKVLRIF  78
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLER  119
+            Y  H K             ++  ++  L+RL R    L    SC + E+  ++L++FLE 
+Sbjct  79   YLKHGK--------TPCLKKNSSVLMELQRLFRAFRCLDSSISCTMNESKSTSLKDFLES  130
+
+Query  120  LKTIMREKYS  129
+            LK+IM+  YS
+Sbjct  131  LKSIMQMDYS  140
+
+
+> UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos 
+cinereus TaxID=38626 RepID=X2FJF4_PHACI
+Length=138
+
+ Score = 116 bits (289),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 32/118 (27%), Positives = 57/118 (48%), Gaps = 0/118 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            + +   C  +L+EI+   NSLT +K  C E+ V DIF  +++++  + F   ++  +   
+Sbjct  21   QGQRRTCQPSLREIVHMANSLTMKKFPCFEMEVPDIFEDTENSSTPKLFPEESSCSQLVM  80
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLE  118
+            + ++ +T C   T  Q   +      L  + RNL  L     CPV E   + L++FL 
+Sbjct  81   TMNDFETLCRAVTVLQQVSNSCPFPKLSNMLRNLMHLVNQTKCPVNETKITKLQDFLS  138
+
+
+> UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus glaber 
+TaxID=10181 RepID=UPI000A338EB4
+Length=179
+
+ Score = 116 bits (290),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 53/164 (32%), Positives = 70/164 (43%), Gaps = 44/164 (27%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-----------------------  41
+              C+  LQEII  LN L+ QKT C EL   D+FAA K                       
+Sbjct  23   RGCNDALQEIINDLNVLSSQKTPCAELAAADVFAAPKVRGCSLVFLGRWAAWGGGILQHL  82
+
+Query  42   --------------DTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFL  87
+                               E  C+A TVL      H      +G +    HR    +  L
+Sbjct  83   NKKLSTVVANFGMRAADTAEKLCQAVTVL------HRTSYLGVGLSCLNRHRESVFLVLL  136
+
+Query  88   KRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYSKC  131
+            K++ RNL  +   N C V E  Q+TL++FLE LKTI+++KYS+C
+Sbjct  137  KKVYRNLRSMVQPN-CSVSELKQTTLKDFLENLKTILKKKYSEC  179
+
+
+> UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 RepID=G3WEJ0_SARHA
+Length=156
+
+ Score = 113 bits (283),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 40/131 (31%), Positives = 72/131 (55%), Gaps = 1/131 (1%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-DTTEKETFCRAATVLRQF  59
+              +   C  T++EII + +SLT +K LC+E+ V DIF  +K +++ ++     ++  +  
+Sbjct  23   HGQRRNCRSTVREIILSASSLTTKKFLCSEMEVLDIFEDTKKNSSTRKLLPEMSSCSQLA  82
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLER  119
+             + ++ +T C   T  Q   +    + LK++ RNL  L     CPV E   + L++FL +
+Sbjct  83   MTVNDFETLCRAVTVLQQASNSCPRQELKKMCRNLMHLVNQTKCPVNETKITKLQDFLSK  142
+
+Query  120  LKTIMREKYSK  130
+            LKTI ++ +SK
+Sbjct  143  LKTINQKIFSK  153
+
+
+> UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID=G0WM66_CAVPO
+Length=144
+
+ Score = 112 bits (279),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 51/128 (40%), Positives = 73/128 (57%), Gaps = 9/128 (7%)
+
+Query  5    HKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+              C+  TLQEII+ LN+L+ +K+ C EL VTD+FA  +     +  C AATVL     HH
+Sbjct  23   RGCNHHTLQEIIQHLNTLSREKSPCAELLVTDVFADPQGPASGD-LCTAATVL-----HH  76
+
+Query  64   EKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTI  123
+                R    +             L+++ RNL  +A  ++CPV E  Q+TL++FLE LK I
+Sbjct  77   TAYLRG-PQSCPNREGDPLYPSVLRQVFRNLRSMA-QSNCPVSELRQTTLKDFLENLKRI  134
+
+Query  124  MREKYSKC  131
+            M+++YSKC
+Sbjct  135  MQKRYSKC  142
+
+
+> UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI0009814B0B
+Length=133
+
+ Score = 109 bits (273),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 55/129 (43%), Positives = 77/129 (60%), Gaps = 21/129 (16%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+            H C+ +L EII+TLN+L+E+                K+TTEKE  CRA  VLRQ Y+   
+Sbjct  23   HGCNRSLTEIIQTLNTLSEK----------------KNTTEKELLCRATAVLRQMYNPQS  66
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+            K T+CL       H+ + ++  LK+L R L  +    +CPV E+ Q+TL+NFLE LK IM
+Sbjct  67   KVTQCLTG-----HKDRDVLSRLKQLYRILHSMVQSKNCPVNESMQTTLKNFLESLKRIM  121
+
+Query  125  REKYSKCSS  133
+            ++KYS+C S
+Sbjct  122  QKKYSQCGS  130
+
+
+> UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000944E109
+Length=136
+
+ Score = 108 bits (268),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 61/124 (49%), Positives = 73/124 (59%), Gaps = 18/124 (15%)
+
+Query  9    ITLQEIIKTLNSLTEQKT--LCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKD  66
+            I LQEIIKTLN LTE KT   C ELTV ++  A K+TTEK  FCRAA  LRQ Y  H+  
+Sbjct  28   ILLQEIIKTLNHLTEAKTKDGCMELTVAEVLPAPKNTTEKGAFCRAAIELRQMYHTHQCK  87
+
+Query  67   TRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+            T                 + L RL RNL  +A +NSCPV E  + TL+  LERLK  M++
+Sbjct  88   T----------------TKHLSRLHRNLSSMANMNSCPVNEDKKITLKELLERLKQTMKK  131
+
+Query  127  KYSK  130
+            KY+K
+Sbjct  132  KYAK  135
+
+
+> UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus 
+familiaris TaxID=9615 RepID=Q9TV11_CANLF
+Length=92
+
+ Score = 104 bits (260),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 51/110 (46%), Positives = 65/110 (59%), Gaps = 18/110 (16%)
+
+Query  15   IKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATA  74
+            IK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+HH           
+Sbjct  1    IKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYTHHNCSN-------  53
+
+Query  75   QQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                      R+L+ L RNL  +A   +C + E  +STL++FLERLK IM
+Sbjct  54   ----------RYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLKAIM  92
+
+
+> UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=A0A287BPS1_PIG
+Length=117
+
+ Score = 103 bits (256),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 65/130 (50%), Positives = 75/130 (58%), Gaps = 34/130 (26%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLN LT                A K+TTEKETFCRA+TVLR  Y 
+Sbjct  22   VHGHKCDITLQEIIKTLNILT----------------ARKNTTEKETFCRASTVLRHIYR  65
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HH                   +   L  LDRNL  +A + +C V EA +STL++FLERLK
+Sbjct  66   HHT-----------------CMKSLLSGLDRNLSSMANM-TCSVHEAKKSTLKDFLERLK  107
+
+Query  122  TIMREKYSKC  131
+            TIM+EKYSKC
+Sbjct  108  TIMKEKYSKC  117
+
+
+> UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=8825 
+RepID=A0A218V3Z5_9PASE
+Length=136
+
+ Score = 93.8 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 36/124 (29%), Positives = 56/124 (45%), Gaps = 27/124 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E IK L+ L + +  C ++ V +IFA  K     E +C+AAT+ ++  S H       
+Sbjct  30   LKESIKLLDQLQQMEVSCNKMNVINIFADHKRGNNTEIYCKAATIAQEHQSCH-------  82
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIM  124
+                          R+L  L  NL  LA          CPV     ++L+NFL  L  ++
+Sbjct  83   --------------RYLGGLYYNLLSLAWGSRARHKKPCPVAAGSTTSLKNFLNDLHHVL  128
+
+Query  125  REKY  128
+            +E+Y
+Sbjct  129  QEEY  132
+
+
+> UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=10116 
+RepID=Q6RIC4_RAT
+Length=147
+
+ Score = 91.1 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 42/126 (33%), Positives = 61/126 (48%), Gaps = 29/126 (23%)
+
+Query  4    AHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+             H C+ + L+EII TLN +                    +TTE E  CRA+ VLR+FY  
+Sbjct  22   IHGCNDSPLREIINTLNQV--------------------NTTENELICRASRVLRKFYFP  61
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+             +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+
+Sbjct  62   RD--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKS  113
+
+Query  123  IMREKY  128
+            I+R KY
+Sbjct  114  ILRGKY  119
+
+
+> UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004574A2D
+Length=146
+
+ Score = 89.9 bits (221),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 54/120 (45%), Gaps = 20/120 (17%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            +L+EII T+  + E +    +  V +IF   KD ++ E FC+AA VL     ++      
+Sbjct  31   SLKEIISTIRHILENQVHHHQNHVPEIFEDVKDRSDSEVFCKAAQVLELLPFYNN-----  85
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGL-NSCPVKEADQSTLENFLERLKTIMREKY  128
+                          ++ L +L  NL  + G    C V E  Q   +NFL+RL    ++K+
+Sbjct  86   --------------LKELHKLRHNLIHMGGQITECEVSELSQVEFKNFLKRLLNFSQKKF  131
+
+
+> UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria 
+TaxID=1437010 RepID=B3V279_TURTR
+Length=101
+
+ Score = 88.0 bits (216),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 54/107 (50%), Positives = 63/107 (59%), Gaps = 18/107 (17%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCD+TLQEIIKTLN LT +K LC EL V D+FA +K+TTEKETFCRA TVLR  Y 
+Sbjct  13   VHGHKCDVTLQEIIKTLNILTAKKNLCMELPVEDVFATTKNTTEKETFCRAGTVLRHIYR  72
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA  108
+            HH                 K   + L  L RNL  +A + +C V EA
+Sbjct  73   HH-----------------KCFNKPLSGLHRNLSSMANM-TCSVNEA  101
+
+
+> UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000332FA04
+Length=290
+
+ Score = 89.2 bits (219),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 43/98 (44%), Positives = 54/98 (55%), Gaps = 5/98 (5%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+              C+  L EI++TL SL E+KT CTE+TV  I   SK  ++ E  CRAA VLRQFY  H 
+Sbjct  23   RGCNRVLGEIVQTLTSLLEEKTPCTEMTVAPILTDSKSASDSEALCRAAGVLRQFYQPHG  82
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNS  102
+              TRCL       H+   L+  L+ L R +  LA   S
+Sbjct  83   AATRCL-----IRHQQCHLLASLRGLYRTISRLAPTVS  115
+
+
+ Score = 61.0 bits (146),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  94   LWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYSKCSS  133
+            L  ++   +CPV E+ Q TL+NFLE LK IM++KYS+C S
+Sbjct  248  LAQMSSRRNCPVNESTQRTLKNFLENLKAIMQKKYSQCGS  287
+
+
+> UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae 
+TaxID=8825 RepID=UPI000510E9CA
+Length=215
+
+ Score = 88.4 bits (217),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 27/122 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I  LN L E K  C +  V  IFA  K   + ET C+A TV  +  S H       
+Sbjct  111  LKESIMLLNKLLESKVSCNKTNVPSIFAGDKKDNDIETLCKATTVTLEHQSCH-------  163
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNL------WGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                          ++LK +  NL         A    CPV   + ++L +FL+ L+ ++
+Sbjct  164  --------------KYLKGIHLNLVHFVQRKSTAYKAPCPVAAGNTTSLNDFLQDLRRLL  209
+
+Query  125  RE  126
+            ++
+Sbjct  210  QQ  211
+
+
+> UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004575944
+Length=131
+
+ Score = 86.1 bits (211),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 35/121 (29%), Positives = 54/121 (45%), Gaps = 19/121 (16%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+EI KTL  +T+ K  C    + D+F+ +K  +  E FC+AA  L +            
+Sbjct  29   LREITKTLGHMTQDKIECGATLIPDVFSDTKGQSASEIFCKAAEALVKI-----------  77
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-SCPVKEADQSTLENFLERLKTIMREKYS  129
+                +   RH      LK L  NL        SCPV +  +  L  FL +L+ + ++KY 
+Sbjct  78   -PPCESIKRH------LKALRLNLAKEGEQTLSCPVNKFSEIELTTFLRKLRKLSQQKYR  130
+
+Query  130  K  130
+            +
+Sbjct  131  Q  131
+
+
+> UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis 
+TaxID=38654 RepID=A0A1U7RHQ0_ALLSI
+Length=139
+
+ Score = 86.1 bits (211),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 40/117 (34%), Positives = 53/117 (45%), Gaps = 18/117 (15%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             LQEII++LN L EQK  C ++ V+DIF   K+  + E  C+AA VL +           
+Sbjct  33   VLQEIIRSLNFLKEQKVSCKQMNVSDIFEDPKENNQSEMLCKAAAVLTKAQCF-------  85
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+                        Q  R LK +  NL  L     CPV     +TL  FLERL  + + 
+Sbjct  86   -----------CQECRHLKVIRVNLLELTRTVRCPVNTTSNTTLHGFLERLTDLSQM  131
+
+
+> UniRef50_UPI0003598085 interleukin-4 n=1 Tax=Ficedula albicollis 
+TaxID=59894 RepID=UPI0003598085
+Length=185
+
+ Score = 84.1 bits (206),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 54/124 (44%), Gaps = 27/124 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I+ L+ L + +  C  + VT+IFA  K     E  C+AATV ++  S H       
+Sbjct  79   LKESIQLLDQLQQVEVACNNMNVTNIFADYKRGNNMEILCKAATVAQEGQSCH-------  131
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIM  124
+                          ++L+ +  NL  L           CP       +L++FL+ L  ++
+Sbjct  132  --------------KYLEGIYYNLLSLVWGSRARHKKPCPAASGSTISLKDFLKELHQVL  177
+
+Query  125  REKY  128
+            +E++
+Sbjct  178  QEEF  181
+
+
+> UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus 
+asinus TaxID=9793 RepID=UPI00071A1CF3
+Length=137
+
+ Score = 78.4 bits (191),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 45/102 (44%), Positives = 54/102 (53%), Gaps = 18/102 (18%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTE--QKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQF  59
+             +  K DITLQEIIKTLN+LT+   K  C ELTV D FA  K+T  KE  CRAA VL+Q 
+Sbjct  22   IQGCKYDITLQEIIKTLNNLTDGKGKNSCMELTVADAFAGPKNTDGKE-ICRAAKVLQQL  80
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLN  101
+            Y  H++                 +   L  LDRNL G+A   
+Sbjct  81   YKRHDR---------------SLIKECLSGLDRNLKGMANGT  107
+
+
+> UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=419612 
+RepID=S9YLP2_CAMFR
+Length=131
+
+ Score = 71.4 bits (173),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 46/99 (46%), Positives = 50/99 (51%), Gaps = 33/99 (33%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+            A  HKCDITLQEIIKTLN+LT                A K+TTEKETFC+AAT LR  Y 
+Sbjct  41   AHGHKCDITLQEIIKTLNTLT----------------ARKNTTEKETFCKAATALRHIYR  84
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGL  100
+            HH                   L + L  LDRNL GLA  
+Sbjct  85   HHN-----------------CLSKHLSGLDRNLSGLANT  106
+
+
+> UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxID=379584 
+RepID=G1MH87_AILME
+Length=81
+
+ Score = 69.1 bits (167),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 38/62 (61%), Gaps = 3/62 (5%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTV-TDIFAASKDTTEKETFCRAATVLRQFY  60
+              H  +IT++EIIKTLN LT +       T+  D F  S +TT+ ETFCRA TVL+Q  
+Sbjct  22  VHGHNFNITIKEIIKTLNILTARNVSKLSGTISPDHF--SFNTTDTETFCRATTVLQQLS  79
+
+Query  61  SH  62
+           +H
+Sbjct  80  TH  81
+
+
+> UniRef50_A0A226MIA9 Uncharacterized protein n=2 Tax=Odontophoridae 
+TaxID=224313 RepID=A0A226MIA9_CALSU
+Length=155
+
+ Score = 69.5 bits (168),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 53/116 (46%), Gaps = 1/116 (1%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I+ +    +++  C +L VTDIFA S+     E  C+A+ V+R+    H+      
+Sbjct  32   LKESIQMIAKNIQKEASCVKLNVTDIFAGSETNNRTELLCKASMVVRESQHCHKDLQGLF  91
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+                Q  +     ++  +    ++  L     CPV   + +++  FLE L   +++
+Sbjct  92   LNMYQLVNADSTSLKENQGRHPDIT-LPSQAPCPVAAGNTTSMAKFLEDLHRFLQQ  146
+
+
+> UniRef50_A0A1U9X9K3 Interleukin-4 n=2 Tax=Anatidae TaxID=8830 
+RepID=A0A1U9X9K3_ANAPL
+Length=136
+
+ Score = 66.8 bits (161),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 29/123 (24%), Positives = 53/123 (43%), Gaps = 26/123 (21%)
+
+Query  9    ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTR  68
+            I L+E I+ L  +   +  C +  VT++FA ++  T+ E  C+A+TV+ +  S H     
+Sbjct  29   IFLKESIRLLGEILSTQVSCDKTNVTNVFAGNETGTDMELLCKASTVVFESLSCH-----  83
+
+Query  69   CLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-----SCPVKEADQSTLENFLERLKTI  123
+                            + LK +  NL  +   +      CPV   + ++L+ FL  L   
+Sbjct  84   ----------------KPLKGIYLNLLHIVTKSTSLKAPCPVAAGNTTSLQEFLRGLHRT  127
+
+Query  124  MRE  126
+            ++ 
+Sbjct  128  LQR  130
+
+
+> UniRef50_UPI00051E35D9 interleukin-4-like n=1 Tax=Struthio camelus 
+australis TaxID=441894 RepID=UPI00051E35D9
+Length=116
+
+ Score = 65.3 bits (157),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 29/108 (27%), Positives = 44/108 (41%), Gaps = 27/108 (25%)
+
+Query  25   KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLI  84
+            K  C ++ VT+IFA  K   E E  C+AATV R+  S                       
+Sbjct  23   KASCDKMNVTNIFADHKKDDEVELLCKAATVAREGQSC---------------------Y  61
+
+Query  85   RFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIMRE  126
+            R L+ +  NL  L           CPV   + ++L++FL  L  +++ 
+Sbjct  62   RQLEGIFINLHQLVTRASKDFKAPCPVAAGNTTSLKDFLLDLNRVLQR  109
+
+
+> UniRef50_UPI000B3E2F58 interleukin-4 n=1 Tax=Numida meleagris 
+TaxID=8996 RepID=UPI000B3E2F58
+Length=140
+
+ Score = 63.3 bits (152),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 33/122 (27%), Positives = 49/122 (40%), Gaps = 27/122 (22%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             LQE I+   +L  ++  C ++ VTDIFA +K     E  C AATV+R     H      
+Sbjct  31   PLQESIQMC-TLLAKEASCEKMNVTDIFAGNKSNNRLELLCEAATVVRDSQRCHW-----  84
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAG-----LNSCPVKEADQSTLENFLERLKTIM  124
+                             L+ L  NL  L          CPV   + +++  FLE L   +
+Sbjct  85   ----------------RLRGLFLNLCQLVNATSSHKAPCPVAAGNTTSMHKFLEDLHRFL  128
+
+Query  125  RE  126
+            ++
+Sbjct  129  QQ  130
+
+
+> UniRef50_A0A091EWH9 Interleukin-4 (Fragment) n=4 Tax=Neognathae 
+TaxID=8825 RepID=A0A091EWH9_CORBR
+Length=80
+
+ Score = 61.4 bits (147),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/101 (27%), Positives = 41/101 (41%), Gaps = 27/101 (27%)
+
+Query  26   TLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIR  85
+              C ++ VT+IFA  K     E  C+AAT+ R+  S H                     R
+Sbjct  1    VSCNKMNVTNIFADDKRGNNMEILCKAATIARESQSCH---------------------R  39
+
+Query  86   FLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERL  120
+            +L+ +  NL  L           C V     ++L+NFL++L
+Sbjct  40   YLEGIYHNLLSLGWGTRAGHKTPCSVAAGSTTSLKNFLKQL  80
+
+
+> UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxID=9526 
+RepID=U3LVN1_HUMAN
+Length=136
+
+ Score = 59.9 bits (143),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 37/40 (93%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  41
+              HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK
+Sbjct  22  VHGHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  61
+
+
+> UniRef50_Q5W4U1 Interleukin-4 n=18 Tax=Neognathae TaxID=8825 
+RepID=Q5W4U1_CHICK
+Length=136
+
+ Score = 59.5 bits (142),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 27/118 (23%), Positives = 53/118 (45%), Gaps = 16/118 (14%)
+
+Query  9    ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTR  68
+            + L E I+ +N + + +  C ++ VTDIFA +K   + E  C+A+T++ +    H     
+Sbjct  30   VPLMESIRIVNDI-QGEVSCVKMNVTDIFADNKTNNKTELLCKASTIVWESQHCH-----  83
+
+Query  69   CLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+                        + L   +++L  N    +    CP    + +++E FL  L+T   +
+Sbjct  84   ---------KNLQGLFLNMRQL-LNASSTSLKAPCPTAAGNTTSMEKFLADLRTFFHQ  131
+
+
+> UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID=9347 
+RepID=A8DRA0_SAISC
+Length=58
+
+ Score = 56.4 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFA  38
+              H CD+ L+EIIKTLN +TEQKTLCTELTVTDIFA
+Sbjct  22  VHGHNCDVALEEIIKTLNIVTEQKTLCTELTVTDIFA  58
+
+
+> UniRef50_V9NJM6 IL-4 delta 3 n=2 Tax=Cavia porcellus TaxID=10141 
+RepID=V9NJM6_CAVPO
+Length=92
+
+ Score = 53.3 bits (126),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 36/84 (43%), Gaps = 4/84 (5%)
+
+Query  48   TFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKE  107
+             FC  A         +    + +        R K     L   D      A   +CPV E
+Sbjct  11   LFCLLACASAVVRGCNHHTLQEIIQHLNTLSREKSPCAELLVTDV----FADPQNCPVSE  66
+
+Query  108  ADQSTLENFLERLKTIMREKYSKC  131
+              Q+TL++FLE LK IM+++YSKC
+Sbjct  67   LRQTTLKDFLENLKRIMQKRYSKC  90
+
+
+ Score = 46.4 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/45 (44%), Positives = 29/45 (64%), Gaps = 1/45 (2%)
+
+Query  5   HKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKET  48
+             C+  TLQEII+ LN+L+ +K+ C EL VTD+FA  ++    E 
+Sbjct  23  RGCNHHTLQEIIQHLNTLSREKSPCAELLVTDVFADPQNCPVSEL  67
+
+
+> UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR4_RABIT
+Length=83
+
+ Score = 52.6 bits (124),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 31/75 (41%), Positives = 40/75 (53%), Gaps = 6/75 (8%)
+
+Query  28   CTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFL  87
+            CT+  + D  A  K+TTE+E  CRAAT LRQFY HH+           + H     +R L
+Sbjct  1    CTKPMIADALAVPKNTTEREAVCRAATALRQFYLHHKVSW------CFKEHGELGDLRLL  54
+
+Query  88   KRLDRNLWGLAGLNS  102
+            + LDRNL  +A L  
+Sbjct  55   RGLDRNLCSMAKLVP  69
+
+
+> UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=9935 
+RepID=D3UAN9_9CETA
+Length=56
+
+ Score = 49.5 bits (116),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTV  33
+              HKCDITL+EIIKTLN LT +K  C EL V
+Sbjct  25  VHGHKCDITLEEIIKTLNILTSRKNSCMELPV  56
+
+
+> UniRef50_J9P3G4 Interleukin-4 n=2 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P3G4_CANLF
+Length=128
+
+ Score = 48.3 bits (113),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 23/47 (49%), Gaps = 0/47 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKET  48
+              H  +IT++EIIK LN LT +       T++    A   ++EK  
+Sbjct  22  VHGHNFNITIKEIIKMLNILTARNVSKLSGTISPSGDAVGISSEKNI  68
+
+
+> UniRef50_R0L8U2 Uncharacterized protein (Fragment) n=2 Tax=Anas 
+platyrhynchos TaxID=8839 RepID=R0L8U2_ANAPL
+Length=141
+
+ Score = 47.2 bits (110),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 25/124 (20%), Positives = 41/124 (33%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSL-TEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L EI   +  L T  +  C +  V  +    +  +E +  C+AAT L +           
+Sbjct  35   LSEITHRIQQLNTGVQVPCNDTRVAQVAFTDRKLSEHDLLCQAATALAKVTRCKNDYEP-  93
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  NL  L G   C +   ++  L NFL  L    +  Y 
+Sbjct  94   --------------------LIINLKSLHGKAGCSLSTDNEIYLRNFLPELGNFTQALYR  133
+
+Query  130  KCSS  133
+            + ++
+Sbjct  134  RLAT  137
+
+
+> UniRef50_A0A093CG74 Uncharacterized protein n=2 Tax=Tauraco erythrolophus 
+TaxID=121530 RepID=A0A093CG74_TAUER
+Length=139
+
+ Score = 46.0 bits (107),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 24/124 (19%), Positives = 42/124 (34%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSL-TEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L EI   ++ L +  +  C +  V  +    +   E+E  C+AA  L +     +     
+Sbjct  33   LSEITHRIHQLNSGVQVPCNDTRVAQVAFMDRKLPEQELLCQAAAALTKVTRCRKDYEP-  91
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  NL  L    SC +   ++  L NFL  L    +  Y 
+Sbjct  92   --------------------LIINLQSLHDEMSCSLSNDNEIYLRNFLPELGNFTQGLYR  131
+
+Query  130  KCSS  133
+            + ++
+Sbjct  132  RLAA  135
+
+
+> UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR6_RABIT
+Length=60
+
+ Score = 44.5 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/31 (68%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  100  LNSCPVKEADQSTLENFLERLKTIMREKYSK  130
+             ++CP KEA Q+TLE+FL+RLKT M+EKYSK
+Sbjct  27   KSNCPGKEARQTTLEDFLDRLKTAMQEKYSK  57
+
+
+> UniRef50_Q5W4U0 Interleukin-13 n=30 Tax=Neognathae TaxID=8825 
+RepID=Q5W4U0_CHICK
+Length=138
+
+ Score = 45.2 bits (105),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 26/124 (21%), Positives = 45/124 (36%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSLTEQ-KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L +I + +  L    +  C +  V  +    +  +E+E  C+AATVL       +     
+Sbjct  32   LSDITQGIQKLNRGVQVPCNDTRVAQVAFKDRKLSEQELLCQAATVLDNMTDCKKDYEP-  90
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  +L  L G+ +CP    ++  L NFL  L    +  Y 
+Sbjct  91   --------------------LITSLKSLHGMTNCPPSTDNEIYLRNFLPALGNYTQALYR  130
+
+Query  130  KCSS  133
+            + S+
+Sbjct  131  RISA  134
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.117    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0360    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214522800192
+Results from round 3
+
+
+Query= d1bbn__.a.26.1.2
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 Rep...  164     7e-49
+  UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID...  158     8e-47
+  UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437...  136     3e-38
+  UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis...  130     5e-36
+  UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=1...  126     3e-34
+  UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla laniger...  126     7e-34
+  UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 Re...  124     1e-33
+  UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 ...  123     6e-33
+  UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID...  121     1e-32
+  UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID...  121     2e-32
+  UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=934...  120     5e-32
+  UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus gla...  118     7e-31
+  UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos ...  111     2e-28
+  UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 Rep...  111     2e-28
+  UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis ...  110     3e-28
+  UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus fa...  106     3e-27
+  UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxI...  105     2e-26
+  UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823...  103     9e-26
+  UniRef50_A0A226MIA9 Uncharacterized protein n=2 Tax=Odontophori...  103     2e-25
+  UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=882...  102     3e-25
+  UniRef50_UPI0003598085 interleukin-4 n=1 Tax=Ficedula albicolli...  102     1e-24
+  UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae Ta...  99.5    3e-23
+  UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus...  93.7    1e-21
+  UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis Ta...  92.2    4e-21
+  UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=1...  91.4    1e-20
+  UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus...  89.9    2e-20
+  UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus Ta...  91.8    4e-20
+  UniRef50_A0A093CG74 Uncharacterized protein n=2 Tax=Tauraco ery...  89.1    6e-20
+  UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria ...  88.0    6e-20
+  UniRef50_R0L8U2 Uncharacterized protein (Fragment) n=2 Tax=Anas...  88.0    2e-19
+  UniRef50_UPI000B3E2F58 interleukin-4 n=1 Tax=Numida meleagris T...  86.0    8e-19
+  UniRef50_A0A1U9X9K3 Interleukin-4 n=2 Tax=Anatidae TaxID=8830 R...  84.9    2e-18
+  UniRef50_Q5W4U0 Interleukin-13 n=30 Tax=Neognathae TaxID=8825 R...  83.7    6e-18
+  UniRef50_Q5W4U1 Interleukin-4 n=18 Tax=Neognathae TaxID=8825 Re...  82.2    3e-17
+  UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus a...  81.0    7e-17
+  UniRef50_UPI00051E35D9 interleukin-4-like n=1 Tax=Struthio came...  79.9    1e-16
+  UniRef50_A0A091EWH9 Interleukin-4 (Fragment) n=4 Tax=Neognathae...  74.1    7e-15
+  UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=41961...  72.9    6e-14
+  UniRef50_V9NJM6 IL-4 delta 3 n=2 Tax=Cavia porcellus TaxID=1014...  71.4    9e-14
+  UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxI...  67.9    2e-12
+  UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxI...  59.1    7e-09
+  UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 ...  56.8    2e-08
+  UniRef50_J9P3G4 Interleukin-4 n=2 Tax=Canis lupus familiaris Ta...  57.1    3e-08
+  UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID...  54.4    9e-08
+  UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=99...  48.3    1e-05
+  UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1...  44.4    3e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A091QJ10 Uncharacterized protein n=2 Tax=Mesitornis ...  75.2    1e-14
+  UniRef50_R4GKT8 Uncharacterized protein n=7 Tax=Galliformes Tax...  62.5    3e-10
+  UniRef50_A0A091T7D4 Uncharacterized protein (Fragment) n=2 Tax=...  52.1    5e-07
+  UniRef50_UPI00051E4218 uncharacterized protein LOC104147029 n=1...  52.9    4e-06
+  UniRef50_A0A099YVI1 Uncharacterized protein (Fragment) n=2 Tax=...  49.8    6e-06
+  UniRef50_A0A0Q3M2Y4 Interleukin-4 n=1 Tax=Amazona aestiva TaxID...  49.8    9e-06
+
+
+> UniRef50_P05112 Interleukin-4 n=140 Tax=Eutheria TaxID=9347 RepID=IL4_HUMAN
+Length=153
+
+ Score = 164 bits (414),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 127/132 (96%), Positives = 129/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK+TTEKETFCRAATVLRQFYS
+Sbjct  22   VHGHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKNTTEKETFCRAATVLRQFYS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA+QSTLENFLERLK
+Sbjct  82   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEANQSTLENFLERLK  141
+
+Query  122  TIMREKYSKCSS  133
+            TIMREKYSKCSS
+Sbjct  142  TIMREKYSKCSS  153
+
+
+> UniRef50_UPI0000110826 INTERLEUKIN-4 n=5 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0000110826
+Length=133
+
+ Score = 158 bits (399),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 133/133 (100%), Positives = 133/133 (100%), Gaps = 0/133 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY
+Sbjct  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+            SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL
+Sbjct  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+
+Query  121  KTIMREKYSKCSS  133
+            KTIMREKYSKCSS
+Sbjct  121  KTIMREKYSKCSS  133
+
+
+> UniRef50_O77762 Interleukin-4 n=32 Tax=Boreoeutheria TaxID=1437010 
+RepID=IL4_CANLF
+Length=132
+
+ Score = 136 bits (342),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 57/129 (44%), Positives = 78/129 (60%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+
+Sbjct  22   VHGHNFNITIKEIIKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYT  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H+                     R+L+ L RNL  +A   +C + E  +STL++FLERLK
+Sbjct  82   HN------------------CSNRYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             IM++KY +
+Sbjct  123  VIMQKKYYR  131
+
+
+> UniRef50_UPI0008FF5D31 interleukin-4 n=1 Tax=Fukomys damarensis 
+TaxID=885580 RepID=UPI0008FF5D31
+Length=140
+
+ Score = 130 bits (327),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 57/127 (45%), Positives = 76/127 (60%), Gaps = 8/127 (6%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+            H C+ TLQEII  LN L+ QKTLC+EL V D+FA  K  +  E  C+AATVL      H 
+Sbjct  22   HGCNDTLQEIINDLNVLSSQKTLCSELAVADVFAGPKVRS-SEKLCQAATVL------HR  74
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                 +       HR    +  LK++ RNL  +A   +CPV E  Q+TL++FLE LKTI+
+Sbjct  75   TSYLRVEPPCSNGHRESVFLILLKKVYRNLRSMARP-NCPVSELKQTTLKDFLENLKTIL  133
+
+Query  125  REKYSKC  131
+            ++KYS+C
+Sbjct  134  KKKYSEC  140
+
+
+> UniRef50_UPI000A319451 interleukin-4 n=1 Tax=Mus caroli TaxID=10089 
+RepID=UPI000A319451
+Length=142
+
+ Score = 126 bits (315),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 51/130 (39%), Positives = 75/130 (58%), Gaps = 9/130 (7%)
+
+Query  2    AEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            +  H CD   L EII  LN +T + T CT++ V D+  A+K+TTE E  CRA+ VLR FY
+Sbjct  20   SHIHGCDDNHLIEIIGILNEVTGEGTPCTKMLVPDVLTATKNTTESELICRASKVLRIFY  79
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERL  120
+              H K             ++ +++  L+RL R L  L    SC + E+  ++L++FLERL
+Sbjct  80   LKHGKT--------PCLKKNSRVLTELQRLFRALGCLDSSISCTMNESKSTSLKDFLERL  131
+
+Query  121  KTIMREKYSK  130
+            K+IM+  YS+
+Sbjct  132  KSIMQMDYSQ  141
+
+
+> UniRef50_UPI0006991273 interleukin-4 n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI0006991273
+Length=193
+
+ Score = 126 bits (317),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 51/130 (39%), Positives = 70/130 (54%), Gaps = 9/130 (7%)
+
+Query  4    AHKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+            A  C+   LQEII+ L++L+ +KT C EL V D+FA  K T +    C A+TVL      
+Sbjct  22   ARGCNHYPLQEIIQDLDTLSREKTPCAELAVADVFADPKGTVQAR-LCGASTVL------  74
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+            H       G +     R    +  LKR+ RNL       +CPV E  Q+TL++FLE LK 
+Sbjct  75   HRTSYLGAGLSCSNGDRESLFLTLLKRVYRNLRSTVRQ-NCPVSELKQTTLKDFLENLKR  133
+
+Query  123  IMREKYSKCS  132
+            IM++KY +C 
+Sbjct  134  IMQKKYLECG  143
+
+
+> UniRef50_P20096 Interleukin-4 n=10 Tax=Muroidea TaxID=337687 
+RepID=IL4_RAT
+Length=147
+
+ Score = 124 bits (312),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 53/132 (40%), Positives = 78/132 (59%), Gaps = 10/132 (8%)
+
+Query  4    AHKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+             H C+   L+EII TLN +TE+ T CTE+ V D+  A+++TTE E  CRA+ VLR+FY  
+Sbjct  22   IHGCNDSPLREIINTLNQVTEKGTPCTEMFVPDVLTATRNTTENELICRASRVLRKFYFP  81
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+             +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+
+Sbjct  82   RD--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKS  133
+
+Query  123  IMREKYSK-CSS  133
+            I+R KY + C+S
+Sbjct  134  ILRGKYLQSCTS  145
+
+
+> UniRef50_P07750 Interleukin-4 n=4 Tax=Mus musculus TaxID=10090 
+RepID=IL4_MOUSE
+Length=140
+
+ Score = 123 bits (307),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 49/130 (38%), Positives = 72/130 (55%), Gaps = 9/130 (7%)
+
+Query  1    EAEAHKCDIT-LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQF  59
+             +  H CD   L+EII  LN +T + T CTE+ V ++  A+K+TTE E  CRA+ VLR F
+Sbjct  19   RSHIHGCDKNHLREIIGILNEVTGEGTPCTEMDVPNVLTATKNTTESELVCRASKVLRIF  78
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLER  119
+            Y  H K             ++  ++  L+RL R    L    SC + E+  ++L++FLE 
+Sbjct  79   YLKHGKT--------PCLKKNSSVLMELQRLFRAFRCLDSSISCTMNESKSTSLKDFLES  130
+
+Query  120  LKTIMREKYS  129
+            LK+IM+  YS
+Sbjct  131  LKSIMQMDYS  140
+
+
+> UniRef50_Q3S4V6 Interleukin-4 n=8 Tax=Eutheria TaxID=9347 RepID=IL4_AILME
+Length=132
+
+ Score = 121 bits (304),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 57/129 (44%), Positives = 74/129 (57%), Gaps = 19/129 (15%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H  +IT++EIIKTLN LT +   C ELTVT+IFAA K+TT+ ETFCRA TVL+Q  +
+Sbjct  22   VHGHNFNITIKEIIKTLNILTARNDTCMELTVTNIFAAPKNTTDTETFCRATTVLQQLST  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            H                      + L  L RNL  +A   +C V E  +STL +FLERLK
+Sbjct  82   H------------------SCSNKLLGGLHRNLKTMAN-MTCSVNEVKKSTLRDFLERLK  122
+
+Query  122  TIMREKYSK  130
+             I++ KY +
+Sbjct  123  AIVQRKYYR  131
+
+
+> UniRef50_G0WM66 Interleukin-4 n=9 Tax=Rodentia TaxID=9989 RepID=G0WM66_CAVPO
+Length=144
+
+ Score = 121 bits (304),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 49/128 (38%), Positives = 71/128 (55%), Gaps = 9/128 (7%)
+
+Query  5    HKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHH  63
+              C+  TLQEII+ LN+L+ +K+ C EL VTD+FA  +     +  C AATVL      H
+Sbjct  23   RGCNHHTLQEIIQHLNTLSREKSPCAELLVTDVFADPQGPASGD-LCTAATVL------H  75
+
+Query  64   EKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTI  123
+                     +             L+++ RNL  +A  ++CPV E  Q+TL++FLE LK I
+Sbjct  76   HTAYLRGPQSCPNREGDPLYPSVLRQVFRNLRSMA-QSNCPVSELRQTTLKDFLENLKRI  134
+
+Query  124  MREKYSKC  131
+            M+++YSKC
+Sbjct  135  MQKRYSKC  142
+
+
+> UniRef50_UPI0003F0A94A interleukin-4 n=3 Tax=Eutheria TaxID=9347 
+RepID=UPI0003F0A94A
+Length=137
+
+ Score = 120 bits (300),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 59/131 (45%), Positives = 72/131 (55%), Gaps = 18/131 (14%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               H C ITL+EIIKTLN LT  K  C EL V D+FA  K T+E+ETFC+A TVL Q  S
+Sbjct  22   VHGHHCGITLKEIIKTLNYLTVPKHACNELMVADVFAVPKKTSEQETFCKARTVLEQVSS  81
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLA-GLNSCPVKEADQSTLENFLERL  120
+                               K   + L+ L  NL  +      CPV +A  STL +FL+RL
+Sbjct  82   -----------------NSKCSKQLLRGLSINLTSMTESQIPCPVNKAQTSTLLDFLKRL  124
+
+Query  121  KTIMREKYSKC  131
+            KT+M +KYSKC
+Sbjct  125  KTVMMKKYSKC  135
+
+
+> UniRef50_UPI000A338EB4 interleukin-4 n=1 Tax=Heterocephalus glaber 
+TaxID=10181 RepID=UPI000A338EB4
+Length=179
+
+ Score = 118 bits (296),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 52/164 (32%), Positives = 70/164 (43%), Gaps = 44/164 (27%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-----------------------  41
+              C+  LQEII  LN L+ QKT C EL   D+FAA K                       
+Sbjct  23   RGCNDALQEIINDLNVLSSQKTPCAELAAADVFAAPKVRGCSLVFLGRWAAWGGGILQHL  82
+
+Query  42   --------------DTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFL  87
+                               E  C+A TVL      H      +G +    HR    +  L
+Sbjct  83   NKKLSTVVANFGMRAADTAEKLCQAVTVL------HRTSYLGVGLSCLNRHRESVFLVLL  136
+
+Query  88   KRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYSKC  131
+            K++ RNL  +    +C V E  Q+TL++FLE LKTI+++KYS+C
+Sbjct  137  KKVYRNLRSMVQP-NCSVSELKQTTLKDFLENLKTILKKKYSEC  179
+
+
+> UniRef50_X2FJF4 Interleukin-4 (Fragment) n=2 Tax=Phascolarctos 
+cinereus TaxID=38626 RepID=X2FJF4_PHACI
+Length=138
+
+ Score = 111 bits (277),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 32/118 (27%), Positives = 57/118 (48%), Gaps = 0/118 (0%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFY  60
+            + +   C  +L+EI+   NSLT +K  C E+ V DIF  +++++  + F   ++  +   
+Sbjct  21   QGQRRTCQPSLREIVHMANSLTMKKFPCFEMEVPDIFEDTENSSTPKLFPEESSCSQLVM  80
+
+Query  61   SHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLE  118
+            + ++ +T C   T  Q   +      L  + RNL  L     CPV E   + L++FL 
+Sbjct  81   TMNDFETLCRAVTVLQQVSNSCPFPKLSNMLRNLMHLVNQTKCPVNETKITKLQDFLS  138
+
+
+> UniRef50_G3WEJ0 Interleukin 4 n=3 Tax=Metatheria TaxID=9263 RepID=G3WEJ0_SARHA
+Length=156
+
+ Score = 111 bits (277),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 40/131 (31%), Positives = 72/131 (55%), Gaps = 1/131 (1%)
+
+Query  1    EAEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK-DTTEKETFCRAATVLRQF  59
+              +   C  T++EII + +SLT +K LC+E+ V DIF  +K +++ ++     ++  +  
+Sbjct  23   HGQRRNCRSTVREIILSASSLTTKKFLCSEMEVLDIFEDTKKNSSTRKLLPEMSSCSQLA  82
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLER  119
+             + ++ +T C   T  Q   +    + LK++ RNL  L     CPV E   + L++FL +
+Sbjct  83   MTVNDFETLCRAVTVLQQASNSCPRQELKKMCRNLMHLVNQTKCPVNETKITKLQDFLSK  142
+
+Query  120  LKTIMREKYSK  130
+            LKTI ++ +SK
+Sbjct  143  LKTINQKIFSK  153
+
+
+> UniRef50_UPI0009814B0B interleukin-4 n=1 Tax=Castor canadensis 
+TaxID=51338 RepID=UPI0009814B0B
+Length=133
+
+ Score = 110 bits (274),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 55/129 (43%), Positives = 77/129 (60%), Gaps = 21/129 (16%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+            H C+ +L EII+TLN+L+E+                K+TTEKE  CRA  VLRQ Y+   
+Sbjct  23   HGCNRSLTEIIQTLNTLSEK----------------KNTTEKELLCRATAVLRQMYNPQS  66
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+            K T+CL       H+ + ++  LK+L R L  +    +CPV E+ Q+TL+NFLE LK IM
+Sbjct  67   KVTQCL-----TGHKDRDVLSRLKQLYRILHSMVQSKNCPVNESMQTTLKNFLESLKRIM  121
+
+Query  125  REKYSKCSS  133
+            ++KYS+C S
+Sbjct  122  QKKYSQCGS  130
+
+
+> UniRef50_Q9TV11 Interleukin-4 (Fragment) n=1 Tax=Canis lupus 
+familiaris TaxID=9615 RepID=Q9TV11_CANLF
+Length=92
+
+ Score = 106 bits (265),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 51/110 (46%), Positives = 65/110 (59%), Gaps = 18/110 (16%)
+
+Query  15   IKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATA  74
+            IK LN LT +   C ELTV D+F A K+T++KE FCRAATVLRQ Y+HH           
+Sbjct  1    IKMLNILTARNDSCMELTVKDVFTAPKNTSDKEIFCRAATVLRQIYTHHN----------  50
+
+Query  75   QQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIM  124
+                      R+L+ L RNL  +A   +C + E  +STL++FLERLK IM
+Sbjct  51   -------CSNRYLRGLYRNLSSMAN-KTCSMNEIKKSTLKDFLERLKAIM  92
+
+
+> UniRef50_UPI000944E109 interleukin-4 n=4 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000944E109
+Length=136
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 61/124 (49%), Positives = 73/124 (59%), Gaps = 18/124 (15%)
+
+Query  9    ITLQEIIKTLNSLTEQKT--LCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKD  66
+            I LQEIIKTLN LTE KT   C ELTV ++  A K+TTEK  FCRAA  LRQ Y  H+  
+Sbjct  28   ILLQEIIKTLNHLTEAKTKDGCMELTVAEVLPAPKNTTEKGAFCRAAIELRQMYHTHQCK  87
+
+Query  67   TRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMRE  126
+            T                 + L RL RNL  +A +NSCPV E  + TL+  LERLK  M++
+Sbjct  88   T----------------TKHLSRLHRNLSSMANMNSCPVNEDKKITLKELLERLKQTMKK  131
+
+Query  127  KYSK  130
+            KY+K
+Sbjct  132  KYAK  135
+
+
+> UniRef50_A0A287BPS1 Interleukin-4 n=1 Tax=Sus scrofa TaxID=9823 
+RepID=A0A287BPS1_PIG
+Length=117
+
+ Score = 103 bits (257),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 64/130 (49%), Positives = 74/130 (57%), Gaps = 34/130 (26%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCDITLQEIIKTLN LT +                K+TTEKETFCRA+TVLR  Y 
+Sbjct  22   VHGHKCDITLQEIIKTLNILTAR----------------KNTTEKETFCRASTVLRHIYR  65
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLK  121
+            HH                   +   L  LDRNL  +A   +C V EA +STL++FLERLK
+Sbjct  66   HHT-----------------CMKSLLSGLDRNLSSMAN-MTCSVHEAKKSTLKDFLERLK  107
+
+Query  122  TIMREKYSKC  131
+            TIM+EKYSKC
+Sbjct  108  TIMKEKYSKC  117
+
+
+> UniRef50_A0A226MIA9 Uncharacterized protein n=2 Tax=Odontophoridae 
+TaxID=224313 RepID=A0A226MIA9_CALSU
+Length=155
+
+ Score = 103 bits (257),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 27/117 (23%), Positives = 53/117 (45%), Gaps = 1/117 (1%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I+ +    +++  C +L VTDIFA S+     E  C+A+ V+R+    H+      
+Sbjct  32   LKESIQMIAKNIQKEASCVKLNVTDIFAGSETNNRTELLCKASMVVRESQHCHKDLQGLF  91
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREK  127
+                Q  +     ++  +    ++  L     CPV   + +++  FLE L   +++ 
+Sbjct  92   LNMYQLVNADSTSLKENQGRHPDIT-LPSQAPCPVAAGNTTSMAKFLEDLHRFLQQL  147
+
+
+> UniRef50_A0A218V3Z5 Interleukin-4 n=26 Tax=Neognathae TaxID=8825 
+RepID=A0A218V3Z5_9PASE
+Length=136
+
+ Score = 102 bits (255),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 36/124 (29%), Positives = 56/124 (45%), Gaps = 27/124 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E IK L+ L + +  C ++ V +IFA  K     E +C+AAT+ ++  S H       
+Sbjct  30   LKESIKLLDQLQQMEVSCNKMNVINIFADHKRGNNTEIYCKAATIAQEHQSCH-------  82
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIM  124
+                          R+L  L  NL  LA          CPV     ++L+NFL  L  ++
+Sbjct  83   --------------RYLGGLYYNLLSLAWGSRARHKKPCPVAAGSTTSLKNFLNDLHHVL  128
+
+Query  125  REKY  128
+            +E+Y
+Sbjct  129  QEEY  132
+
+
+> UniRef50_UPI0003598085 interleukin-4 n=1 Tax=Ficedula albicollis 
+TaxID=59894 RepID=UPI0003598085
+Length=185
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 31/124 (25%), Positives = 54/124 (44%), Gaps = 27/124 (22%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I+ L+ L + +  C  + VT+IFA  K     E  C+AATV ++  S H       
+Sbjct  79   LKESIQLLDQLQQVEVACNNMNVTNIFADYKRGNNMEILCKAATVAQEGQSCH-------  131
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIM  124
+                          ++L+ +  NL  L           CP       +L++FL+ L  ++
+Sbjct  132  --------------KYLEGIYYNLLSLVWGSRARHKKPCPAASGSTISLKDFLKELHQVL  177
+
+Query  125  REKY  128
+            +E++
+Sbjct  178  QEEF  181
+
+
+> UniRef50_UPI000510E9CA interleukin-4-like n=2 Tax=Neognathae 
+TaxID=8825 RepID=UPI000510E9CA
+Length=215
+
+ Score = 99.5 bits (246),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 34/124 (27%), Positives = 52/124 (42%), Gaps = 27/124 (22%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             L+E I  LN L E K  C +  V  IFA  K   + ET C+A TV  +  S H      
+Sbjct  110  FLKESIMLLNKLLESKVSCNKTNVPSIFAGDKKDNDIETLCKATTVTLEHQSCH------  163
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNL------WGLAGLNSCPVKEADQSTLENFLERLKTI  123
+                           ++LK +  NL         A    CPV   + ++L +FL+ L+ +
+Sbjct  164  ---------------KYLKGIHLNLVHFVQRKSTAYKAPCPVAAGNTTSLNDFLQDLRRL  208
+
+Query  124  MREK  127
+            +++ 
+Sbjct  209  LQQL  212
+
+
+> UniRef50_UPI0004574A2D interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004574A2D
+Length=146
+
+ Score = 93.7 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 33/121 (27%), Positives = 55/121 (45%), Gaps = 20/121 (17%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            +L+EII T+  + E +    +  V +IF   KD ++ E FC+AA VL     ++      
+Sbjct  31   SLKEIISTIRHILENQVHHHQNHVPEIFEDVKDRSDSEVFCKAAQVLELLPFYNN-----  85
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNS-CPVKEADQSTLENFLERLKTIMREKY  128
+                          ++ L +L  NL  + G  + C V E  Q   +NFL+RL    ++K+
+Sbjct  86   --------------LKELHKLRHNLIHMGGQITECEVSELSQVEFKNFLKRLLNFSQKKF  131
+
+Query  129  S  129
+             
+Sbjct  132  R  132
+
+
+> UniRef50_A0A1U7RHQ0 interleukin-4 n=1 Tax=Alligator sinensis 
+TaxID=38654 RepID=A0A1U7RHQ0_ALLSI
+Length=139
+
+ Score = 92.2 bits (227),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 40/121 (33%), Positives = 54/121 (45%), Gaps = 18/121 (15%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             LQEII++LN L EQK  C ++ V+DIF   K+  + E  C+AA VL +           
+Sbjct  33   VLQEIIRSLNFLKEQKVSCKQMNVSDIFEDPKENNQSEMLCKAAAVLTKAQCF-------  85
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                        Q  R LK +  NL  L     CPV     +TL  FLERL  + +    
+Sbjct  86   -----------CQECRHLKVIRVNLLELTRTVRCPVNTTSNTTLHGFLERLTDLSQMIMK  134
+
+Query  130  K  130
+            +
+Sbjct  135  Q  135
+
+
+> UniRef50_Q6RIC4 Interleukin-4 n=2 Tax=Rattus norvegicus TaxID=10116 
+RepID=Q6RIC4_RAT
+Length=147
+
+ Score = 91.4 bits (225),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 42/126 (33%), Positives = 60/126 (48%), Gaps = 29/126 (23%)
+
+Query  4    AHKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSH  62
+             H C+   L+EII TLN +                    +TTE E  CRA+ VLR+FY  
+Sbjct  22   IHGCNDSPLREIINTLNQV--------------------NTTENELICRASRVLRKFYFP  61
+
+Query  63   HEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKT  122
+             +                  ++  L++L R + GL  L SC V E+  +TL++FLE LK+
+Sbjct  62   RD--------VPPCLKNKSGVLGELRKLCRGVSGLNSLRSCTVNESTLTTLKDFLESLKS  113
+
+Query  123  IMREKY  128
+            I+R KY
+Sbjct  114  ILRGKY  119
+
+
+> UniRef50_UPI0004575944 interleukin-4-like n=1 Tax=Callorhinchus 
+milii TaxID=7868 RepID=UPI0004575944
+Length=131
+
+ Score = 89.9 bits (221),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 34/121 (28%), Positives = 54/121 (45%), Gaps = 19/121 (16%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+EI KTL  +T+ K  C    + D+F+ +K  +  E FC+AA  L +            
+Sbjct  29   LREITKTLGHMTQDKIECGATLIPDVFSDTKGQSASEIFCKAAEALVKIPPC--------  80
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-SCPVKEADQSTLENFLERLKTIMREKYS  129
+                      + + R LK L  NL        SCPV +  +  L  FL +L+ + ++KY 
+Sbjct  81   ----------ESIKRHLKALRLNLAKEGEQTLSCPVNKFSEIELTTFLRKLRKLSQQKYR  130
+
+Query  130  K  130
+            +
+Sbjct  131  Q  131
+
+
+> UniRef50_UPI000332FA04 interleukin-4 n=1 Tax=Jaculus jaculus 
+TaxID=51337 RepID=UPI000332FA04
+Length=290
+
+ Score = 91.8 bits (226),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 43/98 (44%), Positives = 54/98 (55%), Gaps = 5/98 (5%)
+
+Query  5    HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHE  64
+              C+  L EI++TL SL E+KT CTE+TV  I   SK  ++ E  CRAA VLRQFY  H 
+Sbjct  23   RGCNRVLGEIVQTLTSLLEEKTPCTEMTVAPILTDSKSASDSEALCRAAGVLRQFYQPHG  82
+
+Query  65   KDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNS  102
+              TRCL       H+   L+  L+ L R +  LA   S
+Sbjct  83   AATRCLI-----RHQQCHLLASLRGLYRTISRLAPTVS  115
+
+
+ Score = 60.6 bits (145),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  94   LWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYSKCSS  133
+            L  ++   +CPV E+ Q TL+NFLE LK IM++KYS+C S
+Sbjct  248  LAQMSSRRNCPVNESTQRTLKNFLENLKAIMQKKYSQCGS  287
+
+
+> UniRef50_A0A093CG74 Uncharacterized protein n=2 Tax=Tauraco erythrolophus 
+TaxID=121530 RepID=A0A093CG74_TAUER
+Length=139
+
+ Score = 89.1 bits (219),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 24/124 (19%), Positives = 42/124 (34%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSL-TEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L EI   ++ L +  +  C +  V  +    +   E+E  C+AA  L +     +     
+Sbjct  33   LSEITHRIHQLNSGVQVPCNDTRVAQVAFMDRKLPEQELLCQAAAALTKVTRCRKDYEP-  91
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  NL  L    SC +   ++  L NFL  L    +  Y 
+Sbjct  92   --------------------LIINLQSLHDEMSCSLSNDNEIYLRNFLPELGNFTQGLYR  131
+
+Query  130  KCSS  133
+            + ++
+Sbjct  132  RLAA  135
+
+
+> UniRef50_B3V279 Interleukin 4 (Fragment) n=7 Tax=Boreoeutheria 
+TaxID=1437010 RepID=B3V279_TURTR
+Length=101
+
+ Score = 88.0 bits (216),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 54/107 (50%), Positives = 62/107 (58%), Gaps = 18/107 (17%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+               HKCD+TLQEIIKTLN LT +K LC EL V D+FA +K+TTEKETFCRA TVLR  Y 
+Sbjct  13   VHGHKCDVTLQEIIKTLNILTAKKNLCMELPVEDVFATTKNTTEKETFCRAGTVLRHIYR  72
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEA  108
+            HH                 K   + L  L RNL  +A   +C V EA
+Sbjct  73   HH-----------------KCFNKPLSGLHRNLSSMAN-MTCSVNEA  101
+
+
+> UniRef50_R0L8U2 Uncharacterized protein (Fragment) n=2 Tax=Anas 
+platyrhynchos TaxID=8839 RepID=R0L8U2_ANAPL
+Length=141
+
+ Score = 88.0 bits (216),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 25/124 (20%), Positives = 41/124 (33%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSL-TEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L EI   +  L T  +  C +  V  +    +  +E +  C+AAT L +           
+Sbjct  35   LSEITHRIQQLNTGVQVPCNDTRVAQVAFTDRKLSEHDLLCQAATALAKVTRCKNDYEP-  93
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  NL  L G   C +   ++  L NFL  L    +  Y 
+Sbjct  94   --------------------LIINLKSLHGKAGCSLSTDNEIYLRNFLPELGNFTQALYR  133
+
+Query  130  KCSS  133
+            + ++
+Sbjct  134  RLAT  137
+
+
+> UniRef50_UPI000B3E2F58 interleukin-4 n=1 Tax=Numida meleagris 
+TaxID=8996 RepID=UPI000B3E2F58
+Length=140
+
+ Score = 86.0 bits (211),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 33/123 (27%), Positives = 49/123 (40%), Gaps = 27/123 (22%)
+
+Query  10   TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+             LQE I+   +L  ++  C ++ VTDIFA +K     E  C AATV+R     H      
+Sbjct  31   PLQESIQMC-TLLAKEASCEKMNVTDIFAGNKSNNRLELLCEAATVVRDSQRCHW-----  84
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAG-----LNSCPVKEADQSTLENFLERLKTIM  124
+                             L+ L  NL  L          CPV   + +++  FLE L   +
+Sbjct  85   ----------------RLRGLFLNLCQLVNATSSHKAPCPVAAGNTTSMHKFLEDLHRFL  128
+
+Query  125  REK  127
+            ++ 
+Sbjct  129  QQL  131
+
+
+> UniRef50_A0A1U9X9K3 Interleukin-4 n=2 Tax=Anatidae TaxID=8830 
+RepID=A0A1U9X9K3_ANAPL
+Length=136
+
+ Score = 84.9 bits (208),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 29/123 (24%), Positives = 53/123 (43%), Gaps = 26/123 (21%)
+
+Query  9    ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTR  68
+            I L+E I+ L  +   +  C +  VT++FA ++  T+ E  C+A+TV+ +  S H     
+Sbjct  29   IFLKESIRLLGEILSTQVSCDKTNVTNVFAGNETGTDMELLCKASTVVFESLSCH-----  83
+
+Query  69   CLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-----SCPVKEADQSTLENFLERLKTI  123
+                            + LK +  NL  +   +      CPV   + ++L+ FL  L   
+Sbjct  84   ----------------KPLKGIYLNLLHIVTKSTSLKAPCPVAAGNTTSLQEFLRGLHRT  127
+
+Query  124  MRE  126
+            ++ 
+Sbjct  128  LQR  130
+
+
+> UniRef50_Q5W4U0 Interleukin-13 n=30 Tax=Neognathae TaxID=8825 
+RepID=Q5W4U0_CHICK
+Length=138
+
+ Score = 83.7 bits (205),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 26/124 (21%), Positives = 45/124 (36%), Gaps = 22/124 (18%)
+
+Query  11   LQEIIKTLNSLTEQ-KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L +I + +  L    +  C +  V  +    +  +E+E  C+AATVL       +     
+Sbjct  32   LSDITQGIQKLNRGVQVPCNDTRVAQVAFKDRKLSEQELLCQAATVLDNMTDCKKDYEP-  90
+
+Query  70   LGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREKYS  129
+                                L  +L  L G+ +CP    ++  L NFL  L    +  Y 
+Sbjct  91   --------------------LITSLKSLHGMTNCPPSTDNEIYLRNFLPALGNYTQALYR  130
+
+Query  130  KCSS  133
+            + S+
+Sbjct  131  RISA  134
+
+
+> UniRef50_Q5W4U1 Interleukin-4 n=18 Tax=Neognathae TaxID=8825 
+RepID=Q5W4U1_CHICK
+Length=136
+
+ Score = 82.2 bits (201),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 26/119 (22%), Positives = 49/119 (41%), Gaps = 16/119 (13%)
+
+Query  9    ITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTR  68
+            + L E I+ +N + + +  C ++ VTDIFA +K   + E  C+A+T++ +    H+    
+Sbjct  30   VPLMESIRIVNDI-QGEVSCVKMNVTDIFADNKTNNKTELLCKASTIVWESQHCHKNLQG  88
+
+Query  69   CLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREK  127
+                  Q                 N    +    CP    + +++E FL  L+T   + 
+Sbjct  89   LFLNMRQLL---------------NASSTSLKAPCPTAAGNTTSMEKFLADLRTFFHQL  132
+
+
+> UniRef50_UPI00071A1CF3 interleukin-4 isoform X2 n=1 Tax=Equus 
+asinus TaxID=9793 RepID=UPI00071A1CF3
+Length=137
+
+ Score = 81.0 bits (198),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 45/102 (44%), Positives = 54/102 (53%), Gaps = 18/102 (18%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTE--QKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQF  59
+             +  K DITLQEIIKTLN+LT+   K  C ELTV D FA  K+T  KE  CRAA VL+Q 
+Sbjct  22   IQGCKYDITLQEIIKTLNNLTDGKGKNSCMELTVADAFAGPKNTDGKEI-CRAAKVLQQL  80
+
+Query  60   YSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLN  101
+            Y  H++                 +   L  LDRNL G+A   
+Sbjct  81   YKRHDR---------------SLIKECLSGLDRNLKGMANGT  107
+
+
+> UniRef50_UPI00051E35D9 interleukin-4-like n=1 Tax=Struthio camelus 
+australis TaxID=441894 RepID=UPI00051E35D9
+Length=116
+
+ Score = 79.9 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 44/109 (40%), Gaps = 27/109 (25%)
+
+Query  25   KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLI  84
+            K  C ++ VT+IFA  K   E E  C+AATV R+  S                       
+Sbjct  23   KASCDKMNVTNIFADHKKDDEVELLCKAATVAREGQSC---------------------Y  61
+
+Query  85   RFLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERLKTIMREK  127
+            R L+ +  NL  L           CPV   + ++L++FL  L  +++  
+Sbjct  62   RQLEGIFINLHQLVTRASKDFKAPCPVAAGNTTSLKDFLLDLNRVLQRL  110
+
+
+> UniRef50_A0A091EWH9 Interleukin-4 (Fragment) n=4 Tax=Neognathae 
+TaxID=8825 RepID=A0A091EWH9_CORBR
+Length=80
+
+ Score = 74.1 bits (180),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 27/101 (27%), Positives = 41/101 (41%), Gaps = 27/101 (27%)
+
+Query  26   TLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIR  85
+              C ++ VT+IFA  K     E  C+AAT+ R+  S H                     R
+Sbjct  1    VSCNKMNVTNIFADDKRGNNMEILCKAATIARESQSCH---------------------R  39
+
+Query  86   FLKRLDRNLWGLAG------LNSCPVKEADQSTLENFLERL  120
+            +L+ +  NL  L           C V     ++L+NFL++L
+Sbjct  40   YLEGIYHNLLSLGWGTRAGHKTPCSVAAGSTTSLKNFLKQL  80
+
+
+> UniRef50_A0A091QJ10 Uncharacterized protein n=2 Tax=Mesitornis 
+unicolor TaxID=54374 RepID=A0A091QJ10_9GRUI
+Length=138
+
+ Score = 75.2 bits (183),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/126 (18%), Positives = 43/126 (34%), Gaps = 22/126 (17%)
+
+Query  9    ITLQEIIKTLNSL-TEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDT  67
+            + L EI   ++   +  +  C +  V  +    +  +E+E  C+AA  L +     +   
+Sbjct  30   VKLSEITYHIHQFNSGVQVPCNDTRVAQVPFTDQTLSEQERLCQAAMALIKVTRCRKDYE  89
+
+Query  68   RCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKEADQSTLENFLERLKTIMREK  127
+                                  L  NL  L G  +C +   ++  L NFL  L    +  
+Sbjct  90   P---------------------LIINLQSLHGKKNCSLSNENELYLRNFLPELGNFTQGM  128
+
+Query  128  YSKCSS  133
+            Y +  +
+Sbjct  129  YRRLPT  134
+
+
+> UniRef50_S9YLP2 Interleukin-4 n=1 Tax=Camelus ferus TaxID=419612 
+RepID=S9YLP2_CAMFR
+Length=131
+
+ Score = 72.9 bits (177),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 45/99 (45%), Positives = 50/99 (51%), Gaps = 33/99 (33%)
+
+Query  2    AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+            A  HKCDITLQEIIKTLN+LT +                K+TTEKETFC+AAT LR  Y 
+Sbjct  41   AHGHKCDITLQEIIKTLNTLTAR----------------KNTTEKETFCKAATALRHIYR  84
+
+Query  62   HHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGL  100
+            HH                   L + L  LDRNL GLA  
+Sbjct  85   HHN-----------------CLSKHLSGLDRNLSGLANT  106
+
+
+> UniRef50_V9NJM6 IL-4 delta 3 n=2 Tax=Cavia porcellus TaxID=10141 
+RepID=V9NJM6_CAVPO
+Length=92
+
+ Score = 71.4 bits (173),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 36/84 (43%), Gaps = 4/84 (5%)
+
+Query  48   TFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSCPVKE  107
+             FC  A         +    + +        R K     L   D      A   +CPV E
+Sbjct  11   LFCLLACASAVVRGCNHHTLQEIIQHLNTLSREKSPCAELLVTDV----FADPQNCPVSE  66
+
+Query  108  ADQSTLENFLERLKTIMREKYSKC  131
+              Q+TL++FLE LK IM+++YSKC
+Sbjct  67   LRQTTLKDFLENLKRIMQKRYSKC  90
+
+
+ Score = 49.8 bits (117),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 20/45 (44%), Positives = 29/45 (64%), Gaps = 1/45 (2%)
+
+Query  5   HKCDI-TLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKET  48
+             C+  TLQEII+ LN+L+ +K+ C EL VTD+FA  ++    E 
+Sbjct  23  RGCNHHTLQEIIQHLNTLSREKSPCAELLVTDVFADPQNCPVSEL  67
+
+
+> UniRef50_G1MH87 Uncharacterized protein n=2 Tax=Caniformia TaxID=379584 
+RepID=G1MH87_AILME
+Length=81
+
+ Score = 67.9 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/62 (47%), Positives = 38/62 (61%), Gaps = 3/62 (5%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTV-TDIFAASKDTTEKETFCRAATVLRQFY  60
+              H  +IT++EIIKTLN LT +       T+  D F  S +TT+ ETFCRA TVL+Q  
+Sbjct  22  VHGHNFNITIKEIIKTLNILTARNVSKLSGTISPDHF--SFNTTDTETFCRATTVLQQLS  79
+
+Query  61  SH  62
+           +H
+Sbjct  80  TH  81
+
+
+> UniRef50_R4GKT8 Uncharacterized protein n=7 Tax=Galliformes TaxID=8976 
+RepID=R4GKT8_CHICK
+Length=121
+
+ Score = 62.5 bits (150),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 21/90 (23%), Positives = 33/90 (37%), Gaps = 21/90 (23%)
+
+Query  44   TEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLNSC  103
+            +E+E  C+AATVL       +                         L  +L  L G+ +C
+Sbjct  49   SEQELLCQAATVLDNMTDCKKDYEP---------------------LITSLKSLHGMTNC  87
+
+Query  104  PVKEADQSTLENFLERLKTIMREKYSKCSS  133
+            P    ++  L NFL  L    +  Y + S+
+Sbjct  88   PPSTDNEIYLRNFLPALGNYTQALYRRISA  117
+
+
+> UniRef50_U3LVN1 Interleukin 4 variant 2 n=3 Tax=Catarrhini TaxID=9526 
+RepID=U3LVN1_HUMAN
+Length=136
+
+ Score = 59.1 bits (141),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 37/40 (93%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  41
+              HKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK
+Sbjct  22  VHGHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASK  61
+
+
+> UniRef50_Q9MZR4 Interleukin 4 variant IL-4int3A (Fragment) n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR4_RABIT
+Length=83
+
+ Score = 56.8 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 31/75 (41%), Positives = 40/75 (53%), Gaps = 6/75 (8%)
+
+Query  28   CTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFL  87
+            CT+  + D  A  K+TTE+E  CRAAT LRQFY HH+           + H     +R L
+Sbjct  1    CTKPMIADALAVPKNTTEREAVCRAATALRQFYLHHKVSW------CFKEHGELGDLRLL  54
+
+Query  88   KRLDRNLWGLAGLNS  102
+            + LDRNL  +A L  
+Sbjct  55   RGLDRNLCSMAKLVP  69
+
+
+> UniRef50_J9P3G4 Interleukin-4 n=2 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P3G4_CANLF
+Length=128
+
+ Score = 57.1 bits (136),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 31/74 (42%), Gaps = 5/74 (7%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYS  61
+              H  +IT++EIIK LN LT +       T++    A   ++EK       T  R+ + 
+Sbjct  22  VHGHNFNITIKEIIKMLNILTARNVSKLSGTISPSGDAVGISSEKNI-----TASREVWL  76
+
+Query  62  HHEKDTRCLGATAQ  75
+             +K+      +  
+Sbjct  77  VTDKEQSRDSVSVL  90
+
+
+> UniRef50_A8DRA0 Interleukin 4 (Fragment) n=7 Tax=Eutheria TaxID=9347 
+RepID=A8DRA0_SAISC
+Length=58
+
+ Score = 54.4 bits (129),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTVTDIFA  38
+              H CD+ L+EIIKTLN +TEQKTLCTELTVTDIFA
+Sbjct  22  VHGHNCDVALEEIIKTLNIVTEQKTLCTELTVTDIFA  58
+
+
+> UniRef50_A0A091T7D4 Uncharacterized protein (Fragment) n=2 Tax=Neognathae 
+TaxID=8825 RepID=A0A091T7D4_PHALP
+Length=59
+
+ Score = 52.1 bits (123),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 19/80 (24%), Positives = 28/80 (35%), Gaps = 27/80 (34%)
+
+Query  47   ETFCRAATVLRQFYSHHEKDTRCLGATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-----  101
+            E  C+A+TV  +  S H                     R L+ +  NL  L         
+Sbjct  1    EILCKASTVAWEGRSCH---------------------RHLEGIYLNLLRLVWGKSTGHK  39
+
+Query  102  -SCPVKEADQSTLENFLERL  120
+              CPV   + ++L +FL  L
+Sbjct  40   APCPVATGNVTSLHDFLTDL  59
+
+
+> UniRef50_UPI00051E4218 uncharacterized protein LOC104147029 n=1 
+Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E4218
+Length=271
+
+ Score = 52.9 bits (125),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 11/63 (17%), Positives = 24/63 (38%), Gaps = 1/63 (2%)
+
+Query  11   LQEIIKTLNSLTEQ-KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+            L EI + +   +   +  C +  V  +    +  +E+E  C+AA  L +     +     
+Sbjct  109  LSEITQRIQQFSSGAQIPCNDTRVAQVVFTDRKRSEQELLCQAAKALLRVTKCKKDYEPF  168
+
+Query  70   LGA  72
+            +  
+Sbjct  169  IAN  171
+
+
+> UniRef50_A0A099YVI1 Uncharacterized protein (Fragment) n=2 Tax=Aves 
+TaxID=8782 RepID=A0A099YVI1_TINGU
+Length=101
+
+ Score = 49.8 bits (117),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 24/63 (38%), Gaps = 1/63 (2%)
+
+Query  11  LQEIIKTLNSLTEQ-KTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRC  69
+           L EI   +  L  + +  C +  V  +    +  +E+E  C+A+T L +           
+Sbjct  32  LSEITHLIQQLNARPQIPCNDTRVAQVVFTDRKLSEQELLCQASTALSKVTKCKMDYKPL  91
+
+Query  70  LGA  72
+           L  
+Sbjct  92  LVN  94
+
+
+> UniRef50_A0A0Q3M2Y4 Interleukin-4 n=1 Tax=Amazona aestiva TaxID=12930 
+RepID=A0A0Q3M2Y4_AMAAE
+Length=116
+
+ Score = 49.8 bits (117),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 26/118 (22%), Positives = 40/118 (34%), Gaps = 38/118 (32%)
+
+Query  11   LQEIIKTLNSLTEQKTLCTELTVTDIFAASKDTTEKETFCRAATVLRQFYSHHEKDTRCL  70
+            L+E I+ L  L E                 K   + ET C+A+T   +  S H       
+Sbjct  29   LRESIRLLXGLLEA----------------KQDNDLETLCKASTGAWEGRSCH-------  65
+
+Query  71   GATAQQFHRHKQLIRFLKRLDRNLWGLAGLN-SCPVKEADQSTLENFLERLKTIMREK  127
+                          + L+ +  NL  L      CPV     ++L +FL  L+  +R  
+Sbjct  66   --------------KHLEGIFTNLLKLVQXKAPCPVAGGRTTSLSDFLLDLQRALRRL  109
+
+
+> UniRef50_D3UAN9 Interleukin 4 (Fragment) n=41 Tax=Ovis TaxID=9935 
+RepID=D3UAN9_9CETA
+Length=56
+
+ Score = 48.3 bits (113),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  2   AEAHKCDITLQEIIKTLNSLTEQKTLCTELTV  33
+              HKCDITL+EIIKTLN LT +K  C EL V
+Sbjct  25  VHGHKCDITLEEIIKTLNILTSRKNSCMELPV  56
+
+
+> UniRef50_Q9MZR6 Interleukin 4 variant IL-4delta3 (Fragment) n=1 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=Q9MZR6_RABIT
+Length=60
+
+ Score = 44.4 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/33 (64%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  98   AGLNSCPVKEADQSTLENFLERLKTIMREKYSK  130
+               ++CP KEA Q+TLE+FL+RLKT M+EKYSK
+Sbjct  25   VPKSNCPGKEARQTTLEDFLDRLKTAMQEKYSK  57
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.121    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0369    0.140     1.90     42.6     43.6 
+
+Effective search space used: 214522800192
+
+
+  Database: /home/u2353/Bioinfo_course/uniref50.fasta
+    Posted date:  Mar 12, 2018 11:50 AM
+  Number of letters in database: 8,665,460,866
+  Number of sequences in database:  27,902,002
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
