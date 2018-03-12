@@ -1,0 +1,1 @@
+Today I will begin with PSIBLAST. I started with formatdb. I made PSSMs for my whole data set. Now I have to figure out how to parse the PSSMs and use them to train a model. 
