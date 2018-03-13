@@ -1,7 +1,8 @@
 from sklearn.externals import joblib
 import numpy as np
+import pickle
 
-loaded_model = joblib.load('model.sav')
+loaded_model = pickle.load(open('model.sav', 'rb'))
 aa = '0GALMFWKQESPVICYHRNDT'
 AA_TO_INT = dict((c, i) for i, c in enumerate(aa))
 
@@ -84,14 +85,17 @@ def results(topology, id_, seq):
     with open('Results.3line.txt', 'w') as f:
         for element in range(len(id_)):
             f.write(id_[element] + '\n')
+            print(id_[element])
             f.write(seq[element] + '\n')
+            print(seq[element])
             f.write(string_topo[element] + '\n')
+            print(string_topo[element])
         f.close()
     print('Results available in ./Results.3line.txt')
 
 
 if __name__ == '__main__':
-    id_, seq = parse_fasta(input("Please write the name of the fasta file you want to predict: "))
+    id_, seq = parse_fasta('bigfasta.fasta')
     windowz = windowmaking(seq, 23)
     int_wind = window_int(windowz)
     sequence_in_windows = onehot(int_wind)
