@@ -1,0 +1,39 @@
+Cross-validation scores for LinearSVC: 0.72417750621
+Cross-validation scores for DecisionTreeClassifier: 0.692559247398
+Cross-validation scores for RandomForestClassifier: 0.710249497341
+Matthews correlation coefficient (MCC) SVM: 0.431577996829
+Matthews correlation coefficient (MCC) DecisionTreeClassifier: 0.356300496338
+Matthews correlation coefficient (MCC) RandomForestClassifier: 0.394816326113
+Classification report SVM: 
+             precision    recall  f1-score   support
+
+          1       0.71      0.72      0.72      1859
+         -1       0.72      0.71      0.72      1888
+
+avg / total       0.72      0.72      0.72      3747
+
+Confusion matrix SVM: 
+[[1336  523]
+ [ 542 1346]]
+Classification report DecisionTreeClassifier: 
+             precision    recall  f1-score   support
+
+          1       0.68      0.66      0.67      1859
+         -1       0.67      0.70      0.69      1888
+
+avg / total       0.68      0.68      0.68      3747
+
+Confusion matrix DecisionTreeClassifier: 
+[[1222  637]
+ [ 569 1319]]
+Classification report RandomForestClassifier: 
+             precision    recall  f1-score   support
+
+          1       0.73      0.62      0.67      1859
+         -1       0.67      0.77      0.72      1888
+
+avg / total       0.70      0.70      0.69      3747
+
+Confusion matrix RandomForestClassifier: 
+[[1156  703]
+ [ 437 1451]]
