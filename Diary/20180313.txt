@@ -1,0 +1,13 @@
+Today, I have parsed the pssms from yesterday and trained a model with 70% of my sequences (in pssms).
+I will now try to predict with the other 30% of my dataset in pssms.
+I decided to train the SVM on all of the pssms generated from my dataset.
+I made a predict script that can predict  from ONE pssm.
+In order to predict for many pssms, I made a bash script that can iterate in a folder containing pssms and run my predictor script. 
+The results are appended to a file. The results consist of the protein name and the predicted topology. I am not sure if it is relevant to add the sequence since the training is done on the frequency matrix and not a single sequence.  
+
+
+I also changed joblib dump to pickles in the parser_i that saves my model from the regular sequences. I now have to change my predict file so that it opens from pickle. Done.
+
+Linnea and I are working together on the last parts of the project. We made a script that compares random forest, decision tree and svm. this script splits the vectors that are generated in my parser_i script and produces several scores. It saves the scores to a file. 
+
+My goal for tomorrow is to organize my scripts.
