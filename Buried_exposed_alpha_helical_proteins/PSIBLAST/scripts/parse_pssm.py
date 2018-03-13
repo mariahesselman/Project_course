@@ -1,41 +1,41 @@
 import sys 
 sys.path.insert(0,"../../codes")
-import parser_i
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 import pickle
+import parser_i
 
-def parse_pssm(dataset, window):
-    names = parser_i.parse_name(dataset)
-    seq = parser_i.parse_seq(dataset)
-    top = parser_i.parse_topo(dataset)
+def extract_info(dataset):
+    names = parser_i.parse_name(dataset)#list of gene names generated from dataset
+    seq = parser_i.parse_seq(dataset)# list of seqs generated from dataset
+    top = parser_i.parse_topo(dataset)# list of topologies generated from dataset
+    
+    return names, seq, top
 
-    #print(names, seq, top)
-    X_train, X_test, Y_train, Y_test = train_test_split(names, top, test_size=0.3, random_state=0)
+
+def train_pssm(names, top, window):
+    '''Takes pssms from X_train and trains and saves model'''    
     
-    pssm_list = []
-    
-    for name in X_train:
-        pssm = '../pssm/' + name + '.fasta.pssm'
-        pssm_list.append(np.genfromtxt(pssm, skip_header=3, skip_footer=5, usecols=range(22,42)))
+    pssm_list_train = []    
+    for name in names:
+        pssm = '../pssm/' + name + '.fasta.pssm' #location of your pssms
+        pssm_list_train.append(np.genfromtxt(pssm, skip_header=3, skip_footer=5, usecols=range(22,42)))
         
-    X_train = pssm_list
-    
+    X_train = pssm_list_train    
     X_train_changed, array_numbering = extract_pssms(X_train, window)
+    
     
     burial = {'E':1, 'B':-1}
     Y_train_changed = []
-    for proteins in Y_train:    
+    for proteins in top:    
         for topologies in proteins:
             y = burial[topologies]
             Y_train_changed.append(y)
-    #print(Y_train_changed)
     clf = svm.SVC()
     clf.fit(X_train_changed, Y_train_changed)
     filename = 'pssm_model.sav'
     pickle.dump(clf, open(filename, 'wb'))
-    
     
 
 def extract_pssms(pssm_list, window):
@@ -56,4 +56,5 @@ def extract_pssms(pssm_list, window):
             
            
 if __name__ == '__main__':  
-    parse_pssm('../../codes/dataset', 3)
+    names, seq, top = extract_info('../../codes/dataset')
+    train_pssm(names, top, 3)#called with window size 3
