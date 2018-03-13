@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn import svm
 from sklearn.svm import LinearSVC
 from sklearn.metrics import matthews_corrcoef
 from sklearn.metrics import confusion_matrix
@@ -52,7 +53,7 @@ random_mcc = matthews_corrcoef(y_test, random_y_predicted)
 #Training and testing the different classifiers LinearSVC, decisiontree and randomforest
 #SVM classifier
  
-clf = LinearSVC()
+clf = svm.SVC()
 svm_cross_score = cross_val_score(clf, x, y, cv = 10, verbose=True)
 print('SVM cross validation done...')
 svm_cross_mean = svm_cross_score.mean()
@@ -64,7 +65,7 @@ svm_confusionm = confusion_matrix(y_test, svm_y_predicted, labels = [1, -1])
 svm_mcc = matthews_corrcoef(y_test, svm_y_predicted)
 ##CHANGEEE
 with open ('results_svm_tree_random.txt', 'w') as f:
-    f.write('Cross-validation scores for LinearSVC: ' + str(svm_cross_mean)+ '\n')
+    f.write('Cross-validation scores for SVC: ' + str(svm_cross_mean)+ '\n')
     f.write('Cross-validation scores for DecisionTreeClassifier: '+ str(tree_score_mean)+ '\n')
     f.write('Cross-validation scores for RandomForestClassifier: '+ str(random_score_mean)+ '\n')
     f.write('Matthews correlation coefficient (MCC) SVM: ' + str(svm_mcc) + '\n')
