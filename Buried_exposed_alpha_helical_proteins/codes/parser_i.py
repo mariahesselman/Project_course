@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn import svm
-from sklearn.externals import joblib
+import pickle
 
 aa = '0GALMFWKQESPVICYHRNDT'
 AA_TO_INT = dict((c, i) for i, c in enumerate(aa))
@@ -97,7 +97,7 @@ def svmm():
     clf.fit(x, y)
     
     filename = 'model.sav'
-    joblib.dump(clf, filename)
+    pickle.dump(clf, open(filename, 'wb'))
 
 
 if __name__ == '__main__':    
