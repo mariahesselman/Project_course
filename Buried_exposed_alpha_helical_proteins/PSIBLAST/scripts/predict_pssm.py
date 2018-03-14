@@ -41,4 +41,4 @@ def predict(pssm_file):
 if __name__ == '__main__':
     #PSSM_FILE = sys.argv[1]
     #predict(PSSM_FILE)
-    predict('../pssm/>d1du0b_.a.4.1.1.fasta.pssm')
+    predict('./>d1b8dk_.a.1.1.3.fasta.pssm')
