@@ -8,7 +8,8 @@ Parsing and training: `Project_course/Buried_exposed_alpha_helical_proteins/code
 	* Compared SVM to decision tree and random forest. SVM gave higher CV score and MCC. 
 2. **Making a predictor of burial status**  
 Predictor: `Project_course/Buried_exposed_alpha_helical_proteins/codes/predict.py`  
-Model: `Project_course/Buried_exposed_alpha_helical_proteins/codes/model.sav`
+Model: `Project_course/Buried_exposed_alpha_helical_proteins/codes/model.sav`  
+Example fasta file: `Project_course/Buried_exposed_alpha_helical_proteins/codes/bigfasta.fasta`
 	* Uses model saved in training script.
 	* Writes results to a 3line file.  
 3. **Training an SVM with position specific frequency matrix**  
@@ -20,6 +21,7 @@ Parsing and training: `Project_course/Buried_exposed_alpha_helical_proteins/PSIB
 Predictor for PSSM: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/scripts/predict_pssm.py`  
 Model for PSSM: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/scripts/pssm_model.sav`  
 Bash script: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/bash/predictmanypssms.sh`  
+Example pssm: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/pssm/>d1du0b_.a.4.1.1.fasta.pssm`  
 	* Takes **one** PSSM file and parses it and predicts the burial status of each position.
 	* Results are written to file.	
 	* Bash script can be used to run on many pssm files.
