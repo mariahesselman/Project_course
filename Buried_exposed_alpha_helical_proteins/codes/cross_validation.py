@@ -7,7 +7,7 @@ def crossvalidation(input_data):
     for window in range(3,32,2):
         X, Y = parser_i.onehot(input_data, window)        
         clf = svm.SVC()
-        score = cross_val_score(clf, X, Y, cv=3, verbose=True)
+        score = cross_val_score(clf, X, Y, cv=5, verbose=True)
         score = np.average(score)
         print(window, score)                  
 if __name__ == '__main__':
