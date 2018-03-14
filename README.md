@@ -1,5 +1,5 @@
 # Project_course
-##Predicting burial status of residues in membrane proteins.
+## Predicting burial status of residues in membrane proteins.
 My project consists of three main parts:
 1. **Training an SVM classifier on my whole dataset.** 
 Parsing and training: `Project_course/Buried_exposed_alpha_helical_proteins/codes/parser_i.py`
