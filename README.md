@@ -1,12 +1,12 @@
 # Project_course
 ## Predicting burial status of residues in membrane proteins.
 My project consists of three main parts:
-1. **Training an SVM classifier on my whole dataset.** 
+1. **Training an SVM classifier on my whole dataset.**  
 Parsing and training: `Project_course/Buried_exposed_alpha_helical_proteins/codes/parser_i.py`
 	* Optimized window size with 5-fold cross-validation. Window size with the best CV score: 23.
 	* Prediction on a hidden data set of 50 proteins to calculate metrics such as MCC and confusion matrix.
 	* Compared SVM to decision tree and random forest. SVM gave higher CV score and MCC. 
-2. **Making a predictor of burial status**
+2. **Making a predictor of burial status**  
 Predictor: `Project_course/Buried_exposed_alpha_helical_proteins/codes/predict.py`
 Model: `Project_course/Buried_exposed_alpha_helical_proteins/codes/model.sav`
 	* Uses model saved in training script.
