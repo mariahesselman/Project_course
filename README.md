@@ -19,6 +19,9 @@ Parsing and training: `Project_course/Buried_exposed_alpha_helical_proteins/PSIB
 4. **Predicting burial status from a position specific frequency matrix**  
 Predictor for PSSM: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/scripts/predict_pssm.py`  
 Model for PSSM: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/scripts/pssm_model.sav`  
-
+Bash script: `Project_course/Buried_exposed_alpha_helical_proteins/PSIBLAST/bash/predictmanypssms.sh`  
+	* Takes **one** PSSM file and parses it and predicts the burial status of each position.
+	* Results are written to file.	
+	* Bash script can be used to run on many pssm files.
 
 
