@@ -1,0 +1,14 @@
+Today I will focus on organizing my code and making sure that everything works and looks nice! 
+To find 50 non redudnant proteins to use to test my model, I did blastclust on my dataset and mildas dataset. 
+Now I have a 3 line document with 50 sequences from mildas dataset that are not on my dataset. 
+Next step is to predict the topologies for these 50 proteins and see how good the predictions were with MCC, confusion matrix etc. 
+
+I now have a measure of MCC, confusion matrix and other metrics for the prediction my model made on the 50 hidden proteins. I will now go through all my scripts and make them nice and make sure they work!
+Things to go through:
+
+1. Parser that takes my dataset and saves an SVM model. (done)
+2. Predictor from single sequence (fasta file predictor).(done)
+3. Parser that takes my generated pssms and saves an SVM model trained on them. (done)
+4. Predictor that can predict the topology of a PSSM. (done). 
+6. Script that scores the prediction on 50 hidden proteins. (done)
+
