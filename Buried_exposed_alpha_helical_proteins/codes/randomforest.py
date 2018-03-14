@@ -46,7 +46,7 @@ clf.fit(x_train, y_train)
 print('Random forest training done...')
 
 random_y_predicted = clf.predict(x_test)
-random_classreport = classification_report(y_test, random_y_predicted, labels = [1, -1])
+random_classreport = classification_report(y_test, random_y_predicted, labels = [1, -1], target_names = 'B', 'E')
 random_confusionm = confusion_matrix(y_test, random_y_predicted, labels = [1, -1])
 random_mcc = matthews_corrcoef(y_test, random_y_predicted)
 
