@@ -1,16 +1,17 @@
-from sklearn.externals import joblib
-import numpy as np
+"""Takes in a fasta file and predicts the topology for sequences in the file"""
 import pickle
 
-loaded_model = pickle.load(open('model.sav', 'rb'))
-aa = '0GALMFWKQESPVICYHRNDT'
-AA_TO_INT = dict((c, i) for i, c in enumerate(aa))
+
+LOADED_MODEL = pickle.load(open('model.sav', 'rb'))
+AA = '0GALMFWKQESPVICYHRNDT'
+AA_TO_INT = dict((c, i) for i, c in enumerate(AA))
 
 
 def parse_fasta(filename):
+    """Takes fasta file and parses information to lists"""
     input_file = open(filename, 'r')
     id_list = []
-    seq_list = []    
+    seq_list = []
     for line in input_file:
         if line.startswith('>'):
             id_list.append(line.strip())
@@ -19,11 +20,11 @@ def parse_fasta(filename):
     return id_list, seq_list
 
 
-def windowmaking(seq, window):
+def windowmaking(sequences, window):
+    """Makes windows and adds padding"""
     padding = window//2
-    padded_sequences = []
-    window_list = []    
-    for sequence in seq:
+    window_list = []
+    for sequence in sequences:
         sequence = ((padding*'0') + sequence + (padding*'0'))
         this_wind = []
         for residue in range(len(sequence)):
@@ -34,39 +35,42 @@ def windowmaking(seq, window):
     return window_list
 
 
-def window_int(windows): 
+def window_int(windows):
+    """Converts windows to integers"""
     windows_in_integers = []
     for sequence in windows:
         temp = []
         for window in sequence:
-            windows_in_int = [AA_TO_INT[aa] for aa in window]    
+            windows_in_int = [AA_TO_INT[AA] for AA in window]
             temp.append(windows_in_int)
         windows_in_integers.append(temp)
-    return windows_in_integers    
+    return windows_in_integers
 
 
-def onehot(int_wind): 
+def onehot(integer_windows):
+    """One-hot encodes windows"""
     onehot_encoded_windows = []
-    for sequence in int_wind:
+    for sequence in integer_windows:
         this_sequence = []
         for window in sequence:
             this_window = []
             for residue in window:
-                letter = [0 for _ in range(len(aa))]
-                if residue != 0:      
+                letter = [0 for _ in range(len(AA))]
+                if residue != 0:
                     letter[residue] = 1
                 else:
                     pass
                 this_window.extend(letter)
             this_sequence.append(this_window)
         onehot_encoded_windows.append(this_sequence)
-    return onehot_encoded_windows    
+    return onehot_encoded_windows
 
 
 def predict(sequence_in_windows):
+    """Predicts topology of sequence"""
     result_list = []
     for sequence in sequence_in_windows:
-        result = loaded_model.predict(sequence)
+        result = LOADED_MODEL.predict(sequence)
         result_list.append(result)
     burial_decode = {1:'E', -1:'B'}
     decoded_results = []
@@ -74,12 +78,13 @@ def predict(sequence_in_windows):
         seq_decode = []
         for topology in sequence:
             seq_decode.append(burial_decode[topology])
-        decoded_results.append(seq_decode)    
+        decoded_results.append(seq_decode)
     return decoded_results
 
 
 def results(topology, id_, seq):
-    string_topo = []    
+    """Writes results to file"""
+    string_topo = []
     for element in topology:
         string_topo.append(''.join(element))
     with open('Results.3line.txt', 'w') as f:
@@ -95,9 +100,9 @@ def results(topology, id_, seq):
 
 
 if __name__ == '__main__':
-    id_, seq = parse_fasta('bigfasta.fasta')
-    windowz = windowmaking(seq, 23)
-    int_wind = window_int(windowz)
-    sequence_in_windows = onehot(int_wind)
-    topology = predict(sequence_in_windows)
-    results(topology, id_, seq)    
+    ID, SEQ = parse_fasta('bigfasta.fasta')
+    WINDOWZ = windowmaking(SEQ, 23)
+    INT_WIND = window_int(WINDOWZ)
+    SEQUENCE_IN_WINDOWS = onehot(INT_WIND)
+    TOPOLOGY = predict(SEQUENCE_IN_WINDOWS)
+    results(TOPOLOGY, ID, SEQ)
