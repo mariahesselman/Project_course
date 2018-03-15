@@ -91,12 +91,12 @@ def svmm():
     filz = np.load('SVM_input.npz')
     x = filz['x']
     y = filz['y']
-    clf = svm.SVC()
+    clf = svm.SVC(C=10, gamma=0.1, kernel='rbf', cache_size=3000)
     clf.fit(x, y)
-    filename = 'model.sav'
+    filename = './models/optimized_model.sav'
     pickle.dump(clf, open(filename, 'wb'))
 
 
 if __name__ == '__main__':
-    onehot('dataset', 23) 
+    onehot('../datasets/dataset', 23) 
     svmm()
