@@ -1,0 +1,12 @@
+Classification report:
+             precision    recall  f1-score   support
+
+          1       0.60      0.64      0.62     11842
+         -1       0.75      0.72      0.73     17821
+
+avg / total       0.69      0.69      0.69     29663
+
+Confusion matrix:
+[[ 7615  4227]
+ [ 5066 12755]]
+MCC:0.35516827099
