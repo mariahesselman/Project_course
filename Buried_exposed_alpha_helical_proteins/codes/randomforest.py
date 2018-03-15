@@ -1,3 +1,4 @@
+"""Compares SVM, decision tree and random forest"""
 import numpy as np
 from sklearn import svm
 from sklearn.svm import LinearSVC
@@ -9,21 +10,20 @@ from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 
-#import data from np.savez 
+
 def vectors_savez(input_file):
+    """Extracts training vectors"""
     global x, y
     filz = np.load(input_file)    
-    x = filz['x'] #whatever name you have used to save the vectors 
+    x = filz['x'] 
     y = filz['y']
 
     return(x, y)
 
-#use sklearn train_test_split to generate train test data split
 
 x, y = vectors_savez('SVM_input.npz')
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.30)
 
-#decision tree classifier
 
 clf = DecisionTreeClassifier(max_depth=None, min_samples_split=2, random_state=0)
 tree_cross_score = cross_val_score(clf, x, y, cv = 10, verbose=True)
@@ -36,7 +36,6 @@ tree_classreport = classification_report(y_test, tree_y_predicted, labels = [1, 
 tree_confusionm = confusion_matrix(y_test, tree_y_predicted, labels = [1, -1])
 tree_mcc = matthews_corrcoef(y_test, tree_y_predicted)
 
-#randomforestclassifier
 
 clf = RandomForestClassifier(n_estimators=10, max_depth=None, min_samples_split=2, random_state=0)
 random_cross_score = cross_val_score(clf, x, y, cv = 10, verbose=True)
@@ -50,8 +49,6 @@ random_classreport = classification_report(y_test, random_y_predicted, labels = 
 random_confusionm = confusion_matrix(y_test, random_y_predicted, labels = [1, -1])
 random_mcc = matthews_corrcoef(y_test, random_y_predicted)
 
-#Training and testing the different classifiers LinearSVC, decisiontree and randomforest
-#SVM classifier
  
 clf = svm.SVC()
 svm_cross_score = cross_val_score(clf, x, y, cv = 10, verbose=True)
@@ -63,8 +60,9 @@ svm_y_predicted = clf.predict(x_test)
 svm_classreport = classification_report(y_test, svm_y_predicted, labels = [1, -1])
 svm_confusionm = confusion_matrix(y_test, svm_y_predicted, labels = [1, -1])
 svm_mcc = matthews_corrcoef(y_test, svm_y_predicted)
-##CHANGEEE
-with open ('results_svm_tree_random.txt', 'w') as f:
+
+
+with open ('../result_files/results_svm_tree_random.txt', 'w') as f:
     f.write('Cross-validation scores for SVC: ' + str(svm_cross_mean)+ '\n')
     f.write('Cross-validation scores for DecisionTreeClassifier: '+ str(tree_score_mean)+ '\n')
     f.write('Cross-validation scores for RandomForestClassifier: '+ str(random_score_mean)+ '\n')
