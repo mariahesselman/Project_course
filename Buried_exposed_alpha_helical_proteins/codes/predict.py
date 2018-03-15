@@ -2,7 +2,7 @@
 import pickle
 
 
-LOADED_MODEL = pickle.load(open('model.sav', 'rb'))
+LOADED_MODEL = pickle.load(open('./models/optimized_model.sav', 'rb'))
 AA = '0GALMFWKQESPVICYHRNDT'
 AA_TO_INT = dict((c, i) for i, c in enumerate(AA))
 
@@ -87,7 +87,7 @@ def results(topology, id_, seq):
     string_topo = []
     for element in topology:
         string_topo.append(''.join(element))
-    with open('Results.3line.txt', 'w') as f:
+    with open('../result_files/predictions/Results.3line.txt', 'w') as f:
         for element in range(len(id_)):
             f.write(id_[element] + '\n')
             print(id_[element])
@@ -96,11 +96,11 @@ def results(topology, id_, seq):
             f.write(string_topo[element] + '\n')
             print(string_topo[element])
         f.close()
-    print('Results available in ./Results.3line.txt')
+    print('Results available in ../result_files/predictions/')
 
 
 if __name__ == '__main__':
-    ID, SEQ = parse_fasta('bigfasta.fasta')
+    ID, SEQ = parse_fasta('../datasets/bigfasta.fasta')
     WINDOWZ = windowmaking(SEQ, 23)
     INT_WIND = window_int(WINDOWZ)
     SEQUENCE_IN_WINDOWS = onehot(INT_WIND)
