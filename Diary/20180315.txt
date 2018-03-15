@@ -1,0 +1,8 @@
+Today I ran grid search testing parameters kernel, gamma and c on SVC. I will now retrain my model using the parameters that gave the best mean test score and then test the new model on my 50 hidden proteins. 
+Retrained model and saved as optimized_model.sav.
+Predicting on 50 hidden set.
+Saving results as opt_pred_50hidden.3line.txt.
+Scored prediction with optimized model.
+
+Running five fold cross validation on my pssm training set and testing different window sizes. Window size 11 was the best. 
+
