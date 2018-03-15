@@ -9,4 +9,4 @@ def saveprots(dataset):
         outfile.write(names[j] + '\n')
         outfile.write(sequences[j] + '\n')
         outfile.close()
-saveprots('dataset')
+saveprots('../datasets/dataset')
