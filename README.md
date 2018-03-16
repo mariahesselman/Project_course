@@ -1,4 +1,5 @@
 # Project_course
+# HELLO! IT IS 16:15 ON FRIDAY MARCH 16TH. I'M ALMOST DONE WITH MY CODE BUT NOT YET.
 ## Predicting burial status of residues in membrane proteins.
 My project consists of four main parts:
 1. **Training an SVM classifier on my whole dataset.**  
