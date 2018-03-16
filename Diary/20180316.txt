@@ -1,0 +1,1 @@
+Today, I made plots for my report and tested the accuracy of my pssm predictor. I only did this on one protein due to the small amount of time that is left. 
