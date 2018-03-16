@@ -9,7 +9,7 @@ LOADED_MODEL = pickle.load(open('../scripts/pssm_model.sav', 'rb'))
 
 def predict(pssm_file):
     """Takes a PSSM file and predicts the topology"""
-    window = 3
+    window = 11
     padding = window // 2
     pssm = np.genfromtxt(pssm_file, skip_header=3, skip_footer=5, usecols=range(22, 42))
     length = len(pssm)
@@ -30,7 +30,7 @@ def predict(pssm_file):
         results_decode.append(burial_decode[topology])
     string_result = ''.join(results_decode)
 
-    with open('../pssm_svm_predictions.txt', 'a') as f:
+    with open('../pssm_svm_predictions.txt', 'w') as f:
         f.write(pssm_file[:-11] + '\n')
         f.write(string_result + '\n')
         f.close()
@@ -39,6 +39,4 @@ def predict(pssm_file):
 
 
 if __name__ == '__main__':
-    #PSSM_FILE = sys.argv[1]
-    #predict(PSSM_FILE)
-    predict('../pssm/>d1du0b_.a.4.1.1.fasta.pssm')
+    predict('../predictpssm/>d12gsb1.a.45.1.1.fasta.pssm')
